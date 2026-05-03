@@ -41,10 +41,10 @@ Powered by Plotly, our dashboard provides interactive and responsive charts:
 ---
 
 ## 📂 Project Structure
-- `analytics_dashboard.py`: The heart of the platform — Flask-based backend with ML integrations.
-- `templates/dashboard.html`: Futuristic glassmorphic frontend UI.
-- `requirements.txt`: Python environment dependencies.
-- `*.csv`: High-volume retail datasets for both Retail and Reliance entities.
+- `code/`: Contains the application logic (`analytics_dashboard.py`), UI templates, and requirements.
+- `dataset/`: Centralized storage for all Retail and Reliance CSV datasets.
+- `README.md`: Project documentation.
+- `dashboard_preview.png`: High-resolution dashboard preview.
 
 ---
 
@@ -56,11 +56,11 @@ Powered by Plotly, our dashboard provides interactive and responsive charts:
    ```
 2. **Install dependencies**:
    ```bash
-   pip install -r requirements.txt
+   pip install -r code/requirements.txt
    ```
 3. **Run the Dashboard**:
    ```bash
-   python analytics_dashboard.py
+   python code/analytics_dashboard.py
    ```
    *Access the platform at `http://127.0.0.1:5000`*
 

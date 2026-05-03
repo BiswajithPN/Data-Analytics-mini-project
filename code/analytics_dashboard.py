@@ -42,13 +42,20 @@ _reliance_raw = pd.DataFrame()
 retail_work   = pd.DataFrame()
 reliance_work = pd.DataFrame()
 
+# ── Path configuration ─────────────────────────────────────────────
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DATA_DIR = os.path.join(BASE_DIR, 'dataset')
+
 def load():
     global _retail_raw, _reliance_raw, retail_work, reliance_work
-    if os.path.exists('Retail_Analytics_Dataset.csv'):
-        _retail_raw = pd.read_csv('Retail_Analytics_Dataset.csv')
+    retail_path = os.path.join(DATA_DIR, 'Retail_Analytics_Dataset.csv')
+    reliance_path = os.path.join(DATA_DIR, 'Reliance_dataset.csv')
+    
+    if os.path.exists(retail_path):
+        _retail_raw = pd.read_csv(retail_path)
         _retail_raw.columns = _retail_raw.columns.str.strip()
-    if os.path.exists('Reliance_dataset.csv'):
-        _reliance_raw = pd.read_csv('Reliance_dataset.csv')
+    if os.path.exists(reliance_path):
+        _reliance_raw = pd.read_csv(reliance_path)
         _reliance_raw.columns = _reliance_raw.columns.str.strip()
     retail_work   = _retail_raw.copy()
     reliance_work = _reliance_raw.copy()
