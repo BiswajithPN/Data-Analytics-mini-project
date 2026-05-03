@@ -3,7 +3,7 @@
 ![Dashboard Preview](./dashboard_preview.png)
 
 ## 🌟 Overview
-Welcome to the **Nexus Enterprise Analytics Platform** — an award-winning, state-of-the-art business intelligence system designed to provide deep-dive insights into retail performance. This project features a comparative analysis between **Retail Analytics** and **Reliance Industries** datasets, utilizing advanced machine learning and high-precision data processing.
+Welcome to the **Retail vs Reliance Enterprise Analytics Platform** — an award-winning, state-of-the-art business intelligence system designed to provide deep-dive insights into retail performance. This project features a comparative analysis between **Retail Analytics** and **Reliance Industries** datasets, utilizing advanced machine learning and high-precision data processing.
 
 The dashboard is built with a premium **glassmorphic UI**, offering a seamless and futuristic experience for data-driven decision-making.
 
@@ -67,7 +67,7 @@ Powered by Plotly, our dashboard provides interactive and responsive charts:
 ---
 
 ## 🌐 The Vision: Empowering Retail Intelligence
-In an era where data is the new oil, the **Nexus Enterprise Analytics Platform** serves as a bridge between raw numbers and strategic action. By leveraging advanced machine learning and multi-dimensional analysis, this project demonstrates how traditional retail can be transformed through digital intelligence. Whether it's optimizing inventory or understanding customer sentiment, the goal is to drive efficiency, profitability, and innovation in the modern market.
+In an era where data is the new oil, the **Retail vs Reliance Enterprise Analytics Platform** serves as a bridge between raw numbers and strategic action. By leveraging advanced machine learning and multi-dimensional analysis, this project demonstrates how traditional retail can be transformed through digital intelligence. Whether it's optimizing inventory or understanding customer sentiment, the goal is to drive efficiency, profitability, and innovation in the modern market.
 
 ---
 Developed by **Biswajith P N**.
