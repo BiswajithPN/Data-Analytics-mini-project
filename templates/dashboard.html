@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Retail vs Reliance — Enterprise Analytics</title>
+<!-- Offline-Ready Library Loading -->
+<script src="plotly.min.js"></script>
+<script>if(!window.Plotly) document.write('<script src="https://cdn.plot.ly/plotly-latest.min.js"><\/script>')</script>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:system-ui,-apple-system,sans-serif}
+body{background:#0f172a;color:#f1f5f9;display:flex;min-height:100vh;overflow-x:hidden}
+.sidebar{width:250px;background:rgba(30,41,59,0.95);backdrop-filter:blur(10px);padding:28px 16px;position:fixed;height:100vh;overflow-y:auto;border-right:1px solid rgba(255,255,255,.06);z-index:10}
+.brand{font-size:18px;font-weight:700;color:#818cf8;margin-bottom:30px;display:block;line-height:1.3;animation:fadeRight 0.8s ease}
+.nav{padding:11px 14px;border-radius:9px;cursor:pointer;color:#94a3b8;margin-bottom:3px;font-size:14px;transition:all 0.3s cubic-bezier(0.4, 0, 0.2, 1)}
+.nav:hover,.nav.active{background:rgba(99,102,241,.15);color:#fff;transform:translateX(5px)}
+.nav.active{border-left:3px solid #6366f1;padding-left:11px;background:rgba(99,102,241,.2)}
+
+.main{margin-left:250px;padding:32px;flex:1;min-width:0;background:radial-gradient(circle at top right, rgba(99,102,241,0.05), transparent 40%)}
+.page{display:none}.page.active{display:block;animation:slideUp 0.5s cubic-bezier(0, 0.55, 0.45, 1)}
+
+@keyframes slideUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+@keyframes fadeRight{from{opacity:0;transform:translateX(-20px)}to{opacity:1;transform:translateX(0)}}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(99,102,241,0.4)}70%{box-shadow:0 0 0 10px rgba(99,102,241,0)}100%{box-shadow:0 0 0 0 rgba(99,102,241,0)}}
+
+.card{background:#1e293b;border-radius:16px;padding:24px;border:1px solid rgba(255,255,255,.05);margin-bottom:20px;transition:0.3s;overflow:hidden;position:relative}
+.card:hover{border-color:rgba(99,102,241,0.3);transform:translateY(-4px)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(480px,1fr));gap:24px}
+h2{font-size:24px;font-weight:700;margin-bottom:20px;color:#e2e8f0;letter-spacing:-0.5px}
+h3{font-size:15px;font-weight:600;color:#a5b4fc;margin-bottom:12px}
+
+select,input{width:100%;padding:10px;background:#0f172a;border:1px solid rgba(255,255,255,.1);border-radius:8px;color:#fff;outline:none;font-size:13px;transition:0.3s}
+select:focus,input:focus{border-color:#6366f1;box-shadow:0 0 0 3px rgba(99,102,241,0.2)}
+
+.btn{padding:10px 18px;border:none;border-radius:8px;background:#6366f1;color:#fff;font-weight:600;cursor:pointer;font-size:13px;transition:all 0.3s ease;margin-top:10px;display:inline-block;box-shadow:0 4px 6px rgba(0,0,0,0.1)}
+.btn:hover{filter:brightness(1.15);transform:translateY(-2px);box-shadow:0 6px 12px rgba(99,102,241,0.3)}
+.btn:active{transform:translateY(0)}
+.btn-g{background:linear-gradient(135deg, #059669, #10b981)}
+.btn-p{background:linear-gradient(135deg, #9333ea, #a855f7)}
+.btn-c{background:linear-gradient(135deg, #0891b2, #06b6d4)}
+.btn-r{background:linear-gradient(135deg, #e11d48, #f43f5e)}
+
+.kpi-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;margin-bottom:28px}
+.kpi{background:rgba(30,41,59,0.7);border-radius:16px;padding:24px 20px;text-align:center;border:1px solid rgba(255,255,255,.05);transition:all 0.3s ease;display:flex;flex-direction:column;justify-content:center;min-height:120px}
+.kpi:hover{background:rgba(99,102,241,0.05);border-color:rgba(99,102,241,0.2);transform:translateY(-3px)}
+.kv{font-size:26px;font-weight:700;color:#fff;display:block;letter-spacing:-1px}
+.kl{font-size:12px;color:#94a3b8;text-transform:uppercase;margin-top:6px;font-weight:600;letter-spacing:0.5px}
+#cWin.kv{color:#818cf8}
+#cWin{border:1px solid rgba(99,102,241,0.3);background:rgba(99,102,241,0.05)}
+
+.metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:14px 0}
+.mb{background:rgba(0,0,0,.3);padding:16px;border-radius:10px;text-align:center;border:1px solid rgba(255,255,255,.03)}
+.mv{font-size:20px;font-weight:700;color:#818cf8;display:block}.ml{font-size:10px;color:#64748b}
+
+.q-box{padding:20px;border-radius:16px;background:rgba(30,41,59,0.4);backdrop-filter:blur(12px);margin-bottom:14px;border:1px solid rgba(255,255,255,0.06);transition:0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);box-shadow:0 8px 16px rgba(0,0,0,0.2)}
+.q-box:hover{transform:translateY(-6px);background:rgba(99,102,241,0.06);border-color:rgba(99,102,241,0.3);box-shadow:0 20px 30px rgba(0,0,0,0.3), 0 0 15px rgba(99,102,241,0.1)}
+.q-num{font-size:11px;font-weight:800;color:#818cf8;text-transform:uppercase;margin-bottom:10px;display:block;letter-spacing:1.5px;opacity:0.8}
+.q-txt{font-size:15px;font-weight:600;color:#f8fafc;margin-bottom:16px;display:block;line-height:1.5;min-height:2.4em}
+.q-ans{font-size:14px;color:#a5b4fc;background:rgba(99,102,241,0.08);padding:12px 16px;border-radius:10px;margin-bottom:16px;border-left:4px solid #6366f1;line-height:1.4}
+.q-algo{font-size:10px;font-weight:700;color:#64748b;display:flex;align-items:center;gap:8px;text-transform:uppercase}
+.algo-tag{background:rgba(255,255,255,0.03);padding:4px 10px;border-radius:6px;color:#cbd5e1;border:1px solid rgba(255,255,255,0.05);letter-spacing:0.5px}
+
+.chart-box{min-height:400px;margin-top:12px;border-radius:12px;overflow:hidden}
+.tag{font-size:11px;padding:3px 10px;border-radius:20px;font-weight:700}
+.tag-r{background:rgba(244,63,94,.15);color:#f43f5e}.tag-rel{background:rgba(14,165,233,.15);color:#0ea5e9}
+
+.info-bar{background:rgba(99,102,241,.1);border:1px solid rgba(99,102,241,.3);border-radius:8px;padding:10px 14px;font-size:13px;color:#a5b4fc;margin-bottom:12px;animation:fadeRight 0.5s ease}
+.winner-badge{background:linear-gradient(135deg,#6366f1,#9333ea);padding:8px 18px;border-radius:20px;font-weight:700;font-size:14px;display:inline-block;animation:pulse 2s infinite}
+table{width:100%;border-collapse:collapse;font-size:12px;margin-top:10px}
+th,td{padding:9px 11px;text-align:left;border-bottom:1px solid rgba(255,255,255,.05)}
+th{color:#6366f1;font-weight:600;background:rgba(0,0,0,.2)}
+tr:hover td{background:rgba(255,255,255,.02)}
+.olap-btns{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
+.cm-wrap{text-align:center;margin-top:16px}
+.cm{display:grid;grid-template-columns:1fr 1fr;gap:4px;width:160px;margin:10px auto}
+.cc{padding:14px;border-radius:6px;font-size:20px;font-weight:700;text-align:center}
+.tp{background:#059669}.fp{background:#dc2626}.fn{background:#d97706}.tn{background:#2563eb}
+.spinner{width:30px;height:30px;border:3px solid rgba(99,102,241,0.2);border-top-color:#6366f1;border-radius:50%;animation:spin 1s linear infinite;margin:0 auto}
+@keyframes spin{to{transform:rotate(360deg)}}
+</style>
+</head>
+<body>
+
+<div class="sidebar">
+  <span class="brand">RETAIL × RELIANCE<br><small style="font-size:11px;color:#64748b;font-weight:300">Enterprise Analytics</small></span>
+  <div class="nav active" onclick="go('overview',this)">🏠 Overview</div>
+  <div class="nav" onclick="go('preprocess',this)">🧹 Preprocessing</div>
+  <div class="nav" onclick="go('retail',this)">🛒 Retail Q20</div>
+  <div class="nav" onclick="go('reliance',this)">💎 Reliance Q20</div>
+  <div class="nav" onclick="go('cluster',this)">🤖 K-Means Clustering</div>
+  <div class="nav" onclick="go('classify',this)">🧠 Classification</div>
+  <div class="nav" onclick="go('olap',this)">🏢 OLAP Operations</div>
+  <div class="nav" onclick="go('visual',this)">📊 Visualizations</div>
+  <div class="nav" onclick="go('compare',this)">⚖️ Comparison</div>
+</div>
+
+<div class="main">
+
+<!-- OVERVIEW -->
+<div id="overview" class="page active">
+  <h2>📊 Analytics Intelligence Dashboard</h2>
+
+  <!-- Top KPI Strip -->
+  <div class="kpi-row" id="ovKpis">
+    <div class="kpi"><span class="kv" id="ovRR">—</span><span class="kl">Retail Records</span></div>
+    <div class="kpi"><span class="kv" id="ovRelR">—</span><span class="kl">Reliance Records</span></div>
+    <div class="kpi"><span class="kv" id="ovRC">—</span><span class="kl">Retail Columns</span></div>
+    <div class="kpi"><span class="kv" id="ovRelC">—</span><span class="kl">Reliance Columns</span></div>
+    <div class="kpi"><span class="kv" id="ovRev">—</span><span class="kl">Retail Revenue</span></div>
+    <div class="kpi"><span class="kv" id="ovRelRev">—</span><span class="kl">Reliance Revenue</span></div>
+  </div>
+
+  <!-- Winner Banner -->
+  <div class="card" style="text-align:center;padding:18px" id="ovWinnerCard">
+    <div id="ovWinner" style="font-size:20px">Loading insights...</div>
+  </div>
+
+  <!-- Retail + Reliance Insight Panels -->
+  <div class="grid">
+    <div class="card">
+      <h3>🛒 Retail Intelligence Findings</h3>
+      <div id="ovRetailInsights"></div>
+    </div>
+    <div class="card">
+      <h3>💎 Reliance Intelligence Findings</h3>
+      <div id="ovRelianceInsights"></div>
+    </div>
+  </div>
+
+  <!-- Strategic Audit Section -->
+  <div class="grid" style="margin-top:20px">
+    <div class="card" style="flex:0.65">
+      <h3>🏆 Competitive Advantage (Why Retail Wins)</h3>
+      <div id="ovAdvantages" class="grid" style="grid-template-columns:1fr 1fr;gap:15px;margin-top:15px">
+        <!-- Injected by JS -->
+      </div>
+    </div>
+    <div class="card" style="flex:0.35">
+      <h3>📊 Model Health Check</h3>
+      <div class="metrics">
+        <div class="mb">
+          <span class="mv" id="ovRAcc">—</span>
+          <span class="ml">Retail Accuracy</span>
+        </div>
+        <div class="mb">
+          <span class="mv" id="ovRelAcc">—</span>
+          <span class="ml">Reliance Accuracy</span>
+        </div>
+      </div>
+      <div class="info-bar" style="margin-top:15px;text-align:center;font-size:11px">
+        Comparing predictive precision across segmentation algorithms.
+      </div>
+    </div>
+  </div>
+
+  <!-- Algorithm Guide -->
+  <div class="card">
+    <h3>🔬 Why Each Algorithm? — Complete Analytical Guide</h3>
+    <p style="color:#64748b;font-size:13px;margin-bottom:14px">This table explains which algorithm is best suited for each type of analysis and the reason behind the choice.</p>
+    <div style="overflow-x:auto">
+      <table id="ovAlgoTable">
+        <thead><tr><th>#</th><th>Algorithm</th><th>Used For</th><th>Why It's Best</th></tr></thead>
+        <tbody id="ovAlgoBody"></tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<!-- PREPROCESS -->
+<div id="preprocess" class="page">
+  <h2>🧹 Data Preprocessing Pipeline</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Operations</h3>
+      <label>Dataset</label>
+      <select id="preDS"><option value="retail">Retail</option><option value="reliance">Reliance</option></select>
+      <div style="display:grid;gap:8px;margin-top:14px">
+        <button class="btn btn-full" onclick="preOp('clean')">🧹 Remove NA & Duplicates</button>
+        <button class="btn btn-full btn-p" onclick="preOp('normalize')">📏 Normalize [0–1] (MinMaxScaler)</button>
+        <button class="btn btn-full btn-c" onclick="preOp('encode')">🔡 Label Encode Categoricals</button>
+      </div>
+    </div>
+    <div class="card">
+      <h3>Status</h3>
+      <div id="preMsg" class="info-bar" style="display:none"></div>
+      <div style="overflow-x:auto"><div id="preTable"></div></div>
+    </div>
+  </div>
+</div>
+
+<!-- RETAIL Q20 -->
+<div id="retail" class="page">
+  <h2>🛒 Retail: 20 Advanced Business Questions</h2>
+  <div class="card">
+    <button class="btn" onclick="loadRetailQ()">🚀 Run Retail Deep Analysis</button>
+    <div id="retailQList" style="margin-top:20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(400px,1fr));gap:12px"></div>
+  </div>
+</div>
+
+<!-- RELIANCE Q20 -->
+<div id="reliance" class="page">
+  <h2>💎 Reliance: 20 Advanced Business Questions</h2>
+  <div class="card">
+    <button class="btn btn-c" onclick="loadRelianceQ()">🚀 Run Reliance Deep Analysis</button>
+    <div id="relianceQList" style="margin-top:20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(400px,1fr));gap:12px"></div>
+  </div>
+</div>
+
+<!-- CLUSTERING -->
+<div id="cluster" class="page">
+  <h2>🤖 Intelligent K-Means Clustering</h2>
+  <div class="grid">
+    <div class="card" style="flex:0.4">
+      <h3>Cluster Configuration</h3>
+      <div class="info-bar">Segment customers or products using unsupervised learning.</div>
+      <div style="margin-bottom:15px">
+        <label class="kl">Target Dataset</label>
+        <select id="cluDS" onchange="fillSelect($('cluDS').value, ['clu1','clu2'])">
+          <option value="retail">Retail Enterprise</option>
+          <option value="reliance">Reliance Enterprise</option>
+        </select>
+      </div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:15px">
+        <div>
+          <label class="kl">Feature X</label>
+          <select id="clu1"></select>
+        </div>
+        <div>
+          <label class="kl">Feature Y</label>
+          <select id="clu2"></select>
+        </div>
+      </div>
+      <div style="margin-bottom:15px">
+        <label class="kl">Number of Clusters (K)</label>
+        <input type="number" id="cluK" value="3" min="2" max="10">
+      </div>
+      <button class="btn btn-p" style="width:100%;padding:14px" onclick="runCluster()">🤖 Execute Clustering Algorithm</button>
+    </div>
+
+    <div class="card" style="flex:0.6">
+      <h3>Cluster Visualization</h3>
+      <div id="cluLoader" style="display:none;padding:40px;text-align:center">
+        <div class="spinner"></div>
+        <p style="margin-top:15px;color:#818cf8">Calculating Clusters...</p>
+      </div>
+      <div id="cluResults">
+        <div id="cluPlot" class="chart-box" style="min-height:400px"></div>
+        <div id="cluStats" class="info-bar" style="display:none;margin-top:15px;text-align:center;font-weight:600"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- CLASSIFICATION -->
+<div id="classify" class="page">
+  <h2>🧠 Predictive Intelligence (ML Classification)</h2>
+  <div class="grid">
+    <div class="card" style="flex:0.4">
+      <h3>Model Control Center</h3>
+      <div class="info-bar">Train predictive models to classify data attributes.</div>
+      <div style="margin-bottom:15px">
+        <label class="kl">Dataset</label>
+        <select id="clsDS" onchange="loadColsForCls()">
+          <option value="retail">Retail Enterprise</option>
+          <option value="reliance">Reliance Enterprise</option>
+        </select>
+      </div>
+      <div style="margin-bottom:15px">
+        <label class="kl">Target Feature</label>
+        <select id="clsTarget"></select>
+      </div>
+      <div style="margin-bottom:15px">
+        <label class="kl">Algorithm</label>
+        <select id="clsAlgo">
+          <option value="nb">Naïve Bayes (Probabilistic)</option>
+          <option value="dt">Decision Tree (Categorical)</option>
+        </select>
+      </div>
+      <button class="btn btn-g" style="width:100%;padding:14px" id="trainBtn" onclick="runClass()">🚀 Train & Predict</button>
+      
+      <div class="card" id="clsSamplesCard" style="display:none;margin-top:25px;background:rgba(15,23,42,0.6);border:1px solid rgba(129,140,248,0.2);padding:15px">
+        <h4 style="font-size:11px;color:#64748b;margin-bottom:15px;text-transform:uppercase">📋 Strategic Prediction Audit (Top 20)</h4>
+        <div id="clsSamplesTable" style="max-height:450px;overflow-y:auto;font-size:12px"></div>
+      </div>
+    </div>
+
+    <div class="card" style="flex:0.6">
+      <h3>Performance Audit</h3>
+      <div id="clsLoader" style="display:none;padding:40px;text-align:center">
+        <div class="spinner"></div>
+        <p style="margin-top:15px;color:#818cf8">Training ML Model...</p>
+      </div>
+      <div id="clsResults" style="display:none">
+        <div class="metrics">
+          <div class="mb"><span class="mv" id="clAcc">—</span><span class="ml">Accuracy</span></div>
+          <div class="mb"><span class="mv" id="clPre">—</span><span class="ml">Precision</span></div>
+          <div class="mb"><span class="mv" id="clRec">—</span><span class="ml">Recall</span></div>
+          <div class="mb"><span class="mv" id="clF1">—</span><span class="ml">F1 Score</span></div>
+        </div>
+        <div style="margin-top:25px;text-align:center">
+          <h4 style="font-size:11px;color:#64748b;margin-bottom:12px;text-transform:uppercase">Confusion Matrix Analysis</h4>
+          <div id="clsCM" style="display:grid;grid-template-columns:1fr 1fr;gap:8px;max-width:240px;margin:0 auto"></div>
+        </div>
+        <div id="clPlot" class="chart-box" style="min-height:300px;margin-top:20px"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- OLAP -->
+<div id="olap" class="page">
+  <h2>🏢 Multi-Dimensional Business OLAP</h2>
+  <div class="card">
+    <label>Select Dimension</label>
+    <select id="olapDS" style="max-width:200px"><option value="retail">Retail</option><option value="reliance">Reliance</option></select>
+    <div class="olap-btns">
+      <button class="btn" onclick="runOLAP('rollup')">📈 Roll-Up</button>
+      <button class="btn btn-p" onclick="runOLAP('drilldown')">🔍 Drill-Down</button>
+      <button class="btn btn-c" onclick="runOLAP('slice')">✂️ Slice</button>
+      <button class="btn btn-r" onclick="runOLAP('dice')">🎲 Dice</button>
+      <button class="btn btn-g" onclick="runOLAP('pivot')">🔄 Pivot</button>
+    </div>
+    <div id="olapInfo" class="info-bar" style="display:none"></div>
+    <div id="olapPlot" class="chart-box" style="min-height:350px"></div>
+    <div style="overflow-x:auto"><div id="olapTable"></div></div>
+  </div>
+</div>
+
+<!-- VISUALIZATIONS -->
+<div id="visual" class="page">
+  <h2>📊 Advanced Visualizations</h2>
+  <div class="card">
+    <label>Dataset</label>
+    <select id="visDS" style="max-width:220px">
+      <option value="retail">Retail</option><option value="reliance">Reliance</option>
+    </select>
+    <div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:14px">
+      <button class="btn" onclick="runChart('barchart')">📊 Category Bar Chart</button>
+      <button class="btn btn-p" onclick="runChart('boxplot')">📦 Box Plot</button>
+      <button class="btn btn-c" onclick="runChart('heatmap')">🌡️ Correlation Heatmap</button>
+      <button class="btn btn-r" onclick="runChart('linechart')">📈 Avg Sales Line Chart</button>
+    </div>
+    <div id="visPlot" class="chart-box"></div>
+  </div>
+</div>
+
+<!-- COMPARISON -->
+<div id="compare" class="page">
+  <h2>⚖️ Retail vs Reliance — Advanced Head-to-Head</h2>
+  <div class="kpi-row" id="cmpKpis" style="display:none">
+    <div class="kpi"><span class="kv" id="cR">—</span><span class="kl">Retail Revenue</span></div>
+    <div class="kpi"><span class="kv" id="cRel">—</span><span class="kl">Reliance Revenue</span></div>
+    <div class="kpi"><span class="kv" id="cRA">—</span><span class="kl">Retail Avg Txn</span></div>
+    <div class="kpi"><span class="kv" id="cRelA">—</span><span class="kl">Reliance Avg Txn</span></div>
+    <div class="kpi" style="background:rgba(99,102,241,0.1);border:1px solid #6366f1"><span class="kv" id="cWin" style="color:#fff">—</span><span class="kl">Lead Margin</span></div>
+  </div>
+
+  <div class="grid" id="cmpGrid">
+    <!-- Charts injected dynamically -->
+  </div>
+</div>
+
+</div>
+
+<script>
+let STATUS = {};
+const $ = id => document.getElementById(id);
+const post = async (url, body) => {
+  try {
+    const r = await fetch(url, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(body)
+    });
+    if (!r.ok) {
+      const text = await r.text();
+      throw new Error(`Server Error (${r.status}): ${text.substring(0, 100)}`);
+    }
+    return await r.json();
+  } catch (e) {
+    console.error('Fetch error:', e);
+    throw e;
+  }
+};
+const get = async url => {
+  const r = await fetch(url);
+  return r.json();
+};
+
+function go(id, el) {
+  document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));
+  document.querySelectorAll('.nav').forEach(n=>n.classList.remove('active'));
+  $(id).classList.add('active'); el.classList.add('active');
+  if (id === 'compare') runCompare();
+}
+
+function renderTable(data, id) {
+  if (!data || !data.length) { $(id).innerHTML='<p style="color:#64748b;padding:10px">No data</p>'; return; }
+  const keys = Object.keys(data[0]);
+  let h = `<table><thead><tr>${keys.map(k=>`<th>${k}</th>`).join('')}</tr></thead><tbody>`;
+  data.slice(0,20).forEach(row => { h += `<tr>${keys.map(k=>`<td>${row[k]??''}</td>`).join('')}</tr>`; });
+  $(id).innerHTML = h + '</tbody></table>';
+}
+
+function fillSelect(ds, ids, filterForTarget = false) {
+  const info = STATUS[ds];
+  if (!info) return;
+  const cols = info.cols || [];
+  const uniques = info.uniques || {};
+  const rows = info.rows || 1;
+  
+  ids.forEach(id => {
+    let filtered = cols;
+    if (filterForTarget) {
+      filtered = cols.filter(c => {
+        const u = uniques[c] || 0;
+        const name = c.toLowerCase();
+        // Hide common ID/Name/Reference patterns
+        if (name.includes('id') || name.includes('name') || name.includes('code') || name.includes('ref')) return false;
+        // Hide unique identifiers and constants
+        if (u >= rows || u <= 1) return false;
+        // Only show categorical features (2 to 50 unique values)
+        return u <= 50;
+      });
+      // Fallback to avoid empty select
+      if (filtered.length === 0) filtered = cols;
+    }
+    $(id).innerHTML = filtered.map(c=>`<option value="${c}">${c}</option>`).join('');
+  });
+}
+
+function insightRow(label, value, note) {
+  const noteHtml = note ? `<span style="color:#64748b;font-size:11px;margin-left:6px">${note}</span>` : '';
+  return `<div style="display:flex;justify-content:space-between;align-items:center;padding:8px 0;border-bottom:1px solid rgba(255,255,255,.04)">
+    <span style="color:#94a3b8;font-size:13px">${label}</span>
+    <span style="font-weight:600;color:#fff;font-size:13px;text-align:right">${value}${noteHtml}</span>
+  </div>`;
+}
+
+async function init() {
+  // ⚡ Version Safety Handshake
+  try {
+    const v = await get('/api/version');
+    if (v.version !== '2.0') {
+      alert('⚠️ CRITICAL: OLD SERVER DETECTED.\n\nPlease STOP your terminal and run:\npython analytics_dashboard.py\n\nThis is required for the new prediction logic to work.');
+    }
+  } catch(e) { console.warn('Old server or no connection.'); }
+
+  console.log('Initializing Analytics Engine...');
+  try {
+    const s = await get('/api/status'); 
+    console.log('Status received:', s);
+    if (s && s.retail && s.reliance) {
+      STATUS = s;
+      const k = s.kpis || {};
+      $('ovRR').textContent = (s.retail.rows || 0).toLocaleString();
+      $('ovRelR').textContent = (s.reliance.rows || 0).toLocaleString();
+      $('ovRC').textContent = (s.retail.cols || []).length;
+      $('ovRelC').textContent = (s.reliance.cols || []).length;
+      $('ovRev').textContent = '₹' + ((k.retail_revenue || 0)/1e7).toFixed(1) + 'Cr';
+      $('ovRelRev').textContent = '₹' + ((k.reliance_revenue || 0)/1e7).toFixed(1) + 'Cr';
+      
+      const winner = k.winner || (k.retail_revenue > k.reliance_revenue ? 'Retail' : 'Reliance');
+      $('ovWinner').innerHTML = `<span class="winner-badge">🏆 CURRENT MARKET LEADER: ${winner.toUpperCase()}</span>`;
+
+      fillSelect('retail', ['clu1','clu2']);
+      fillSelect('retail', ['clsTarget'], true);
+    }
+
+    const ins = await get('/api/overview_insights');
+    if (ins.retail) {
+      const ri = ins.retail;
+      $('ovRetailInsights').innerHTML =
+        insightRow('📈 Best Category', ri.top_category, '') +
+        insightRow('🏪 Top Store', ri.top_store, '') +
+        insightRow('📍 Leading Location', ri.top_location, '') +
+        insightRow('👥 Value Segment', ri.top_customer, '') +
+        insightRow('💳 Top Payment', ri.top_payment, '') +
+        insightRow('💰 Total Revenue', '₹' + ri.total_sales.toLocaleString(), '') +
+        insightRow('📊 Avg Transaction', '₹' + ri.avg_sales.toLocaleString(), '');
+      
+      $('ovRAcc').textContent = ri.model_acc + '%';
+      
+      const rel = ins.reliance;
+      if (rel) {
+        $('ovRelianceInsights').innerHTML =
+          insightRow('🏆 Top Profit Category', rel.top_profit_category, '') +
+          insightRow('🌍 Best Region', rel.top_region, '') +
+          insightRow('🕐 Best Shift', rel.top_shift, '') +
+          insightRow('🎫 Best Membership', rel.top_membership, '') +
+          insightRow('💰 Total Revenue', '₹' + rel.total_sales.toLocaleString(), '') +
+          insightRow('📊 Avg Transaction', '₹' + rel.avg_sales.toLocaleString(), '');
+        
+        $('ovRelAcc').textContent = rel.model_acc + '%';
+      }
+
+      if (ins.advantages) {
+        $('ovAdvantages').innerHTML = ins.advantages.map(a => `
+          <div class="q-box" style="margin-bottom:0;padding:15px">
+            <div style="font-weight:700;color:#818cf8;margin-bottom:5px">${a.title}</div>
+            <div style="font-size:12px;color:#94a3b8;line-height:1.4">${a.desc}</div>
+          </div>
+        `).join('');
+      }
+    }
+    const guide = await get('/api/algorithm_guide');
+    if (guide && Array.isArray(guide)) {
+      $('ovAlgoBody').innerHTML = guide.map((a, i) =>
+        `<tr>
+          <td style="color:#6366f1;font-weight:700">${i+1}</td>
+          <td style="font-weight:600;color:#a5b4fc">${a.name}</td>
+          <td style="color:#94a3b8;font-size:12px">${a.use}</td>
+          <td style="color:#e2e8f0;font-size:12px">${a.why}</td>
+        </tr>`
+      ).join('');
+    }
+  } catch(e) { console.error('Init error:', e); }
+}
+
+async function preOp(op) {
+  const ds = $('preDS').value;
+  const res = await post('/api/preprocess', {dataset:ds, op});
+  $('preMsg').style.display = 'block';
+  $('preMsg').textContent = res.msg || res.error || 'Done';
+  if (res.head) renderTable(res.head, 'preTable');
+}
+
+function renderQuestions(data, id) {
+  $(id).innerHTML = data.map((q,i) => `
+    <div class="q-box" style="animation-delay:${i*0.05}s">
+      <span class="q-num">Question ${i+1}</span>
+      <span class="q-txt">${q.q}</span>
+      <div class="q-ans">🎯 ${q.a}</div>
+      ${q.exp ? `<div style="font-size:12px;color:#94a3b8;margin-bottom:16px;line-height:1.4;padding:0 4px">💡 <b>Business Strategy:</b> ${q.exp}</div>` : ''}
+      <div class="q-algo">🦾 Best Algorithm: <span class="algo-tag">${q.algo}</span></div>
+    </div>
+  `).join('');
+}
+
+async function loadRetailQ() {
+  $('retailQList').innerHTML = '<p style="color:#64748b;padding:20px">Running analysis...</p>';
+  const data = await get('/api/retail_questions');
+  renderQuestions(data, 'retailQList');
+}
+
+async function loadRelianceQ() {
+  $('relianceQList').innerHTML = '<p style="color:#64748b;padding:20px">Running analysis...</p>';
+  const data = await get('/api/reliance_questions');
+  renderQuestions(data, 'relianceQList');
+}
+
+async function runCluster() {
+  const ds=$('cluDS').value, c1=$('clu1').value, c2=$('clu2').value, k=$('cluK').value;
+  $('cluLoader').style.display = 'block';
+  $('cluResults').style.opacity = '0.3';
+  try {
+    const res = await post('/api/cluster', {dataset:ds, columns:[c1,c2], k});
+    if (res.error) { alert(res.error); return; }
+    Plotly.newPlot('cluPlot', res.fig.data, res.fig.layout, {responsive:true, displayModeBar:false});
+    $('cluStats').style.display='block';
+    $('cluStats').textContent = `Inertia: ${res.inertia.toLocaleString()} | Silhouette: ${res.silhouette}`;
+  } catch(e) { alert('Clustering failed: ' + e.message); }
+  finally { $('cluLoader').style.display = 'none'; $('cluResults').style.opacity = '1'; }
+}
+
+async function runClass() {
+  const ds=$('clsDS').value, target=$('clsTarget').value, algo=$('clsAlgo').value;
+  if (!target) { alert('Select a target feature.'); return; }
+  $('clsResults').style.display = 'none';
+  $('clsLoader').style.display = 'block';
+  try {
+    const res = await post('/api/classify', {dataset:ds, target, algo});
+    if (res.error) { alert(res.error); return; }
+    $('clsResults').style.display = 'block';
+    $('clAcc').textContent = res.accuracy + '%';
+    $('clPre').textContent = res.precision + '%';
+    $('clRec').textContent = res.recall + '%';
+    $('clF1').textContent  = res.f1 + '%';
+    
+    if (res.is_binary) {
+      $('clsCM').style.display = 'grid';
+      // Grid: TN (Blue), FP (Red), FN (Orange), TP (Green)
+      const cm = [res.tn, res.fp, res.fn, res.tp];
+      const tags = ['tn','fp','fn','tp'];
+      const labels = ['TN','FP','FN','TP'];
+      $('clsCM').innerHTML = cm.map((v,i) => `
+        <div class="cc ${tags[i]}" style="padding:10px;border-radius:10px;font-weight:800;font-size:16px;box-shadow:0 4px 6px rgba(0,0,0,0.2)">
+          ${v}
+          <div style="font-size:9px;opacity:0.8;margin-top:2px">${labels[i]}</div>
+        </div>
+      `).join('');
+    } else {
+      $('clsCM').style.display = 'none';
+    }
+
+    if (res.cm_fig) Plotly.newPlot('clPlot', res.cm_fig.data, res.cm_fig.layout, {responsive:true, displayModeBar:false});
+    
+    if (res.samples && res.samples.length > 0) {
+      $('clsSamplesCard').style.display = 'block';
+      let h = '<table><thead><tr><th>#</th><th>Actual Attribute</th><th>AI Prediction</th><th>Status</th></tr></thead><tbody>';
+      res.samples.forEach(s => {
+        const match = s.actual === s.predicted;
+        h += `<tr>
+          <td>${s.id}</td>
+          <td style="color:#e2e8f0">${s.actual}</td>
+          <td style="color:#818cf8;font-weight:600">${s.predicted}</td>
+          <td><span class="tag ${match?'tag-rel':'tag-r'}">${match?'✅ MATCH':'❌ MISMATCH'}</span></td>
+        </tr>`;
+      });
+      $('clsSamplesTable').innerHTML = h + '</tbody></table>';
+    }
+  } catch(e) { alert('Prediction failed: ' + e.message); }
+  finally { $('clsLoader').style.display = 'none'; }
+}
+
+function loadColsForCls() {
+  fillSelect($('clsDS').value, ['clsTarget'], true);
+}
+
+async function runOLAP(op) {
+  const ds = $('olapDS').value;
+  const res = await post('/api/olap', {dataset:ds, op});
+  if (res.error) { alert(res.error); return; }
+  $('olapInfo').style.display='block';
+  $('olapInfo').textContent = res.info || res.title || '';
+  if (res.fig) Plotly.newPlot('olapPlot', res.fig.data, res.fig.layout);
+  renderTable(res.table || [], 'olapTable');
+}
+
+async function runChart(type) {
+  const ds=$('visDS').value;
+  const res = await post('/api/chart', {dataset:ds, type});
+  if (res.error) { alert(res.error); return; }
+  Plotly.newPlot('visPlot', res.fig.data, res.fig.layout);
+}
+
+async function runCompare() {
+  try {
+    const res = await get('/api/compare');
+    if (res.error) { alert(res.error); return; }
+    $('cmpKpis').style.display = 'flex';
+    const k = res.kpis;
+    $('cR').textContent = '₹'+(k.retail_total/1e7).toFixed(1)+'Cr';
+    $('cRel').textContent = '₹'+(k.reliance_total/1e7).toFixed(1)+'Cr';
+    $('cRA').textContent = '₹'+k.retail_avg.toFixed(0);
+    $('cRelA').textContent = '₹'+k.reliance_avg.toFixed(0);
+    $('cWin').innerHTML = `<span style="font-size:11px">LEAD MARGIN: ${k.lead_margin}%</span><br>${k.winner}`;
+
+    const grid = $('cmpGrid');
+    grid.innerHTML = '';
+    Object.entries(res.charts).forEach(([id, fig]) => {
+      const card = document.createElement('div');
+      card.className = 'card';
+      card.innerHTML = `<div id="cmp_${id}" style="min-height:300px"></div>`;
+      grid.appendChild(card);
+      Plotly.newPlot(`cmp_${id}`, fig.data, fig.layout, {responsive:true, displayModeBar:false});
+    });
+  } catch(e) { alert('Comparison failed: ' + e.message); }
+}
+
+init();
+</script>
+</body>
+</html>

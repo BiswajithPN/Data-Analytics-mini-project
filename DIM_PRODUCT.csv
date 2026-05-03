@@ -1,0 +1,5013 @@
+product_id,product_name,company_name,selling_price
+7794,Basmati Rice Premium,India Gate,176.4
+9849,Instant Coffee,Bru,83.3
+3386,Digestive Biscuits,Britannia,139.05
+6445,Toothpaste Gel,Colgate,366.53
+7742,Instant Noodles Pack,Maggi,805.86
+2862,Sunflower Oil 1L,Fortune,667.64
+1776,Basmati Rice Premium,India Gate,525.23
+6825,Refined Sugar,Madhur,232.77
+2663,Bath Soap Herbal,Pears,830.37
+1755,Basmati Rice Premium,India Gate,252.36
+5654,Refined Sugar,Madhur,241.55
+4695,Bath Soap Herbal,Pears,261.62
+1302,Refined Sugar,Madhur,874.21
+8618,Potato Chips Salted,Lays,355.04
+2321,Potato Chips Salted,Lays,258.62
+1304,Digestive Biscuits,Britannia,521.83
+7173,Tea Powder Strong,Tata Tea,287.8
+6540,Iodized Cooking Salt,Tata Salt,229.47
+1007,Tea Powder Strong,Tata Tea,516.57
+2214,Sunflower Oil 1L,Fortune,709.48
+7520,Sunflower Oil 1L,Fortune,660.44
+1697,Milk Chocolate Bar,Cadbury,315.63
+5001,Shampoo Anti-Dandruff,Head & Shoulders,228.86
+2923,Bath Soap Herbal,Pears,706.57
+1429,Dishwash Liquid,Vim,750.69
+6388,Bath Soap Herbal,Pears,731.62
+4153,Milk Chocolate Bar,Cadbury,277.41
+8068,Milk Chocolate Bar,Cadbury,90.52
+2220,Shampoo Anti-Dandruff,Head & Shoulders,207.86
+4061,Digestive Biscuits,Britannia,445.22
+6950,Refined Sugar,Madhur,346.92
+4941,Instant Coffee,Bru,308.75
+4122,Sunflower Oil 1L,Fortune,171.69
+8510,Sunflower Oil 1L,Fortune,340.65
+3078,Instant Coffee,Bru,120.15
+9733,Tea Powder Strong,Tata Tea,191.93
+5783,Refined Sugar,Madhur,180.36
+7886,Instant Coffee,Bru,62.83
+6479,Instant Noodles Pack,Maggi,357.78
+3479,Toothpaste Gel,Colgate,770.13
+4000,Shampoo Anti-Dandruff,Head & Shoulders,335.45
+9510,Wheat Flour Select,Aashirvaad,812.02
+8427,Digestive Biscuits,Britannia,631.21
+2360,Dishwash Liquid,Vim,370.47
+4818,Iodized Cooking Salt,Tata Salt,798.95
+9955,Bath Soap Herbal,Pears,614.38
+6006,Toothpaste Gel,Colgate,545.61
+5996,Milk Chocolate Bar,Cadbury,297.6
+9215,Refined Sugar,Madhur,264.64
+2025,Basmati Rice Premium,India Gate,113.57
+2187,Instant Coffee,Bru,58.01
+0,,Madhur,407.51
+6470,Iodized Cooking Salt,Tata Salt,672.85
+2117,Instant Noodles Pack,Maggi,313.5
+8290,Toothpaste Gel,Colgate,889.14
+9228,Dishwash Liquid,Vim,108.37
+8307,Laundry Detergent,Surf Excel,563.15
+1633,Instant Coffee,Bru,245.61
+9519,Shampoo Anti-Dandruff,Head & Shoulders,221.88
+8523,Instant Noodles Pack,Maggi,71.22
+2030,Dishwash Liquid,Vim,173.63
+3562,Refined Sugar,Madhur,238.86
+9919,Iodized Cooking Salt,Tata Salt,674.04
+8059,Bath Soap Herbal,Pears,487.42
+1685,Basmati Rice Premium,India Gate,692.22
+4140,Sunflower Oil 1L,Fortune,109.46
+7080,Toothpaste Gel,Colgate,161.33
+3025,Potato Chips Salted,Lays,788.98
+3379,Sunflower Oil 1L,Fortune,278.75
+7883,Bath Soap Herbal,Pears,397.09
+2194,Iodized Cooking Salt,Tata Salt,764.4
+6722,Basmati Rice Premium,India Gate,577.25
+3846,Toothpaste Gel,Colgate,819.14
+4084,Bath Soap Herbal,Pears,801.06
+8117,Instant Coffee,Bru,784.89
+4817,Toothpaste Gel,Colgate,464.78
+6502,Laundry Detergent,Surf Excel,376.85
+3021,Iodized Cooking Salt,Tata Salt,678.55
+7407,Instant Noodles Pack,Maggi,627.67
+6512,Instant Coffee,Bru,767.19
+7588,Bath Soap Herbal,Pears,419.85
+3914,Wheat Flour Select,Aashirvaad,827.76
+5904,Instant Noodles Pack,Maggi,684.16
+4996,Milk Chocolate Bar,Cadbury,751.34
+5555,Instant Coffee,Bru,252.78
+6685,Toothpaste Gel,Colgate,865.42
+4294,Shampoo Anti-Dandruff,Head & Shoulders,697.77
+9056,Potato Chips Salted,Lays,373.25
+2578,Bath Soap Herbal,Pears,565.05
+5676,Potato Chips Salted,Lays,135.55
+9399,Bath Soap Herbal,Pears,717.09
+2295,Basmati Rice Premium,India Gate,442.78
+9857,Tea Powder Strong,Tata Tea,696.94
+4862,Basmati Rice Premium,India Gate,309.67
+1088,Instant Noodles Pack,Maggi,787.25
+6880,Instant Noodles Pack,Maggi,602.79
+4824,Milk Chocolate Bar,Cadbury,428.22
+4189,Instant Coffee,Bru,408.85
+1416,Iodized Cooking Salt,Tata Salt,55.63
+7915,Sunflower Oil 1L,Fortune,464.84
+3617,Laundry Detergent,Surf Excel,864.86
+5531,Sunflower Oil 1L,Fortune,94.31
+3247,Potato Chips Salted,Lays,895.94
+2898,Potato Chips Salted,Lays,859.12
+8817,Wheat Flour Select,Aashirvaad,873.73
+6919,Laundry Detergent,Surf Excel,434.89
+5911,Bath Soap Herbal,Pears,452.21
+2242,Instant Coffee,Bru,670.44
+7320,Milk Chocolate Bar,Cadbury,385.28
+6585,Dishwash Liquid,Vim,84.56
+1889,Refined Sugar,Madhur,469.52
+8330,Bath Soap Herbal,Pears,596.95
+7841,Digestive Biscuits,Britannia,484.28
+8217,Refined Sugar,Madhur,356.99
+7585,Iodized Cooking Salt,Tata Salt,872.62
+9408,Toothpaste Gel,Colgate,215.44
+9537,Laundry Detergent,Surf Excel,848.26
+2428,Bath Soap Herbal,Pears,108.61
+3655,Sunflower Oil 1L,Fortune,858.99
+9040,Refined Sugar,Madhur,822.73
+6182,Tea Powder Strong,Tata Tea,781.72
+1321,Refined Sugar,Madhur,386.4
+5258,Refined Sugar,Madhur,242.18
+1335,Sunflower Oil 1L,Fortune,73.22
+6362,Toothpaste Gel,Colgate,591.39
+6271,Refined Sugar,Madhur,145.57
+6214,Instant Noodles Pack,Maggi,790.46
+9598,Sunflower Oil 1L,Fortune,612.07
+1096,Refined Sugar,Madhur,606.9
+3852,Toothpaste Gel,Colgate,724.78
+4831,Instant Noodles Pack,Maggi,306.42
+7462,Shampoo Anti-Dandruff,Head & Shoulders,799.87
+1916,Potato Chips Salted,Lays,613.02
+3130,Potato Chips Salted,Lays,867.8
+6529,Refined Sugar,Madhur,786.59
+9370,Sunflower Oil 1L,Fortune,249.53
+5301,Dishwash Liquid,Vim,447.07
+7353,Laundry Detergent,Surf Excel,532.25
+6509,Iodized Cooking Salt,Tata Salt,280.6
+2723,Sunflower Oil 1L,Fortune,687.85
+6564,Dishwash Liquid,Vim,817.9
+1142,Milk Chocolate Bar,Cadbury,360.73
+8716,Refined Sugar,Madhur,116.77
+4049,Refined Sugar,Madhur,681.68
+3713,Laundry Detergent,Surf Excel,339.24
+2639,Dishwash Liquid,Vim,545.21
+5908,Instant Coffee,Bru,374.35
+3693,Refined Sugar,Madhur,498.62
+1098,Instant Noodles Pack,Maggi,709.39
+1215,Laundry Detergent,Surf Excel,218.68
+2778,Milk Chocolate Bar,Cadbury,64.57
+7581,Bath Soap Herbal,Pears,556.51
+7456,Basmati Rice Premium,India Gate,364.65
+5330,Iodized Cooking Salt,Tata Salt,541.19
+8250,Iodized Cooking Salt,Tata Salt,308.66
+5338,Instant Noodles Pack,Maggi,874.75
+2759,Milk Chocolate Bar,Cadbury,491.18
+2247,Wheat Flour Select,Aashirvaad,672.31
+2120,Laundry Detergent,Surf Excel,768.99
+1320,Refined Sugar,Madhur,328.55
+2840,Dishwash Liquid,Vim,62.81
+5995,Basmati Rice Premium,India Gate,293.94
+3587,Dishwash Liquid,Vim,398.6
+4562,Iodized Cooking Salt,Tata Salt,739.18
+2073,Instant Coffee,Bru,457.17
+7411,Potato Chips Salted,Lays,414.28
+7387,Dishwash Liquid,Vim,751.85
+8905,Iodized Cooking Salt,Tata Salt,621.34
+4037,Bath Soap Herbal,Pears,75.13
+1155,Instant Coffee,Bru,300.77
+4274,Iodized Cooking Salt,Tata Salt,408.56
+7305,Digestive Biscuits,Britannia,530.03
+8869,Basmati Rice Premium,India Gate,667.95
+3792,Shampoo Anti-Dandruff,Head & Shoulders,508.13
+5636,Bath Soap Herbal,Pears,344.93
+7579,Milk Chocolate Bar,Cadbury,858.24
+7497,Wheat Flour Select,Aashirvaad,238.11
+4983,Wheat Flour Select,Aashirvaad,854.59
+9861,Shampoo Anti-Dandruff,Head & Shoulders,61.48
+9275,Refined Sugar,Madhur,523.99
+5944,Sunflower Oil 1L,Fortune,844.67
+3457,Instant Noodles Pack,Maggi,712.84
+7072,Refined Sugar,Madhur,615.41
+5078,Shampoo Anti-Dandruff,Head & Shoulders,687.9
+5092,Dishwash Liquid,Vim,304.9
+3080,Shampoo Anti-Dandruff,Head & Shoulders,657.1
+2743,Bath Soap Herbal,Pears,161.58
+5884,Instant Noodles Pack,Maggi,740.04
+4249,Refined Sugar,Madhur,853.26
+9146,Refined Sugar,Madhur,792.09
+5953,Instant Coffee,Bru,270.61
+9875,Tea Powder Strong,Tata Tea,462.9
+1570,Sunflower Oil 1L,Fortune,748.1
+9038,Laundry Detergent,Surf Excel,723.82
+4307,Iodized Cooking Salt,Tata Salt,843.63
+6712,Iodized Cooking Salt,Tata Salt,819.94
+3476,Sunflower Oil 1L,Fortune,443.88
+7070,Refined Sugar,Madhur,779.39
+1551,Instant Coffee,Bru,330.13
+8329,Instant Noodles Pack,Maggi,752.97
+9304,Instant Noodles Pack,Maggi,843.13
+3045,Instant Noodles Pack,Maggi,487.14
+7615,Tea Powder Strong,Tata Tea,111.83
+7035,Milk Chocolate Bar,Cadbury,275.5
+6208,Digestive Biscuits,Britannia,523.78
+6486,Shampoo Anti-Dandruff,Head & Shoulders,539.73
+9461,Toothpaste Gel,Colgate,640.59
+7901,Basmati Rice Premium,India Gate,463.83
+9490,Milk Chocolate Bar,Cadbury,700.77
+2237,Instant Coffee,Bru,150.9
+8002,Toothpaste Gel,Colgate,700.73
+7207,Iodized Cooking Salt,Tata Salt,536.28
+7773,Sunflower Oil 1L,Fortune,260.82
+7975,Sunflower Oil 1L,Fortune,188.36
+7679,Instant Coffee,Bru,687.86
+2409,Shampoo Anti-Dandruff,Head & Shoulders,335.64
+4386,Digestive Biscuits,Britannia,809.49
+5709,Refined Sugar,Madhur,722.23
+7107,Toothpaste Gel,Colgate,113.32
+1417,Instant Coffee,Bru,871.21
+7455,Laundry Detergent,Surf Excel,846.15
+1369,Instant Noodles Pack,Maggi,509.63
+1108,Sunflower Oil 1L,Fortune,499.82
+2915,Dishwash Liquid,Vim,416.87
+1182,Instant Coffee,Bru,213.49
+4363,Basmati Rice Premium,India Gate,680.23
+9029,Toothpaste Gel,Colgate,655.23
+6814,Instant Coffee,Bru,622.73
+9755,Digestive Biscuits,Britannia,888.04
+1643,Dishwash Liquid,Vim,564.52
+5279,Basmati Rice Premium,India Gate,209.86
+2290,Sunflower Oil 1L,Fortune,614.53
+3517,Instant Noodles Pack,Maggi,488.09
+4176,Instant Noodles Pack,Maggi,340.79
+8868,Bath Soap Herbal,Pears,601.25
+8549,Milk Chocolate Bar,Cadbury,533.23
+4184,Shampoo Anti-Dandruff,Head & Shoulders,688.49
+1122,Wheat Flour Select,Aashirvaad,762.11
+9152,Instant Coffee,Bru,856.1
+7140,Instant Noodles Pack,Maggi,190.2
+1087,Potato Chips Salted,Lays,240.63
+1541,Milk Chocolate Bar,Cadbury,480.53
+9171,Instant Noodles Pack,Maggi,649.3
+5047,Refined Sugar,Madhur,442.85
+7026,Refined Sugar,Madhur,442.36
+5515,Sunflower Oil 1L,Fortune,898.45
+5612,Dishwash Liquid,Vim,748.56
+9905,Shampoo Anti-Dandruff,Head & Shoulders,208.3
+5195,Milk Chocolate Bar,Cadbury,494.71
+2304,Potato Chips Salted,Lays,568.48
+3817,Basmati Rice Premium,India Gate,130.5
+1027,Digestive Biscuits,Britannia,236.8
+7187,Tea Powder Strong,Tata Tea,614.45
+7454,Instant Noodles Pack,Maggi,77.56
+4975,,Lays,603.46
+7011,Milk Chocolate Bar,Cadbury,269.49
+2067,Instant Coffee,Bru,371.58
+6588,Milk Chocolate Bar,Cadbury,439.35
+9090,Refined Sugar,Madhur,344.24
+7620,Laundry Detergent,Surf Excel,254.05
+6527,Instant Coffee,Bru,254.98
+7719,Potato Chips Salted,Lays,857.25
+7807,Refined Sugar,Madhur,674.92
+6877,Basmati Rice Premium,India Gate,123.76
+2921,Refined Sugar,Madhur,544.43
+5019,Tea Powder Strong,Tata Tea,497.34
+9459,Milk Chocolate Bar,Cadbury,279.75
+5052,Instant Coffee,Bru,584.65
+6084,Toothpaste Gel,Colgate,576.26
+9704,Bath Soap Herbal,Pears,432.83
+8573,Iodized Cooking Salt,Tata Salt,497.93
+5319,Iodized Cooking Salt,Tata Salt,804.89
+7181,Instant Coffee,Bru,51.46
+1819,Sunflower Oil 1L,Fortune,816.11
+4564,Dishwash Liquid,Vim,149.97
+4543,Tea Powder Strong,Tata Tea,112.27
+7635,Shampoo Anti-Dandruff,Head & Shoulders,372.93
+1666,Bath Soap Herbal,Pears,76.58
+3145,Dishwash Liquid,Vim,733.87
+6820,Shampoo Anti-Dandruff,Head & Shoulders,569.95
+6116,Instant Coffee,Bru,103.84
+4645,Basmati Rice Premium,India Gate,758.4
+1258,Instant Noodles Pack,Maggi,559.63
+4533,Bath Soap Herbal,Pears,544.3
+7502,Digestive Biscuits,Britannia,441.71
+7611,Digestive Biscuits,Britannia,453.71
+6689,Toothpaste Gel,Colgate,810.75
+3282,Tea Powder Strong,Tata Tea,558.63
+2874,Sunflower Oil 1L,Fortune,820.69
+1956,Toothpaste Gel,Colgate,721.11
+6531,Tea Powder Strong,Tata Tea,708.38
+5489,Tea Powder Strong,Tata Tea,738.06
+6022,Digestive Biscuits,Britannia,134.5
+3377,Instant Coffee,Bru,382.53
+1529,Dishwash Liquid,Vim,425.84
+1263,Instant Coffee,Bru,377.07
+1477,Wheat Flour Select,Aashirvaad,506.4
+9547,Dishwash Liquid,Vim,814.9
+5172,Toothpaste Gel,Colgate,692.56
+2943,Instant Noodles Pack,Maggi,806.47
+8622,Shampoo Anti-Dandruff,Head & Shoulders,291.9
+3060,Instant Coffee,Bru,505.01
+4914,Basmati Rice Premium,India Gate,519.15
+9860,Instant Coffee,Bru,282.95
+4599,Dishwash Liquid,Vim,431.1
+9659,Shampoo Anti-Dandruff,Head & Shoulders,62.73
+5436,Toothpaste Gel,Colgate,809.08
+4126,Laundry Detergent,Surf Excel,466.67
+8501,Laundry Detergent,Surf Excel,505.06
+7757,Potato Chips Salted,Lays,207.38
+6532,Wheat Flour Select,Aashirvaad,548.89
+1279,Sunflower Oil 1L,Fortune,692.88
+7194,Bath Soap Herbal,Pears,440.12
+4030,Tea Powder Strong,Tata Tea,726.61
+9538,Milk Chocolate Bar,Cadbury,59.18
+3773,Refined Sugar,Madhur,127.89
+7008,Refined Sugar,Madhur,595.64
+7023,Refined Sugar,Madhur,698.0
+4734,Laundry Detergent,Surf Excel,315.25
+1807,Milk Chocolate Bar,Cadbury,343.19
+2800,Sunflower Oil 1L,Fortune,118.98
+9267,Dishwash Liquid,Vim,93.08
+1735,Toothpaste Gel,Colgate,538.2
+3689,Refined Sugar,Madhur,253.87
+6370,Digestive Biscuits,Britannia,93.33
+3307,Laundry Detergent,Surf Excel,301.45
+7460,Refined Sugar,Madhur,879.4
+2149,Toothpaste Gel,Colgate,64.49
+5799,Basmati Rice Premium,India Gate,780.72
+1547,Potato Chips Salted,Lays,809.24
+7481,Sunflower Oil 1L,Fortune,530.03
+1413,Wheat Flour Select,Aashirvaad,595.32
+4811,Iodized Cooking Salt,Tata Salt,863.9
+1702,Bath Soap Herbal,Pears,342.34
+6144,Basmati Rice Premium,India Gate,498.33
+9963,Refined Sugar,Madhur,309.62
+2525,Milk Chocolate Bar,Cadbury,434.54
+4424,Laundry Detergent,Surf Excel,422.4
+9640,Potato Chips Salted,Lays,661.75
+3624,Toothpaste Gel,Colgate,733.98
+2562,Iodized Cooking Salt,Tata Salt,779.81
+8886,Shampoo Anti-Dandruff,Head & Shoulders,247.62
+6207,Iodized Cooking Salt,Tata Salt,260.53
+4003,Instant Noodles Pack,Maggi,889.06
+5145,Digestive Biscuits,Britannia,472.25
+1393,Milk Chocolate Bar,Cadbury,170.64
+2768,Instant Noodles Pack,Maggi,265.48
+5281,Digestive Biscuits,Britannia,840.85
+9280,Laundry Detergent,Surf Excel,445.17
+4687,Refined Sugar,Madhur,144.81
+9279,Potato Chips Salted,Lays,770.2
+4365,Toothpaste Gel,Colgate,284.27
+9116,Instant Coffee,Bru,539.38
+3582,Sunflower Oil 1L,Fortune,534.86
+2742,Instant Coffee,Bru,180.22
+1734,Tea Powder Strong,Tata Tea,81.09
+8114,Bath Soap Herbal,Pears,310.97
+2737,Refined Sugar,Madhur,736.32
+8683,Digestive Biscuits,Britannia,586.1
+2964,Sunflower Oil 1L,Fortune,768.61
+5968,Dishwash Liquid,Vim,443.68
+5733,Bath Soap Herbal,Pears,422.17
+6842,Dishwash Liquid,Vim,368.33
+9810,Instant Noodles Pack,Maggi,837.4
+8280,Shampoo Anti-Dandruff,Head & Shoulders,96.04
+9858,Digestive Biscuits,Britannia,563.51
+5269,Milk Chocolate Bar,Cadbury,560.99
+7328,Potato Chips Salted,Lays,698.44
+5491,Dishwash Liquid,Vim,575.31
+2221,Basmati Rice Premium,India Gate,282.35
+9100,Tea Powder Strong,Tata Tea,424.32
+3612,Milk Chocolate Bar,Cadbury,738.39
+8693,Dishwash Liquid,Vim,358.97
+4801,Bath Soap Herbal,Pears,496.02
+7526,Shampoo Anti-Dandruff,Head & Shoulders,169.49
+2230,Refined Sugar,Madhur,346.73
+2885,Refined Sugar,Madhur,794.1
+4503,Dishwash Liquid,Vim,748.2
+8672,Basmati Rice Premium,India Gate,840.75
+6559,Tea Powder Strong,Tata Tea,331.89
+7756,Toothpaste Gel,Colgate,833.65
+6787,Laundry Detergent,Surf Excel,391.99
+1700,Wheat Flour Select,Aashirvaad,168.85
+5432,Basmati Rice Premium,India Gate,827.93
+4888,Dishwash Liquid,Vim,376.29
+2978,Basmati Rice Premium,India Gate,887.4
+8398,Toothpaste Gel,Colgate,355.85
+5204,Wheat Flour Select,Aashirvaad,676.58
+2896,Laundry Detergent,Surf Excel,821.89
+8655,Potato Chips Salted,Lays,396.46
+7791,Dishwash Liquid,Vim,780.92
+4347,Potato Chips Salted,Lays,125.66
+9362,Milk Chocolate Bar,Cadbury,715.8
+4146,Instant Coffee,Bru,397.02
+5216,Sunflower Oil 1L,Fortune,613.28
+9190,Bath Soap Herbal,Pears,852.47
+9454,Iodized Cooking Salt,Tata Salt,114.49
+7281,Tea Powder Strong,Tata Tea,727.05
+6287,Toothpaste Gel,Colgate,593.14
+7659,Potato Chips Salted,Lays,524.87
+3248,Toothpaste Gel,Colgate,400.67
+3149,Potato Chips Salted,Lays,566.68
+4056,Iodized Cooking Salt,Tata Salt,449.37
+3196,Refined Sugar,Madhur,732.99
+9688,Basmati Rice Premium,India Gate,638.14
+1749,Wheat Flour Select,Aashirvaad,761.18
+5102,Wheat Flour Select,Aashirvaad,231.81
+7101,Toothpaste Gel,Colgate,645.12
+7233,Digestive Biscuits,Britannia,304.0
+4601,Potato Chips Salted,Lays,190.02
+7004,Wheat Flour Select,Aashirvaad,841.53
+2048,Sunflower Oil 1L,Fortune,866.93
+3735,Iodized Cooking Salt,Tata Salt,871.78
+4622,Sunflower Oil 1L,Fortune,446.33
+2401,Basmati Rice Premium,India Gate,825.58
+8792,Toothpaste Gel,Colgate,130.67
+4148,Iodized Cooking Salt,Tata Salt,246.78
+5621,Dishwash Liquid,Vim,195.03
+4006,Digestive Biscuits,Britannia,419.34
+9757,Sunflower Oil 1L,Fortune,407.32
+7828,Toothpaste Gel,Colgate,685.99
+8665,Sunflower Oil 1L,Fortune,620.73
+1945,Potato Chips Salted,Lays,541.47
+8848,Shampoo Anti-Dandruff,Head & Shoulders,227.12
+9699,Sunflower Oil 1L,Fortune,313.96
+5225,Iodized Cooking Salt,Tata Salt,218.4
+6191,Potato Chips Salted,Lays,769.2
+5748,Tea Powder Strong,Tata Tea,159.52
+8678,Dishwash Liquid,Vim,210.4
+6245,Tea Powder Strong,Tata Tea,462.39
+6882,Bath Soap Herbal,Pears,740.76
+7622,Milk Chocolate Bar,Cadbury,525.47
+2033,Milk Chocolate Bar,Cadbury,283.41
+5566,Sunflower Oil 1L,Fortune,868.51
+9927,Toothpaste Gel,Colgate,164.06
+8232,Milk Chocolate Bar,Cadbury,630.15
+3156,Digestive Biscuits,Britannia,250.5
+8426,Dishwash Liquid,Vim,392.89
+7766,Digestive Biscuits,Britannia,226.77
+7557,Iodized Cooking Salt,Tata Salt,71.72
+5123,Instant Coffee,Bru,764.5
+3610,Potato Chips Salted,Lays,64.26
+3919,Laundry Detergent,Surf Excel,245.15
+1157,Dishwash Liquid,Vim,498.87
+4437,Digestive Biscuits,Britannia,814.69
+7596,Instant Coffee,Bru,739.21
+5717,Milk Chocolate Bar,Cadbury,182.45
+1638,Sunflower Oil 1L,Fortune,653.06
+3639,Instant Noodles Pack,Maggi,554.16
+1051,Refined Sugar,Madhur,121.36
+2471,Shampoo Anti-Dandruff,Head & Shoulders,297.56
+8983,Dishwash Liquid,Vim,159.02
+1329,Basmati Rice Premium,India Gate,812.65
+9976,Milk Chocolate Bar,Cadbury,712.95
+9487,Wheat Flour Select,Aashirvaad,250.62
+3201,Potato Chips Salted,Lays,368.74
+2505,Instant Noodles Pack,Maggi,691.72
+4874,Digestive Biscuits,Britannia,110.33
+4447,Instant Coffee,Bru,324.08
+9759,Basmati Rice Premium,India Gate,707.2
+4956,Iodized Cooking Salt,Tata Salt,563.81
+9221,Sunflower Oil 1L,Fortune,297.91
+4658,Laundry Detergent,Surf Excel,804.97
+3541,Potato Chips Salted,Lays,822.18
+4209,Toothpaste Gel,Colgate,125.53
+1693,Laundry Detergent,Surf Excel,703.74
+4873,Potato Chips Salted,Lays,643.74
+6310,Sunflower Oil 1L,Fortune,662.73
+5766,Refined Sugar,Madhur,456.51
+2503,Digestive Biscuits,Britannia,198.61
+1993,Shampoo Anti-Dandruff,Head & Shoulders,215.17
+5898,Laundry Detergent,Surf Excel,739.43
+4046,Bath Soap Herbal,Pears,94.3
+6857,Dishwash Liquid,Vim,293.56
+6345,Digestive Biscuits,Britannia,591.6
+7050,Tea Powder Strong,Tata Tea,84.72
+9726,Digestive Biscuits,Britannia,889.71
+9188,Instant Coffee,Bru,616.81
+6468,Refined Sugar,Madhur,822.63
+1311,Wheat Flour Select,Aashirvaad,877.16
+6951,Refined Sugar,Madhur,58.56
+3274,Laundry Detergent,Surf Excel,621.58
+2082,Digestive Biscuits,Britannia,494.11
+6216,Iodized Cooking Salt,Tata Salt,597.56
+1720,Bath Soap Herbal,Pears,762.0
+5344,Instant Coffee,Bru,212.89
+9012,Sunflower Oil 1L,Fortune,512.74
+3308,Refined Sugar,Madhur,894.44
+2426,Refined Sugar,Madhur,855.03
+5153,Wheat Flour Select,Aashirvaad,95.96
+5080,Bath Soap Herbal,Pears,796.7
+7677,Instant Coffee,Bru,621.09
+5198,Iodized Cooking Salt,Tata Salt,169.31
+1818,Bath Soap Herbal,Pears,271.46
+1917,Digestive Biscuits,Britannia,204.87
+2530,Wheat Flour Select,Aashirvaad,493.1
+5465,Milk Chocolate Bar,Cadbury,325.48
+8352,Milk Chocolate Bar,Cadbury,481.41
+9216,Laundry Detergent,Surf Excel,297.16
+1927,Laundry Detergent,Surf Excel,207.39
+2845,Wheat Flour Select,Aashirvaad,300.53
+9156,Basmati Rice Premium,India Gate,383.02
+5778,Iodized Cooking Salt,Tata Salt,192.31
+7433,Dishwash Liquid,Vim,276.24
+7723,Sunflower Oil 1L,Fortune,263.81
+9078,Toothpaste Gel,Colgate,451.49
+1138,Basmati Rice Premium,India Gate,401.36
+6338,Wheat Flour Select,Aashirvaad,172.66
+9689,Shampoo Anti-Dandruff,Head & Shoulders,823.36
+9597,Iodized Cooking Salt,Tata Salt,577.96
+6371,Sunflower Oil 1L,Fortune,202.74
+8049,Shampoo Anti-Dandruff,Head & Shoulders,197.15
+2616,Potato Chips Salted,Lays,771.56
+1479,Refined Sugar,Madhur,547.03
+2709,Laundry Detergent,Surf Excel,152.53
+8316,Laundry Detergent,Surf Excel,155.99
+6262,Milk Chocolate Bar,Cadbury,693.89
+6456,Iodized Cooking Salt,Tata Salt,429.17
+1452,Instant Coffee,Bru,278.17
+5488,Shampoo Anti-Dandruff,Head & Shoulders,86.94
+8563,Iodized Cooking Salt,Tata Salt,254.83
+1530,Refined Sugar,Madhur,346.12
+7938,Refined Sugar,Madhur,168.15
+2551,Toothpaste Gel,Colgate,61.57
+7657,Wheat Flour Select,Aashirvaad,422.67
+1617,Basmati Rice Premium,India Gate,761.03
+3064,Laundry Detergent,Surf Excel,827.57
+4761,Shampoo Anti-Dandruff,Head & Shoulders,77.32
+5879,Instant Coffee,Bru,74.24
+2792,Refined Sugar,Madhur,161.62
+7156,Digestive Biscuits,Britannia,527.85
+3236,Digestive Biscuits,Britannia,60.53
+8599,Laundry Detergent,Surf Excel,111.0
+7287,Toothpaste Gel,Colgate,400.51
+2740,Potato Chips Salted,Lays,172.16
+3928,Instant Noodles Pack,Maggi,268.49
+6086,Dishwash Liquid,Vim,477.8
+9522,Bath Soap Herbal,Pears,107.93
+8093,Instant Noodles Pack,Maggi,340.02
+2055,Milk Chocolate Bar,Cadbury,838.66
+4025,Sunflower Oil 1L,Fortune,698.92
+5284,Wheat Flour Select,Aashirvaad,366.15
+6197,Instant Coffee,Bru,192.61
+1117,Shampoo Anti-Dandruff,Head & Shoulders,761.2
+8717,Sunflower Oil 1L,Fortune,411.03
+9403,Digestive Biscuits,Britannia,317.91
+2600,Bath Soap Herbal,Pears,605.55
+9223,Laundry Detergent,Surf Excel,846.53
+6941,Sunflower Oil 1L,Fortune,209.62
+6949,Basmati Rice Premium,India Gate,338.76
+5716,Dishwash Liquid,Vim,94.72
+5340,Instant Coffee,Bru,728.77
+7005,Sunflower Oil 1L,Fortune,314.73
+5839,Iodized Cooking Salt,Tata Salt,160.04
+8318,Milk Chocolate Bar,Cadbury,602.42
+4344,Shampoo Anti-Dandruff,Head & Shoulders,451.57
+5122,Iodized Cooking Salt,Tata Salt,494.41
+9842,Iodized Cooking Salt,Tata Salt,355.43
+6343,Toothpaste Gel,Colgate,853.09
+5810,Instant Coffee,Bru,416.67
+3153,Basmati Rice Premium,India Gate,468.59
+9668,Potato Chips Salted,Lays,246.42
+8844,Toothpaste Gel,Colgate,793.0
+8369,Instant Noodles Pack,Maggi,117.99
+8424,Shampoo Anti-Dandruff,Head & Shoulders,452.53
+7289,Toothpaste Gel,Colgate,183.98
+4429,Sunflower Oil 1L,Fortune,644.28
+5830,Tea Powder Strong,Tata Tea,708.97
+8270,Tea Powder Strong,Tata Tea,644.16
+5819,Toothpaste Gel,Colgate,615.13
+5143,Milk Chocolate Bar,Cadbury,411.4
+2400,Milk Chocolate Bar,Cadbury,67.97
+9513,Tea Powder Strong,Tata Tea,840.25
+5858,Tea Powder Strong,Tata Tea,161.52
+8153,Iodized Cooking Salt,Tata Salt,297.45
+8875,Dishwash Liquid,Vim,249.23
+4224,Bath Soap Herbal,Pears,504.81
+7120,Iodized Cooking Salt,Tata Salt,172.35
+8080,Toothpaste Gel,Colgate,733.47
+9534,Bath Soap Herbal,Pears,158.96
+5727,Dishwash Liquid,Vim,822.02
+7427,,Tata Tea,604.73
+9928,Potato Chips Salted,Lays,402.5
+1879,Potato Chips Salted,Lays,199.68
+8530,Digestive Biscuits,Britannia,625.8
+9634,Sunflower Oil 1L,Fortune,388.9
+4506,Iodized Cooking Salt,Tata Salt,828.88
+8799,Shampoo Anti-Dandruff,Head & Shoulders,367.43
+8508,Refined Sugar,Madhur,419.6
+9439,Wheat Flour Select,Aashirvaad,350.42
+3978,Bath Soap Herbal,Pears,808.72
+2497,Bath Soap Herbal,Pears,212.39
+5187,Sunflower Oil 1L,Fortune,310.66
+5943,Iodized Cooking Salt,Tata Salt,716.02
+2547,Instant Noodles Pack,Maggi,381.07
+2990,Laundry Detergent,Surf Excel,390.93
+2746,Milk Chocolate Bar,Cadbury,374.32
+3760,Laundry Detergent,Surf Excel,705.76
+7961,,Britannia,676.93
+1022,Instant Coffee,Bru,833.93
+6648,Milk Chocolate Bar,Cadbury,838.83
+9250,Iodized Cooking Salt,Tata Salt,402.37
+2679,Refined Sugar,Madhur,453.75
+8782,Bath Soap Herbal,Pears,699.9
+4157,Instant Noodles Pack,Maggi,307.15
+6817,Milk Chocolate Bar,Cadbury,506.13
+4585,Potato Chips Salted,Lays,529.66
+5651,Dishwash Liquid,Vim,758.43
+1715,Instant Noodles Pack,Maggi,862.26
+9297,Bath Soap Herbal,Pears,406.42
+8788,Milk Chocolate Bar,Cadbury,806.67
+7699,Instant Coffee,Bru,439.67
+1728,Instant Coffee,Bru,753.2
+3543,Shampoo Anti-Dandruff,Head & Shoulders,234.07
+4152,Iodized Cooking Salt,Tata Salt,468.29
+1696,Laundry Detergent,Surf Excel,757.35
+5229,Wheat Flour Select,Aashirvaad,511.65
+8165,Tea Powder Strong,Tata Tea,594.46
+6185,Bath Soap Herbal,Pears,92.62
+3348,Bath Soap Herbal,Pears,72.27
+4314,Laundry Detergent,Surf Excel,178.82
+3144,Refined Sugar,Madhur,660.07
+4425,Digestive Biscuits,Britannia,150.68
+8263,Shampoo Anti-Dandruff,Head & Shoulders,582.98
+2745,Refined Sugar,Madhur,264.87
+3184,Potato Chips Salted,Lays,252.63
+4428,Basmati Rice Premium,India Gate,545.53
+2071,Digestive Biscuits,Britannia,762.96
+1499,Potato Chips Salted,Lays,455.39
+3549,Dishwash Liquid,Vim,752.28
+7081,Toothpaste Gel,Colgate,231.62
+8147,Milk Chocolate Bar,Cadbury,266.78
+6745,Iodized Cooking Salt,Tata Salt,295.88
+1820,Laundry Detergent,Surf Excel,479.31
+9765,Basmati Rice Premium,India Gate,633.68
+4042,Milk Chocolate Bar,Cadbury,320.35
+4256,Milk Chocolate Bar,Cadbury,210.58
+3187,Bath Soap Herbal,Pears,537.15
+1048,Digestive Biscuits,Britannia,472.91
+7467,Toothpaste Gel,Colgate,743.04
+1918,Wheat Flour Select,Aashirvaad,612.86
+1350,Laundry Detergent,Surf Excel,182.15
+2926,Iodized Cooking Salt,Tata Salt,735.8
+2917,Tea Powder Strong,Tata Tea,489.85
+7010,Toothpaste Gel,Colgate,158.75
+4959,Milk Chocolate Bar,Cadbury,464.93
+6269,Milk Chocolate Bar,Cadbury,406.36
+6692,Milk Chocolate Bar,Cadbury,609.07
+8240,Dishwash Liquid,Vim,553.18
+6177,Tea Powder Strong,Tata Tea,149.66
+8903,Digestive Biscuits,Britannia,599.28
+8455,Milk Chocolate Bar,Cadbury,595.45
+5104,Basmati Rice Premium,India Gate,274.85
+6668,Toothpaste Gel,Colgate,874.98
+3823,Instant Noodles Pack,Maggi,379.73
+1067,Iodized Cooking Salt,Tata Salt,211.8
+8944,Dishwash Liquid,Vim,517.97
+6572,Toothpaste Gel,Colgate,264.22
+9669,Milk Chocolate Bar,Cadbury,321.41
+5613,Laundry Detergent,Surf Excel,744.87
+2023,Instant Noodles Pack,Maggi,347.57
+6838,Basmati Rice Premium,India Gate,804.81
+6576,Potato Chips Salted,Lays,306.54
+7814,Tea Powder Strong,Tata Tea,641.68
+7758,Bath Soap Herbal,Pears,824.98
+5742,Shampoo Anti-Dandruff,Head & Shoulders,553.6
+2531,Potato Chips Salted,Lays,869.85
+6858,Milk Chocolate Bar,Cadbury,582.88
+1654,Shampoo Anti-Dandruff,Head & Shoulders,111.16
+9966,Refined Sugar,Madhur,266.53
+7053,Wheat Flour Select,Aashirvaad,876.08
+4823,Instant Coffee,Bru,457.52
+8631,Instant Coffee,Bru,200.05
+9801,Basmati Rice Premium,India Gate,113.24
+1384,Potato Chips Salted,Lays,461.89
+9909,Instant Noodles Pack,Maggi,510.83
+4158,Toothpaste Gel,Colgate,637.34
+1191,Wheat Flour Select,Aashirvaad,423.13
+9161,Laundry Detergent,Surf Excel,325.03
+7785,Tea Powder Strong,Tata Tea,786.76
+3743,Shampoo Anti-Dandruff,Head & Shoulders,391.52
+9350,Dishwash Liquid,Vim,392.98
+4385,Instant Coffee,Bru,812.71
+8158,Milk Chocolate Bar,Cadbury,374.18
+3009,Refined Sugar,Madhur,671.78
+5728,Dishwash Liquid,Vim,819.78
+3722,Laundry Detergent,Surf Excel,105.98
+6123,Refined Sugar,Madhur,412.45
+7939,Shampoo Anti-Dandruff,Head & Shoulders,327.07
+8397,Shampoo Anti-Dandruff,Head & Shoulders,439.48
+4998,Iodized Cooking Salt,Tata Salt,102.83
+4849,Instant Coffee,Bru,145.62
+2448,Iodized Cooking Salt,Tata Salt,462.74
+2004,Toothpaste Gel,Colgate,835.4
+8184,Instant Coffee,Bru,131.71
+1211,Toothpaste Gel,Colgate,250.75
+6947,Digestive Biscuits,Britannia,158.47
+7108,Shampoo Anti-Dandruff,Head & Shoulders,483.65
+9814,Laundry Detergent,Surf Excel,720.64
+1030,Instant Coffee,Bru,60.11
+9195,Potato Chips Salted,Lays,650.08
+1017,Shampoo Anti-Dandruff,Head & Shoulders,448.08
+8162,Tea Powder Strong,Tata Tea,364.87
+5327,Toothpaste Gel,Colgate,754.06
+2825,Shampoo Anti-Dandruff,Head & Shoulders,253.48
+9239,Toothpaste Gel,Colgate,376.33
+7206,Digestive Biscuits,Britannia,429.54
+7413,Toothpaste Gel,Colgate,308.14
+3047,Toothpaste Gel,Colgate,605.81
+8766,Instant Noodles Pack,Maggi,587.04
+9480,Toothpaste Gel,Colgate,657.61
+8248,Instant Coffee,Bru,439.58
+9361,Laundry Detergent,Surf Excel,787.26
+8026,Digestive Biscuits,Britannia,125.75
+8645,Instant Coffee,Bru,124.89
+3190,Digestive Biscuits,Britannia,857.59
+7515,Wheat Flour Select,Aashirvaad,533.45
+9766,Bath Soap Herbal,Pears,360.7
+6223,Iodized Cooking Salt,Tata Salt,822.89
+1000,Bath Soap Herbal,Pears,186.65
+7871,Instant Noodles Pack,Maggi,401.01
+6244,Milk Chocolate Bar,Cadbury,267.39
+8203,Instant Coffee,Bru,384.07
+6073,Laundry Detergent,Surf Excel,345.0
+3537,Potato Chips Salted,Lays,92.63
+5860,Digestive Biscuits,Britannia,437.15
+6284,Tea Powder Strong,Tata Tea,336.5
+6063,Sunflower Oil 1L,Fortune,729.6
+3641,Iodized Cooking Salt,Tata Salt,479.88
+2835,Wheat Flour Select,Aashirvaad,548.62
+6195,Iodized Cooking Salt,Tata Salt,718.77
+9524,Milk Chocolate Bar,Cadbury,711.94
+4917,Digestive Biscuits,Britannia,617.31
+4762,Iodized Cooking Salt,Tata Salt,786.5
+9968,Iodized Cooking Salt,Tata Salt,329.01
+7480,Tea Powder Strong,Tata Tea,201.84
+9023,Potato Chips Salted,Lays,577.62
+1580,Basmati Rice Premium,India Gate,875.16
+5487,Laundry Detergent,Surf Excel,154.96
+3053,Toothpaste Gel,Colgate,406.96
+9629,Shampoo Anti-Dandruff,Head & Shoulders,567.64
+4188,Milk Chocolate Bar,Cadbury,225.93
+4747,Sunflower Oil 1L,Fortune,455.76
+4967,Basmati Rice Premium,India Gate,155.62
+4381,Instant Noodles Pack,Maggi,328.11
+5658,,Madhur,75.26
+2666,Sunflower Oil 1L,Fortune,191.98
+6885,Milk Chocolate Bar,Cadbury,439.14
+4499,Instant Coffee,Bru,788.34
+6383,Dishwash Liquid,Vim,395.5
+1825,Wheat Flour Select,Aashirvaad,719.3
+1891,Iodized Cooking Salt,Tata Salt,437.02
+4418,Instant Coffee,Bru,83.2
+1316,Laundry Detergent,Surf Excel,345.9
+7068,Sunflower Oil 1L,Fortune,455.8
+5294,Instant Noodles Pack,Maggi,338.9
+4953,Laundry Detergent,Surf Excel,518.63
+3467,Toothpaste Gel,Colgate,854.56
+5965,Digestive Biscuits,Britannia,364.34
+3450,Dishwash Liquid,Vim,588.14
+7161,Digestive Biscuits,Britannia,412.4
+3707,Wheat Flour Select,Aashirvaad,59.58
+3561,Dishwash Liquid,Vim,601.47
+1029,Sunflower Oil 1L,Fortune,571.45
+1434,Laundry Detergent,Surf Excel,177.68
+1046,Dishwash Liquid,Vim,340.76
+4541,Basmati Rice Premium,India Gate,520.96
+5482,Tea Powder Strong,Tata Tea,658.66
+8022,Iodized Cooking Salt,Tata Salt,668.04
+6797,Milk Chocolate Bar,Cadbury,556.29
+5257,Sunflower Oil 1L,Fortune,638.23
+4378,Toothpaste Gel,Colgate,813.75
+7202,Iodized Cooking Salt,Tata Salt,620.68
+6339,Tea Powder Strong,Tata Tea,835.63
+7168,Refined Sugar,Madhur,321.99
+2929,Sunflower Oil 1L,Fortune,164.63
+3500,Milk Chocolate Bar,Cadbury,431.01
+8415,Toothpaste Gel,Colgate,708.69
+8218,Shampoo Anti-Dandruff,Head & Shoulders,504.41
+8092,Basmati Rice Premium,India Gate,378.76
+3224,Potato Chips Salted,Lays,599.21
+7268,Refined Sugar,Madhur,179.45
+9357,Wheat Flour Select,Aashirvaad,715.66
+4440,Potato Chips Salted,Lays,59.76
+1881,Refined Sugar,Madhur,468.22
+6933,Refined Sugar,Madhur,79.93
+5165,Tea Powder Strong,Tata Tea,789.39
+7137,Wheat Flour Select,Aashirvaad,409.19
+1522,Instant Noodles Pack,Maggi,78.04
+4129,Basmati Rice Premium,India Gate,770.29
+7996,Wheat Flour Select,Aashirvaad,760.2
+3981,Wheat Flour Select,Aashirvaad,645.69
+4150,Instant Coffee,Bru,843.97
+2094,Toothpaste Gel,Colgate,755.42
+2139,Basmati Rice Premium,India Gate,761.88
+7466,Potato Chips Salted,Lays,345.54
+9206,Refined Sugar,Madhur,609.97
+7542,Digestive Biscuits,Britannia,798.02
+5795,Bath Soap Herbal,Pears,558.79
+8579,Digestive Biscuits,Britannia,446.66
+6011,Laundry Detergent,Surf Excel,775.15
+6635,Bath Soap Herbal,Pears,90.12
+7203,Bath Soap Herbal,Pears,344.1
+5251,Iodized Cooking Salt,Tata Salt,396.64
+7612,Basmati Rice Premium,India Gate,313.75
+3976,Potato Chips Salted,Lays,750.22
+9506,Milk Chocolate Bar,Cadbury,872.81
+4753,Iodized Cooking Salt,Tata Salt,741.5
+3008,Toothpaste Gel,Colgate,510.43
+3073,Laundry Detergent,Surf Excel,660.76
+7656,Instant Noodles Pack,Maggi,873.2
+9957,Sunflower Oil 1L,Fortune,698.41
+4794,Shampoo Anti-Dandruff,Head & Shoulders,720.71
+7076,Sunflower Oil 1L,Fortune,524.47
+3769,Instant Coffee,Bru,674.76
+4673,Toothpaste Gel,Colgate,777.36
+9389,Bath Soap Herbal,Pears,139.56
+2346,Iodized Cooking Salt,Tata Salt,322.07
+2719,Bath Soap Herbal,Pears,642.08
+9583,Shampoo Anti-Dandruff,Head & Shoulders,816.73
+6003,Sunflower Oil 1L,Fortune,287.02
+3255,Digestive Biscuits,Britannia,659.77
+5339,Potato Chips Salted,Lays,690.93
+2298,Refined Sugar,Madhur,52.49
+2612,Laundry Detergent,Surf Excel,776.18
+1107,Refined Sugar,Madhur,155.38
+2353,Tea Powder Strong,Tata Tea,492.37
+2646,Laundry Detergent,Surf Excel,734.07
+2116,Sunflower Oil 1L,Fortune,543.8
+9603,Dishwash Liquid,Vim,234.88
+1236,Tea Powder Strong,Tata Tea,306.54
+3702,Wheat Flour Select,Aashirvaad,583.98
+8190,Sunflower Oil 1L,Fortune,565.97
+8594,Milk Chocolate Bar,Cadbury,373.61
+7051,Sunflower Oil 1L,Fortune,787.28
+6054,Sunflower Oil 1L,Fortune,531.24
+4248,Digestive Biscuits,Britannia,327.7
+3813,Potato Chips Salted,Lays,263.66
+3337,Bath Soap Herbal,Pears,471.16
+6726,Shampoo Anti-Dandruff,Head & Shoulders,874.88
+2951,Bath Soap Herbal,Pears,802.35
+8888,Sunflower Oil 1L,Fortune,617.83
+3453,Tea Powder Strong,Tata Tea,242.91
+9438,Potato Chips Salted,Lays,355.67
+6721,Milk Chocolate Bar,Cadbury,603.83
+3533,Digestive Biscuits,Britannia,538.69
+8685,Iodized Cooking Salt,Tata Salt,847.72
+9978,Shampoo Anti-Dandruff,Head & Shoulders,238.06
+6229,Tea Powder Strong,Tata Tea,324.9
+6132,Toothpaste Gel,Colgate,207.33
+1341,Refined Sugar,Madhur,315.66
+5802,Sunflower Oil 1L,Fortune,219.47
+2046,Tea Powder Strong,Tata Tea,532.44
+2020,Potato Chips Salted,Lays,586.84
+7969,Shampoo Anti-Dandruff,Head & Shoulders,713.2
+3242,Potato Chips Salted,Lays,193.82
+9902,Milk Chocolate Bar,Cadbury,186.16
+2161,Iodized Cooking Salt,Tata Salt,797.9
+3557,Milk Chocolate Bar,Cadbury,875.43
+6547,Toothpaste Gel,Colgate,69.98
+9005,Basmati Rice Premium,India Gate,659.31
+6836,Wheat Flour Select,Aashirvaad,369.59
+7054,Digestive Biscuits,Britannia,534.36
+8840,Instant Coffee,Bru,277.54
+7858,Tea Powder Strong,Tata Tea,759.4
+7556,Basmati Rice Premium,India Gate,222.14
+8312,Milk Chocolate Bar,Cadbury,489.56
+8341,Shampoo Anti-Dandruff,Head & Shoulders,225.31
+4341,Dishwash Liquid,Vim,525.64
+5772,Wheat Flour Select,Aashirvaad,695.0
+3929,Toothpaste Gel,Colgate,581.5
+1852,Refined Sugar,Madhur,828.74
+8216,Tea Powder Strong,Tata Tea,97.89
+6121,Potato Chips Salted,Lays,795.56
+1069,Sunflower Oil 1L,Fortune,244.43
+9237,Wheat Flour Select,Aashirvaad,577.72
+4134,Shampoo Anti-Dandruff,Head & Shoulders,222.43
+2654,Toothpaste Gel,Colgate,809.03
+9020,Toothpaste Gel,Colgate,861.33
+2814,Potato Chips Salted,Lays,540.73
+4299,Sunflower Oil 1L,Fortune,892.58
+5963,Dishwash Liquid,Vim,377.48
+5816,Laundry Detergent,Surf Excel,737.49
+7797,Toothpaste Gel,Colgate,310.7
+7672,Basmati Rice Premium,India Gate,259.4
+7895,Shampoo Anti-Dandruff,Head & Shoulders,775.29
+9025,Instant Coffee,Bru,164.79
+4169,Refined Sugar,Madhur,504.26
+3105,Wheat Flour Select,Aashirvaad,198.18
+2370,Instant Coffee,Bru,265.52
+1528,Tea Powder Strong,Tata Tea,315.13
+9823,Basmati Rice Premium,India Gate,54.95
+9404,Digestive Biscuits,Britannia,842.41
+3195,Bath Soap Herbal,Pears,781.64
+7403,Potato Chips Salted,Lays,726.49
+5168,Sunflower Oil 1L,Fortune,464.03
+5144,Basmati Rice Premium,India Gate,854.41
+4293,Basmati Rice Premium,India Gate,625.6
+8532,Instant Noodles Pack,Maggi,261.09
+1793,Milk Chocolate Bar,Cadbury,700.89
+3866,Shampoo Anti-Dandruff,Head & Shoulders,367.72
+1679,Digestive Biscuits,Britannia,847.11
+7180,Dishwash Liquid,Vim,270.18
+2202,Sunflower Oil 1L,Fortune,450.83
+8912,Tea Powder Strong,Tata Tea,191.69
+1583,Shampoo Anti-Dandruff,Head & Shoulders,758.58
+4262,Instant Noodles Pack,Maggi,56.97
+6230,Milk Chocolate Bar,Cadbury,362.63
+8673,,Madhur,351.56
+4205,Bath Soap Herbal,Pears,221.85
+3001,Dishwash Liquid,Vim,476.63
+6657,Tea Powder Strong,Tata Tea,745.23
+9121,Wheat Flour Select,Aashirvaad,653.22
+6459,Bath Soap Herbal,Pears,392.94
+2595,Instant Noodles Pack,Maggi,187.36
+5969,Tea Powder Strong,Tata Tea,85.75
+9945,Digestive Biscuits,Britannia,350.3
+9637,Milk Chocolate Bar,Cadbury,134.22
+8698,Milk Chocolate Bar,Cadbury,620.93
+5490,Refined Sugar,Madhur,401.35
+4661,Wheat Flour Select,Aashirvaad,774.81
+1642,Shampoo Anti-Dandruff,Head & Shoulders,887.65
+5309,Potato Chips Salted,Lays,600.37
+9703,Wheat Flour Select,Aashirvaad,797.84
+2642,Potato Chips Salted,Lays,110.32
+2068,Laundry Detergent,Surf Excel,522.7
+4940,Potato Chips Salted,Lays,865.68
+6302,Laundry Detergent,Surf Excel,606.33
+6906,Instant Noodles Pack,Maggi,613.31
+3564,Shampoo Anti-Dandruff,Head & Shoulders,692.32
+2954,Toothpaste Gel,Colgate,283.52
+4090,Shampoo Anti-Dandruff,Head & Shoulders,511.91
+8017,Toothpaste Gel,Colgate,279.19
+2872,Wheat Flour Select,Aashirvaad,319.3
+9610,Sunflower Oil 1L,Fortune,562.78
+6492,Laundry Detergent,Surf Excel,898.06
+3684,Instant Coffee,Bru,81.85
+8015,Instant Coffee,Bru,788.8
+6272,Basmati Rice Premium,India Gate,794.72
+6772,Instant Coffee,Bru,82.22
+9460,Milk Chocolate Bar,Cadbury,304.92
+3378,Sunflower Oil 1L,Fortune,143.84
+6291,Milk Chocolate Bar,Cadbury,838.89
+8091,Milk Chocolate Bar,Cadbury,77.73
+5386,Shampoo Anti-Dandruff,Head & Shoulders,673.87
+5182,Laundry Detergent,Surf Excel,413.9
+6452,Bath Soap Herbal,Pears,360.33
+1732,Instant Noodles Pack,Maggi,438.15
+2824,Laundry Detergent,Surf Excel,299.13
+8169,Potato Chips Salted,Lays,864.36
+5512,Toothpaste Gel,Colgate,293.88
+4642,Tea Powder Strong,Tata Tea,883.09
+4096,Wheat Flour Select,Aashirvaad,54.25
+2101,Tea Powder Strong,Tata Tea,206.89
+3768,Digestive Biscuits,Britannia,121.95
+3152,Bath Soap Herbal,Pears,797.7
+3441,Wheat Flour Select,Aashirvaad,326.45
+2138,Refined Sugar,Madhur,814.88
+9789,Laundry Detergent,Surf Excel,486.61
+6694,Bath Soap Herbal,Pears,798.71
+9982,Wheat Flour Select,Aashirvaad,439.67
+3273,Tea Powder Strong,Tata Tea,612.32
+4151,Instant Coffee,Bru,325.99
+5723,Dishwash Liquid,Vim,73.83
+8566,Tea Powder Strong,Tata Tea,529.37
+5094,Potato Chips Salted,Lays,490.56
+2766,Toothpaste Gel,Colgate,90.94
+9106,Sunflower Oil 1L,Fortune,199.31
+3809,,Fortune,704.74
+9843,Toothpaste Gel,Colgate,688.13
+6212,Instant Coffee,Bru,67.17
+5747,Digestive Biscuits,Britannia,377.71
+7803,Toothpaste Gel,Colgate,899.69
+5065,Instant Noodles Pack,Maggi,335.32
+3806,Tea Powder Strong,Tata Tea,347.89
+6298,Shampoo Anti-Dandruff,Head & Shoulders,300.15
+2472,Wheat Flour Select,Aashirvaad,629.19
+4739,Tea Powder Strong,Tata Tea,126.11
+6115,Digestive Biscuits,Britannia,191.41
+2618,Dishwash Liquid,Vim,158.09
+1394,Iodized Cooking Salt,Tata Salt,488.59
+8179,Dishwash Liquid,Vim,55.26
+5152,Milk Chocolate Bar,Cadbury,560.2
+9655,Toothpaste Gel,Colgate,303.42
+1601,Milk Chocolate Bar,Cadbury,276.24
+5611,Digestive Biscuits,Britannia,92.54
+3780,Toothpaste Gel,Colgate,363.12
+7799,Bath Soap Herbal,Pears,589.96
+1021,Toothpaste Gel,Colgate,760.27
+8274,Dishwash Liquid,Vim,90.23
+3473,Tea Powder Strong,Tata Tea,263.28
+8406,Tea Powder Strong,Tata Tea,67.82
+9230,Wheat Flour Select,Aashirvaad,260.16
+4828,Refined Sugar,Madhur,128.06
+8829,Iodized Cooking Salt,Tata Salt,247.74
+8581,Refined Sugar,Madhur,370.64
+1615,Sunflower Oil 1L,Fortune,777.2
+6789,Milk Chocolate Bar,Cadbury,347.14
+7041,Sunflower Oil 1L,Fortune,604.61
+3181,Potato Chips Salted,Lays,424.06
+5023,Instant Noodles Pack,Maggi,67.49
+8130,Potato Chips Salted,Lays,846.9
+6239,Wheat Flour Select,Aashirvaad,653.19
+2157,Dishwash Liquid,Vim,643.92
+1446,Wheat Flour Select,Aashirvaad,797.83
+1978,Potato Chips Salted,Lays,369.49
+3424,Wheat Flour Select,Aashirvaad,307.07
+2973,Laundry Detergent,Surf Excel,128.39
+1032,Dishwash Liquid,Vim,848.27
+6055,Refined Sugar,Madhur,536.47
+9811,Laundry Detergent,Surf Excel,176.17
+3947,Instant Coffee,Bru,346.21
+8668,Digestive Biscuits,Britannia,619.0
+5798,Bath Soap Herbal,Pears,359.48
+4664,Instant Coffee,Bru,319.23
+2941,Potato Chips Salted,Lays,878.98
+4217,Laundry Detergent,Surf Excel,538.61
+7712,Milk Chocolate Bar,Cadbury,607.96
+7279,Iodized Cooking Salt,Tata Salt,201.52
+4243,Laundry Detergent,Surf Excel,358.61
+8177,Dishwash Liquid,Vim,77.6
+3344,Bath Soap Herbal,Pears,213.83
+3754,Iodized Cooking Salt,Tata Salt,701.59
+7591,Wheat Flour Select,Aashirvaad,324.18
+3263,Toothpaste Gel,Colgate,811.07
+6372,Milk Chocolate Bar,Cadbury,70.16
+5425,Bath Soap Herbal,Pears,220.64
+3611,Sunflower Oil 1L,Fortune,233.59
+6549,Milk Chocolate Bar,Cadbury,302.14
+7319,Instant Coffee,Bru,865.62
+4889,Potato Chips Salted,Lays,600.56
+4419,Instant Coffee,Bru,833.0
+5456,Instant Noodles Pack,Maggi,620.89
+2789,Wheat Flour Select,Aashirvaad,557.33
+8233,Dishwash Liquid,Vim,436.03
+9830,Laundry Detergent,Surf Excel,395.84
+6806,Bath Soap Herbal,Pears,630.63
+2597,Refined Sugar,Madhur,740.34
+3779,Instant Noodles Pack,Maggi,425.93
+7889,Milk Chocolate Bar,Cadbury,824.62
+3409,Wheat Flour Select,Aashirvaad,234.19
+7078,,Bru,294.66
+7243,Digestive Biscuits,Britannia,592.18
+5351,Wheat Flour Select,Aashirvaad,448.86
+6434,Digestive Biscuits,Britannia,603.44
+1161,Laundry Detergent,Surf Excel,55.5
+5012,Basmati Rice Premium,India Gate,274.98
+6760,Sunflower Oil 1L,Fortune,519.01
+4214,Milk Chocolate Bar,Cadbury,274.81
+7366,Bath Soap Herbal,Pears,893.71
+7450,Digestive Biscuits,Britannia,107.29
+7288,Sunflower Oil 1L,Fortune,398.39
+4895,Instant Coffee,Bru,646.06
+9977,Basmati Rice Premium,India Gate,303.99
+7626,Potato Chips Salted,Lays,429.88
+9624,Laundry Detergent,Surf Excel,747.53
+8062,Sunflower Oil 1L,Fortune,630.46
+4740,Shampoo Anti-Dandruff,Head & Shoulders,853.83
+3733,Basmati Rice Premium,India Gate,807.81
+6172,Refined Sugar,Madhur,735.7
+9838,Wheat Flour Select,Aashirvaad,128.63
+2884,Dishwash Liquid,Vim,829.18
+5672,Shampoo Anti-Dandruff,Head & Shoulders,817.23
+8467,Dishwash Liquid,Vim,862.87
+9334,Iodized Cooking Salt,Tata Salt,674.8
+5705,Sunflower Oil 1L,Fortune,809.97
+8855,Iodized Cooking Salt,Tata Salt,671.16
+3499,Bath Soap Herbal,Pears,845.37
+5142,Dishwash Liquid,Vim,374.86
+9618,Laundry Detergent,Surf Excel,730.13
+7631,Tea Powder Strong,Tata Tea,870.37
+4350,Potato Chips Salted,Lays,591.04
+5661,Digestive Biscuits,Britannia,816.57
+9716,Tea Powder Strong,Tata Tea,156.42
+9974,Milk Chocolate Bar,Cadbury,831.29
+2763,Wheat Flour Select,Aashirvaad,218.36
+1496,Laundry Detergent,Surf Excel,811.09
+3886,Digestive Biscuits,Britannia,753.87
+6584,Potato Chips Salted,Lays,413.01
+7197,Potato Chips Salted,Lays,341.31
+2779,Laundry Detergent,Surf Excel,636.09
+7358,Instant Coffee,Bru,682.11
+3501,Basmati Rice Premium,India Gate,57.07
+5506,Refined Sugar,Madhur,658.37
+5027,Instant Noodles Pack,Maggi,366.99
+1026,Iodized Cooking Salt,Tata Salt,888.76
+2439,Bath Soap Herbal,Pears,53.71
+2005,Instant Coffee,Bru,708.34
+2011,Potato Chips Salted,Lays,785.48
+7493,Refined Sugar,Madhur,255.83
+7789,Potato Chips Salted,Lays,773.03
+9521,Milk Chocolate Bar,Cadbury,597.33
+5017,Sunflower Oil 1L,Fortune,484.43
+4004,Tea Powder Strong,Tata Tea,245.11
+7226,Instant Noodles Pack,Maggi,795.87
+4457,Instant Noodles Pack,Maggi,291.06
+6176,Dishwash Liquid,Vim,234.77
+7942,Iodized Cooking Salt,Tata Salt,778.11
+3234,Laundry Detergent,Surf Excel,602.37
+2870,Instant Noodles Pack,Maggi,549.06
+6606,Bath Soap Herbal,Pears,879.1
+7256,Potato Chips Salted,Lays,93.35
+7132,Digestive Biscuits,Britannia,551.37
+4413,Sunflower Oil 1L,Fortune,804.64
+8937,Shampoo Anti-Dandruff,Head & Shoulders,134.37
+4781,Bath Soap Herbal,Pears,225.16
+4701,Sunflower Oil 1L,Fortune,545.86
+2598,Instant Coffee,Bru,124.74
+4947,Dishwash Liquid,Vim,327.88
+5882,Digestive Biscuits,Britannia,554.79
+8941,Basmati Rice Premium,India Gate,565.52
+1227,Milk Chocolate Bar,Cadbury,206.98
+3635,Instant Coffee,Bru,149.67
+4352,Iodized Cooking Salt,Tata Salt,630.69
+7774,Iodized Cooking Salt,Tata Salt,559.44
+3811,Sunflower Oil 1L,Fortune,895.15
+9365,Toothpaste Gel,Colgate,229.18
+8526,Tea Powder Strong,Tata Tea,658.02
+2398,Potato Chips Salted,Lays,487.03
+8222,Toothpaste Gel,Colgate,290.52
+4735,Shampoo Anti-Dandruff,Head & Shoulders,381.29
+3434,Potato Chips Salted,Lays,371.63
+4219,Basmati Rice Premium,India Gate,755.19
+2147,Sunflower Oil 1L,Fortune,353.85
+5835,Potato Chips Salted,Lays,324.08
+1705,Tea Powder Strong,Tata Tea,255.85
+3596,Shampoo Anti-Dandruff,Head & Shoulders,795.55
+4528,Shampoo Anti-Dandruff,Head & Shoulders,704.82
+9792,Tea Powder Strong,Tata Tea,261.96
+7369,Potato Chips Salted,Lays,484.08
+9313,Bath Soap Herbal,Pears,417.94
+1475,Dishwash Liquid,Vim,571.47
+9428,Toothpaste Gel,Colgate,766.23
+3826,Refined Sugar,Madhur,364.71
+4913,Sunflower Oil 1L,Fortune,231.56
+9573,Digestive Biscuits,Britannia,503.06
+8571,Laundry Detergent,Surf Excel,451.06
+5484,Dishwash Liquid,Vim,343.06
+2470,Bath Soap Herbal,Pears,179.55
+4264,Instant Coffee,Bru,687.98
+3510,Laundry Detergent,Surf Excel,495.82
+9776,Iodized Cooking Salt,Tata Salt,206.6
+4467,Instant Noodles Pack,Maggi,739.37
+1209,Laundry Detergent,Surf Excel,678.43
+4840,Laundry Detergent,Surf Excel,60.21
+6232,Laundry Detergent,Surf Excel,379.33
+5166,Sunflower Oil 1L,Fortune,81.92
+4856,Milk Chocolate Bar,Cadbury,180.22
+2765,Tea Powder Strong,Tata Tea,432.72
+7685,Tea Powder Strong,Tata Tea,760.87
+1571,Instant Noodles Pack,Maggi,237.39
+8621,Milk Chocolate Bar,Cadbury,229.98
+4225,Digestive Biscuits,Britannia,181.34
+5561,Instant Noodles Pack,Maggi,470.21
+1224,Toothpaste Gel,Colgate,382.64
+6673,Bath Soap Herbal,Pears,357.87
+9644,Wheat Flour Select,Aashirvaad,618.41
+2897,Potato Chips Salted,Lays,814.97
+3849,Basmati Rice Premium,India Gate,330.93
+9657,Bath Soap Herbal,Pears,447.83
+3814,Instant Coffee,Bru,362.13
+6569,Iodized Cooking Salt,Tata Salt,89.78
+7222,Digestive Biscuits,Britannia,704.62
+9202,Bath Soap Herbal,Pears,400.51
+1498,Toothpaste Gel,Colgate,230.77
+7315,Laundry Detergent,Surf Excel,747.75
+8000,Toothpaste Gel,Colgate,466.27
+8436,Potato Chips Salted,Lays,862.31
+5390,Toothpaste Gel,Colgate,98.15
+1725,Dishwash Liquid,Vim,172.64
+5681,Instant Noodles Pack,Maggi,384.69
+7727,Basmati Rice Premium,India Gate,722.99
+5429,Sunflower Oil 1L,Fortune,862.78
+7880,Wheat Flour Select,Aashirvaad,249.7
+5457,Wheat Flour Select,Aashirvaad,97.15
+1934,Tea Powder Strong,Tata Tea,612.05
+5585,Digestive Biscuits,Britannia,112.23
+4812,Tea Powder Strong,Tata Tea,224.73
+1872,Iodized Cooking Salt,Tata Salt,416.2
+3606,Milk Chocolate Bar,Cadbury,447.75
+6818,Instant Coffee,Bru,756.27
+4984,Bath Soap Herbal,Pears,488.82
+7061,Instant Coffee,Bru,222.3
+6273,Bath Soap Herbal,Pears,833.9
+9385,Wheat Flour Select,Aashirvaad,450.9
+3651,Iodized Cooking Salt,Tata Salt,148.6
+3435,Wheat Flour Select,Aashirvaad,558.49
+6525,Toothpaste Gel,Colgate,447.25
+3609,Shampoo Anti-Dandruff,Head & Shoulders,853.69
+8615,Milk Chocolate Bar,Cadbury,522.53
+8945,Milk Chocolate Bar,Cadbury,495.03
+9719,Basmati Rice Premium,India Gate,722.55
+3147,Toothpaste Gel,Colgate,351.94
+6558,Shampoo Anti-Dandruff,Head & Shoulders,469.03
+9469,Toothpaste Gel,Colgate,640.85
+1385,Iodized Cooking Salt,Tata Salt,665.36
+4388,Potato Chips Salted,Lays,261.93
+7464,Toothpaste Gel,Colgate,76.22
+3589,Sunflower Oil 1L,Fortune,611.83
+9271,Basmati Rice Premium,India Gate,594.96
+3925,Refined Sugar,Madhur,104.49
+8978,Shampoo Anti-Dandruff,Head & Shoulders,766.49
+3258,Tea Powder Strong,Tata Tea,697.68
+8266,Digestive Biscuits,Britannia,345.92
+3314,Milk Chocolate Bar,Cadbury,764.22
+8289,Iodized Cooking Salt,Tata Salt,328.83
+1031,Wheat Flour Select,Aashirvaad,701.83
+5563,Bath Soap Herbal,Pears,567.13
+1291,Tea Powder Strong,Tata Tea,302.95
+8598,Laundry Detergent,Surf Excel,238.05
+9791,Instant Coffee,Bru,572.77
+1170,Refined Sugar,Madhur,312.15
+8300,Dishwash Liquid,Vim,413.14
+3930,Shampoo Anti-Dandruff,Head & Shoulders,561.31
+3939,Refined Sugar,Madhur,242.93
+1111,Milk Chocolate Bar,Cadbury,585.95
+1354,Wheat Flour Select,Aashirvaad,329.52
+9382,Tea Powder Strong,Tata Tea,488.99
+3309,Laundry Detergent,Surf Excel,601.61
+8215,Bath Soap Herbal,Pears,643.13
+6020,Laundry Detergent,Surf Excel,729.29
+5424,Basmati Rice Premium,India Gate,889.08
+6655,Refined Sugar,Madhur,798.57
+6743,Basmati Rice Premium,India Gate,899.33
+7225,Laundry Detergent,Surf Excel,724.43
+3843,Toothpaste Gel,Colgate,770.18
+7249,Laundry Detergent,Surf Excel,252.62
+2683,Bath Soap Herbal,Pears,207.22
+8887,Milk Chocolate Bar,Cadbury,249.34
+3558,Potato Chips Salted,Lays,772.61
+9926,Tea Powder Strong,Tata Tea,296.35
+5133,Dishwash Liquid,Vim,255.52
+8391,Refined Sugar,Madhur,94.69
+9762,Sunflower Oil 1L,Fortune,311.03
+8529,Potato Chips Salted,Lays,536.21
+2419,Instant Coffee,Bru,238.53
+1848,Iodized Cooking Salt,Tata Salt,702.46
+7930,Toothpaste Gel,Colgate,402.2
+9956,Sunflower Oil 1L,Fortune,764.51
+7426,Iodized Cooking Salt,Tata Salt,814.97
+8604,Dishwash Liquid,Vim,733.07
+5347,Tea Powder Strong,Tata Tea,363.14
+6420,Iodized Cooking Salt,Tata Salt,53.46
+3083,Refined Sugar,Madhur,833.19
+8626,Bath Soap Herbal,Pears,632.9
+4354,Bath Soap Herbal,Pears,188.59
+8499,Basmati Rice Premium,India Gate,629.89
+8103,Wheat Flour Select,Aashirvaad,835.49
+3949,Tea Powder Strong,Tata Tea,566.69
+8243,Laundry Detergent,Surf Excel,705.04
+2151,Shampoo Anti-Dandruff,Head & Shoulders,554.94
+4766,Tea Powder Strong,Tata Tea,753.32
+7503,Wheat Flour Select,Aashirvaad,263.5
+8731,Iodized Cooking Salt,Tata Salt,844.47
+1870,Digestive Biscuits,Britannia,580.77
+7245,Instant Coffee,Bru,244.42
+9568,Tea Powder Strong,Tata Tea,119.88
+3636,Milk Chocolate Bar,Cadbury,873.7
+5093,Bath Soap Herbal,Pears,385.09
+2863,Digestive Biscuits,Britannia,532.02
+6978,Instant Coffee,Bru,796.36
+5223,Milk Chocolate Bar,Cadbury,146.88
+7495,Tea Powder Strong,Tata Tea,413.68
+9450,Iodized Cooking Salt,Tata Salt,875.19
+3069,Shampoo Anti-Dandruff,Head & Shoulders,893.13
+6861,Digestive Biscuits,Britannia,524.52
+1829,Laundry Detergent,Surf Excel,205.61
+6404,Iodized Cooking Salt,Tata Salt,760.07
+6953,Potato Chips Salted,Lays,741.64
+7449,Potato Chips Salted,Lays,658.52
+4516,Toothpaste Gel,Colgate,225.13
+2906,Basmati Rice Premium,India Gate,243.99
+2262,Iodized Cooking Salt,Tata Salt,557.57
+7470,Basmati Rice Premium,India Gate,646.46
+4870,Potato Chips Salted,Lays,643.18
+4595,Instant Noodles Pack,Maggi,711.4
+8874,Refined Sugar,Madhur,305.18
+5930,Tea Powder Strong,Tata Tea,647.2
+8473,Toothpaste Gel,Colgate,398.47
+5982,Bath Soap Herbal,Pears,207.75
+2919,Tea Powder Strong,Tata Tea,643.12
+8779,Wheat Flour Select,Aashirvaad,560.28
+1858,Instant Noodles Pack,Maggi,691.38
+7896,Tea Powder Strong,Tata Tea,819.64
+8843,Potato Chips Salted,Lays,804.48
+6870,Digestive Biscuits,Britannia,730.67
+9358,Toothpaste Gel,Colgate,634.96
+2823,Shampoo Anti-Dandruff,Head & Shoulders,818.02
+2971,Refined Sugar,Madhur,327.37
+4596,Refined Sugar,Madhur,611.66
+6954,Iodized Cooking Salt,Tata Salt,684.76
+5494,Instant Coffee,Bru,249.55
+3778,Digestive Biscuits,Britannia,232.84
+3682,Tea Powder Strong,Tata Tea,224.94
+1488,Tea Powder Strong,Tata Tea,190.9
+5845,Instant Noodles Pack,Maggi,816.0
+2133,Instant Coffee,Bru,830.78
+4162,Toothpaste Gel,Colgate,306.0
+1238,Dishwash Liquid,Vim,391.7
+9961,Milk Chocolate Bar,Cadbury,85.63
+8410,Iodized Cooking Salt,Tata Salt,452.24
+5086,Instant Coffee,Bru,763.71
+4778,Digestive Biscuits,Britannia,163.93
+6015,Tea Powder Strong,Tata Tea,893.05
+2733,Laundry Detergent,Surf Excel,438.36
+3948,Instant Coffee,Bru,505.84
+2693,Refined Sugar,Madhur,768.47
+8395,Bath Soap Herbal,Pears,148.05
+5937,Wheat Flour Select,Aashirvaad,873.42
+7898,Shampoo Anti-Dandruff,Head & Shoulders,645.42
+2124,Shampoo Anti-Dandruff,Head & Shoulders,886.64
+9746,Refined Sugar,Madhur,486.21
+2388,Toothpaste Gel,Colgate,136.41
+9606,Bath Soap Herbal,Pears,891.69
+6142,Basmati Rice Premium,India Gate,611.8
+1839,Digestive Biscuits,Britannia,202.76
+2206,Sunflower Oil 1L,Fortune,869.86
+9847,Potato Chips Salted,Lays,597.26
+1550,Instant Noodles Pack,Maggi,400.77
+9491,Dishwash Liquid,Vim,863.2
+4979,Instant Noodles Pack,Maggi,782.84
+3095,Laundry Detergent,Surf Excel,380.82
+1204,Refined Sugar,Madhur,203.17
+9613,Iodized Cooking Salt,Tata Salt,791.33
+2985,Tea Powder Strong,Tata Tea,693.02
+7463,Toothpaste Gel,Colgate,249.71
+4746,Instant Noodles Pack,Maggi,53.42
+8311,Sunflower Oil 1L,Fortune,591.47
+2703,Shampoo Anti-Dandruff,Head & Shoulders,104.1
+5024,Digestive Biscuits,Britannia,309.3
+4683,Instant Noodles Pack,Maggi,812.91
+9165,Instant Noodles Pack,Maggi,535.25
+2793,Wheat Flour Select,Aashirvaad,471.39
+6378,Wheat Flour Select,Aashirvaad,359.6
+7254,Instant Noodles Pack,Maggi,810.99
+6658,Iodized Cooking Salt,Tata Salt,433.77
+1683,Laundry Detergent,Surf Excel,101.25
+6765,Instant Noodles Pack,Maggi,234.69
+2791,Basmati Rice Premium,India Gate,321.75
+7031,Shampoo Anti-Dandruff,Head & Shoulders,680.47
+6454,Sunflower Oil 1L,Fortune,320.71
+5782,Iodized Cooking Salt,Tata Salt,302.58
+6266,Iodized Cooking Salt,Tata Salt,614.4
+9186,Bath Soap Herbal,Pears,558.59
+1751,Laundry Detergent,Surf Excel,351.08
+4426,Milk Chocolate Bar,Cadbury,667.29
+9499,Refined Sugar,Madhur,530.39
+2868,Sunflower Oil 1L,Fortune,192.25
+9494,Wheat Flour Select,Aashirvaad,237.11
+1711,Laundry Detergent,Surf Excel,830.65
+8321,Wheat Flour Select,Aashirvaad,651.71
+9951,Digestive Biscuits,Britannia,72.8
+5701,Potato Chips Salted,Lays,490.93
+3546,Shampoo Anti-Dandruff,Head & Shoulders,75.42
+8911,Potato Chips Salted,Lays,191.78
+9076,Milk Chocolate Bar,Cadbury,816.77
+1906,Milk Chocolate Bar,Cadbury,294.83
+7301,Bath Soap Herbal,Pears,323.03
+4665,Toothpaste Gel,Colgate,442.47
+9261,Wheat Flour Select,Aashirvaad,674.68
+1134,Refined Sugar,Madhur,417.75
+9110,Instant Coffee,Bru,454.24
+1736,Refined Sugar,Madhur,421.53
+8033,Potato Chips Salted,Lays,68.76
+9329,Iodized Cooking Salt,Tata Salt,432.68
+2876,Instant Coffee,Bru,471.82
+7856,Digestive Biscuits,Britannia,458.51
+4958,Basmati Rice Premium,India Gate,380.25
+2437,Toothpaste Gel,Colgate,457.9
+6551,Digestive Biscuits,Britannia,324.42
+7680,Sunflower Oil 1L,Fortune,315.99
+1216,Instant Coffee,Bru,821.92
+4083,Bath Soap Herbal,Pears,57.87
+7650,Instant Noodles Pack,Maggi,580.73
+7561,Digestive Biscuits,Britannia,51.02
+1386,Instant Coffee,Bru,729.45
+6253,Sunflower Oil 1L,Fortune,300.03
+1922,Instant Coffee,Bru,661.18
+7825,Wheat Flour Select,Aashirvaad,531.79
+6261,Wheat Flour Select,Aashirvaad,768.04
+7391,Digestive Biscuits,Britannia,498.64
+3368,Shampoo Anti-Dandruff,Head & Shoulders,261.46
+6643,Dishwash Liquid,Vim,515.61
+4938,Laundry Detergent,Surf Excel,818.66
+6932,Toothpaste Gel,Colgate,336.28
+7204,Refined Sugar,Madhur,94.4
+3966,Potato Chips Salted,Lays,158.51
+7471,Milk Chocolate Bar,Cadbury,149.62
+3215,Sunflower Oil 1L,Fortune,337.14
+3405,Laundry Detergent,Surf Excel,889.18
+3915,Digestive Biscuits,Britannia,396.29
+1682,Sunflower Oil 1L,Fortune,455.49
+7227,Shampoo Anti-Dandruff,Head & Shoulders,135.78
+5921,Basmati Rice Premium,India Gate,864.56
+6615,Bath Soap Herbal,Pears,648.71
+4069,Bath Soap Herbal,Pears,80.64
+3528,Wheat Flour Select,Aashirvaad,778.45
+9837,Tea Powder Strong,Tata Tea,197.88
+9691,Refined Sugar,Madhur,786.95
+3038,Potato Chips Salted,Lays,840.54
+8445,Basmati Rice Premium,India Gate,291.55
+5473,Digestive Biscuits,Britannia,298.12
+2937,Milk Chocolate Bar,Cadbury,814.07
+7169,Shampoo Anti-Dandruff,Head & Shoulders,754.0
+5334,Basmati Rice Premium,India Gate,170.32
+8276,Tea Powder Strong,Tata Tea,70.14
+3840,Instant Noodles Pack,Maggi,832.29
+8859,Instant Noodles Pack,Maggi,174.37
+6137,Basmati Rice Premium,India Gate,65.09
+1663,Dishwash Liquid,Vim,588.15
+1619,Potato Chips Salted,Lays,442.22
+6774,Iodized Cooking Salt,Tata Salt,117.1
+7167,Dishwash Liquid,Vim,334.55
+6613,Milk Chocolate Bar,Cadbury,643.08
+6881,Instant Noodles Pack,Maggi,194.56
+6095,Dishwash Liquid,Vim,688.81
+7516,Toothpaste Gel,Colgate,410.07
+6952,Toothpaste Gel,Colgate,235.05
+7560,Bath Soap Herbal,Pears,164.99
+9614,Digestive Biscuits,Britannia,733.28
+4345,Basmati Rice Premium,India Gate,368.86
+4504,Bath Soap Herbal,Pears,736.61
+5208,Bath Soap Herbal,Pears,423.74
+2780,Milk Chocolate Bar,Cadbury,442.01
+4509,Tea Powder Strong,Tata Tea,188.21
+1158,Instant Noodles Pack,Maggi,749.34
+1564,Dishwash Liquid,Vim,533.88
+9890,Potato Chips Salted,Lays,659.5
+9582,Instant Noodles Pack,Maggi,649.43
+8027,Refined Sugar,Madhur,149.88
+4699,Shampoo Anti-Dandruff,Head & Shoulders,580.45
+3266,Digestive Biscuits,Britannia,129.24
+8919,Basmati Rice Premium,India Gate,111.09
+4111,Dishwash Liquid,Vim,414.8
+2399,Refined Sugar,Madhur,176.42
+9054,Milk Chocolate Bar,Cadbury,842.07
+3481,Basmati Rice Premium,India Gate,830.2
+3058,Bath Soap Herbal,Pears,493.33
+6365,Milk Chocolate Bar,Cadbury,698.13
+7275,Digestive Biscuits,Britannia,129.31
+1414,Shampoo Anti-Dandruff,Head & Shoulders,292.5
+8497,Toothpaste Gel,Colgate,617.86
+5663,Tea Powder Strong,Tata Tea,401.49
+3402,Instant Coffee,Bru,416.55
+2579,Wheat Flour Select,Aashirvaad,220.87
+9452,Toothpaste Gel,Colgate,512.24
+5675,Instant Coffee,Bru,631.34
+8171,Basmati Rice Premium,India Gate,821.32
+7484,Iodized Cooking Salt,Tata Salt,819.65
+1094,Instant Noodles Pack,Maggi,358.47
+5081,Laundry Detergent,Surf Excel,753.47
+6341,Iodized Cooking Salt,Tata Salt,695.06
+8438,Iodized Cooking Salt,Tata Salt,866.06
+9527,Toothpaste Gel,Colgate,394.18
+1163,Potato Chips Salted,Lays,357.55
+6505,Tea Powder Strong,Tata Tea,163.69
+7555,Dishwash Liquid,Vim,522.44
+2854,Potato Chips Salted,Lays,869.97
+7693,Laundry Detergent,Surf Excel,845.77
+2443,Milk Chocolate Bar,Cadbury,172.5
+4765,Instant Coffee,Bru,368.14
+1186,Digestive Biscuits,Britannia,802.38
+7285,Potato Chips Salted,Lays,175.06
+1427,Instant Noodles Pack,Maggi,313.23
+5120,Iodized Cooking Salt,Tata Salt,846.79
+2826,Bath Soap Herbal,Pears,395.77
+7990,Wheat Flour Select,Aashirvaad,289.63
+4758,Refined Sugar,Madhur,245.32
+2680,Refined Sugar,Madhur,518.48
+4807,Instant Noodles Pack,Maggi,254.22
+1982,Sunflower Oil 1L,Fortune,683.3
+5097,Refined Sugar,Madhur,815.55
+9458,Instant Coffee,Bru,54.93
+6647,Toothpaste Gel,Colgate,570.05
+9442,Shampoo Anti-Dandruff,Head & Shoulders,673.28
+5372,Milk Chocolate Bar,Cadbury,173.39
+6356,Potato Chips Salted,Lays,694.83
+4606,Digestive Biscuits,Britannia,776.67
+3271,Laundry Detergent,Surf Excel,406.07
+1940,Milk Chocolate Bar,Cadbury,227.89
+8653,Tea Powder Strong,Tata Tea,840.52
+9664,Iodized Cooking Salt,Tata Salt,325.55
+1513,Basmati Rice Premium,India Gate,643.04
+6461,Instant Noodles Pack,Maggi,494.37
+8118,Sunflower Oil 1L,Fortune,499.21
+4961,Laundry Detergent,Surf Excel,629.02
+3356,Refined Sugar,Madhur,510.62
+5171,Instant Noodles Pack,Maggi,472.09
+8468,Bath Soap Herbal,Pears,284.63
+3794,Potato Chips Salted,Lays,732.73
+6935,Dishwash Liquid,Vim,837.53
+2219,Tea Powder Strong,Tata Tea,112.51
+7623,Instant Coffee,Bru,697.44
+6193,Sunflower Oil 1L,Fortune,839.98
+8408,Iodized Cooking Salt,Tata Salt,446.84
+4722,Laundry Detergent,Surf Excel,60.32
+1149,Tea Powder Strong,Tata Tea,572.59
+9873,Dishwash Liquid,Vim,622.46
+9953,Refined Sugar,Madhur,670.06
+9374,Wheat Flour Select,Aashirvaad,664.67
+8370,Instant Coffee,Bru,670.8
+9364,Instant Noodles Pack,Maggi,463.14
+9546,Shampoo Anti-Dandruff,Head & Shoulders,349.41
+7744,Wheat Flour Select,Aashirvaad,171.07
+9924,Tea Powder Strong,Tata Tea,642.86
+9037,Dishwash Liquid,Vim,606.06
+6217,Milk Chocolate Bar,Cadbury,500.55
+6419,Laundry Detergent,Surf Excel,359.78
+1717,Instant Coffee,Bru,686.65
+5936,Iodized Cooking Salt,Tata Salt,390.17
+9446,Toothpaste Gel,Colgate,162.19
+5356,Laundry Detergent,Surf Excel,604.94
+8296,Wheat Flour Select,Aashirvaad,686.92
+7019,Wheat Flour Select,Aashirvaad,123.67
+9607,Instant Noodles Pack,Maggi,588.2
+4076,Bath Soap Herbal,Pears,693.81
+9397,Basmati Rice Premium,India Gate,829.05
+5852,Milk Chocolate Bar,Cadbury,404.63
+5570,Toothpaste Gel,Colgate,753.44
+1152,,Lays,872.66
+1553,Dishwash Liquid,Vim,128.62
+5582,Milk Chocolate Bar,Cadbury,713.73
+8191,Bath Soap Herbal,Pears,731.18
+8639,Shampoo Anti-Dandruff,Head & Shoulders,153.59
+2521,Laundry Detergent,Surf Excel,375.09
+4796,Basmati Rice Premium,India Gate,110.73
+8975,Bath Soap Herbal,Pears,713.9
+8170,Basmati Rice Premium,India Gate,274.01
+4120,Bath Soap Herbal,Pears,103.11
+9060,Iodized Cooking Salt,Tata Salt,586.41
+1246,Basmati Rice Premium,India Gate,804.79
+9672,Potato Chips Salted,Lays,561.43
+7251,Sunflower Oil 1L,Fortune,829.56
+1468,Wheat Flour Select,Aashirvaad,621.29
+3574,Bath Soap Herbal,Pears,317.76
+5247,Milk Chocolate Bar,Cadbury,237.76
+6395,Instant Coffee,Bru,714.02
+2621,Tea Powder Strong,Tata Tea,363.84
+3995,Dishwash Liquid,Vim,245.46
+2970,Shampoo Anti-Dandruff,Head & Shoulders,213.53
+5415,Refined Sugar,Madhur,459.14
+3118,Toothpaste Gel,Colgate,664.24
+3214,Toothpaste Gel,Colgate,242.4
+5726,Milk Chocolate Bar,Cadbury,430.35
+1796,Potato Chips Salted,Lays,514.89
+5627,Basmati Rice Premium,India Gate,218.41
+9429,Laundry Detergent,Surf Excel,125.03
+6233,Shampoo Anti-Dandruff,Head & Shoulders,280.54
+4229,Sunflower Oil 1L,Fortune,744.46
+9001,Bath Soap Herbal,Pears,778.58
+6518,Basmati Rice Premium,India Gate,543.24
+5760,Basmati Rice Premium,India Gate,278.02
+2558,Sunflower Oil 1L,Fortune,832.54
+3960,Instant Noodles Pack,Maggi,197.19
+3227,Shampoo Anti-Dandruff,Head & Shoulders,827.28
+1952,Basmati Rice Premium,India Gate,254.03
+1492,Instant Noodles Pack,Maggi,748.59
+8880,Iodized Cooking Salt,Tata Salt,352.93
+3990,Shampoo Anti-Dandruff,Head & Shoulders,656.85
+4583,Digestive Biscuits,Britannia,482.82
+9981,Dishwash Liquid,Vim,462.16
+7065,Sunflower Oil 1L,Fortune,166.02
+3381,Wheat Flour Select,Aashirvaad,50.09
+7847,Dishwash Liquid,Vim,645.91
+7483,Instant Noodles Pack,Maggi,623.19
+6991,Tea Powder Strong,Tata Tea,290.35
+5706,Potato Chips Salted,Lays,112.84
+2476,Wheat Flour Select,Aashirvaad,345.37
+7999,Digestive Biscuits,Britannia,674.26
+4544,Iodized Cooking Salt,Tata Salt,179.7
+6973,Basmati Rice Premium,India Gate,309.53
+3796,Dishwash Liquid,Vim,548.2
+8428,Milk Chocolate Bar,Cadbury,228.38
+2671,Tea Powder Strong,Tata Tea,553.36
+7964,Iodized Cooking Salt,Tata Salt,334.31
+5462,Dishwash Liquid,Vim,379.87
+6402,Potato Chips Salted,Lays,329.47
+2506,Basmati Rice Premium,India Gate,191.68
+1832,Instant Coffee,Bru,151.12
+6830,Iodized Cooking Salt,Tata Salt,629.27
+2410,Laundry Detergent,Surf Excel,158.22
+2212,Tea Powder Strong,Tata Tea,67.55
+7633,Iodized Cooking Salt,Tata Salt,739.12
+7193,Dishwash Liquid,Vim,826.75
+9366,Toothpaste Gel,Colgate,146.25
+4346,Sunflower Oil 1L,Fortune,570.52
+3237,Shampoo Anti-Dandruff,Head & Shoulders,351.84
+8301,Potato Chips Salted,Lays,251.82
+2568,Digestive Biscuits,Britannia,687.92
+2651,Toothpaste Gel,Colgate,120.33
+3376,Digestive Biscuits,Britannia,482.48
+8708,Sunflower Oil 1L,Fortune,240.67
+4582,Instant Coffee,Bru,378.42
+3529,Instant Coffee,Bru,701.6
+1430,Wheat Flour Select,Aashirvaad,741.75
+7147,Bath Soap Herbal,Pears,852.34
+8614,Basmati Rice Premium,India Gate,819.52
+5125,Tea Powder Strong,Tata Tea,753.79
+7271,Sunflower Oil 1L,Fortune,578.6
+2887,Shampoo Anti-Dandruff,Head & Shoulders,781.98
+9416,Tea Powder Strong,Tata Tea,189.3
+1407,Instant Coffee,Bru,306.08
+7820,Dishwash Liquid,Vim,321.38
+3205,Sunflower Oil 1L,Fortune,51.68
+2192,Instant Noodles Pack,Maggi,866.54
+3391,Iodized Cooking Salt,Tata Salt,245.08
+2422,Shampoo Anti-Dandruff,Head & Shoulders,131.75
+7655,Wheat Flour Select,Aashirvaad,274.32
+4273,Dishwash Liquid,Vim,338.53
+3042,,Aashirvaad,183.47
+6728,Laundry Detergent,Surf Excel,70.02
+3818,Sunflower Oil 1L,Fortune,199.18
+2316,Dishwash Liquid,Vim,165.37
+1594,Toothpaste Gel,Colgate,726.11
+5280,Shampoo Anti-Dandruff,Head & Shoulders,221.32
+1667,Refined Sugar,Madhur,616.81
+5644,Sunflower Oil 1L,Fortune,331.15
+5703,Tea Powder Strong,Tata Tea,303.65
+9157,Potato Chips Salted,Lays,102.69
+5480,Tea Powder Strong,Tata Tea,830.83
+5192,Tea Powder Strong,Tata Tea,765.44
+4981,Milk Chocolate Bar,Cadbury,99.96
+3798,Iodized Cooking Salt,Tata Salt,379.6
+5738,Tea Powder Strong,Tata Tea,481.36
+4578,Iodized Cooking Salt,Tata Salt,334.91
+5784,Refined Sugar,Madhur,126.53
+2752,Iodized Cooking Salt,Tata Salt,101.64
+1352,Digestive Biscuits,Britannia,831.36
+9062,Shampoo Anti-Dandruff,Head & Shoulders,306.19
+5090,Dishwash Liquid,Vim,293.75
+7809,Milk Chocolate Bar,Cadbury,155.73
+7134,Dishwash Liquid,Vim,886.86
+2069,Sunflower Oil 1L,Fortune,262.66
+1861,Shampoo Anti-Dandruff,Head & Shoulders,364.41
+1085,Shampoo Anti-Dandruff,Head & Shoulders,328.75
+7020,Bath Soap Herbal,Pears,474.3
+6265,Iodized Cooking Salt,Tata Salt,837.46
+8689,Digestive Biscuits,Britannia,370.47
+7106,Instant Coffee,Bru,129.36
+4977,Potato Chips Salted,Lays,442.61
+5075,Laundry Detergent,Surf Excel,462.36
+9254,Toothpaste Gel,Colgate,438.03
+2777,,Madhur,217.96
+5030,Toothpaste Gel,Colgate,60.19
+3209,Laundry Detergent,Surf Excel,655.67
+6093,Digestive Biscuits,Britannia,149.82
+8933,Instant Noodles Pack,Maggi,284.46
+4078,Toothpaste Gel,Colgate,896.36
+8098,Sunflower Oil 1L,Fortune,597.98
+8706,Potato Chips Salted,Lays,203.59
+9739,Toothpaste Gel,Colgate,113.92
+6522,Toothpaste Gel,Colgate,444.8
+3275,Iodized Cooking Salt,Tata Salt,592.16
+8236,Toothpaste Gel,Colgate,380.01
+1196,Dishwash Liquid,Vim,620.54
+8313,Potato Chips Salted,Lays,394.12
+4231,Iodized Cooking Salt,Tata Salt,443.16
+1368,Dishwash Liquid,Vim,176.02
+4228,Basmati Rice Premium,India Gate,136.56
+2491,Instant Coffee,Bru,438.7
+1719,Bath Soap Herbal,Pears,640.67
+3762,Shampoo Anti-Dandruff,Head & Shoulders,758.98
+5734,Shampoo Anti-Dandruff,Head & Shoulders,304.84
+9987,Laundry Detergent,Surf Excel,679.83
+3202,Dishwash Liquid,Vim,363.42
+4207,Potato Chips Salted,Lays,376.49
+3503,Shampoo Anti-Dandruff,Head & Shoulders,385.14
+6782,Bath Soap Herbal,Pears,68.42
+7175,Tea Powder Strong,Tata Tea,498.3
+6134,Basmati Rice Premium,India Gate,317.97
+2882,Sunflower Oil 1L,Fortune,303.31
+2987,Dishwash Liquid,Vim,424.02
+9287,Iodized Cooking Salt,Tata Salt,121.0
+1814,Sunflower Oil 1L,Fortune,214.91
+3660,Iodized Cooking Salt,Tata Salt,75.34
+8347,Instant Coffee,Bru,92.17
+8421,Refined Sugar,Madhur,159.86
+5018,Laundry Detergent,Surf Excel,550.7
+1974,Laundry Detergent,Surf Excel,875.7
+1648,Digestive Biscuits,Britannia,216.13
+9933,Tea Powder Strong,Tata Tea,394.23
+2576,Instant Coffee,Bru,81.09
+2787,Milk Chocolate Bar,Cadbury,413.81
+1137,Toothpaste Gel,Colgate,171.83
+2831,Wheat Flour Select,Aashirvaad,897.72
+9760,Iodized Cooking Salt,Tata Salt,124.88
+6894,Wheat Flour Select,Aashirvaad,875.73
+5266,Wheat Flour Select,Aashirvaad,454.52
+5607,Bath Soap Herbal,Pears,54.96
+5470,Refined Sugar,Madhur,453.47
+2895,Dishwash Liquid,Vim,479.19
+9395,Wheat Flour Select,Aashirvaad,691.85
+1656,Dishwash Liquid,Vim,842.91
+4743,Shampoo Anti-Dandruff,Head & Shoulders,695.14
+1071,Dishwash Liquid,Vim,546.85
+6653,Digestive Biscuits,Britannia,314.53
+5179,Milk Chocolate Bar,Cadbury,563.92
+3059,Instant Coffee,Bru,405.59
+2277,Milk Chocolate Bar,Cadbury,299.62
+5698,Bath Soap Herbal,Pears,577.01
+2127,Toothpaste Gel,Colgate,613.12
+1602,Shampoo Anti-Dandruff,Head & Shoulders,364.79
+7458,Shampoo Anti-Dandruff,Head & Shoulders,489.15
+2524,Shampoo Anti-Dandruff,Head & Shoulders,560.3
+2166,Milk Chocolate Bar,Cadbury,424.54
+5292,Milk Chocolate Bar,Cadbury,200.55
+9856,Digestive Biscuits,Britannia,652.51
+7333,Instant Coffee,Bru,781.36
+1962,Shampoo Anti-Dandruff,Head & Shoulders,707.51
+5951,Sunflower Oil 1L,Fortune,129.69
+3468,Wheat Flour Select,Aashirvaad,469.26
+7212,Digestive Biscuits,Britannia,233.37
+5874,Bath Soap Herbal,Pears,228.24
+4495,Dishwash Liquid,Vim,311.04
+3878,Wheat Flour Select,Aashirvaad,478.47
+7131,Toothpaste Gel,Colgate,662.52
+4976,Toothpaste Gel,Colgate,393.68
+1325,Iodized Cooking Salt,Tata Salt,698.85
+9793,Bath Soap Herbal,Pears,498.27
+1810,Laundry Detergent,Surf Excel,385.39
+9595,Wheat Flour Select,Aashirvaad,649.1
+7780,Tea Powder Strong,Tata Tea,551.23
+6986,Laundry Detergent,Surf Excel,707.51
+6546,Basmati Rice Premium,India Gate,685.92
+7845,Tea Powder Strong,Tata Tea,371.07
+5689,Basmati Rice Premium,India Gate,51.27
+4017,Iodized Cooking Salt,Tata Salt,892.71
+9089,Bath Soap Herbal,Pears,119.98
+8133,Laundry Detergent,Surf Excel,692.85
+2438,Toothpaste Gel,Colgate,507.39
+4384,Dishwash Liquid,Vim,86.41
+9345,Laundry Detergent,Surf Excel,895.53
+1805,Basmati Rice Premium,India Gate,873.03
+5217,Potato Chips Salted,Lays,201.67
+9373,Instant Coffee,Bru,786.04
+9072,Instant Coffee,Bru,665.52
+4679,Bath Soap Herbal,Pears,459.86
+5068,Wheat Flour Select,Aashirvaad,619.81
+9529,Digestive Biscuits,Britannia,134.47
+7246,Potato Chips Salted,Lays,775.42
+6301,Bath Soap Herbal,Pears,868.57
+7770,Sunflower Oil 1L,Fortune,804.05
+8018,Sunflower Oil 1L,Fortune,867.76
+4298,Potato Chips Salted,Lays,659.87
+1727,Milk Chocolate Bar,Cadbury,61.06
+5958,Tea Powder Strong,Tata Tea,101.04
+3937,Milk Chocolate Bar,Cadbury,820.59
+3013,Digestive Biscuits,Britannia,432.0
+6667,Iodized Cooking Salt,Tata Salt,661.56
+7007,Sunflower Oil 1L,Fortune,607.96
+3010,Milk Chocolate Bar,Cadbury,371.58
+3249,Potato Chips Salted,Lays,862.33
+9855,Instant Coffee,Bru,785.2
+9456,Laundry Detergent,Surf Excel,556.14
+2466,Tea Powder Strong,Tata Tea,528.24
+2236,Iodized Cooking Salt,Tata Salt,878.49
+1609,Potato Chips Salted,Lays,624.1
+3033,Refined Sugar,Madhur,701.77
+4194,Potato Chips Salted,Lays,185.17
+2218,Digestive Biscuits,Britannia,898.79
+3189,Wheat Flour Select,Aashirvaad,569.69
+6328,Wheat Flour Select,Aashirvaad,117.3
+3864,Refined Sugar,Madhur,65.18
+9154,Basmati Rice Premium,India Gate,392.03
+3223,Tea Powder Strong,Tata Tea,352.03
+4118,Instant Coffee,Bru,344.22
+4718,Tea Powder Strong,Tata Tea,609.53
+7701,Instant Coffee,Bru,127.71
+6418,Milk Chocolate Bar,Cadbury,794.69
+2126,Iodized Cooking Salt,Tata Salt,812.58
+4777,Sunflower Oil 1L,Fortune,356.26
+4572,Iodized Cooking Salt,Tata Salt,495.67
+3714,Potato Chips Salted,Lays,694.33
+3050,Iodized Cooking Salt,Tata Salt,698.8
+3871,Milk Chocolate Bar,Cadbury,306.3
+2047,Milk Chocolate Bar,Cadbury,274.16
+6593,Refined Sugar,Madhur,246.88
+3730,Milk Chocolate Bar,Cadbury,364.87
+9781,Potato Chips Salted,Lays,248.4
+6876,Toothpaste Gel,Colgate,182.76
+4173,Laundry Detergent,Surf Excel,809.93
+4854,Instant Coffee,Bru,719.37
+7610,Dishwash Liquid,Vim,232.06
+7346,Laundry Detergent,Surf Excel,637.61
+1723,Toothpaste Gel,Colgate,438.35
+2575,Sunflower Oil 1L,Fortune,807.6
+3490,Bath Soap Herbal,Pears,715.14
+3198,Instant Coffee,Bru,665.06
+8211,Instant Noodles Pack,Maggi,89.56
+6376,Iodized Cooking Salt,Tata Salt,102.17
+4964,Digestive Biscuits,Britannia,686.63
+5203,Digestive Biscuits,Britannia,807.45
+7472,Laundry Detergent,Surf Excel,70.46
+2833,Bath Soap Herbal,Pears,696.23
+5692,Refined Sugar,Madhur,54.77
+5521,Dishwash Liquid,Vim,586.42
+1754,Refined Sugar,Madhur,454.52
+3531,Tea Powder Strong,Tata Tea,186.72
+2265,Shampoo Anti-Dandruff,Head & Shoulders,148.77
+9467,Laundry Detergent,Surf Excel,613.36
+3041,Toothpaste Gel,Colgate,352.79
+9369,Basmati Rice Premium,India Gate,520.43
+9862,Sunflower Oil 1L,Fortune,203.7
+1811,Potato Chips Salted,Lays,775.04
+4555,Sunflower Oil 1L,Fortune,221.72
+7696,Milk Chocolate Bar,Cadbury,819.73
+8437,Laundry Detergent,Surf Excel,613.99
+1173,Basmati Rice Premium,India Gate,610.61
+9283,Refined Sugar,Madhur,528.82
+8039,Wheat Flour Select,Aashirvaad,817.84
+1598,Wheat Flour Select,Aashirvaad,853.14
+6664,Instant Noodles Pack,Maggi,653.87
+3725,Toothpaste Gel,Colgate,620.34
+5184,Instant Coffee,Bru,171.56
+6766,Instant Noodles Pack,Maggi,93.65
+9535,Wheat Flour Select,Aashirvaad,402.04
+3678,Dishwash Liquid,Vim,690.0
+2341,Instant Coffee,Bru,203.28
+9226,Digestive Biscuits,Britannia,214.74
+5430,Refined Sugar,Madhur,602.01
+5174,Toothpaste Gel,Colgate,282.24
+6652,Refined Sugar,Madhur,842.7
+5588,Toothpaste Gel,Colgate,415.6
+7792,Basmati Rice Premium,India Gate,855.59
+5250,Milk Chocolate Bar,Cadbury,211.75
+3113,Iodized Cooking Salt,Tata Salt,851.29
+1199,Wheat Flour Select,Aashirvaad,422.46
+7641,Dishwash Liquid,Vim,658.3
+7415,Tea Powder Strong,Tata Tea,272.99
+7303,Instant Noodles Pack,Maggi,849.04
+7178,Wheat Flour Select,Aashirvaad,478.44
+7079,Potato Chips Salted,Lays,833.23
+8575,Wheat Flour Select,Aashirvaad,786.92
+4009,Iodized Cooking Salt,Tata Salt,633.63
+9596,Wheat Flour Select,Aashirvaad,125.46
+5583,Bath Soap Herbal,Pears,665.7
+1527,Laundry Detergent,Surf Excel,753.67
+7838,Digestive Biscuits,Britannia,867.03
+3446,Toothpaste Gel,Colgate,664.94
+1627,Toothpaste Gel,Colgate,360.74
+7707,Sunflower Oil 1L,Fortune,215.78
+9799,Potato Chips Salted,Lays,95.09
+7428,Shampoo Anti-Dandruff,Head & Shoulders,441.38
+3193,Dishwash Liquid,Vim,529.4
+1297,Tea Powder Strong,Tata Tea,700.93
+6826,Wheat Flour Select,Aashirvaad,146.95
+6157,Sunflower Oil 1L,Fortune,216.89
+6189,Bath Soap Herbal,Pears,492.57
+9973,Shampoo Anti-Dandruff,Head & Shoulders,81.97
+3049,Shampoo Anti-Dandruff,Head & Shoulders,128.6
+7985,Digestive Biscuits,Britannia,585.4
+1082,Toothpaste Gel,Colgate,570.44
+5450,Instant Coffee,Bru,681.15
+7743,Digestive Biscuits,Britannia,262.24
+7097,Instant Coffee,Bru,663.74
+6515,Basmati Rice Premium,India Gate,693.6
+1930,Laundry Detergent,Surf Excel,61.33
+3288,Laundry Detergent,Surf Excel,512.97
+3671,Shampoo Anti-Dandruff,Head & Shoulders,507.46
+7935,Wheat Flour Select,Aashirvaad,618.62
+6308,Milk Chocolate Bar,Cadbury,427.04
+7276,Shampoo Anti-Dandruff,Head & Shoulders,849.93
+5196,Tea Powder Strong,Tata Tea,768.84
+9097,Toothpaste Gel,Colgate,113.44
+6477,Potato Chips Salted,Lays,664.01
+6484,Potato Chips Salted,Lays,756.19
+4180,Basmati Rice Premium,India Gate,881.53
+4476,Instant Coffee,Bru,692.05
+6471,Basmati Rice Premium,India Gate,763.1
+3868,Bath Soap Herbal,Pears,160.75
+4912,Toothpaste Gel,Colgate,657.84
+4305,Dishwash Liquid,Vim,293.73
+2613,Digestive Biscuits,Britannia,804.79
+7360,Sunflower Oil 1L,Fortune,898.31
+7317,Bath Soap Herbal,Pears,298.81
+5241,Instant Coffee,Bru,487.33
+3691,Bath Soap Herbal,Pears,280.27
+4584,Refined Sugar,Madhur,869.6
+3345,Potato Chips Salted,Lays,169.28
+1055,Bath Soap Herbal,Pears,299.43
+4545,Toothpaste Gel,Colgate,513.89
+8561,Milk Chocolate Bar,Cadbury,597.3
+8737,Toothpaste Gel,Colgate,84.96
+2667,Sunflower Oil 1L,Fortune,853.11
+9410,Digestive Biscuits,Britannia,814.34
+7647,Basmati Rice Premium,India Gate,51.3
+8938,Sunflower Oil 1L,Fortune,618.68
+1843,Dishwash Liquid,Vim,160.35
+4511,Laundry Detergent,Surf Excel,482.99
+7708,Shampoo Anti-Dandruff,Head & Shoulders,129.74
+4837,Instant Coffee,Bru,556.88
+2119,Digestive Biscuits,Britannia,857.16
+7034,Digestive Biscuits,Britannia,457.02
+8914,Digestive Biscuits,Britannia,66.4
+7397,Digestive Biscuits,Britannia,85.93
+8958,Iodized Cooking Salt,Tata Salt,511.61
+4055,Potato Chips Salted,Lays,268.68
+2029,Wheat Flour Select,Aashirvaad,332.62
+1864,Instant Coffee,Bru,137.17
+1489,Potato Chips Salted,Lays,632.9
+8127,Basmati Rice Premium,India Gate,265.24
+6314,Potato Chips Salted,Lays,314.18
+6355,Instant Coffee,Bru,470.0
+4288,Tea Powder Strong,Tata Tea,769.41
+8113,Laundry Detergent,Surf Excel,605.49
+6105,Instant Coffee,Bru,80.94
+4836,Sunflower Oil 1L,Fortune,488.11
+5834,Shampoo Anti-Dandruff,Head & Shoulders,506.92
+2026,Digestive Biscuits,Britannia,671.88
+6928,Refined Sugar,Madhur,81.8
+9863,Bath Soap Herbal,Pears,360.55
+6286,Refined Sugar,Madhur,782.58
+4160,Laundry Detergent,Surf Excel,619.23
+6841,Wheat Flour Select,Aashirvaad,356.63
+7425,Instant Noodles Pack,Maggi,232.16
+9580,Bath Soap Herbal,Pears,258.25
+6024,Instant Noodles Pack,Maggi,798.13
+3024,Instant Coffee,Bru,480.8
+3669,Sunflower Oil 1L,Fortune,118.05
+4261,Wheat Flour Select,Aashirvaad,346.16
+7638,Sunflower Oil 1L,Fortune,589.86
+2542,Laundry Detergent,Surf Excel,464.7
+8669,Milk Chocolate Bar,Cadbury,634.63
+9609,Bath Soap Herbal,Pears,684.92
+6539,Basmati Rice Premium,India Gate,423.99
+2184,Shampoo Anti-Dandruff,Head & Shoulders,589.83
+3048,Instant Coffee,Bru,732.72
+6186,Shampoo Anti-Dandruff,Head & Shoulders,426.62
+8714,Laundry Detergent,Surf Excel,370.7
+9354,Shampoo Anti-Dandruff,Head & Shoulders,579.7
+4680,Potato Chips Salted,Lays,309.3
+1592,Potato Chips Salted,Lays,89.47
+8082,Refined Sugar,Madhur,309.34
+4322,Dishwash Liquid,Vim,159.27
+1730,Refined Sugar,Madhur,894.47
+4692,Tea Powder Strong,Tata Tea,332.31
+5219,Milk Chocolate Bar,Cadbury,545.89
+4142,Instant Noodles Pack,Maggi,763.16
+3959,Basmati Rice Premium,India Gate,498.83
+7710,Milk Chocolate Bar,Cadbury,570.5
+6083,Digestive Biscuits,Britannia,732.72
+9646,Sunflower Oil 1L,Fortune,612.89
+7817,Bath Soap Herbal,Pears,202.09
+9293,Basmati Rice Premium,India Gate,763.54
+5033,Iodized Cooking Salt,Tata Salt,58.42
+6350,Sunflower Oil 1L,Fortune,418.53
+6993,Instant Noodles Pack,Maggi,138.4
+7714,Instant Noodles Pack,Maggi,277.19
+1808,Bath Soap Herbal,Pears,860.54
+2241,Digestive Biscuits,Britannia,151.86
+8086,Tea Powder Strong,Tata Tea,301.45
+4732,Iodized Cooking Salt,Tata Salt,810.67
+2392,Sunflower Oil 1L,Fortune,876.88
+3186,Sunflower Oil 1L,Fortune,632.56
+4414,Wheat Flour Select,Aashirvaad,341.15
+4672,Shampoo Anti-Dandruff,Head & Shoulders,765.77
+9305,Iodized Cooking Salt,Tata Salt,74.04
+2904,Refined Sugar,Madhur,318.12
+2308,Potato Chips Salted,Lays,460.86
+8864,Digestive Biscuits,Britannia,684.54
+5551,Instant Coffee,Bru,249.52
+7822,Sunflower Oil 1L,Fortune,562.12
+4284,Refined Sugar,Madhur,262.15
+5507,Potato Chips Salted,Lays,814.76
+1910,Shampoo Anti-Dandruff,Head & Shoulders,579.3
+2979,Wheat Flour Select,Aashirvaad,423.46
+4542,Dishwash Liquid,Vim,137.9
+4181,Bath Soap Herbal,Pears,350.51
+5871,Iodized Cooking Salt,Tata Salt,79.96
+7953,Refined Sugar,Madhur,714.69
+2358,Instant Coffee,Bru,133.53
+1915,Wheat Flour Select,Aashirvaad,766.93
+4644,Toothpaste Gel,Colgate,61.98
+1543,Milk Chocolate Bar,Cadbury,305.12
+1644,Digestive Biscuits,Britannia,689.21
+4832,Basmati Rice Premium,India Gate,781.82
+9214,Milk Chocolate Bar,Cadbury,437.8
+1143,Tea Powder Strong,Tata Tea,836.39
+5679,Sunflower Oil 1L,Fortune,507.35
+4296,Refined Sugar,Madhur,548.69
+7548,Bath Soap Herbal,Pears,620.07
+7909,Toothpaste Gel,Colgate,272.78
+2552,Instant Coffee,Bru,501.33
+5873,Laundry Detergent,Surf Excel,613.04
+5077,Refined Sugar,Madhur,533.63
+6878,Laundry Detergent,Surf Excel,104.27
+7191,Potato Chips Salted,Lays,307.4
+5614,Milk Chocolate Bar,Cadbury,139.47
+8650,Iodized Cooking Salt,Tata Salt,363.52
+4359,Wheat Flour Select,Aashirvaad,356.18
+9533,Milk Chocolate Bar,Cadbury,147.47
+4349,Tea Powder Strong,Tata Tea,668.17
+8390,Instant Coffee,Bru,666.4
+2724,Milk Chocolate Bar,Cadbury,371.6
+1052,Sunflower Oil 1L,Fortune,378.88
+1327,Instant Noodles Pack,Maggi,670.61
+8285,Wheat Flour Select,Aashirvaad,85.08
+6699,Instant Noodles Pack,Maggi,225.55
+8657,Milk Chocolate Bar,Cadbury,195.71
+5601,Tea Powder Strong,Tata Tea,174.61
+9750,Wheat Flour Select,Aashirvaad,372.58
+9200,Dishwash Liquid,Vim,719.59
+3571,Toothpaste Gel,Colgate,498.71
+6723,Wheat Flour Select,Aashirvaad,855.62
+1276,Refined Sugar,Madhur,602.68
+7582,Wheat Flour Select,Aashirvaad,157.75
+7963,,Bru,582.19
+2817,Instant Noodles Pack,Maggi,565.62
+6909,Basmati Rice Premium,India Gate,829.05
+7887,Dishwash Liquid,Vim,728.27
+7988,Bath Soap Herbal,Pears,438.95
+7052,Basmati Rice Premium,India Gate,145.14
+5109,Instant Coffee,Bru,276.17
+2158,Refined Sugar,Madhur,449.78
+1566,Bath Soap Herbal,Pears,60.85
+5897,Toothpaste Gel,Colgate,525.29
+6114,Potato Chips Salted,Lays,467.41
+7055,Iodized Cooking Salt,Tata Salt,682.01
+2867,Potato Chips Salted,Lays,498.83
+4230,Bath Soap Herbal,Pears,821.85
+1738,Instant Noodles Pack,Maggi,784.36
+1078,Bath Soap Herbal,Pears,843.55
+1266,Tea Powder Strong,Tata Tea,836.97
+9420,Instant Noodles Pack,Maggi,707.46
+3604,Basmati Rice Premium,India Gate,377.4
+1596,Bath Soap Herbal,Pears,602.99
+8976,Iodized Cooking Salt,Tata Salt,595.62
+9846,Toothpaste Gel,Colgate,287.72
+2974,Instant Coffee,Bru,270.39
+4091,Instant Noodles Pack,Maggi,873.8
+9486,Iodized Cooking Salt,Tata Salt,390.75
+4742,Refined Sugar,Madhur,434.22
+9032,Tea Powder Strong,Tata Tea,511.01
+4868,Milk Chocolate Bar,Cadbury,391.6
+1249,Milk Chocolate Bar,Cadbury,183.63
+8892,Wheat Flour Select,Aashirvaad,661.89
+1300,Shampoo Anti-Dandruff,Head & Shoulders,121.69
+6125,Potato Chips Salted,Lays,716.13
+5443,Basmati Rice Premium,India Gate,880.6
+9882,Digestive Biscuits,Britannia,323.26
+7234,Iodized Cooking Salt,Tata Salt,630.82
+9102,Shampoo Anti-Dandruff,Head & Shoulders,766.69
+1293,Iodized Cooking Salt,Tata Salt,175.67
+3239,Instant Noodles Pack,Maggi,296.92
+3853,Laundry Detergent,Surf Excel,691.31
+9222,Instant Coffee,Bru,371.44
+5877,Laundry Detergent,Surf Excel,114.42
+6623,Sunflower Oil 1L,Fortune,637.86
+5147,Bath Soap Herbal,Pears,362.54
+3857,Instant Noodles Pack,Maggi,487.65
+7373,Digestive Biscuits,Britannia,106.2
+8723,Milk Chocolate Bar,Cadbury,756.71
+2504,Basmati Rice Premium,India Gate,624.88
+7531,Instant Noodles Pack,Maggi,183.33
+7145,Milk Chocolate Bar,Cadbury,604.96
+1150,Iodized Cooking Salt,Tata Salt,265.22
+8585,Iodized Cooking Salt,Tata Salt,380.65
+2191,Sunflower Oil 1L,Fortune,722.36
+4409,Wheat Flour Select,Aashirvaad,234.38
+2890,Iodized Cooking Salt,Tata Salt,605.7
+1110,Potato Chips Salted,Lays,225.67
+7323,Iodized Cooking Salt,Tata Salt,323.96
+1976,Toothpaste Gel,Colgate,192.48
+8943,Wheat Flour Select,Aashirvaad,678.05
+5276,Iodized Cooking Salt,Tata Salt,54.1
+2706,Instant Noodles Pack,Maggi,164.46
+2629,Potato Chips Salted,Lays,547.9
+6042,Refined Sugar,Madhur,802.78
+8230,Shampoo Anti-Dandruff,Head & Shoulders,460.43
+4724,Instant Coffee,Bru,773.76
+5412,Digestive Biscuits,Britannia,859.6
+3451,Iodized Cooking Salt,Tata Salt,741.68
+1212,Iodized Cooking Salt,Tata Salt,723.02
+7017,Iodized Cooking Salt,Tata Salt,85.9
+8913,Iodized Cooking Salt,Tata Salt,626.05
+3170,Shampoo Anti-Dandruff,Head & Shoulders,831.29
+2045,Instant Noodles Pack,Maggi,732.43
+3600,Refined Sugar,Madhur,414.82
+1876,Shampoo Anti-Dandruff,Head & Shoulders,346.31
+7700,Wheat Flour Select,Aashirvaad,846.06
+1232,Iodized Cooking Salt,Tata Salt,861.36
+4569,Wheat Flour Select,Aashirvaad,817.77
+6905,Instant Noodles Pack,Maggi,190.58
+1831,Sunflower Oil 1L,Fortune,191.38
+9278,Digestive Biscuits,Britannia,782.61
+7836,Instant Noodles Pack,Maggi,328.17
+6348,Laundry Detergent,Surf Excel,192.67
+8761,Instant Coffee,Bru,335.79
+6659,Sunflower Oil 1L,Fortune,269.41
+9213,Instant Coffee,Bru,491.41
+4877,Sunflower Oil 1L,Fortune,156.91
+4382,Basmati Rice Premium,India Gate,731.94
+6999,Digestive Biscuits,Britannia,349.42
+2160,Iodized Cooking Salt,Tata Salt,218.45
+1483,Instant Noodles Pack,Maggi,423.56
+7720,Bath Soap Herbal,Pears,815.01
+1315,Sunflower Oil 1L,Fortune,824.45
+5862,Laundry Detergent,Surf Excel,707.53
+3100,Toothpaste Gel,Colgate,200.95
+9705,Milk Chocolate Bar,Cadbury,189.87
+3338,Instant Coffee,Bru,863.62
+5580,Sunflower Oil 1L,Fortune,150.43
+3700,Digestive Biscuits,Britannia,549.76
+8282,Bath Soap Herbal,Pears,537.58
+1123,Sunflower Oil 1L,Fortune,785.42
+5368,Basmati Rice Premium,India Gate,559.78
+2405,Wheat Flour Select,Aashirvaad,104.39
+2244,Instant Noodles Pack,Maggi,640.78
+6892,Wheat Flour Select,Aashirvaad,68.53
+1198,Sunflower Oil 1L,Fortune,529.4
+6622,Refined Sugar,Madhur,427.3
+2330,Digestive Biscuits,Britannia,756.58
+6757,Digestive Biscuits,Britannia,754.49
+4132,Instant Coffee,Bru,526.99
+7174,Refined Sugar,Madhur,684.62
+2344,Shampoo Anti-Dandruff,Head & Shoulders,249.29
+5840,Milk Chocolate Bar,Cadbury,209.13
+5928,Wheat Flour Select,Aashirvaad,649.93
+1428,Toothpaste Gel,Colgate,222.46
+3298,Shampoo Anti-Dandruff,Head & Shoulders,658.31
+7154,Refined Sugar,Madhur,254.12
+1576,Wheat Flour Select,Aashirvaad,461.12
+9741,Instant Coffee,Bru,688.15
+5552,Sunflower Oil 1L,Fortune,336.05
+6039,Milk Chocolate Bar,Cadbury,80.26
+5375,Instant Coffee,Bru,107.21
+9995,Dishwash Liquid,Vim,554.64
+8722,Toothpaste Gel,Colgate,385.58
+5194,Sunflower Oil 1L,Fortune,566.05
+5722,Wheat Flour Select,Aashirvaad,401.22
+5721,Tea Powder Strong,Tata Tea,709.96
+7907,Laundry Detergent,Surf Excel,847.45
+4993,Instant Coffee,Bru,839.35
+2550,Laundry Detergent,Surf Excel,674.87
+5983,Basmati Rice Premium,India Gate,485.31
+7600,Potato Chips Salted,Lays,508.69
+7329,Tea Powder Strong,Tata Tea,70.3
+4636,Bath Soap Herbal,Pears,382.05
+4995,Iodized Cooking Salt,Tata Salt,559.33
+1244,Milk Chocolate Bar,Cadbury,181.09
+6113,Dishwash Liquid,Vim,657.37
+4764,Bath Soap Herbal,Pears,415.75
+9327,Milk Chocolate Bar,Cadbury,886.15
+9396,Laundry Detergent,Surf Excel,561.72
+7392,Digestive Biscuits,Britannia,691.39
+9163,Bath Soap Herbal,Pears,593.55
+6281,Instant Noodles Pack,Maggi,677.25
+8894,Potato Chips Salted,Lays,447.44
+5693,Potato Chips Salted,Lays,427.75
+7718,Wheat Flour Select,Aashirvaad,443.41
+5085,Iodized Cooking Salt,Tata Salt,732.41
+7378,Dishwash Liquid,Vim,848.32
+1426,Iodized Cooking Salt,Tata Salt,762.62
+3763,Instant Noodles Pack,Maggi,687.04
+7692,Sunflower Oil 1L,Fortune,194.53
+4130,Tea Powder Strong,Tata Tea,89.12
+8570,Instant Coffee,Bru,691.43
+2457,Potato Chips Salted,Lays,188.25
+6490,Shampoo Anti-Dandruff,Head & Shoulders,134.21
+2607,Bath Soap Herbal,Pears,447.08
+2522,Dishwash Liquid,Vim,336.54
+1535,Wheat Flour Select,Aashirvaad,327.01
+4079,Potato Chips Salted,Lays,646.54
+1760,Iodized Cooking Salt,Tata Salt,87.87
+9099,Shampoo Anti-Dandruff,Head & Shoulders,872.73
+4263,Sunflower Oil 1L,Fortune,466.28
+5005,Bath Soap Herbal,Pears,520.31
+1025,Tea Powder Strong,Tata Tea,716.82
+9151,Basmati Rice Premium,India Gate,444.28
+3850,Shampoo Anti-Dandruff,Head & Shoulders,334.34
+3019,Basmati Rice Premium,India Gate,822.21
+7422,Instant Noodles Pack,Maggi,215.77
+6907,Tea Powder Strong,Tata Tea,258.7
+6977,Refined Sugar,Madhur,142.09
+1168,Digestive Biscuits,Britannia,61.44
+7506,Instant Noodles Pack,Maggi,213.17
+8654,Basmati Rice Premium,India Gate,851.02
+4309,Instant Coffee,Bru,738.86
+8625,Instant Coffee,Bru,832.49
+9700,Digestive Biscuits,Britannia,430.39
+5076,Sunflower Oil 1L,Fortune,350.73
+6117,Wheat Flour Select,Aashirvaad,151.79
+1873,Iodized Cooking Salt,Tata Salt,885.8
+6823,Milk Chocolate Bar,Cadbury,861.12
+9198,Dishwash Liquid,Vim,303.29
+7405,Refined Sugar,Madhur,748.65
+8356,Milk Chocolate Bar,Cadbury,865.82
+9058,Digestive Biscuits,Britannia,372.07
+6740,Milk Chocolate Bar,Cadbury,165.69
+1095,Milk Chocolate Bar,Cadbury,767.49
+9590,Bath Soap Herbal,Pears,399.53
+2261,Wheat Flour Select,Aashirvaad,381.49
+8980,Wheat Flour Select,Aashirvaad,526.21
+9920,Milk Chocolate Bar,Cadbury,752.36
+2656,Basmati Rice Premium,India Gate,516.46
+6469,Refined Sugar,Madhur,125.75
+9958,Milk Chocolate Bar,Cadbury,326.91
+6130,Refined Sugar,Madhur,358.52
+6241,Laundry Detergent,Surf Excel,163.72
+1381,Instant Noodles Pack,Maggi,609.71
+1294,Digestive Biscuits,Britannia,146.85
+1054,Instant Coffee,Bru,855.08
+6963,Milk Chocolate Bar,Cadbury,368.57
+9834,Bath Soap Herbal,Pears,558.87
+1079,Sunflower Oil 1L,Fortune,822.23
+9831,Basmati Rice Premium,India Gate,100.8
+4906,Wheat Flour Select,Aashirvaad,785.38
+1898,Shampoo Anti-Dandruff,Head & Shoulders,764.1
+2512,Wheat Flour Select,Aashirvaad,108.76
+2820,Instant Noodles Pack,Maggi,815.95
+8293,Digestive Biscuits,Britannia,269.94
+3815,Digestive Biscuits,Britannia,409.42
+4250,Dishwash Liquid,Vim,98.3
+6199,Wheat Flour Select,Aashirvaad,166.83
+6794,Toothpaste Gel,Colgate,315.56
+2286,Toothpaste Gel,Colgate,656.18
+7879,Dishwash Liquid,Vim,451.05
+5948,,India Gate,81.45
+6904,Potato Chips Salted,Lays,740.57
+7831,Toothpaste Gel,Colgate,270.95
+6574,Basmati Rice Premium,India Gate,662.96
+1156,Instant Coffee,Bru,110.9
+3952,Potato Chips Salted,Lays,185.42
+2189,Toothpaste Gel,Colgate,644.33
+8694,Dishwash Liquid,Vim,602.38
+5600,Dishwash Liquid,Vim,391.13
+6889,Laundry Detergent,Surf Excel,861.44
+6864,Toothpaste Gel,Colgate,64.92
+9483,Milk Chocolate Bar,Cadbury,141.83
+2433,Dishwash Liquid,Vim,550.95
+1612,Sunflower Oil 1L,Fortune,609.71
+3640,Bath Soap Herbal,Pears,893.67
+8288,Toothpaste Gel,Colgate,254.71
+9922,Tea Powder Strong,Tata Tea,243.39
+7377,Toothpaste Gel,Colgate,860.54
+8506,Instant Coffee,Bru,93.88
+2770,Sunflower Oil 1L,Fortune,242.64
+6696,Sunflower Oil 1L,Fortune,373.28
+9437,Iodized Cooking Salt,Tata Salt,332.03
+1403,Toothpaste Gel,Colgate,405.28
+7112,Milk Chocolate Bar,Cadbury,581.9
+7442,Instant Noodles Pack,Maggi,438.51
+1205,Potato Chips Salted,Lays,281.86
+2909,Shampoo Anti-Dandruff,Head & Shoulders,470.58
+3644,Toothpaste Gel,Colgate,122.7
+1039,Toothpaste Gel,Colgate,659.48
+7539,Digestive Biscuits,Britannia,697.92
+4676,Toothpaste Gel,Colgate,632.15
+4968,Iodized Cooking Salt,Tata Salt,712.58
+8951,Instant Coffee,Bru,295.29
+4059,Dishwash Liquid,Vim,154.26
+3353,Dishwash Liquid,Vim,219.22
+7998,Basmati Rice Premium,India Gate,758.14
+2617,Refined Sugar,Madhur,890.38
+9340,Bath Soap Herbal,Pears,206.52
+3491,Bath Soap Herbal,Pears,149.22
+8992,Milk Chocolate Bar,Cadbury,739.27
+1457,Instant Noodles Pack,Maggi,474.42
+2875,Wheat Flour Select,Aashirvaad,134.09
+9879,Sunflower Oil 1L,Fortune,415.36
+7116,Wheat Flour Select,Aashirvaad,491.01
+5888,Instant Coffee,Bru,373.61
+8327,Potato Chips Salted,Lays,278.5
+8847,Toothpaste Gel,Colgate,309.17
+8866,Tea Powder Strong,Tata Tea,57.09
+4773,Potato Chips Salted,Lays,245.73
+9965,Tea Powder Strong,Tata Tea,705.58
+8145,Instant Coffee,Bru,338.81
+7229,Laundry Detergent,Surf Excel,711.77
+2204,Milk Chocolate Bar,Cadbury,112.04
+2529,Shampoo Anti-Dandruff,Head & Shoulders,667.56
+5573,Sunflower Oil 1L,Fortune,761.83
+1465,Bath Soap Herbal,Pears,519.97
+8375,Basmati Rice Premium,India Gate,556.03
+6181,Wheat Flour Select,Aashirvaad,126.13
+6467,Refined Sugar,Madhur,689.92
+4594,Dishwash Liquid,Vim,654.37
+1239,Shampoo Anti-Dandruff,Head & Shoulders,489.23
+1812,Digestive Biscuits,Britannia,457.92
+4007,Laundry Detergent,Surf Excel,277.88
+6640,Wheat Flour Select,Aashirvaad,325.29
+6633,Toothpaste Gel,Colgate,400.23
+8676,Basmati Rice Premium,India Gate,616.13
+6901,Instant Coffee,Bru,62.57
+1034,Potato Chips Salted,Lays,724.42
+8576,Potato Chips Salted,Lays,193.55
+3912,Laundry Detergent,Surf Excel,558.06
+2544,Potato Chips Salted,Lays,85.34
+7348,Sunflower Oil 1L,Fortune,764.96
+6897,Shampoo Anti-Dandruff,Head & Shoulders,712.64
+5640,Toothpaste Gel,Colgate,666.88
+6612,Dishwash Liquid,Vim,174.28
+1904,Iodized Cooking Salt,Tata Salt,285.69
+2589,Dishwash Liquid,Vim,708.22
+9343,Basmati Rice Premium,India Gate,414.64
+8229,Refined Sugar,Madhur,455.47
+8551,,Tata Tea,175.03
+7970,Basmati Rice Premium,India Gate,842.51
+6431,Tea Powder Strong,Tata Tea,889.41
+9251,Milk Chocolate Bar,Cadbury,670.77
+9160,Refined Sugar,Madhur,671.16
+4738,Toothpaste Gel,Colgate,205.25
+4691,Toothpaste Gel,Colgate,372.0
+4371,Refined Sugar,Madhur,313.85
+8736,Digestive Biscuits,Britannia,175.68
+3007,Tea Powder Strong,Tata Tea,294.37
+9138,Wheat Flour Select,Aashirvaad,807.8
+6980,Dishwash Liquid,Vim,330.32
+2135,Shampoo Anti-Dandruff,Head & Shoulders,277.69
+7006,Milk Chocolate Bar,Cadbury,258.83
+6961,Instant Coffee,Bru,818.6
+4806,Instant Coffee,Bru,214.07
+8338,Tea Powder Strong,Tata Tea,566.76
+6530,Iodized Cooking Salt,Tata Salt,293.16
+7703,Instant Noodles Pack,Maggi,269.22
+2487,Tea Powder Strong,Tata Tea,684.31
+5321,Iodized Cooking Salt,Tata Salt,287.83
+3440,Instant Noodles Pack,Maggi,455.01
+8800,Dishwash Liquid,Vim,411.29
+3146,Digestive Biscuits,Britannia,408.14
+3475,Wheat Flour Select,Aashirvaad,449.45
+1476,Shampoo Anti-Dandruff,Head & Shoulders,277.05
+7270,Wheat Flour Select,Aashirvaad,756.4
+3472,Toothpaste Gel,Colgate,381.37
+8040,Instant Noodles Pack,Maggi,62.78
+5227,Bath Soap Herbal,Pears,398.47
+7304,Basmati Rice Premium,India Gate,837.23
+9748,Iodized Cooking Salt,Tata Salt,694.33
+4475,Toothpaste Gel,Colgate,782.07
+7308,Toothpaste Gel,Colgate,334.95
+7995,Basmati Rice Premium,India Gate,599.6
+8823,Dishwash Liquid,Vim,390.58
+5273,Laundry Detergent,Surf Excel,812.94
+4575,Wheat Flour Select,Aashirvaad,895.5
+4369,Digestive Biscuits,Britannia,608.25
+4258,Instant Coffee,Bru,805.37
+3935,Toothpaste Gel,Colgate,831.23
+6203,Instant Coffee,Bru,334.1
+5987,Shampoo Anti-Dandruff,Head & Shoulders,241.4
+3687,Wheat Flour Select,Aashirvaad,487.37
+3698,Milk Chocolate Bar,Cadbury,870.12
+1921,Sunflower Oil 1L,Fortune,175.15
+5642,Digestive Biscuits,Britannia,559.67
+5071,Sunflower Oil 1L,Fortune,132.75
+3829,Refined Sugar,Madhur,136.37
+2809,Refined Sugar,Madhur,889.41
+1971,Instant Coffee,Bru,166.94
+1579,Digestive Biscuits,Britannia,802.45
+7695,Basmati Rice Premium,India Gate,106.79
+1473,Laundry Detergent,Surf Excel,496.45
+6519,Refined Sugar,Madhur,191.02
+4901,Instant Noodles Pack,Maggi,626.26
+7139,Toothpaste Gel,Colgate,857.01
+5605,Instant Noodles Pack,Maggi,583.5
+5690,Milk Chocolate Bar,Cadbury,108.04
+7247,Toothpaste Gel,Colgate,718.52
+8134,Wheat Flour Select,Aashirvaad,735.89
+2112,Digestive Biscuits,Britannia,239.34
+7793,Sunflower Oil 1L,Fortune,520.43
+5857,Instant Coffee,Bru,581.01
+3077,Refined Sugar,Madhur,499.92
+6277,Laundry Detergent,Surf Excel,869.27
+9708,Sunflower Oil 1L,Fortune,371.89
+7636,Wheat Flour Select,Aashirvaad,147.62
+7414,Basmati Rice Premium,India Gate,438.89
+6472,Instant Coffee,Bru,303.79
+2739,Potato Chips Salted,Lays,180.21
+3328,Tea Powder Strong,Tata Tea,518.39
+9466,Digestive Biscuits,Britannia,366.99
+1678,Potato Chips Salted,Lays,545.16
+1894,Basmati Rice Premium,India Gate,653.02
+8380,Milk Chocolate Bar,Cadbury,213.33
+9291,Toothpaste Gel,Colgate,818.6
+4907,Tea Powder Strong,Tata Tea,128.25
+6778,Shampoo Anti-Dandruff,Head & Shoulders,633.7
+3466,Iodized Cooking Salt,Tata Salt,320.36
+2001,Dishwash Liquid,Vim,498.96
+9864,Potato Chips Salted,Lays,752.95
+8785,Sunflower Oil 1L,Fortune,598.17
+9148,Iodized Cooking Salt,Tata Salt,406.36
+5303,Wheat Flour Select,Aashirvaad,98.25
+6318,Dishwash Liquid,Vim,419.95
+8816,Shampoo Anti-Dandruff,Head & Shoulders,59.55
+9217,Potato Chips Salted,Lays,50.05
+3020,Basmati Rice Premium,India Gate,518.92
+9402,Toothpaste Gel,Colgate,664.17
+4178,Milk Chocolate Bar,Cadbury,159.78
+9088,Instant Noodles Pack,Maggi,721.08
+3666,Sunflower Oil 1L,Fortune,539.9
+2085,Dishwash Liquid,Vim,68.67
+4863,Tea Powder Strong,Tata Tea,890.03
+8541,Digestive Biscuits,Britannia,441.87
+5960,Toothpaste Gel,Colgate,57.26
+5026,Potato Chips Salted,Lays,255.86
+9780,Shampoo Anti-Dandruff,Head & Shoulders,118.29
+7238,Shampoo Anti-Dandruff,Head & Shoulders,826.64
+9869,Iodized Cooking Salt,Tata Salt,584.82
+8687,Toothpaste Gel,Colgate,501.39
+2309,Bath Soap Herbal,Pears,248.32
+4973,Toothpaste Gel,Colgate,585.45
+7593,Refined Sugar,Madhur,404.35
+1836,Tea Powder Strong,Tata Tea,567.41
+6374,Toothpaste Gel,Colgate,464.7
+5160,Milk Chocolate Bar,Cadbury,271.53
+4045,Bath Soap Herbal,Pears,817.17
+7616,Iodized Cooking Salt,Tata Salt,56.89
+5431,Basmati Rice Premium,India Gate,156.4
+2959,Toothpaste Gel,Colgate,215.03
+2715,Wheat Flour Select,Aashirvaad,76.79
+9212,Milk Chocolate Bar,Cadbury,460.66
+3406,Milk Chocolate Bar,Cadbury,285.92
+9867,Refined Sugar,Madhur,128.9
+9818,Iodized Cooking Salt,Tata Salt,431.64
+1789,Refined Sugar,Madhur,583.37
+6511,Toothpaste Gel,Colgate,795.79
+1990,Dishwash Liquid,Vim,740.02
+4456,Refined Sugar,Madhur,458.29
+8988,Potato Chips Salted,Lays,603.96
+7273,Laundry Detergent,Surf Excel,74.79
+4922,Laundry Detergent,Surf Excel,347.86
+3032,Sunflower Oil 1L,Fortune,206.37
+9868,Instant Coffee,Bru,605.08
+9002,Refined Sugar,Madhur,131.92
+2272,Toothpaste Gel,Colgate,320.46
+2350,Iodized Cooking Salt,Tata Salt,489.65
+9368,Tea Powder Strong,Tata Tea,613.19
+8934,Basmati Rice Premium,India Gate,411.52
+5003,Refined Sugar,Madhur,134.7
+5191,Bath Soap Herbal,Pears,851.61
+1688,Shampoo Anti-Dandruff,Head & Shoulders,827.27
+2582,Toothpaste Gel,Colgate,767.9
+5907,Digestive Biscuits,Britannia,664.74
+4808,Sunflower Oil 1L,Fortune,587.28
+1364,Potato Chips Salted,Lays,834.82
+1515,Refined Sugar,Madhur,64.69
+1575,,Tata Tea,870.39
+5917,Milk Chocolate Bar,Cadbury,845.04
+7908,Iodized Cooking Salt,Tata Salt,831.2
+7133,Digestive Biscuits,Britannia,470.1
+8238,Wheat Flour Select,Aashirvaad,406.39
+8909,Wheat Flour Select,Aashirvaad,251.48
+5049,Digestive Biscuits,Britannia,814.45
+2373,Digestive Biscuits,Britannia,253.79
+8815,Sunflower Oil 1L,Fortune,854.15
+3132,Shampoo Anti-Dandruff,Head & Shoulders,246.01
+7508,Refined Sugar,Madhur,251.81
+3539,Dishwash Liquid,Vim,230.97
+3756,Laundry Detergent,Surf Excel,345.78
+6279,Potato Chips Salted,Lays,522.32
+6242,Instant Noodles Pack,Maggi,431.27
+9923,Milk Chocolate Bar,Cadbury,810.99
+1833,Shampoo Anti-Dandruff,Head & Shoulders,607.28
+5686,Potato Chips Salted,Lays,246.1
+7118,Laundry Detergent,Surf Excel,352.36
+1284,Toothpaste Gel,Colgate,727.33
+8491,Iodized Cooking Salt,Tata Salt,330.87
+4538,Wheat Flour Select,Aashirvaad,161.01
+1075,Bath Soap Herbal,Pears,848.28
+8237,Milk Chocolate Bar,Cadbury,789.94
+8345,Bath Soap Herbal,Pears,378.59
+8008,Shampoo Anti-Dandruff,Head & Shoulders,452.63
+2707,Digestive Biscuits,Britannia,892.08
+7236,Instant Noodles Pack,Maggi,69.7
+1645,Bath Soap Herbal,Pears,848.26
+3278,Iodized Cooking Salt,Tata Salt,753.06
+8094,Instant Noodles Pack,Maggi,379.97
+9718,Potato Chips Salted,Lays,830.73
+5458,Instant Coffee,Bru,125.61
+3417,Iodized Cooking Salt,Tata Salt,160.57
+5540,Wheat Flour Select,Aashirvaad,148.95
+1128,Digestive Biscuits,Britannia,218.73
+9400,Instant Coffee,Bru,811.64
+4235,Instant Noodles Pack,Maggi,92.56
+5932,Toothpaste Gel,Colgate,590.22
+7015,Shampoo Anti-Dandruff,Head & Shoulders,557.2
+2634,Instant Coffee,Bru,831.84
+9989,Tea Powder Strong,Tata Tea,597.2
+5353,Toothpaste Gel,Colgate,719.2
+2894,Iodized Cooking Salt,Tata Salt,434.97
+6656,Toothpaste Gel,Colgate,583.08
+5850,Bath Soap Herbal,Pears,74.34
+8750,Digestive Biscuits,Britannia,164.16
+4943,Tea Powder Strong,Tata Tea,494.87
+3061,Sunflower Oil 1L,Fortune,734.81
+9067,Tea Powder Strong,Tata Tea,757.93
+4364,Shampoo Anti-Dandruff,Head & Shoulders,293.93
+3845,Toothpaste Gel,Colgate,830.51
+9174,Dishwash Liquid,Vim,745.28
+6018,Digestive Biscuits,Britannia,390.35
+1268,Milk Chocolate Bar,Cadbury,389.13
+5680,Basmati Rice Premium,India Gate,728.16
+2254,Refined Sugar,Madhur,434.29
+5310,Instant Coffee,Bru,494.56
+5774,Instant Coffee,Bru,175.13
+9185,Milk Chocolate Bar,Cadbury,802.63
+2794,Digestive Biscuits,Britannia,198.39
+3183,Instant Coffee,Bru,568.88
+5856,Basmati Rice Premium,India Gate,170.63
+1328,Milk Chocolate Bar,Cadbury,361.52
+6179,Digestive Biscuits,Britannia,727.49
+3015,Milk Chocolate Bar,Cadbury,561.97
+3505,Digestive Biscuits,Britannia,581.63
+9378,Potato Chips Salted,Lays,708.41
+5139,Potato Chips Salted,Lays,898.82
+4269,Iodized Cooking Salt,Tata Salt,701.19
+8089,Basmati Rice Premium,India Gate,431.13
+5998,Instant Coffee,Bru,426.01
+4751,Shampoo Anti-Dandruff,Head & Shoulders,60.56
+2495,Milk Chocolate Bar,Cadbury,517.56
+9360,Instant Noodles Pack,Maggi,235.34
+3199,Digestive Biscuits,Britannia,570.36
+5569,Toothpaste Gel,Colgate,789.44
+9932,Potato Chips Salted,Lays,177.08
+9353,Bath Soap Herbal,Pears,553.26
+8063,Wheat Flour Select,Aashirvaad,633.55
+5043,Wheat Flour Select,Aashirvaad,112.57
+8760,Wheat Flour Select,Aashirvaad,411.92
+4527,Dishwash Liquid,Vim,423.93
+5277,Wheat Flour Select,Aashirvaad,483.95
+2207,Shampoo Anti-Dandruff,Head & Shoulders,804.63
+5660,Tea Powder Strong,Tata Tea,818.38
+6319,Digestive Biscuits,Britannia,660.48
+2980,Wheat Flour Select,Aashirvaad,622.03
+8213,Wheat Flour Select,Aashirvaad,805.21
+3889,Tea Powder Strong,Tata Tea,228.13
+9900,Basmati Rice Premium,India Gate,774.7
+7002,Instant Noodles Pack,Maggi,236.61
+9147,Laundry Detergent,Surf Excel,799.61
+8348,Shampoo Anti-Dandruff,Head & Shoulders,473.57
+3121,Potato Chips Salted,Lays,117.27
+3941,Tea Powder Strong,Tata Tea,66.07
+4880,Refined Sugar,Madhur,878.79
+9556,Wheat Flour Select,Aashirvaad,131.08
+5788,Dishwash Liquid,Vim,709.51
+4005,Bath Soap Herbal,Pears,179.77
+1729,Refined Sugar,Madhur,99.44
+8601,Tea Powder Strong,Tata Tea,653.88
+9803,Iodized Cooking Salt,Tata Salt,639.61
+8616,Iodized Cooking Salt,Tata Salt,337.15
+9414,Laundry Detergent,Surf Excel,749.15
+3784,Iodized Cooking Salt,Tata Salt,889.6
+4834,Toothpaste Gel,Colgate,174.64
+9894,Instant Noodles Pack,Maggi,689.24
+7337,Iodized Cooking Salt,Tata Salt,690.94
+7945,Dishwash Liquid,Vim,357.07
+4408,Bath Soap Herbal,Pears,280.61
+1996,Instant Coffee,Bru,130.52
+5827,Milk Chocolate Bar,Cadbury,796.99
+9778,Tea Powder Strong,Tata Tea,597.08
+3984,Potato Chips Salted,Lays,659.87
+3869,Laundry Detergent,Surf Excel,139.33
+3723,Basmati Rice Premium,India Gate,569.43
+2775,Refined Sugar,Madhur,69.96
+2114,Bath Soap Herbal,Pears,175.29
+5720,Iodized Cooking Salt,Tata Salt,61.12
+8507,Wheat Flour Select,Aashirvaad,733.4
+8377,Bath Soap Herbal,Pears,147.45
+2403,Basmati Rice Premium,India Gate,166.16
+1010,Sunflower Oil 1L,Fortune,411.53
+2997,Toothpaste Gel,Colgate,814.16
+9107,Potato Chips Salted,Lays,246.1
+8762,Dishwash Liquid,Vim,248.96
+1554,Sunflower Oil 1L,Fortune,465.44
+5646,Digestive Biscuits,Britannia,146.65
+4155,Potato Chips Salted,Lays,862.4
+9528,Toothpaste Gel,Colgate,373.98
+9246,Iodized Cooking Salt,Tata Salt,667.53
+7994,Laundry Detergent,Surf Excel,348.91
+4421,Tea Powder Strong,Tata Tea,844.05
+7552,Sunflower Oil 1L,Fortune,230.51
+3793,Basmati Rice Premium,India Gate,877.77
+6327,Potato Chips Salted,Lays,342.29
+5945,Bath Soap Herbal,Pears,134.98
+5584,Shampoo Anti-Dandruff,Head & Shoulders,136.99
+3867,Instant Coffee,Bru,293.8
+1447,Dishwash Liquid,Vim,126.62
+7949,Toothpaste Gel,Colgate,147.58
+8979,Dishwash Liquid,Vim,828.79
+9022,Basmati Rice Premium,India Gate,199.77
+8893,Bath Soap Herbal,Pears,859.19
+4287,Toothpaste Gel,Colgate,578.8
+1165,Shampoo Anti-Dandruff,Head & Shoulders,890.6
+1433,Potato Chips Salted,Lays,346.99
+3232,Instant Noodles Pack,Maggi,290.25
+1139,Sunflower Oil 1L,Fortune,233.15
+8955,Sunflower Oil 1L,Fortune,815.71
+9393,Toothpaste Gel,Colgate,769.45
+2469,Wheat Flour Select,Aashirvaad,68.38
+5896,Dishwash Liquid,Vim,77.65
+1985,Potato Chips Salted,Lays,215.24
+4553,Bath Soap Herbal,Pears,851.91
+2889,Potato Chips Salted,Lays,545.37
+8197,Tea Powder Strong,Tata Tea,300.9
+8381,Iodized Cooking Salt,Tata Salt,112.81
+7311,Bath Soap Herbal,Pears,221.92
+5750,Sunflower Oil 1L,Fortune,561.9
+2359,Basmati Rice Premium,India Gate,627.25
+1084,Shampoo Anti-Dandruff,Head & Shoulders,362.0
+4175,Bath Soap Herbal,Pears,551.21
+2141,Iodized Cooking Salt,Tata Salt,205.17
+2061,Instant Coffee,Bru,180.74
+5231,Instant Noodles Pack,Maggi,84.42
+7438,Dishwash Liquid,Vim,236.25
+9812,Wheat Flour Select,Aashirvaad,173.49
+4639,Refined Sugar,Madhur,562.73
+9209,Milk Chocolate Bar,Cadbury,521.49
+5527,Refined Sugar,Madhur,688.79
+9807,Wheat Flour Select,Aashirvaad,717.42
+1148,Potato Chips Salted,Lays,416.55
+5535,Milk Chocolate Bar,Cadbury,502.87
+5314,Milk Chocolate Bar,Cadbury,323.71
+7149,,Maggi,82.01
+4681,Laundry Detergent,Surf Excel,728.65
+7982,Bath Soap Herbal,Pears,163.45
+3942,Instant Coffee,Bru,582.96
+6560,Sunflower Oil 1L,Fortune,541.65
+6946,Wheat Flour Select,Aashirvaad,541.11
+2901,Sunflower Oil 1L,Fortune,269.85
+1003,Shampoo Anti-Dandruff,Head & Shoulders,100.43
+3427,Instant Coffee,Bru,351.47
+2034,Shampoo Anti-Dandruff,Head & Shoulders,853.1
+2251,Dishwash Liquid,Vim,747.17
+1101,Milk Chocolate Bar,Cadbury,859.78
+6813,Wheat Flour Select,Aashirvaad,653.54
+8666,Laundry Detergent,Surf Excel,169.21
+1883,Tea Powder Strong,Tata Tea,634.25
+4903,Bath Soap Herbal,Pears,760.02
+8956,Shampoo Anti-Dandruff,Head & Shoulders,671.61
+8822,Milk Chocolate Bar,Cadbury,80.91
+7690,Instant Noodles Pack,Maggi,259.26
+4211,Sunflower Oil 1L,Fortune,898.73
+9119,Sunflower Oil 1L,Fortune,567.28
+1307,Bath Soap Herbal,Pears,54.6
+6498,Dishwash Liquid,Vim,466.15
+8210,Shampoo Anti-Dandruff,Head & Shoulders,308.29
+1865,Instant Noodles Pack,Maggi,445.83
+9344,Bath Soap Herbal,Pears,515.98
+3711,Iodized Cooking Salt,Tata Salt,368.29
+4921,Potato Chips Salted,Lays,217.07
+2614,Refined Sugar,Madhur,687.03
+8435,Digestive Biscuits,Britannia,311.1
+3524,Instant Coffee,Bru,260.79
+7530,Bath Soap Herbal,Pears,582.88
+4407,Dishwash Liquid,Vim,801.69
+4654,Bath Soap Herbal,Pears,254.47
+2264,Toothpaste Gel,Colgate,667.43
+5323,Milk Chocolate Bar,Cadbury,354.49
+2685,Potato Chips Salted,Lays,511.04
+5318,Bath Soap Herbal,Pears,639.55
+6645,Laundry Detergent,Surf Excel,654.2
+1484,Wheat Flour Select,Aashirvaad,219.46
+6804,Iodized Cooking Salt,Tata Salt,331.76
+7409,Toothpaste Gel,Colgate,776.19
+7897,Digestive Biscuits,Britannia,617.66
+8349,Laundry Detergent,Surf Excel,561.04
+6248,Tea Powder Strong,Tata Tea,596.57
+6983,Laundry Detergent,Surf Excel,554.09
+4791,Sunflower Oil 1L,Fortune,763.93
+8600,Refined Sugar,Madhur,150.75
+6763,Tea Powder Strong,Tata Tea,54.91
+2989,Laundry Detergent,Surf Excel,122.6
+9651,Iodized Cooking Salt,Tata Salt,649.48
+6561,Digestive Biscuits,Britannia,898.3
+7309,Bath Soap Herbal,Pears,275.19
+6571,Milk Chocolate Bar,Cadbury,854.92
+3514,Instant Coffee,Bru,721.99
+4754,Bath Soap Herbal,Pears,384.01
+8204,Wheat Flour Select,Aashirvaad,75.57
+9577,Tea Powder Strong,Tata Tea,230.45
+4493,Toothpaste Gel,Colgate,432.7
+8385,Bath Soap Herbal,Pears,480.97
+4114,Dishwash Liquid,Vim,788.28
+3165,Instant Noodles Pack,Maggi,330.81
+3653,Bath Soap Herbal,Pears,757.07
+1197,Tea Powder Strong,Tata Tea,856.25
+8670,Laundry Detergent,Surf Excel,354.18
+1336,Refined Sugar,Madhur,528.92
+1994,Digestive Biscuits,Britannia,808.18
+1099,Sunflower Oil 1L,Fortune,404.91
+3110,Refined Sugar,Madhur,494.38
+1875,Laundry Detergent,Surf Excel,552.55
+8305,Wheat Flour Select,Aashirvaad,56.82
+3474,Shampoo Anti-Dandruff,Head & Shoulders,110.89
+1042,Toothpaste Gel,Colgate,772.56
+3035,Basmati Rice Premium,India Gate,488.88
+4379,Shampoo Anti-Dandruff,Head & Shoulders,688.26
+5242,Basmati Rice Premium,India Gate,822.72
+4187,Iodized Cooking Salt,Tata Salt,107.69
+4278,Basmati Rice Premium,India Gate,638.17
+2076,Digestive Biscuits,Britannia,556.98
+7800,Sunflower Oil 1L,Fortune,643.38
+3295,Iodized Cooking Salt,Tata Salt,724.28
+3897,Milk Chocolate Bar,Cadbury,884.98
+4927,Wheat Flour Select,Aashirvaad,397.69
+4107,Shampoo Anti-Dandruff,Head & Shoulders,633.32
+3231,Milk Chocolate Bar,Cadbury,632.36
+9258,Wheat Flour Select,Aashirvaad,342.83
+2268,Tea Powder Strong,Tata Tea,777.02
+5691,Laundry Detergent,Surf Excel,97.09
+7762,Refined Sugar,Madhur,379.07
+8692,Dishwash Liquid,Vim,671.46
+7259,Milk Chocolate Bar,Cadbury,772.14
+8044,Bath Soap Herbal,Pears,551.56
+5780,Dishwash Liquid,Vim,552.64
+8512,Wheat Flour Select,Aashirvaad,849.03
+5220,Shampoo Anti-Dandruff,Head & Shoulders,183.64
+9425,Basmati Rice Premium,India Gate,819.35
+5677,Potato Chips Salted,Lays,525.33
+3808,Laundry Detergent,Surf Excel,473.58
+2235,Wheat Flour Select,Aashirvaad,895.89
+3522,Milk Chocolate Bar,Cadbury,561.11
+8350,Instant Noodles Pack,Maggi,72.25
+8966,Tea Powder Strong,Tata Tea,139.65
+8700,Basmati Rice Premium,India Gate,693.1
+7092,Potato Chips Salted,Lays,376.64
+9722,Dishwash Liquid,Vim,885.04
+4089,Shampoo Anti-Dandruff,Head & Shoulders,298.2
+5800,Potato Chips Salted,Lays,859.64
+8889,Sunflower Oil 1L,Fortune,526.06
+7537,Wheat Flour Select,Aashirvaad,252.78
+3067,Laundry Detergent,Surf Excel,771.27
+3404,Refined Sugar,Madhur,653.37
+8317,Milk Chocolate Bar,Cadbury,685.42
+3873,Instant Noodles Pack,Maggi,836.29
+8707,Dishwash Liquid,Vim,605.37
+6480,Refined Sugar,Madhur,800.35
+1716,Digestive Biscuits,Britannia,570.25
+7485,Sunflower Oil 1L,Fortune,327.84
+3556,Basmati Rice Premium,India Gate,597.93
+8605,Digestive Biscuits,Britannia,866.44
+7678,Tea Powder Strong,Tata Tea,806.06
+9272,Toothpaste Gel,Colgate,182.99
+3428,Instant Coffee,Bru,556.4
+9030,Dishwash Liquid,Vim,610.7
+3695,Instant Coffee,Bru,463.63
+5511,Toothpaste Gel,Colgate,160.25
+8029,Potato Chips Salted,Lays,189.6
+1222,Laundry Detergent,Surf Excel,260.87
+2018,Instant Coffee,Bru,763.41
+3296,Instant Coffee,Bru,840.51
+9417,Tea Powder Strong,Tata Tea,563.78
+6773,Digestive Biscuits,Britannia,674.63
+5411,Laundry Detergent,Surf Excel,853.05
+5495,Digestive Biscuits,Britannia,786.46
+6247,Wheat Flour Select,Aashirvaad,600.4
+9069,Refined Sugar,Madhur,258.99
+1768,Dishwash Liquid,Vim,690.93
+3173,Bath Soap Herbal,Pears,525.4
+4292,Digestive Biscuits,Britannia,585.13
+7111,Wheat Flour Select,Aashirvaad,835.65
+8224,Iodized Cooking Salt,Tata Salt,431.85
+7043,Wheat Flour Select,Aashirvaad,578.92
+8139,Dishwash Liquid,Vim,76.85
+3112,Sunflower Oil 1L,Fortune,412.31
+4147,,Madhur,73.07
+7048,Sunflower Oil 1L,Fortune,143.23
+5529,Shampoo Anti-Dandruff,Head & Shoulders,601.88
+9817,Bath Soap Herbal,Pears,304.76
+1404,Shampoo Anti-Dandruff,Head & Shoulders,780.61
+6755,Iodized Cooking Salt,Tata Salt,796.77
+4720,Toothpaste Gel,Colgate,625.11
+1287,Refined Sugar,Madhur,723.15
+5167,Toothpaste Gel,Colgate,287.76
+5649,Instant Coffee,Bru,257.11
+9970,Shampoo Anti-Dandruff,Head & Shoulders,723.27
+2940,Bath Soap Herbal,Pears,735.38
+1989,Wheat Flour Select,Aashirvaad,76.93
+8746,Refined Sugar,Madhur,310.85
+6219,Tea Powder Strong,Tata Tea,607.76
+2174,Dishwash Liquid,Vim,336.91
+4537,Shampoo Anti-Dandruff,Head & Shoulders,661.95
+8591,Bath Soap Herbal,Pears,342.86
+8780,Digestive Biscuits,Britannia,843.46
+6843,Instant Noodles Pack,Maggi,155.86
+9044,Tea Powder Strong,Tata Tea,468.82
+5974,Iodized Cooking Salt,Tata Salt,456.98
+3619,Instant Coffee,Bru,677.64
+7069,Refined Sugar,Madhur,329.42
+2843,Instant Noodles Pack,Maggi,449.8
+1532,Shampoo Anti-Dandruff,Head & Shoulders,479.88
+8831,Instant Coffee,Bru,236.75
+4492,Dishwash Liquid,Vim,556.69
+6803,Sunflower Oil 1L,Fortune,458.63
+4282,Instant Coffee,Bru,353.95
+3180,Iodized Cooking Salt,Tata Salt,755.49
+3718,Digestive Biscuits,Britannia,680.11
+4372,Iodized Cooking Salt,Tata Salt,90.37
+5209,Shampoo Anti-Dandruff,Head & Shoulders,668.65
+4657,Potato Chips Salted,Lays,679.66
+3870,Potato Chips Salted,Lays,205.16
+1926,Laundry Detergent,Surf Excel,471.63
+7258,Basmati Rice Premium,India Gate,528.56
+2583,Toothpaste Gel,Colgate,663.39
+4855,Iodized Cooking Salt,Tata Salt,442.85
+6352,Refined Sugar,Madhur,510.72
+5349,Tea Powder Strong,Tata Tea,687.62
+6256,Milk Chocolate Bar,Cadbury,856.77
+1219,Toothpaste Gel,Colgate,473.46
+2200,Sunflower Oil 1L,Fortune,90.2
+6834,Instant Noodles Pack,Maggi,680.55
+1704,Iodized Cooking Salt,Tata Salt,528.29
+5048,Instant Noodles Pack,Maggi,821.49
+4561,Laundry Detergent,Surf Excel,110.92
+7401,Refined Sugar,Madhur,268.51
+1770,Refined Sugar,Madhur,343.82
+3595,Refined Sugar,Madhur,160.82
+6890,Wheat Flour Select,Aashirvaad,720.68
+3373,Instant Noodles Pack,Maggi,76.57
+9063,Toothpaste Gel,Colgate,787.5
+4374,Toothpaste Gel,Colgate,288.05
+7768,Bath Soap Herbal,Pears,287.99
+7351,Basmati Rice Premium,India Gate,521.89
+9713,Laundry Detergent,Surf Excel,842.78
+3315,Instant Noodles Pack,Maggi,533.45
+9940,Instant Coffee,Bru,466.21
+4800,Shampoo Anti-Dandruff,Head & Shoulders,103.85
+7215,Laundry Detergent,Surf Excel,445.16
+3680,Bath Soap Herbal,Pears,296.18
+8339,Bath Soap Herbal,Pears,814.43
+5038,Digestive Biscuits,Britannia,410.2
+1259,Laundry Detergent,Surf Excel,204.79
+5560,Refined Sugar,Madhur,422.23
+8539,Shampoo Anti-Dandruff,Head & Shoulders,221.97
+4326,Tea Powder Strong,Tata Tea,310.51
+3934,Shampoo Anti-Dandruff,Head & Shoulders,785.0
+4358,Instant Coffee,Bru,337.39
+8729,Bath Soap Herbal,Pears,738.69
+9545,Refined Sugar,Madhur,789.25
+4276,Tea Powder Strong,Tata Tea,397.83
+7209,Laundry Detergent,Surf Excel,742.15
+9737,Digestive Biscuits,Britannia,57.56
+5805,Milk Chocolate Bar,Cadbury,704.09
+4556,Refined Sugar,Madhur,732.67
+9196,Instant Coffee,Bru,216.88
+2210,Refined Sugar,Madhur,220.15
+7394,Dishwash Liquid,Vim,238.51
+5164,Wheat Flour Select,Aashirvaad,305.68
+9183,Iodized Cooking Salt,Tata Salt,676.04
+6368,Wheat Flour Select,Aashirvaad,838.76
+4534,Wheat Flour Select,Aashirvaad,546.52
+3790,Bath Soap Herbal,Pears,594.05
+3027,Bath Soap Herbal,Pears,569.84
+8680,Shampoo Anti-Dandruff,Head & Shoulders,100.75
+6701,Basmati Rice Premium,India Gate,714.47
+2423,Milk Chocolate Bar,Cadbury,147.74
+7507,Laundry Detergent,Surf Excel,650.18
+1080,Toothpaste Gel,Colgate,369.47
+9263,Laundry Detergent,Surf Excel,422.96
+2080,Tea Powder Strong,Tata Tea,628.55
+3554,Tea Powder Strong,Tata Tea,748.32
+6548,Bath Soap Herbal,Pears,369.36
+7764,Instant Coffee,Bru,568.46
+6579,Sunflower Oil 1L,Fortune,213.17
+4697,Shampoo Anti-Dandruff,Head & Shoulders,541.12
+7967,Toothpaste Gel,Colgate,606.68
+9375,Toothpaste Gel,Colgate,593.57
+8251,Laundry Detergent,Surf Excel,183.36
+7583,Digestive Biscuits,Britannia,419.03
+4647,Dishwash Liquid,Vim,605.93
+6709,Instant Coffee,Bru,52.58
+3408,Toothpaste Gel,Colgate,254.67
+9302,Wheat Flour Select,Aashirvaad,675.83
+5403,Potato Chips Salted,Lays,429.37
+1606,Shampoo Anti-Dandruff,Head & Shoulders,366.53
+2349,Milk Chocolate Bar,Cadbury,669.75
+9632,Refined Sugar,Madhur,881.19
+5883,Tea Powder Strong,Tata Tea,336.88
+2323,Instant Coffee,Bru,459.11
+9717,Milk Chocolate Bar,Cadbury,347.92
+7835,Shampoo Anti-Dandruff,Head & Shoulders,758.5
+2201,Dishwash Liquid,Vim,296.88
+4027,Basmati Rice Premium,India Gate,64.44
+1008,Digestive Biscuits,Britannia,340.74
+7919,Iodized Cooking Salt,Tata Salt,162.33
+6575,Wheat Flour Select,Aashirvaad,510.76
+4635,Sunflower Oil 1L,Fortune,886.69
+4531,Sunflower Oil 1L,Fortune,761.44
+8367,Instant Noodles Pack,Maggi,96.26
+8555,Basmati Rice Premium,India Gate,231.66
+1661,Potato Chips Salted,Lays,566.32
+8358,Instant Coffee,Bru,816.14
+7619,Wheat Flour Select,Aashirvaad,737.49
+2063,Toothpaste Gel,Colgate,184.29
+6761,Instant Coffee,Bru,429.47
+5370,Toothpaste Gel,Colgate,460.63
+8245,Wheat Flour Select,Aashirvaad,622.5
+9712,Basmati Rice Premium,India Gate,721.1
+6246,Milk Chocolate Bar,Cadbury,347.26
+7359,Tea Powder Strong,Tata Tea,374.52
+3772,Iodized Cooking Salt,Tata Salt,94.65
+4648,Bath Soap Herbal,Pears,862.65
+4351,Iodized Cooking Salt,Tata Salt,587.09
+1613,Digestive Biscuits,Britannia,888.97
+5267,Wheat Flour Select,Aashirvaad,433.88
+9197,Toothpaste Gel,Colgate,266.21
+5034,Toothpaste Gel,Colgate,108.06
+3968,,Head & Shoulders,636.14
+9730,Bath Soap Herbal,Pears,809.27
+8697,Toothpaste Gel,Colgate,104.85
+1555,Tea Powder Strong,Tata Tea,619.26
+7916,Potato Chips Salted,Lays,91.54
+9508,Laundry Detergent,Surf Excel,785.82
+4717,Instant Coffee,Bru,105.85
+3287,Milk Chocolate Bar,Cadbury,398.97
+6715,Basmati Rice Premium,India Gate,268.43
+4829,Instant Noodles Pack,Maggi,851.9
+2109,Iodized Cooking Salt,Tata Salt,178.9
+2385,Instant Coffee,Bru,555.66
+6562,Refined Sugar,Madhur,884.38
+7294,Basmati Rice Premium,India Gate,297.28
+6603,Tea Powder Strong,Tata Tea,339.93
+7740,Dishwash Liquid,Vim,760.31
+9006,Wheat Flour Select,Aashirvaad,683.83
+1740,Digestive Biscuits,Britannia,618.83
+3478,Dishwash Liquid,Vim,734.8
+3963,Dishwash Liquid,Vim,888.68
+4291,Instant Coffee,Bru,569.72
+4793,Refined Sugar,Madhur,178.78
+5315,Instant Noodles Pack,Maggi,519.62
+7955,Potato Chips Salted,Lays,90.15
+8550,Toothpaste Gel,Colgate,871.28
+9906,Milk Chocolate Bar,Cadbury,460.14
+9709,Wheat Flour Select,Aashirvaad,96.97
+7940,Toothpaste Gel,Colgate,868.67
+9898,Instant Coffee,Bru,748.79
+6437,Refined Sugar,Madhur,67.76
+9972,,India Gate,663.55
+4652,Wheat Flour Select,Aashirvaad,437.03
+6361,Instant Coffee,Bru,451.96
+7237,Digestive Biscuits,Britannia,248.0
+6523,Refined Sugar,Madhur,441.74
+3710,Tea Powder Strong,Tata Tea,517.89
+5954,Instant Coffee,Bru,272.73
+1179,Iodized Cooking Salt,Tata Salt,363.11
+5420,Tea Powder Strong,Tata Tea,186.44
+1960,Milk Chocolate Bar,Cadbury,181.99
+3775,Basmati Rice Premium,India Gate,747.42
+2281,Potato Chips Salted,Lays,592.99
+2417,Laundry Detergent,Surf Excel,420.28
+7721,Milk Chocolate Bar,Cadbury,270.95
+1470,Sunflower Oil 1L,Fortune,550.04
+6788,Potato Chips Salted,Lays,632.13
+2144,Digestive Biscuits,Britannia,706.35
+9874,Basmati Rice Premium,India Gate,261.66
+6096,Laundry Detergent,Surf Excel,815.29
+4933,Iodized Cooking Salt,Tata Salt,557.93
+6627,Laundry Detergent,Surf Excel,405.52
+9047,Instant Coffee,Bru,79.53
+9274,Tea Powder Strong,Tata Tea,642.31
+9413,Instant Noodles Pack,Maggi,746.65
+9184,Bath Soap Herbal,Pears,684.57
+2564,Instant Coffee,Bru,799.26
+1647,Toothpaste Gel,Colgate,824.34
+6430,Milk Chocolate Bar,Cadbury,799.38
+3216,Sunflower Oil 1L,Fortune,72.5
+1154,Toothpaste Gel,Colgate,676.35
+3824,Sunflower Oil 1L,Fortune,862.03
+4548,Basmati Rice Premium,India Gate,60.49
+7614,Basmati Rice Premium,India Gate,606.4
+3082,Shampoo Anti-Dandruff,Head & Shoulders,109.13
+9891,Sunflower Oil 1L,Fortune,101.44
+8590,Shampoo Anti-Dandruff,Head & Shoulders,686.5
+7547,Instant Noodles Pack,Maggi,794.8
+6717,Iodized Cooking Salt,Tata Salt,319.41
+2623,Toothpaste Gel,Colgate,765.43
+5543,Basmati Rice Premium,India Gate,824.57
+9845,Toothpaste Gel,Colgate,881.95
+5236,Digestive Biscuits,Britannia,644.45
+3550,Wheat Flour Select,Aashirvaad,768.87
+4674,Refined Sugar,Madhur,437.55
+2292,Iodized Cooking Salt,Tata Salt,714.83
+2553,Potato Chips Salted,Lays,595.54
+5769,Potato Chips Salted,Lays,662.58
+9474,Laundry Detergent,Surf Excel,687.62
+4729,Refined Sugar,Madhur,744.76
+5977,Digestive Biscuits,Britannia,341.5
+1590,Wheat Flour Select,Aashirvaad,809.04
+5922,Instant Noodles Pack,Maggi,697.06
+5373,Laundry Detergent,Surf Excel,564.45
+6553,Instant Coffee,Bru,771.38
+1083,Refined Sugar,Madhur,779.48
+9140,Instant Coffee,Bru,148.09
+1744,Milk Chocolate Bar,Cadbury,310.87
+3883,Bath Soap Herbal,Pears,369.25
+9553,Wheat Flour Select,Aashirvaad,254.88
+2215,Instant Coffee,Bru,250.92
+5625,Instant Coffee,Bru,90.21
+3326,Basmati Rice Premium,India Gate,646.66
+1944,Wheat Flour Select,Aashirvaad,569.45
+5803,Potato Chips Salted,Lays,651.53
+8297,Dishwash Liquid,Vim,184.42
+5322,Sunflower Oil 1L,Fortune,407.05
+9531,Milk Chocolate Bar,Cadbury,808.08
+9870,Refined Sugar,Madhur,258.79
+3460,Laundry Detergent,Surf Excel,413.61
+5418,Sunflower Oil 1L,Fortune,402.07
+8795,Toothpaste Gel,Colgate,59.34
+3387,Bath Soap Herbal,Pears,229.99
+4632,Digestive Biscuits,Britannia,591.01
+3366,Instant Coffee,Bru,342.04
+1794,Tea Powder Strong,Tata Tea,243.69
+6992,Sunflower Oil 1L,Fortune,755.51
+8225,Instant Noodles Pack,Maggi,824.99
+4705,Refined Sugar,Madhur,807.07
+8432,Laundry Detergent,Surf Excel,652.28
+9916,Instant Noodles Pack,Maggi,855.63
+1977,Sunflower Oil 1L,Fortune,829.25
+2657,Bath Soap Herbal,Pears,437.82
+6849,Dishwash Liquid,Vim,872.55
+2871,Tea Powder Strong,Tata Tea,671.52
+5869,Digestive Biscuits,Britannia,376.71
+1349,Instant Coffee,Bru,710.38
+6848,Instant Coffee,Bru,800.77
+3264,Iodized Cooking Salt,Tata Salt,269.57
+2523,Iodized Cooking Salt,Tata Salt,175.87
+1641,Sunflower Oil 1L,Fortune,792.92
+4496,Refined Sugar,Madhur,264.56
+6812,Bath Soap Herbal,Pears,500.44
+2927,Refined Sugar,Madhur,820.59
+7045,Digestive Biscuits,Britannia,68.6
+6987,Sunflower Oil 1L,Fortune,526.74
+7163,Toothpaste Gel,Colgate,160.2
+7461,Tea Powder Strong,Tata Tea,731.97
+1252,Instant Noodles Pack,Maggi,409.11
+7211,Wheat Flour Select,Aashirvaad,709.52
+4662,Wheat Flour Select,Aashirvaad,736.09
+7482,Dishwash Liquid,Vim,455.61
+1367,Wheat Flour Select,Aashirvaad,898.08
+3030,Iodized Cooking Salt,Tata Salt,126.25
+8558,Tea Powder Strong,Tata Tea,502.34
+5623,Tea Powder Strong,Tata Tea,552.43
+4337,Iodized Cooking Salt,Tata Salt,83.76
+8845,Tea Powder Strong,Tata Tea,634.93
+9244,Potato Chips Salted,Lays,350.28
+6204,Dishwash Liquid,Vim,349.75
+2408,Digestive Biscuits,Britannia,744.45
+1718,Shampoo Anti-Dandruff,Head & Shoulders,81.56
+7857,Shampoo Anti-Dandruff,Head & Shoulders,779.26
+8010,Potato Chips Salted,Lays,60.77
+4999,Instant Coffee,Bru,54.58
+6662,Iodized Cooking Salt,Tata Salt,179.17
+4074,Dishwash Liquid,Vim,346.27
+1853,Digestive Biscuits,Britannia,157.21
+6975,Instant Coffee,Bru,831.23
+6496,Refined Sugar,Madhur,164.57
+4616,Milk Chocolate Bar,Cadbury,171.45
+8920,Basmati Rice Premium,India Gate,299.12
+2574,Bath Soap Herbal,Pears,515.14
+8192,Instant Noodles Pack,Maggi,129.28
+6568,Basmati Rice Premium,India Gate,372.94
+2620,Tea Powder Strong,Tata Tea,753.99
+5042,Shampoo Anti-Dandruff,Head & Shoulders,548.78
+9627,Potato Chips Salted,Lays,86.99
+2467,Sunflower Oil 1L,Fortune,326.74
+2490,Digestive Biscuits,Britannia,334.37
+5270,Potato Chips Salted,Lays,693.21
+8633,Digestive Biscuits,Britannia,136.24
+1169,Shampoo Anti-Dandruff,Head & Shoulders,112.59
+7130,Instant Coffee,Bru,847.39
+5541,Digestive Biscuits,Britannia,325.97
+3618,Basmati Rice Premium,India Gate,729.19
+1509,Dishwash Liquid,Vim,601.87
+6893,Milk Chocolate Bar,Cadbury,599.27
+6465,Shampoo Anti-Dandruff,Head & Shoulders,270.84
+1448,Dishwash Liquid,Vim,255.79
+6886,Basmati Rice Premium,India Gate,421.3
+6609,Bath Soap Herbal,Pears,468.07
+6646,Refined Sugar,Madhur,709.88
+7937,Dishwash Liquid,Vim,400.39
+3364,Refined Sugar,Madhur,417.88
+1002,Instant Coffee,Bru,767.9
+6305,Wheat Flour Select,Aashirvaad,593.98
+9004,Shampoo Anti-Dandruff,Head & Shoulders,895.61
+5146,Basmati Rice Premium,India Gate,489.34
+7965,Dishwash Liquid,Vim,569.65
+5215,Wheat Flour Select,Aashirvaad,544.5
+2802,Refined Sugar,Madhur,143.0
+9355,Shampoo Anti-Dandruff,Head & Shoulders,376.23
+9826,Digestive Biscuits,Britannia,243.22
+4463,Tea Powder Strong,Tata Tea,837.81
+5616,Sunflower Oil 1L,Fortune,528.79
+8759,Tea Powder Strong,Tata Tea,169.26
+2041,Tea Powder Strong,Tata Tea,170.74
+8627,Shampoo Anti-Dandruff,Head & Shoulders,750.86
+6235,Instant Coffee,Bru,416.81
+9735,Iodized Cooking Salt,Tata Salt,522.62
+5183,Iodized Cooking Salt,Tata Salt,488.35
+6792,Laundry Detergent,Surf Excel,74.3
+7514,Tea Powder Strong,Tata Tea,570.67
+5923,Potato Chips Salted,Lays,446.04
+3297,Milk Chocolate Bar,Cadbury,358.12
+3352,Iodized Cooking Salt,Tata Salt,547.14
+5886,Instant Noodles Pack,Maggi,195.86
+2859,Milk Chocolate Bar,Cadbury,226.91
+8325,Basmati Rice Premium,India Gate,150.4
+7474,Laundry Detergent,Surf Excel,893.77
+3728,Refined Sugar,Madhur,197.85
+9111,Bath Soap Herbal,Pears,393.67
+6681,Refined Sugar,Madhur,595.1
+1441,Bath Soap Herbal,Pears,597.64
+7976,Wheat Flour Select,Aashirvaad,670.38
+7113,Digestive Biscuits,Britannia,412.46
+1090,Shampoo Anti-Dandruff,Head & Shoulders,896.42
+3764,Toothpaste Gel,Colgate,486.99
+2517,Wheat Flour Select,Aashirvaad,836.38
+9039,Instant Coffee,Bru,793.03
+7664,Shampoo Anti-Dandruff,Head & Shoulders,230.23
+9376,Toothpaste Gel,Colgate,110.95
+9386,Basmati Rice Premium,India Gate,569.38
+9207,Dishwash Liquid,Vim,100.65
+6769,Toothpaste Gel,Colgate,441.57
+7208,Basmati Rice Premium,India Gate,800.47
+5380,Milk Chocolate Bar,Cadbury,72.03
+9337,Toothpaste Gel,Colgate,146.4
+7410,Sunflower Oil 1L,Fortune,508.0
+6831,Tea Powder Strong,Tata Tea,480.5
+7434,Milk Chocolate Bar,Cadbury,355.24
+8787,Wheat Flour Select,Aashirvaad,714.06
+6596,Bath Soap Herbal,Pears,196.37
+2185,Laundry Detergent,Surf Excel,207.23
+4934,Bath Soap Herbal,Pears,483.34
+6103,Dishwash Liquid,Vim,355.83
+9649,Tea Powder Strong,Tata Tea,453.71
+3325,Refined Sugar,Madhur,241.21
+3051,Potato Chips Salted,Lays,489.93
+9050,Milk Chocolate Bar,Cadbury,270.32
+8382,Basmati Rice Premium,India Gate,349.58
+8494,Instant Coffee,Bru,287.88
+5000,Wheat Flour Select,Aashirvaad,574.14
+1954,Instant Noodles Pack,Maggi,670.35
+9897,Dishwash Liquid,Vim,332.8
+9564,Shampoo Anti-Dandruff,Head & Shoulders,261.1
+5864,Wheat Flour Select,Aashirvaad,462.94
+5316,Iodized Cooking Salt,Tata Salt,693.28
+2182,Instant Noodles Pack,Maggi,584.51
+3898,Bath Soap Herbal,Pears,444.33
+6092,Wheat Flour Select,Aashirvaad,170.0
+2203,Potato Chips Salted,Lays,565.76
+7971,Digestive Biscuits,Britannia,717.12
+9013,Bath Soap Herbal,Pears,835.71
+1125,Wheat Flour Select,Aashirvaad,496.8
+4690,Wheat Flour Select,Aashirvaad,83.97
+4159,Instant Noodles Pack,Maggi,840.85
+7142,Instant Noodles Pack,Maggi,154.58
+4597,Tea Powder Strong,Tata Tea,162.49
+3577,Iodized Cooking Salt,Tata Salt,436.26
+5385,Sunflower Oil 1L,Fortune,745.73
+4624,Tea Powder Strong,Tata Tea,355.57
+2610,Instant Noodles Pack,Maggi,221.98
+6296,Digestive Biscuits,Britannia,518.56
+9409,Potato Chips Salted,Lays,673.77
+5820,Instant Noodles Pack,Maggi,203.11
+3863,Dishwash Liquid,Vim,833.99
+5032,Dishwash Liquid,Vim,214.62
+4853,Laundry Detergent,Surf Excel,861.7
+1390,Instant Noodles Pack,Maggi,173.35
+4997,Instant Noodles Pack,Maggi,159.27
+5246,Instant Noodles Pack,Maggi,207.76
+9654,,Bru,365.52
+6008,Potato Chips Salted,Lays,464.04
+1510,Potato Chips Salted,Lays,462.12
+3909,Refined Sugar,Madhur,378.55
+6213,Refined Sugar,Madhur,532.44
+3766,,Colgate,712.88
+2608,Tea Powder Strong,Tata Tea,764.51
+2690,Digestive Biscuits,Britannia,453.9
+6516,Laundry Detergent,Surf Excel,648.39
+1114,Refined Sugar,Madhur,823.74
+7661,Basmati Rice Premium,India Gate,215.72
+5035,Potato Chips Salted,Lays,753.66
+7451,Basmati Rice Premium,India Gate,579.83
+8682,Instant Coffee,Bru,316.34
+5161,Dishwash Liquid,Vim,401.0
+1675,Potato Chips Salted,Lays,388.74
+2836,Instant Noodles Pack,Maggi,854.57
+9872,Iodized Cooking Salt,Tata Salt,606.19
+3347,Laundry Detergent,Surf Excel,414.51
+2065,Tea Powder Strong,Tata Tea,846.68
+6032,Refined Sugar,Madhur,694.26
+6840,Basmati Rice Premium,India Gate,812.94
+7224,Dishwash Liquid,Vim,217.14
+9921,Shampoo Anti-Dandruff,Head & Shoulders,266.41
+5851,Digestive Biscuits,Britannia,674.94
+9049,Shampoo Anti-Dandruff,Head & Shoulders,94.38
+3902,Potato Chips Salted,Lays,838.36
+1050,Bath Soap Herbal,Pears,295.07
+9231,Milk Chocolate Bar,Cadbury,894.45
+7022,Basmati Rice Premium,India Gate,800.48
+9960,Iodized Cooking Salt,Tata Salt,758.72
+9155,Bath Soap Herbal,Pears,592.24
+5324,Instant Coffee,Bru,192.78
+6680,Dishwash Liquid,Vim,115.73
+8462,Milk Chocolate Bar,Cadbury,408.08
+7713,Laundry Detergent,Surf Excel,608.48
+3729,Shampoo Anti-Dandruff,Head & Shoulders,595.95
+1600,Basmati Rice Premium,India Gate,276.67
+9504,Wheat Flour Select,Aashirvaad,267.07
+6777,Digestive Biscuits,Britannia,332.66
+9686,Sunflower Oil 1L,Fortune,655.58
+4047,Iodized Cooking Salt,Tata Salt,738.04
+3194,Digestive Biscuits,Britannia,731.3
+7372,Wheat Flour Select,Aashirvaad,711.28
+3901,Wheat Flour Select,Aashirvaad,171.17
+5427,Shampoo Anti-Dandruff,Head & Shoulders,256.63
+1775,Refined Sugar,Madhur,416.56
+1410,Digestive Biscuits,Britannia,269.44
+3936,Sunflower Oil 1L,Fortune,105.72
+7782,Laundry Detergent,Surf Excel,343.4
+5829,Bath Soap Herbal,Pears,828.86
+2726,Potato Chips Salted,Lays,771.9
+4165,Bath Soap Herbal,Pears,829.79
+7914,Dishwash Liquid,Vim,133.66
+2339,Instant Noodles Pack,Maggi,281.72
+9626,Wheat Flour Select,Aashirvaad,495.36
+1951,Laundry Detergent,Surf Excel,724.79
+7865,Refined Sugar,Madhur,321.98
+8493,Milk Chocolate Bar,Cadbury,748.51
+3887,Bath Soap Herbal,Pears,52.42
+5638,Instant Noodles Pack,Maggi,712.7
+2198,Laundry Detergent,Surf Excel,477.22
+8460,Dishwash Liquid,Vim,578.02
+2744,Sunflower Oil 1L,Fortune,635.36
+1991,Refined Sugar,Madhur,340.08
+1586,Bath Soap Herbal,Pears,108.33
+8811,Shampoo Anti-Dandruff,Head & Shoulders,849.83
+9749,Bath Soap Herbal,Pears,459.01
+4486,Milk Chocolate Bar,Cadbury,325.81
+9833,Basmati Rice Premium,India Gate,771.93
+4883,Toothpaste Gel,Colgate,430.38
+5186,Basmati Rice Premium,India Gate,554.95
+6984,Instant Coffee,Bru,361.26
+5041,Basmati Rice Premium,India Gate,137.26
+1418,Toothpaste Gel,Colgate,854.82
+5618,Shampoo Anti-Dandruff,Head & Shoulders,765.01
+8749,Shampoo Anti-Dandruff,Head & Shoulders,114.72
+3904,Laundry Detergent,Surf Excel,78.98
+3774,Shampoo Anti-Dandruff,Head & Shoulders,736.87
+2653,Instant Noodles Pack,Maggi,775.42
+5100,Sunflower Oil 1L,Fortune,370.78
+6785,Instant Coffee,Bru,174.26
+7943,Tea Powder Strong,Tata Tea,142.58
+7498,Dishwash Liquid,Vim,98.22
+6049,Bath Soap Herbal,Pears,844.06
+8758,Wheat Flour Select,Aashirvaad,142.97
+5790,Digestive Biscuits,Britannia,669.77
+4721,Sunflower Oil 1L,Fortune,698.37
+2381,Digestive Biscuits,Britannia,830.96
+2755,Toothpaste Gel,Colgate,199.03
+4671,Iodized Cooking Salt,Tata Salt,106.09
+6487,Digestive Biscuits,Britannia,508.8
+3911,Instant Noodles Pack,Maggi,306.63
+2418,Instant Coffee,Bru,53.66
+2952,Bath Soap Herbal,Pears,222.13
+1761,Wheat Flour Select,Aashirvaad,673.36
+7153,Shampoo Anti-Dandruff,Head & Shoulders,759.21
+3620,Laundry Detergent,Surf Excel,598.61
+3573,Wheat Flour Select,Aashirvaad,193.88
+3305,Shampoo Anti-Dandruff,Head & Shoulders,207.97
+7587,Digestive Biscuits,Britannia,688.48
+6145,Basmati Rice Premium,India Gate,691.52
+6110,Sunflower Oil 1L,Fortune,462.36
+8143,Milk Chocolate Bar,Cadbury,479.72
+7344,Dishwash Liquid,Vim,75.71
+1380,Tea Powder Strong,Tata Tea,399.7
+7046,Bath Soap Herbal,Pears,630.63
+7446,Basmati Rice Premium,India Gate,75.79
+6267,Potato Chips Salted,Lays,351.27
+3055,Basmati Rice Premium,India Gate,145.36
+4375,Toothpaste Gel,Colgate,397.44
+8183,Tea Powder Strong,Tata Tea,425.14
+7239,Shampoo Anti-Dandruff,Head & Shoulders,155.45
+9779,Wheat Flour Select,Aashirvaad,810.59
+8286,Tea Powder Strong,Tata Tea,780.0
+1033,Toothpaste Gel,Colgate,523.89
+6424,Potato Chips Salted,Lays,719.87
+8533,Laundry Detergent,Surf Excel,444.51
+7327,Bath Soap Herbal,Pears,439.27
+6513,Digestive Biscuits,Britannia,723.92
+6080,Milk Chocolate Bar,Cadbury,288.08
+9994,Tea Powder Strong,Tata Tea,249.94
+6234,Potato Chips Salted,Lays,575.32
+2908,Instant Noodles Pack,Maggi,649.66
+6476,Tea Powder Strong,Tata Tea,213.87
+7735,Instant Coffee,Bru,267.75
+1753,Basmati Rice Premium,India Gate,599.94
+8774,Iodized Cooking Salt,Tata Salt,878.15
+2260,Milk Chocolate Bar,Cadbury,303.43
+2594,,Vim,550.06
+4920,Shampoo Anti-Dandruff,Head & Shoulders,505.3
+4246,Milk Chocolate Bar,Cadbury,658.1
+4240,Digestive Biscuits,Britannia,545.88
+8219,Tea Powder Strong,Tata Tea,348.91
+6386,Sunflower Oil 1L,Fortune,786.09
+7151,Potato Chips Salted,Lays,376.84
+6520,Instant Noodles Pack,Maggi,885.53
+3892,Laundry Detergent,Surf Excel,303.24
+5067,Basmati Rice Premium,India Gate,772.25
+7028,Laundry Detergent,Surf Excel,601.7
+3461,Refined Sugar,Madhur,86.11
+6004,Instant Noodles Pack,Maggi,693.04
+6939,Potato Chips Salted,Lays,744.13
+6446,Milk Chocolate Bar,Cadbury,488.05
+1699,Digestive Biscuits,Britannia,630.87
+9851,Laundry Detergent,Surf Excel,422.53
+5190,Digestive Biscuits,Britannia,823.32
+2650,Bath Soap Herbal,Pears,503.54
+8852,Basmati Rice Premium,India Gate,446.35
+7777,Instant Noodles Pack,Maggi,732.14
+8481,Toothpaste Gel,Colgate,298.12
+8371,Shampoo Anti-Dandruff,Head & Shoulders,622.34
+1676,Sunflower Oil 1L,Fortune,731.35
+7730,Basmati Rice Premium,India Gate,540.39
+7089,Bath Soap Herbal,Pears,364.21
+7573,Shampoo Anti-Dandruff,Head & Shoulders,464.33
+1120,Instant Noodles Pack,Maggi,346.13
+8728,Tea Powder Strong,Tata Tea,519.67
+4450,Refined Sugar,Madhur,388.6
+9985,Tea Powder Strong,Tata Tea,477.21
+8257,Sunflower Oil 1L,Fortune,294.98
+6730,Wheat Flour Select,Aashirvaad,630.68
+8439,Instant Coffee,Bru,361.96
+3122,Basmati Rice Premium,India Gate,600.39
+5232,Shampoo Anti-Dandruff,Head & Shoulders,477.96
+4283,Refined Sugar,Madhur,344.5
+7753,Tea Powder Strong,Tata Tea,699.85
+5311,Instant Coffee,Bru,702.22
+5880,Refined Sugar,Madhur,469.9
+5326,Shampoo Anti-Dandruff,Head & Shoulders,376.42
+9170,Tea Powder Strong,Tata Tea,460.67
+1382,Laundry Detergent,Surf Excel,714.36
+6432,Toothpaste Gel,Colgate,224.74
+5107,Sunflower Oil 1L,Fortune,642.91
+8392,Basmati Rice Premium,India Gate,878.49
+1518,Wheat Flour Select,Aashirvaad,351.63
+6097,Shampoo Anti-Dandruff,Head & Shoulders,726.94
+1235,,Head & Shoulders,778.52
+5393,Shampoo Anti-Dandruff,Head & Shoulders,562.13
+2267,Instant Coffee,Bru,759.04
+9073,Digestive Biscuits,Britannia,824.22
+4179,Bath Soap Herbal,Pears,271.99
+2197,Potato Chips Salted,Lays,288.34
+4932,Laundry Detergent,Surf Excel,669.76
+2628,Milk Chocolate Bar,Cadbury,423.49
+8798,Instant Noodles Pack,Maggi,617.64
+3988,Laundry Detergent,Surf Excel,410.34
+9615,Digestive Biscuits,Britannia,376.71
+4417,Laundry Detergent,Surf Excel,124.64
+5426,Shampoo Anti-Dandruff,Head & Shoulders,622.53
+4515,Instant Noodles Pack,Maggi,231.73
+2572,Dishwash Liquid,Vim,210.5
+2932,Toothpaste Gel,Colgate,522.15
+1911,Potato Chips Salted,Lays,850.44
+6846,Laundry Detergent,Surf Excel,605.13
+7815,Basmati Rice Premium,India Gate,392.34
+8850,Laundry Detergent,Surf Excel,298.58
+8013,Laundry Detergent,Surf Excel,458.44
+8553,Sunflower Oil 1L,Fortune,770.54
+2697,Potato Chips Salted,Lays,844.3
+6541,Tea Powder Strong,Tata Tea,649.95
+6012,Potato Chips Salted,Lays,496.27
+2319,Dishwash Liquid,Vim,424.79
+9509,Bath Soap Herbal,Pears,846.61
+3899,Iodized Cooking Salt,Tata Salt,533.34
+2019,Dishwash Liquid,Vim,59.23
+8400,Milk Chocolate Bar,Cadbury,338.73
+9552,Potato Chips Salted,Lays,859.15
+4557,Bath Soap Herbal,Pears,404.89
+1869,Refined Sugar,Madhur,462.69
+2819,Shampoo Anti-Dandruff,Head & Shoulders,356.36
+4057,Sunflower Oil 1L,Fortune,722.18
+8927,Sunflower Oil 1L,Fortune,156.29
+4156,Potato Chips Salted,Lays,168.75
+2294,Sunflower Oil 1L,Fortune,889.28
+1478,Milk Chocolate Bar,Cadbury,87.87
+4458,Wheat Flour Select,Aashirvaad,214.59
+4461,Dishwash Liquid,Vim,479.84
+1533,Toothpaste Gel,Colgate,416.4
+5831,Tea Powder Strong,Tata Tea,84.37
+5442,Shampoo Anti-Dandruff,Head & Shoulders,342.21
+4302,Instant Noodles Pack,Maggi,332.77
+4403,Instant Coffee,Bru,753.14
+4508,Tea Powder Strong,Tata Tea,547.07
+7651,Dishwash Liquid,Vim,263.85
+5395,Wheat Flour Select,Aashirvaad,193.35
+8702,Instant Coffee,Bru,78.72
+9954,Basmati Rice Premium,India Gate,811.74
+1899,Digestive Biscuits,Britannia,432.01
+3525,Tea Powder Strong,Tata Tea,258.81
+6156,Milk Chocolate Bar,Cadbury,862.91
+4844,Refined Sugar,Madhur,894.79
+6672,Digestive Biscuits,Britannia,497.84
+3907,Dishwash Liquid,Vim,55.09
+2749,Dishwash Liquid,Vim,263.46
+2468,Bath Soap Herbal,Pears,306.42
+6118,Toothpaste Gel,Colgate,669.96
+5572,Refined Sugar,Madhur,132.88
+5062,Dishwash Liquid,Vim,826.09
+6002,Milk Chocolate Bar,Cadbury,257.78
+8101,Wheat Flour Select,Aashirvaad,383.09
+2688,Wheat Flour Select,Aashirvaad,763.24
+3415,Sunflower Oil 1L,Fortune,836.18
+4551,Basmati Rice Premium,India Gate,411.23
+5197,Digestive Biscuits,Britannia,616.18
+5020,Dishwash Liquid,Vim,423.23
+4618,Laundry Detergent,Surf Excel,515.2
+5615,Potato Chips Salted,Lays,66.51
+5554,Dishwash Liquid,Vim,271.68
+4473,Bath Soap Herbal,Pears,805.86
+3993,Bath Soap Herbal,Pears,514.52
+4093,Laundry Detergent,Surf Excel,622.14
+9426,,Tata Tea,801.15
+2821,Wheat Flour Select,Aashirvaad,589.92
+5485,Shampoo Anti-Dandruff,Head & Shoulders,422.42
+3511,Milk Chocolate Bar,Cadbury,617.84
+3588,Refined Sugar,Madhur,468.63
+3076,Dishwash Liquid,Vim,335.61
+4760,Tea Powder Strong,Tata Tea,88.23
+8151,Digestive Biscuits,Britannia,146.67
+8901,Sunflower Oil 1L,Fortune,816.11
+2676,Digestive Biscuits,Britannia,188.59
+3535,Wheat Flour Select,Aashirvaad,663.61
+7572,Digestive Biscuits,Britannia,716.28
+4798,Potato Chips Salted,Lays,561.66
+2492,Instant Noodles Pack,Maggi,837.64
+7491,Sunflower Oil 1L,Fortune,336.58
+8160,Iodized Cooking Salt,Tata Salt,153.47
+5468,Sunflower Oil 1L,Fortune,618.14
+8733,Basmati Rice Premium,India Gate,675.78
+9135,Laundry Detergent,Surf Excel,116.8
+1948,Dishwash Liquid,Vim,374.42
+8922,Potato Chips Salted,Lays,751.0
+9298,Instant Coffee,Bru,834.08
+1004,Basmati Rice Premium,India Gate,491.69
+9984,Digestive Biscuits,Britannia,768.36
+4512,Shampoo Anti-Dandruff,Head & Shoulders,885.95
+8968,Wheat Flour Select,Aashirvaad,788.56
+7523,Basmati Rice Premium,India Gate,618.64
+8971,Potato Chips Salted,Lays,85.55
+9787,Shampoo Anti-Dandruff,Head & Shoulders,502.72
+5796,Instant Coffee,Bru,285.94
+1722,Sunflower Oil 1L,Fortune,132.37
+9285,Milk Chocolate Bar,Cadbury,779.35
+3894,Instant Coffee,Bru,639.45
+5108,Wheat Flour Select,Aashirvaad,883.78
+3601,Milk Chocolate Bar,Cadbury,544.82
+9129,Laundry Detergent,Surf Excel,417.09
+8606,Digestive Biscuits,Britannia,706.44
+4741,Milk Chocolate Bar,Cadbury,669.6
+4882,Wheat Flour Select,Aashirvaad,600.52
+5159,Wheat Flour Select,Aashirvaad,142.09
+9031,Iodized Cooking Salt,Tata Salt,569.72
+2227,Refined Sugar,Madhur,731.02
+5252,Refined Sugar,Madhur,753.19
+6329,Toothpaste Gel,Colgate,413.72
+8275,Potato Chips Salted,Lays,844.03
+4797,Sunflower Oil 1L,Fortune,605.05
+3767,Dishwash Liquid,Vim,88.64
+3104,Digestive Biscuits,Britannia,224.52
+9262,Potato Chips Salted,Lays,379.71
+8201,Dishwash Liquid,Vim,878.27
+3752,Wheat Flour Select,Aashirvaad,540.77
+2903,Milk Chocolate Bar,Cadbury,655.58
+4992,Basmati Rice Premium,India Gate,141.67
+9620,Instant Noodles Pack,Maggi,741.01
+3301,Toothpaste Gel,Colgate,392.14
+4684,Instant Noodles Pack,Maggi,849.86
+5446,Toothpaste Gel,Colgate,485.94
+5486,Iodized Cooking Salt,Tata Salt,219.85
+2481,Instant Noodles Pack,Maggi,137.13
+3801,Milk Chocolate Bar,Cadbury,830.54
+8906,Tea Powder Strong,Tata Tea,756.24
+8454,Sunflower Oil 1L,Fortune,778.39
+3485,Toothpaste Gel,Colgate,570.65
+6677,Dishwash Liquid,Vim,840.06
+8172,Potato Chips Salted,Lays,681.69
+4222,Digestive Biscuits,Britannia,830.35
+5409,Digestive Biscuits,Britannia,394.45
+1859,Shampoo Anti-Dandruff,Head & Shoulders,802.5
+5254,Refined Sugar,Madhur,722.06
+2000,Tea Powder Strong,Tata Tea,795.91
+9585,Wheat Flour Select,Aashirvaad,611.62
+4143,Bath Soap Herbal,Pears,319.73
+8818,Milk Chocolate Bar,Cadbury,634.72
+1857,Basmati Rice Premium,India Gate,671.74
+2585,Sunflower Oil 1L,Fortune,631.18
+7244,Sunflower Oil 1L,Fortune,613.18
+2682,Refined Sugar,Madhur,764.11
+3686,Iodized Cooking Salt,Tata Salt,532.82
+1931,Toothpaste Gel,Colgate,893.39
+2342,Sunflower Oil 1L,Fortune,371.57
+7214,Toothpaste Gel,Colgate,455.68
+9468,Iodized Cooking Salt,Tata Salt,304.18
+6071,Instant Noodles Pack,Maggi,410.2
+7220,Digestive Biscuits,Britannia,89.43
+1228,Laundry Detergent,Surf Excel,770.76
+9158,Instant Noodles Pack,Maggi,636.05
+2734,Toothpaste Gel,Colgate,709.21
+8709,Instant Noodles Pack,Maggi,785.76
+6917,Potato Chips Salted,Lays,609.19
+8111,Tea Powder Strong,Tata Tea,326.11
+1582,Sunflower Oil 1L,Fortune,660.28
+4396,Potato Chips Salted,Lays,110.55
+8917,Tea Powder Strong,Tata Tea,767.95
+2379,Instant Noodles Pack,Maggi,234.47
+4105,Wheat Flour Select,Aashirvaad,112.31
+5957,Potato Chips Salted,Lays,246.59
+9641,Instant Noodles Pack,Maggi,880.9
+9816,Sunflower Oil 1L,Fortune,327.94
+8776,Sunflower Oil 1L,Fortune,204.12
+8173,Shampoo Anti-Dandruff,Head & Shoulders,260.83
+1392,Instant Noodles Pack,Maggi,422.08
+3599,Instant Noodles Pack,Maggi,109.91
+5060,Shampoo Anti-Dandruff,Head & Shoulders,641.01
+3782,Iodized Cooking Salt,Tata Salt,144.92
+2834,Laundry Detergent,Surf Excel,547.58
+3233,Potato Chips Salted,Lays,467.08
+9210,Bath Soap Herbal,Pears,790.82
+3141,Milk Chocolate Bar,Cadbury,616.09
+9319,Shampoo Anti-Dandruff,Head & Shoulders,209.44
+7525,Toothpaste Gel,Colgate,760.52
+8409,Iodized Cooking Salt,Tata Salt,886.97
+4698,Bath Soap Herbal,Pears,662.02
+9893,Potato Chips Salted,Lays,664.74
+3303,Wheat Flour Select,Aashirvaad,368.39
+4726,Basmati Rice Premium,India Gate,602.44
+5952,Dishwash Liquid,Vim,631.02
+6921,Toothpaste Gel,Colgate,86.81
+3174,Tea Powder Strong,Tata Tea,158.67
+8100,Sunflower Oil 1L,Fortune,352.22
+8016,Toothpaste Gel,Colgate,375.18
+8957,Digestive Biscuits,Britannia,717.2
+8918,Refined Sugar,Madhur,337.92
+9918,Digestive Biscuits,Britannia,840.23
+8336,Sunflower Oil 1L,Fortune,183.52
+2287,Instant Coffee,Bru,483.3
+5213,Milk Chocolate Bar,Cadbury,134.07
+5181,Laundry Detergent,Surf Excel,408.53
+5417,Iodized Cooking Salt,Tata Salt,486.44
+7160,Basmati Rice Premium,India Gate,781.16
+2756,Potato Chips Salted,Lays,222.51
+5789,Basmati Rice Premium,India Gate,385.22
+6483,Sunflower Oil 1L,Fortune,588.32
+3895,Toothpaste Gel,Colgate,93.73
+7476,Instant Noodles Pack,Maggi,93.59
+9557,Basmati Rice Premium,India Gate,375.49
+5912,Wheat Flour Select,Aashirvaad,152.38
+6801,Toothpaste Gel,Colgate,64.33
+8005,Digestive Biscuits,Britannia,208.67
+7371,Wheat Flour Select,Aashirvaad,445.9
+4286,Instant Coffee,Bru,182.39
+6165,Potato Chips Salted,Lays,841.31
+5110,Laundry Detergent,Surf Excel,282.96
+4482,Potato Chips Salted,Lays,655.26
+2345,Dishwash Liquid,Vim,833.04
+9967,Toothpaste Gel,Colgate,708.59
+4904,Tea Powder Strong,Tata Tea,554.39
+8794,Milk Chocolate Bar,Cadbury,236.35
+5158,Shampoo Anti-Dandruff,Head & Shoulders,353.5
+9268,Tea Powder Strong,Tata Tea,160.2
+5046,Sunflower Oil 1L,Fortune,217.44
+8967,Wheat Flour Select,Aashirvaad,547.49
+5135,Bath Soap Herbal,Pears,353.69
+4588,Instant Noodles Pack,Maggi,518.95
+9405,Milk Chocolate Bar,Cadbury,154.9
+3006,Shampoo Anti-Dandruff,Head & Shoulders,728.68
+2606,Basmati Rice Premium,India Gate,303.56
+5479,Basmati Rice Premium,India Gate,891.19
+5530,Sunflower Oil 1L,Fortune,554.24
+8877,Toothpaste Gel,Colgate,892.89
+1318,Dishwash Liquid,Vim,570.75
+8537,Potato Chips Salted,Lays,485.19
+2546,Toothpaste Gel,Colgate,599.02
+5828,Dishwash Liquid,Vim,57.58
+1987,Iodized Cooking Salt,Tata Salt,736.79
+8414,Basmati Rice Premium,India Gate,371.3
+6201,Laundry Detergent,Surf Excel,783.26
+1374,Toothpaste Gel,Colgate,200.17
+9238,Potato Chips Salted,Lays,888.46
+6243,Sunflower Oil 1L,Fortune,399.54
+3392,Bath Soap Herbal,Pears,561.07
+5524,Sunflower Oil 1L,Fortune,882.66
+4412,Refined Sugar,Madhur,347.85
+1303,Potato Chips Salted,Lays,357.48
+3471,Wheat Flour Select,Aashirvaad,516.74
+3578,Basmati Rice Premium,India Gate,560.42
+9082,Toothpaste Gel,Colgate,96.48
+3652,Instant Coffee,Bru,659.74
+4897,Potato Chips Salted,Lays,678.6
+4279,Laundry Detergent,Surf Excel,623.1
+6085,Sunflower Oil 1L,Fortune,293.57
+8960,Instant Noodles Pack,Maggi,639.82
+3022,Shampoo Anti-Dandruff,Head & Shoulders,116.79
+1950,Toothpaste Gel,Colgate,623.62
+5064,Tea Powder Strong,Tata Tea,331.8
+2327,Sunflower Oil 1L,Fortune,417.55
+9485,Digestive Biscuits,Britannia,684.79
+1912,Dishwash Liquid,Vim,814.31
+9172,Refined Sugar,Madhur,249.13
+8873,Laundry Detergent,Surf Excel,842.05
+2722,Instant Noodles Pack,Maggi,500.01
+8299,Wheat Flour Select,Aashirvaad,236.25
+6416,Laundry Detergent,Surf Excel,807.17
+6639,Wheat Flour Select,Aashirvaad,364.49
+6738,Digestive Biscuits,Britannia,93.37
+6159,Toothpaste Gel,Colgate,437.94
+7760,Iodized Cooking Salt,Tata Salt,50.31
+9550,Wheat Flour Select,Aashirvaad,536.93
+1942,Milk Chocolate Bar,Cadbury,328.26
+2944,Tea Powder Strong,Tata Tea,461.18
+3355,Instant Noodles Pack,Maggi,153.14
+8895,Toothpaste Gel,Colgate,143.84
+5263,Shampoo Anti-Dandruff,Head & Shoulders,164.73
+6555,Wheat Flour Select,Aashirvaad,277.98
+8679,Sunflower Oil 1L,Fortune,55.31
+1568,Laundry Detergent,Surf Excel,411.84
+7242,Shampoo Anti-Dandruff,Head & Shoulders,377.39
+3210,Milk Chocolate Bar,Cadbury,828.92
+1343,Refined Sugar,Madhur,57.79
+3583,Tea Powder Strong,Tata Tea,99.48
+8249,Wheat Flour Select,Aashirvaad,539.04
+5221,Basmati Rice Premium,India Gate,842.96
+6403,Iodized Cooking Salt,Tata Salt,309.17
+8803,Basmati Rice Premium,India Gate,130.34
+4252,Basmati Rice Premium,India Gate,205.82
+6940,Bath Soap Herbal,Pears,681.12
+4547,Laundry Detergent,Surf Excel,315.65
+8006,Milk Chocolate Bar,Cadbury,130.45
+2475,Refined Sugar,Madhur,857.76
+5990,Digestive Biscuits,Britannia,682.42
+5785,Iodized Cooking Salt,Tata Salt,547.08
+3520,Instant Coffee,Bru,170.9
+9412,Instant Coffee,Bru,500.68
+2541,Digestive Biscuits,Britannia,424.82
+7643,Laundry Detergent,Surf Excel,567.1
+7850,Potato Chips Salted,Lays,762.5
+4520,Milk Chocolate Bar,Cadbury,830.02
+7388,Dishwash Liquid,Vim,836.0
+9453,Potato Chips Salted,Lays,78.42
+4422,Laundry Detergent,Surf Excel,687.32
+3081,Toothpaste Gel,Colgate,648.43
+4420,Sunflower Oil 1L,Fortune,362.91
+8613,Instant Noodles Pack,Maggi,310.17
+7613,Tea Powder Strong,Tata Tea,126.84
+7437,Basmati Rice Premium,India Gate,548.39
+2782,Instant Coffee,Bru,806.16
+4928,Instant Noodles Pack,Maggi,69.77
+5454,Digestive Biscuits,Britannia,602.32
+3839,Basmati Rice Premium,India Gate,526.87
+2519,Instant Noodles Pack,Maggi,670.33
+7832,Sunflower Oil 1L,Fortune,803.51
+7443,Tea Powder Strong,Tata Tea,310.66
+2465,Bath Soap Herbal,Pears,383.29
+2079,Sunflower Oil 1L,Fortune,337.81
+3494,Digestive Biscuits,Britannia,178.16
+9323,Iodized Cooking Salt,Tata Salt,273.6
+1230,Iodized Cooking Salt,Tata Salt,176.82
+4963,Refined Sugar,Madhur,615.76
+4452,Digestive Biscuits,Britannia,144.7
+9046,Refined Sugar,Madhur,300.26
+5222,Instant Coffee,Bru,353.44
+6764,Toothpaste Gel,Colgate,317.92
+9431,Instant Coffee,Bru,280.78
+9554,Bath Soap Herbal,Pears,760.0
+5950,Digestive Biscuits,Britannia,777.5
+3304,Toothpaste Gel,Colgate,781.56
+3534,Instant Coffee,Bru,113.27
+3629,Potato Chips Salted,Lays,434.99
+9530,Instant Noodles Pack,Maggi,450.07
+2107,Laundry Detergent,Surf Excel,787.44
+8640,Sunflower Oil 1L,Fortune,818.27
+1650,Iodized Cooking Salt,Tata Salt,786.85
+6628,Sunflower Oil 1L,Fortune,415.86
+2436,Digestive Biscuits,Britannia,276.63
+4357,Laundry Detergent,Surf Excel,434.02
+5234,Bath Soap Herbal,Pears,597.16
+9131,Wheat Flour Select,Aashirvaad,252.92
+8459,Tea Powder Strong,Tata Tea,828.77
+2059,Toothpaste Gel,Colgate,643.11
+9306,Instant Coffee,Bru,121.02
+9502,Milk Chocolate Bar,Cadbury,735.42
+4259,Iodized Cooking Salt,Tata Salt,457.8
+8407,Tea Powder Strong,Tata Tea,284.61
+5331,Shampoo Anti-Dandruff,Head & Shoulders,148.05
+2485,Digestive Biscuits,Britannia,105.67
+3116,Milk Chocolate Bar,Cadbury,743.08
+7830,Instant Coffee,Bru,499.43
+4567,Wheat Flour Select,Aashirvaad,767.29
+7492,Laundry Detergent,Surf Excel,735.03
+7159,Iodized Cooking Salt,Tata Salt,708.6
+1208,Potato Chips Salted,Lays,269.08
+7827,Tea Powder Strong,Tata Tea,222.53
+2928,Laundry Detergent,Surf Excel,578.17
+5934,Wheat Flour Select,Aashirvaad,838.93
+9727,Instant Coffee,Bru,679.49
+7906,Milk Chocolate Bar,Cadbury,130.17
+4062,Digestive Biscuits,Britannia,59.63
+6250,Refined Sugar,Madhur,649.18
+4872,Tea Powder Strong,Tata Tea,617.81
+9462,Bath Soap Herbal,Pears,572.89
+4021,Wheat Flour Select,Aashirvaad,680.08
+1456,Instant Coffee,Bru,193.49
+6918,Laundry Detergent,Surf Excel,650.77
+4757,Digestive Biscuits,Britannia,673.52
+7400,Instant Coffee,Bru,542.75
+3056,Iodized Cooking Salt,Tata Salt,743.72
+5416,Iodized Cooking Salt,Tata Salt,627.21
+2366,Shampoo Anti-Dandruff,Head & Shoulders,170.18
+6031,Digestive Biscuits,Britannia,464.01
+8837,Instant Noodles Pack,Maggi,175.62
+5609,Milk Chocolate Bar,Cadbury,876.35
+4799,Sunflower Oil 1L,Fortune,193.47
+9635,Instant Noodles Pack,Maggi,532.61
+9339,Instant Coffee,Bru,551.2
+3518,Basmati Rice Premium,India Gate,61.37
+9734,Bath Soap Herbal,Pears,109.45
+1779,Shampoo Anti-Dandruff,Head & Shoulders,688.57
+3749,Wheat Flour Select,Aashirvaad,139.13
+5169,Milk Chocolate Bar,Cadbury,617.58
+7025,Tea Powder Strong,Tata Tea,612.84
+2015,Tea Powder Strong,Tata Tea,571.44
+5622,Iodized Cooking Salt,Tata Salt,233.08
+9144,Milk Chocolate Bar,Cadbury,606.8
+7267,Potato Chips Salted,Lays,388.93
+9484,Iodized Cooking Salt,Tata Salt,206.79
+1113,Instant Noodles Pack,Maggi,341.52
+3819,Digestive Biscuits,Britannia,745.76
+8778,Dishwash Liquid,Vim,312.3
+8775,Bath Soap Herbal,Pears,412.35
+3803,Basmati Rice Premium,India Gate,152.07
+8306,Milk Chocolate Bar,Cadbury,591.95
+6556,Milk Chocolate Bar,Cadbury,731.19
+4563,Laundry Detergent,Surf Excel,761.21
+2588,Basmati Rice Premium,India Gate,107.38
+6729,Basmati Rice Premium,India Gate,195.78
+9265,Instant Coffee,Bru,454.62
+2888,Laundry Detergent,Surf Excel,178.32
+2389,Instant Noodles Pack,Maggi,591.62
+5746,Laundry Detergent,Surf Excel,673.38
+6464,Refined Sugar,Madhur,510.19
+7944,Sunflower Oil 1L,Fortune,528.91
+8595,Digestive Biscuits,Britannia,549.65
+5268,Milk Chocolate Bar,Cadbury,203.97
+5058,Laundry Detergent,Surf Excel,642.46
+6282,Digestive Biscuits,Britannia,425.34
+8195,Sunflower Oil 1L,Fortune,595.86
+6544,Bath Soap Herbal,Pears,542.36
+9495,Shampoo Anti-Dandruff,Head & Shoulders,768.94
+3951,Milk Chocolate Bar,Cadbury,685.51
+5761,Wheat Flour Select,Aashirvaad,363.28
+6756,Tea Powder Strong,Tata Tea,74.25
+3716,Wheat Flour Select,Aashirvaad,698.48
+7966,Wheat Flour Select,Aashirvaad,783.47
+9143,Instant Noodles Pack,Maggi,396.28
+7564,Bath Soap Herbal,Pears,544.26
+9359,Potato Chips Salted,Lays,572.42
+9720,Wheat Flour Select,Aashirvaad,561.35
+3789,Potato Chips Salted,Lays,395.08
+8982,Milk Chocolate Bar,Cadbury,202.13
+8228,Toothpaste Gel,Colgate,586.15
+2948,Toothpaste Gel,Colgate,474.95
+2352,Digestive Biscuits,Britannia,145.18
+2729,Sunflower Oil 1L,Fortune,424.43
+9003,Shampoo Anti-Dandruff,Head & Shoulders,354.81
+6351,Basmati Rice Premium,India Gate,136.71
+1458,Laundry Detergent,Surf Excel,614.45
+1762,Sunflower Oil 1L,Fortune,468.9
+4689,Refined Sugar,Madhur,800.65
+2249,Instant Noodles Pack,Maggi,274.49
+5016,Shampoo Anti-Dandruff,Head & Shoulders,789.32
+6379,Milk Chocolate Bar,Cadbury,268.75
+3648,Bath Soap Herbal,Pears,202.28
+9120,Bath Soap Herbal,Pears,741.76
+4380,Sunflower Oil 1L,Fortune,312.43
+3532,Milk Chocolate Bar,Cadbury,759.3
+6678,Laundry Detergent,Surf Excel,314.54
+4704,Milk Chocolate Bar,Cadbury,244.35
+9770,Instant Noodles Pack,Maggi,61.65
+9332,Basmati Rice Premium,India Gate,274.9
+4400,Refined Sugar,Madhur,207.05
+4587,Milk Chocolate Bar,Cadbury,819.41
+3079,Refined Sugar,Madhur,503.94
+7033,Wheat Flour Select,Aashirvaad,632.29
+9432,Sunflower Oil 1L,Fortune,487.05
+7675,Bath Soap Herbal,Pears,104.49
+4167,Basmati Rice Premium,India Gate,191.43
+9548,Instant Coffee,Bru,86.62
+3074,Sunflower Oil 1L,Fortune,129.04
+8946,Instant Noodles Pack,Maggi,221.4
+6023,Refined Sugar,Madhur,149.16
+1635,Iodized Cooking Salt,Tata Salt,192.17
+1636,Wheat Flour Select,Aashirvaad,358.59
+7533,Bath Soap Herbal,Pears,520.56
+5919,Digestive Biscuits,Britannia,716.31
+2489,Refined Sugar,Madhur,373.58
+5151,Refined Sugar,Madhur,93.13
+8119,Bath Soap Herbal,Pears,399.21
+7186,Iodized Cooking Salt,Tata Salt,450.37
+9105,Refined Sugar,Madhur,671.61
+6140,Digestive Biscuits,Britannia,168.49
+4052,Tea Powder Strong,Tata Tea,449.89
+6001,Shampoo Anti-Dandruff,Head & Shoulders,316.59
+1939,Laundry Detergent,Surf Excel,577.84
+8972,Tea Powder Strong,Tata Tea,672.3
+6815,Dishwash Liquid,Vim,530.44
+3699,Refined Sugar,Madhur,135.89
+6626,Refined Sugar,Madhur,709.64
+5098,Sunflower Oil 1L,Fortune,519.87
+9866,Sunflower Oil 1L,Fortune,159.1
+9349,Wheat Flour Select,Aashirvaad,518.73
+9081,Digestive Biscuits,Britannia,841.24
+9656,Bath Soap Herbal,Pears,232.06
+7968,Basmati Rice Premium,India Gate,213.0
+4036,Instant Coffee,Bru,374.91
+9931,Shampoo Anti-Dandruff,Head & Shoulders,198.94
+3980,Iodized Cooking Salt,Tata Salt,788.18
+4702,Instant Coffee,Bru,726.1
+5744,Refined Sugar,Madhur,598.72
+5497,Sunflower Oil 1L,Fortune,135.86
+2143,Milk Chocolate Bar,Cadbury,506.84
+7205,Toothpaste Gel,Colgate,349.83
+6837,Laundry Detergent,Surf Excel,78.5
+3672,Sunflower Oil 1L,Fortune,843.15
+6891,Sunflower Oil 1L,Fortune,570.05
+7122,Wheat Flour Select,Aashirvaad,622.91
+8659,Dishwash Liquid,Vim,171.49
+4969,Sunflower Oil 1L,Fortune,150.62
+1745,Instant Noodles Pack,Maggi,226.07
+1569,Iodized Cooking Salt,Tata Salt,455.36
+5245,Tea Powder Strong,Tata Tea,751.35
+3066,Shampoo Anti-Dandruff,Head & Shoulders,537.58
+7899,Milk Chocolate Bar,Cadbury,320.41
+2969,Digestive Biscuits,Britannia,711.22
+1787,Instant Coffee,Bru,790.26
+8470,Instant Coffee,Bru,527.69
+4171,Potato Chips Salted,Lays,413.5
+3142,Laundry Detergent,Surf Excel,667.12
+7499,Dishwash Liquid,Vim,247.18
+6649,Laundry Detergent,Surf Excel,543.52
+5297,Instant Coffee,Bru,175.38
+6382,Potato Chips Salted,Lays,699.85
+4756,Sunflower Oil 1L,Fortune,231.49
+4099,Instant Coffee,Bru,510.95
+8695,Sunflower Oil 1L,Fortune,309.95
+6592,Toothpaste Gel,Colgate,479.05
+5708,Iodized Cooking Salt,Tata Salt,621.82
+9249,Toothpaste Gel,Colgate,695.22
+6828,Wheat Flour Select,Aashirvaad,145.91
+7761,Shampoo Anti-Dandruff,Head & Shoulders,76.47
+4610,Sunflower Oil 1L,Fortune,776.52
+3092,Potato Chips Salted,Lays,861.08
+3462,Potato Chips Salted,Lays,346.88
+2482,Laundry Detergent,Surf Excel,580.23
+2686,Bath Soap Herbal,Pears,192.58
+2205,Dishwash Liquid,Vim,704.71
+6202,Dishwash Liquid,Vim,638.17
+5759,Tea Powder Strong,Tata Tea,649.99
+3151,Dishwash Liquid,Vim,809.19
+3492,Laundry Detergent,Surf Excel,744.94
+8496,Wheat Flour Select,Aashirvaad,648.95
+8744,Digestive Biscuits,Britannia,293.17
+7431,Toothpaste Gel,Colgate,287.91
+4779,Toothpaste Gel,Colgate,442.43
+6307,Shampoo Anti-Dandruff,Head & Shoulders,572.21
+7505,Bath Soap Herbal,Pears,755.16
+3692,Dishwash Liquid,Vim,800.4
+5674,Laundry Detergent,Surf Excel,295.77
+9915,Iodized Cooking Salt,Tata Salt,183.22
+4323,Iodized Cooking Salt,Tata Salt,669.12
+2626,Basmati Rice Premium,India Gate,321.06
+8223,Basmati Rice Premium,India Gate,317.64
+6178,Milk Chocolate Bar,Cadbury,650.74
+4471,Tea Powder Strong,Tata Tea,631.8
+3101,Basmati Rice Premium,India Gate,317.07
+5312,Tea Powder Strong,Tata Tea,619.74
+2177,Toothpaste Gel,Colgate,645.25
+2328,Toothpaste Gel,Colgate,366.49
+2181,Shampoo Anti-Dandruff,Head & Shoulders,448.23
+2698,Laundry Detergent,Surf Excel,846.36
+6665,Milk Chocolate Bar,Cadbury,424.43
+8054,Shampoo Anti-Dandruff,Head & Shoulders,276.11
+4590,Instant Noodles Pack,Maggi,791.74
+6167,Iodized Cooking Salt,Tata Salt,622.4
+7870,Dishwash Liquid,Vim,585.48
+3719,Sunflower Oil 1L,Fortune,863.56
+4510,Toothpaste Gel,Colgate,669.79
+8479,Potato Chips Salted,Lays,847.03
+6151,Shampoo Anti-Dandruff,Head & Shoulders,330.73
+2282,Laundry Detergent,Surf Excel,657.14
+5388,Potato Chips Salted,Lays,98.2
+7379,Milk Chocolate Bar,Cadbury,63.31
+8970,Bath Soap Herbal,Pears,891.46
+1544,Instant Coffee,Bru,639.72
+6323,Iodized Cooking Salt,Tata Salt,618.29
+7833,Digestive Biscuits,Britannia,657.02
+1405,Sunflower Oil 1L,Fortune,276.42
+7037,Refined Sugar,Madhur,239.04
+5695,Potato Chips Salted,Lays,723.9
+9301,Instant Coffee,Bru,89.94
+8745,Potato Chips Salted,Lays,523.78
+7755,Dishwash Liquid,Vim,290.68
+7634,Potato Chips Salted,Lays,470.36
+7811,Wheat Flour Select,Aashirvaad,249.43
+9850,Basmati Rice Premium,India Gate,559.87
+4540,Refined Sugar,Madhur,795.71
+5905,Bath Soap Herbal,Pears,383.29
+4480,Potato Chips Salted,Lays,628.65
+4621,Shampoo Anti-Dandruff,Head & Shoulders,545.52
+9169,Toothpaste Gel,Colgate,686.38
+7386,Bath Soap Herbal,Pears,780.88
+5765,Tea Powder Strong,Tata Tea,75.73
+7716,Toothpaste Gel,Colgate,671.17
+2668,Dishwash Liquid,Vim,88.8
+2357,Milk Chocolate Bar,Cadbury,845.76
+5233,Milk Chocolate Bar,Cadbury,267.55
+9828,Toothpaste Gel,Colgate,832.65
+5317,Shampoo Anti-Dandruff,Head & Shoulders,448.76
+2393,Dishwash Liquid,Vim,509.87
+5255,Sunflower Oil 1L,Fortune,625.49
+9127,Laundry Detergent,Surf Excel,148.58
+7946,Bath Soap Herbal,Pears,103.12
+5712,Dishwash Liquid,Vim,325.16
+8279,Toothpaste Gel,Colgate,514.69
+1214,Basmati Rice Premium,India Gate,424.38
+9096,Milk Chocolate Bar,Cadbury,80.23
+4202,Iodized Cooking Salt,Tata Salt,543.5
+2975,Laundry Detergent,Surf Excel,88.43
+5238,Sunflower Oil 1L,Fortune,591.05
+2563,Shampoo Anti-Dandruff,Head & Shoulders,858.6
+5909,Milk Chocolate Bar,Cadbury,693.58
+6607,Dishwash Liquid,Vim,809.08
+8168,Toothpaste Gel,Colgate,574.84
+8629,Digestive Biscuits,Britannia,524.54
+6776,Sunflower Oil 1L,Fortune,69.74
+1077,Digestive Biscuits,Britannia,495.69
+8099,Milk Chocolate Bar,Cadbury,477.61
+1247,Iodized Cooking Salt,Tata Salt,328.43
+2150,Instant Coffee,Bru,76.93
+5999,Instant Noodles Pack,Maggi,367.99
+9605,Refined Sugar,Madhur,149.01
+8684,Tea Powder Strong,Tata Tea,496.16
+7922,Refined Sugar,Madhur,343.89
+6706,Wheat Flour Select,Aashirvaad,889.76
+8009,Laundry Detergent,Surf Excel,421.97
+5211,Tea Powder Strong,Tata Tea,488.07
+6041,Toothpaste Gel,Colgate,396.95
+1363,Iodized Cooking Salt,Tata Salt,143.99
+2226,Tea Powder Strong,Tata Tea,77.1
+4445,Digestive Biscuits,Britannia,621.81
+7119,Milk Chocolate Bar,Cadbury,447.96
+1964,Basmati Rice Premium,India Gate,263.21
+2813,Iodized Cooking Salt,Tata Salt,89.6
+2284,Shampoo Anti-Dandruff,Head & Shoulders,435.7
+6391,Toothpaste Gel,Colgate,504.59
+9205,Potato Chips Salted,Lays,335.78
+3891,Instant Coffee,Bru,590.85
+4183,Sunflower Oil 1L,Fortune,863.59
+8469,Milk Chocolate Bar,Cadbury,850.25
+1104,Milk Chocolate Bar,Cadbury,52.25
+8592,Instant Noodles Pack,Maggi,284.72
+8490,Refined Sugar,Madhur,248.19
+4410,Refined Sugar,Madhur,509.78
+1146,Toothpaste Gel,Colgate,66.57
+3382,Instant Noodles Pack,Maggi,377.44
+7936,Potato Chips Salted,Lays,219.77
+3726,Dishwash Liquid,Vim,568.53
+3270,Basmati Rice Premium,India Gate,211.51
+1397,Laundry Detergent,Surf Excel,296.26
+1440,Milk Chocolate Bar,Cadbury,398.03
+5685,Milk Chocolate Bar,Cadbury,125.42
+8024,Bath Soap Herbal,Pears,230.41
+3696,Shampoo Anti-Dandruff,Head & Shoulders,573.82
+1783,Laundry Detergent,Surf Excel,808.92
+3874,Toothpaste Gel,Colgate,636.63
+1185,Dishwash Liquid,Vim,843.5
+9033,Tea Powder Strong,Tata Tea,226.48
+4865,Sunflower Oil 1L,Fortune,286.35
+3787,Wheat Flour Select,Aashirvaad,849.26
+4466,Potato Chips Salted,Lays,847.38
+4075,Toothpaste Gel,Colgate,186.46
+8365,Tea Powder Strong,Tata Tea,233.44
+6781,Potato Chips Salted,Lays,822.72
+7927,Refined Sugar,Madhur,570.24
+3737,Instant Noodles Pack,Maggi,125.39
+1710,Instant Noodles Pack,Maggi,272.02
+5694,Refined Sugar,Madhur,451.56
+2406,Iodized Cooking Salt,Tata Salt,364.09
+4521,Dishwash Liquid,Vim,339.12
+7115,Tea Powder Strong,Tata Tea,679.25
+1408,Digestive Biscuits,Britannia,123.18
+2098,Dishwash Liquid,Vim,658.48
+2271,Toothpaste Gel,Colgate,495.88
+6938,Sunflower Oil 1L,Fortune,155.75
+8035,Refined Sugar,Madhur,133.08
+2675,Potato Chips Salted,Lays,104.45
+1324,Laundry Detergent,Surf Excel,648.49
+5073,Wheat Flour Select,Aashirvaad,592.04
+4826,Milk Chocolate Bar,Cadbury,705.96
+7628,Shampoo Anti-Dandruff,Head & Shoulders,405.44
+5379,Wheat Flour Select,Aashirvaad,403.86
+7013,Instant Coffee,Bru,279.33
+9235,Instant Noodles Pack,Maggi,656.42
+7519,Tea Powder Strong,Tata Tea,460.15
+5702,Laundry Detergent,Surf Excel,517.03
+1001,Basmati Rice Premium,India Gate,255.33
+7891,Wheat Flour Select,Aashirvaad,796.27
+5493,Tea Powder Strong,Tata Tea,87.53
+7517,Digestive Biscuits,Britannia,864.79
+8212,Instant Coffee,Bru,588.23
+5066,Sunflower Oil 1L,Fortune,579.59
+5910,Basmati Rice Premium,India Gate,755.27
+6651,Tea Powder Strong,Tata Tea,422.37
+3171,Refined Sugar,Madhur,557.78
+5668,Instant Noodles Pack,Maggi,574.17
+8423,Iodized Cooking Salt,Tata Salt,113.96
+6835,Iodized Cooking Salt,Tata Salt,180.67
+1313,Shampoo Anti-Dandruff,Head & Shoulders,145.63
+3124,Basmati Rice Premium,India Gate,875.0
+1827,Instant Coffee,Bru,477.76
+5391,Instant Coffee,Bru,159.65
+2460,Tea Powder Strong,Tata Tea,463.81
+6770,Bath Soap Herbal,Pears,586.12
+9969,Shampoo Anti-Dandruff,Head & Shoulders,237.01
+6238,Bath Soap Herbal,Pears,651.94
+6126,Wheat Flour Select,Aashirvaad,189.3
+6056,Bath Soap Herbal,Pears,489.91
+8187,Wheat Flour Select,Aashirvaad,586.03
+9194,Milk Chocolate Bar,Cadbury,656.26
+1412,Digestive Biscuits,Britannia,583.22
+5091,Instant Coffee,Bru,414.72
+4411,Instant Coffee,Bru,325.52
+6170,Tea Powder Strong,Tata Tea,507.61
+9544,Instant Noodles Pack,Maggi,135.52
+3291,Iodized Cooking Salt,Tata Salt,590.24
+6676,Potato Chips Salted,Lays,533.88
+5822,Wheat Flour Select,Aashirvaad,618.42
+6161,Basmati Rice Premium,India Gate,86.2
+1372,Basmati Rice Premium,India Gate,367.8
+7698,Instant Coffee,Bru,844.97
+4565,Instant Noodles Pack,Maggi,592.53
+2022,Basmati Rice Premium,India Gate,258.28
+6644,Digestive Biscuits,Britannia,171.29
+8466,Laundry Detergent,Surf Excel,825.14
+8023,Milk Chocolate Bar,Cadbury,136.34
+6211,Sunflower Oil 1L,Fortune,427.47
+3591,Milk Chocolate Bar,Cadbury,887.72
+4980,Wheat Flour Select,Aashirvaad,511.51
+1035,Wheat Flour Select,Aashirvaad,391.21
+2305,Bath Soap Herbal,Pears,706.76
+8372,Instant Coffee,Bru,73.44
+4489,Shampoo Anti-Dandruff,Head & Shoulders,750.34
+1664,Potato Chips Salted,Lays,705.9
+3498,Toothpaste Gel,Colgate,774.36
+3286,Toothpaste Gel,Colgate,275.25
+4604,Shampoo Anti-Dandruff,Head & Shoulders,475.6
+8110,Iodized Cooking Salt,Tata Salt,103.42
+2217,Iodized Cooking Salt,Tata Salt,251.04
+8019,Shampoo Anti-Dandruff,Head & Shoulders,59.37
+7445,Iodized Cooking Salt,Tata Salt,92.02
+6141,Toothpaste Gel,Colgate,480.17
+3694,Tea Powder Strong,Tata Tea,746.06
+7129,Digestive Biscuits,Britannia,70.12
+9208,Digestive Biscuits,Britannia,395.05
+4842,Iodized Cooking Salt,Tata Salt,646.87
+3443,Shampoo Anti-Dandruff,Head & Shoulders,172.84
+9394,Basmati Rice Premium,India Gate,673.3
+9424,Toothpaste Gel,Colgate,170.92
+2772,Basmati Rice Premium,India Gate,879.36
+5525,Potato Chips Salted,Lays,436.8
+2633,Potato Chips Salted,Lays,794.13
+2266,Toothpaste Gel,Colgate,577.98
+1136,Sunflower Oil 1L,Fortune,441.09
+7924,Potato Chips Salted,Lays,469.7
+9653,Toothpaste Gel,Colgate,288.24
+5505,Wheat Flour Select,Aashirvaad,350.42
+9055,Toothpaste Gel,Colgate,346.7
+9747,Bath Soap Herbal,Pears,807.54
+7732,Laundry Detergent,Surf Excel,569.08
+5004,Dishwash Liquid,Vim,708.73
+1243,Dishwash Liquid,Vim,773.86
+8429,Laundry Detergent,Surf Excel,539.09
+6453,Refined Sugar,Madhur,622.21
+4703,Dishwash Liquid,Vim,764.02
+1765,Wheat Flour Select,Aashirvaad,872.75
+8102,Bath Soap Herbal,Pears,335.87
+6036,Sunflower Oil 1L,Fortune,206.2
+3094,Dishwash Liquid,Vim,570.05
+8309,Sunflower Oil 1L,Fortune,456.04
+3140,Shampoo Anti-Dandruff,Head & Shoulders,185.01
+4501,Instant Coffee,Bru,462.51
+6683,Sunflower Oil 1L,Fortune,800.89
+8725,Sunflower Oil 1L,Fortune,294.22
+3746,Instant Coffee,Bru,364.12
+9612,Toothpaste Gel,Colgate,872.16
+4763,Instant Coffee,Bru,883.39
+2044,Wheat Flour Select,Aashirvaad,682.28
+9168,Digestive Biscuits,Britannia,462.73
+8839,Shampoo Anti-Dandruff,Head & Shoulders,733.46
+6800,Milk Chocolate Bar,Cadbury,197.53
+9675,Bath Soap Herbal,Pears,767.89
+5848,Laundry Detergent,Surf Excel,547.64
+8696,Digestive Biscuits,Britannia,340.74
+9754,Milk Chocolate Bar,Cadbury,304.5
+8046,Iodized Cooking Salt,Tata Salt,56.65
+5028,Shampoo Anti-Dandruff,Head & Shoulders,51.93
+4043,Laundry Detergent,Surf Excel,176.71
+2356,Iodized Cooking Salt,Tata Salt,818.92
+2043,Digestive Biscuits,Britannia,263.96
+6449,Wheat Flour Select,Aashirvaad,689.45
+6303,Sunflower Oil 1L,Fortune,170.65
+5536,Iodized Cooking Salt,Tata Salt,299.73
+1013,Toothpaste Gel,Colgate,139.85
+6148,Toothpaste Gel,Colgate,676.98
+7846,Potato Chips Salted,Lays,495.11
+2804,Refined Sugar,Madhur,166.69
+6077,Instant Coffee,Bru,838.94
+3028,Laundry Detergent,Surf Excel,561.59
+5538,Laundry Detergent,Surf Excel,55.78
+1759,Basmati Rice Premium,India Gate,224.45
+8518,Wheat Flour Select,Aashirvaad,477.7
+2641,Digestive Biscuits,Britannia,51.36
+2812,Laundry Detergent,Surf Excel,306.23
+2816,Milk Chocolate Bar,Cadbury,129.68
+1561,Shampoo Anti-Dandruff,Head & Shoulders,624.85
+1237,Milk Chocolate Bar,Cadbury,600.73
+3207,Digestive Biscuits,Britannia,219.22
+3649,Digestive Biscuits,Britannia,875.43
+8065,Laundry Detergent,Surf Excel,61.01
+1462,Digestive Biscuits,Britannia,710.51
+6829,Tea Powder Strong,Tata Tea,373.49
+6194,Instant Noodles Pack,Maggi,675.74
+6768,Iodized Cooking Salt,Tata Salt,511.16
+4168,Tea Powder Strong,Tata Tea,822.12
+8079,Digestive Biscuits,Britannia,894.94
+4232,Tea Powder Strong,Tata Tea,129.5
+4356,Refined Sugar,Madhur,407.71
+4898,Wheat Flour Select,Aashirvaad,750.38
+3433,Instant Coffee,Bru,71.08
+6720,Digestive Biscuits,Britannia,291.53
+3161,Toothpaste Gel,Colgate,447.79
+4041,Potato Chips Salted,Lays,425.93
+5955,Instant Coffee,Bru,490.96
+2704,Digestive Biscuits,Britannia,647.22
+1261,Toothpaste Gel,Colgate,101.22
+7683,Wheat Flour Select,Aashirvaad,455.81
+2159,Refined Sugar,Madhur,455.06
+2664,Shampoo Anti-Dandruff,Head & Shoulders,123.61
+3002,Sunflower Oil 1L,Fortune,524.88
+8441,Dishwash Liquid,Vim,799.31
+3269,Iodized Cooking Salt,Tata Salt,696.17
+6455,Instant Coffee,Bru,245.48
+7528,Tea Powder Strong,Tata Tea,736.04
+7087,Milk Chocolate Bar,Cadbury,491.86
+1652,Instant Noodles Pack,Maggi,545.73
+1512,Basmati Rice Premium,India Gate,567.46
+3444,Sunflower Oil 1L,Fortune,829.7
+9694,Shampoo Anti-Dandruff,Head & Shoulders,389.68
+1221,Refined Sugar,Madhur,572.89
+7063,Basmati Rice Premium,India Gate,161.58
+1897,Milk Chocolate Bar,Cadbury,573.27
+4490,Sunflower Oil 1L,Fortune,537.64
+4909,Sunflower Oil 1L,Fortune,410.8
+8619,Shampoo Anti-Dandruff,Head & Shoulders,172.53
+7190,Iodized Cooking Salt,Tata Salt,881.9
+6337,Milk Chocolate Bar,Cadbury,372.67
+4082,Sunflower Oil 1L,Fortune,443.83
+1189,Toothpaste Gel,Colgate,70.09
+8043,Milk Chocolate Bar,Cadbury,733.95
+7049,Instant Noodles Pack,Maggi,431.18
+7750,Wheat Flour Select,Aashirvaad,837.1
+7473,Instant Coffee,Bru,629.27
+5630,Bath Soap Herbal,Pears,777.29
+2072,Digestive Biscuits,Britannia,176.38
+4694,Toothpaste Gel,Colgate,615.94
+5240,Tea Powder Strong,Tata Tea,252.34
+2632,Milk Chocolate Bar,Cadbury,338.11
+2338,Laundry Detergent,Surf Excel,85.0
+3585,Potato Chips Salted,Lays,304.78
+5439,Refined Sugar,Madhur,336.94
+8196,Tea Powder Strong,Tata Tea,549.61
+6754,Wheat Flour Select,Aashirvaad,864.19
+5006,Potato Chips Salted,Lays,671.58
+9908,Dishwash Liquid,Vim,548.8
+2857,Refined Sugar,Madhur,475.18
+3810,Potato Chips Salted,Lays,736.97
+9475,Laundry Detergent,Surf Excel,310.74
+8364,Basmati Rice Premium,India Gate,55.37
+3361,Potato Chips Salted,Lays,447.35
+8528,Iodized Cooking Salt,Tata Salt,809.31
+3330,Wheat Flour Select,Aashirvaad,657.82
+9523,Potato Chips Salted,Lays,304.99
+7788,Instant Noodles Pack,Maggi,190.83
+8087,Basmati Rice Premium,India Gate,410.18
+6190,Toothpaste Gel,Colgate,888.88
+3329,Digestive Biscuits,Britannia,334.35
+7448,Toothpaste Gel,Colgate,381.94
+2852,Instant Coffee,Bru,463.59
+1531,Digestive Biscuits,Britannia,458.57
+4685,Digestive Biscuits,Britannia,651.93
+7148,Laundry Detergent,Surf Excel,851.68
+8308,Refined Sugar,Madhur,700.51
+4820,Toothpaste Gel,Colgate,159.59
+3559,Digestive Biscuits,Britannia,331.53
+2053,Refined Sugar,Madhur,862.06
+9661,Instant Coffee,Bru,239.89
+7440,Sunflower Oil 1L,Fortune,491.3
+2494,Bath Soap Herbal,Pears,574.81
+1903,Wheat Flour Select,Aashirvaad,163.03
+3851,Shampoo Anti-Dandruff,Head & Shoulders,657.29
+6964,Potato Chips Salted,Lays,799.43
+8667,Basmati Rice Premium,India Gate,637.76
+5964,Tea Powder Strong,Tata Tea,757.14
+3659,Tea Powder Strong,Tata Tea,568.98
+5448,Sunflower Oil 1L,Fortune,663.25
+4605,Instant Coffee,Bru,727.0
+1396,Laundry Detergent,Surf Excel,138.71
+8583,Instant Noodles Pack,Maggi,848.96
+5602,Toothpaste Gel,Colgate,466.1
+1687,Tea Powder Strong,Tata Tea,184.13
+4053,Refined Sugar,Madhur,526.53
+9149,Shampoo Anti-Dandruff,Head & Shoulders,825.34
+7893,Tea Powder Strong,Tata Tea,361.76
+1202,Basmati Rice Premium,India Gate,600.52
+2289,Laundry Detergent,Surf Excel,649.31
+8483,Bath Soap Herbal,Pears,448.06
+8202,Shampoo Anti-Dandruff,Head & Shoulders,70.68
+7702,Bath Soap Herbal,Pears,569.38
+2297,Laundry Detergent,Surf Excel,731.08
+8193,Dishwash Liquid,Vim,418.29
+9744,Instant Noodles Pack,Maggi,861.22
+8834,Milk Chocolate Bar,Cadbury,757.98
+7568,Digestive Biscuits,Britannia,782.45
+4966,Wheat Flour Select,Aashirvaad,807.05
+3621,Refined Sugar,Madhur,454.2
+5707,Laundry Detergent,Surf Excel,152.84
+2179,Iodized Cooking Salt,Tata Salt,559.43
+9979,Iodized Cooking Salt,Tata Salt,841.26
+1353,Dishwash Liquid,Vim,644.54
+6127,Shampoo Anti-Dandruff,Head & Shoulders,852.4
+3504,Laundry Detergent,Surf Excel,386.94
+1925,Potato Chips Salted,Lays,476.57
+6566,Wheat Flour Select,Aashirvaad,848.45
+4087,Refined Sugar,Madhur,90.49
+7621,Milk Chocolate Bar,Cadbury,529.08
+2886,Tea Powder Strong,Tata Tea,517.74
+6295,Milk Chocolate Bar,Cadbury,759.01
+1552,Shampoo Anti-Dandruff,Head & Shoulders,319.51
+3552,Shampoo Anti-Dandruff,Head & Shoulders,893.96
+6458,Instant Noodles Pack,Maggi,199.48
+8644,Laundry Detergent,Surf Excel,603.8
+7282,Potato Chips Salted,Lays,657.08
+8104,Dishwash Liquid,Vim,776.18
+9809,Dishwash Liquid,Vim,210.14
+1020,Digestive Biscuits,Britannia,684.2
+7601,Digestive Biscuits,Britannia,822.01
+8648,Bath Soap Herbal,Pears,440.55
+7778,Refined Sugar,Madhur,842.09
+7099,Basmati Rice Premium,India Gate,197.03
+8053,Refined Sugar,Madhur,631.62
+8405,Sunflower Oil 1L,Fortune,753.6
+2710,Instant Noodles Pack,Maggi,786.87
+4728,Wheat Flour Select,Aashirvaad,271.39
+2081,Potato Chips Salted,Lays,441.2
+9024,Laundry Detergent,Surf Excel,886.99
+7393,Milk Chocolate Bar,Cadbury,370.98
+1469,Sunflower Oil 1L,Fortune,183.89
+2672,Wheat Flour Select,Aashirvaad,162.9
+4634,Instant Coffee,Bru,466.07
+1463,Dishwash Liquid,Vim,400.77
+4866,Basmati Rice Premium,India Gate,465.44
+9520,Dishwash Liquid,Vim,203.85
+9578,Refined Sugar,Madhur,847.31
+7706,Potato Chips Salted,Lays,818.24
+6088,Dishwash Liquid,Vim,792.07
+3063,Basmati Rice Premium,India Gate,727.13
+8175,Laundry Detergent,Surf Excel,847.24
+6554,Instant Noodles Pack,Maggi,358.89
+9512,Toothpaste Gel,Colgate,188.7
+7888,Bath Soap Herbal,Pears,391.4
+5970,Potato Chips Salted,Lays,537.99
+6753,Toothpaste Gel,Colgate,111.25
+6537,Refined Sugar,Madhur,306.91
+5794,Iodized Cooking Salt,Tata Salt,418.24
+2442,Bath Soap Herbal,Pears,332.75
+4470,Dishwash Liquid,Vim,53.17
+8066,Instant Noodles Pack,Maggi,166.85
+4710,Laundry Detergent,Surf Excel,231.25
+5978,Basmati Rice Premium,India Gate,362.71
+2429,Laundry Detergent,Surf Excel,92.48
+1908,Iodized Cooking Salt,Tata Salt,702.19
+1630,Instant Noodles Pack,Maggi,791.85
+8159,Laundry Detergent,Surf Excel,386.55
+9142,Shampoo Anti-Dandruff,Head & Shoulders,618.75
+2291,Milk Chocolate Bar,Cadbury,365.28
+9240,Dishwash Liquid,Vim,696.89
+3229,Shampoo Anti-Dandruff,Head & Shoulders,853.15
+3167,Bath Soap Herbal,Pears,864.96
+1769,Shampoo Anti-Dandruff,Head & Shoulders,756.82
+2499,Instant Coffee,Bru,220.0
+1277,Dishwash Liquid,Vim,683.2
+9435,Instant Coffee,Bru,747.99
+9122,Dishwash Liquid,Vim,763.5
+6065,Iodized Cooking Salt,Tata Salt,499.11
+2156,Toothpaste Gel,Colgate,58.32
+5055,Tea Powder Strong,Tata Tea,685.54
+3065,Potato Chips Salted,Lays,852.96
+4923,Laundry Detergent,Surf Excel,750.25
+4942,Refined Sugar,Madhur,734.89
+2383,Iodized Cooking Salt,Tata Salt,687.41
+2795,Laundry Detergent,Surf Excel,219.26
+7637,Toothpaste Gel,Colgate,168.25
+9392,Basmati Rice Premium,India Gate,73.19
+4770,Laundry Detergent,Surf Excel,62.1
+3310,Instant Noodles Pack,Maggi,747.92
+6748,Instant Noodles Pack,Maggi,705.53
+9723,Potato Chips Salted,Lays,811.83
+2376,Toothpaste Gel,Colgate,345.85
+4124,Basmati Rice Premium,India Gate,163.34
+2573,Milk Chocolate Bar,Cadbury,690.54
+2678,Digestive Biscuits,Britannia,181.12
+6994,Basmati Rice Premium,India Gate,269.4
+6590,Laundry Detergent,Surf Excel,576.43
+4218,Instant Noodles Pack,Maggi,864.32
+3138,Shampoo Anti-Dandruff,Head & Shoulders,555.99
+6747,Instant Coffee,Bru,215.06
+6995,Tea Powder Strong,Tata Tea,295.87
+2636,Digestive Biscuits,Britannia,394.38
+1938,Refined Sugar,Madhur,314.57
+7577,Refined Sugar,Madhur,627.17
+6326,Shampoo Anti-Dandruff,Head & Shoulders,653.85
+4774,Shampoo Anti-Dandruff,Head & Shoulders,505.15
+9331,Toothpaste Gel,Colgate,874.69
+9697,Shampoo Anti-Dandruff,Head & Shoulders,708.98
+1837,Sunflower Oil 1L,Fortune,103.39
+5308,Sunflower Oil 1L,Fortune,662.63
+7488,Instant Coffee,Bru,349.48
+7084,Refined Sugar,Madhur,294.84
+4106,Refined Sugar,Madhur,411.07
+9912,Toothpaste Gel,Colgate,896.47
+5261,Iodized Cooking Salt,Tata Salt,867.18
+6010,Instant Coffee,Bru,181.06
+1878,Bath Soap Herbal,Pears,335.69
+9415,Iodized Cooking Salt,Tata Salt,400.29
+8624,Dishwash Liquid,Vim,159.41
+5156,Iodized Cooking Salt,Tata Salt,787.0
+4559,Potato Chips Salted,Lays,392.42
+2447,Refined Sugar,Madhur,677.36
+9773,Dishwash Liquid,Vim,815.9
+2949,Laundry Detergent,Surf Excel,495.77
+5509,Basmati Rice Premium,India Gate,740.4
+1774,Sunflower Oil 1L,Fortune,779.74
+4960,Digestive Biscuits,Britannia,590.23
+1014,Dishwash Liquid,Vim,383.3
+8939,Refined Sugar,Madhur,513.93
+6220,Wheat Flour Select,Aashirvaad,54.02
+4497,Instant Coffee,Bru,580.5
+1963,Toothpaste Gel,Colgate,122.33
+6129,Sunflower Oil 1L,Fortune,359.02
+2918,Shampoo Anti-Dandruff,Head & Shoulders,207.87
+4272,Instant Coffee,Bru,98.12
+8265,Sunflower Oil 1L,Fortune,174.99
+1845,Tea Powder Strong,Tata Tea,547.92
+1558,Basmati Rice Premium,India Gate,719.56
+7513,Tea Powder Strong,Tata Tea,656.56
+1588,Potato Chips Salted,Lays,207.27
+6340,Potato Chips Salted,Lays,192.6
+8825,Sunflower Oil 1L,Fortune,531.96
+1309,Milk Chocolate Bar,Cadbury,79.8
+3185,Instant Noodles Pack,Maggi,675.84
+3438,Laundry Detergent,Surf Excel,253.47
+5013,Dishwash Liquid,Vim,277.19
+7890,Sunflower Oil 1L,Fortune,898.71
+4138,Potato Chips Salted,Lays,746.27
+3218,Shampoo Anti-Dandruff,Head & Shoulders,196.18
+6614,Potato Chips Salted,Lays,329.97
+4459,Iodized Cooking Salt,Tata Salt,262.34
+4945,Laundry Detergent,Surf Excel,873.61
+1194,Tea Powder Strong,Tata Tea,112.24
+2700,Sunflower Oil 1L,Fortune,117.91
+5732,Refined Sugar,Madhur,879.06
+4890,Shampoo Anti-Dandruff,Head & Shoulders,402.74
+8632,Digestive Biscuits,Britannia,606.36
+1986,Laundry Detergent,Surf Excel,734.46
+4238,Basmati Rice Premium,India Gate,539.72
+8567,Dishwash Liquid,Vim,512.9
+9910,Potato Chips Salted,Lays,837.81
+9574,Instant Noodles Pack,Maggi,662.83
+5394,Shampoo Anti-Dandruff,Head & Shoulders,666.07
+9844,Milk Chocolate Bar,Cadbury,628.5
+2511,Dishwash Liquid,Vim,99.63
+9286,Refined Sugar,Madhur,569.94
+1130,Refined Sugar,Madhur,779.22
+4161,Potato Chips Salted,Lays,545.21
+8712,Toothpaste Gel,Colgate,566.41
+7754,Tea Powder Strong,Tata Tea,682.84
+4267,Shampoo Anti-Dandruff,Head & Shoulders,519.15
+9677,Shampoo Anti-Dandruff,Head & Shoulders,678.73
+8482,Laundry Detergent,Surf Excel,377.39
+1800,Basmati Rice Premium,India Gate,654.05
+9314,Refined Sugar,Madhur,756.38
+2869,Basmati Rice Premium,India Gate,199.3
+8961,Shampoo Anti-Dandruff,Head & Shoulders,561.54
+4986,Refined Sugar,Madhur,450.52
+2110,Iodized Cooking Salt,Tata Salt,793.41
+8548,Refined Sugar,Madhur,245.07
+2916,Iodized Cooking Salt,Tata Salt,287.69
+9276,Tea Powder Strong,Tata Tea,166.1
+6896,Sunflower Oil 1L,Fortune,455.74
+9501,Sunflower Oil 1L,Fortune,293.92
+4070,Instant Coffee,Bru,101.04
+7920,Refined Sugar,Madhur,845.15
+6377,Basmati Rice Premium,India Gate,736.9
+4858,Refined Sugar,Madhur,286.69
+7500,Instant Noodles Pack,Maggi,401.61
+2993,Tea Powder Strong,Tata Tea,294.72
+7339,Milk Chocolate Bar,Cadbury,181.38
+4038,Basmati Rice Premium,India Gate,462.06
+2486,Potato Chips Salted,Lays,269.34
+5399,Instant Noodles Pack,Maggi,337.76
+4028,Instant Coffee,Bru,537.18
+2988,Iodized Cooking Salt,Tata Salt,536.99
+5577,Iodized Cooking Salt,Tata Salt,138.56
+9336,Sunflower Oil 1L,Fortune,448.16
+4032,Wheat Flour Select,Aashirvaad,291.97
+7066,Instant Noodles Pack,Maggi,745.79
+8403,,Head & Shoulders,770.32
+9736,Iodized Cooking Salt,Tata Salt,765.58
+2154,Refined Sugar,Madhur,466.68
+4852,Shampoo Anti-Dandruff,Head & Shoulders,418.09
+7535,Bath Soap Herbal,Pears,893.86
+3865,Potato Chips Salted,Lays,871.12
+5855,Potato Chips Salted,Lays,63.83
+1257,Milk Chocolate Bar,Cadbury,340.6
+8430,Milk Chocolate Bar,Cadbury,180.39
+7684,Instant Noodles Pack,Maggi,505.08
+9647,Laundry Detergent,Surf Excel,747.39
+3017,Toothpaste Gel,Colgate,889.86
+3745,Potato Chips Salted,Lays,428.85
+7739,Bath Soap Herbal,Pears,727.31
+8513,Laundry Detergent,Surf Excel,606.63
+3994,Tea Powder Strong,Tata Tea,454.15
+5553,Instant Coffee,Bru,712.13
+3821,Instant Noodles Pack,Maggi,337.47
+2125,Basmati Rice Premium,India Gate,727.2
+6497,Refined Sugar,Madhur,130.76
+5606,Refined Sugar,Madhur,639.82
+9112,Instant Noodles Pack,Maggi,274.39
+2649,Bath Soap Herbal,Pears,707.36
+1323,Tea Powder Strong,Tata Tea,409.57
+1455,Laundry Detergent,Surf Excel,416.88
+2361,Dishwash Liquid,Vim,297.93
+8492,Laundry Detergent,Surf Excel,167.45
+7550,Tea Powder Strong,Tata Tea,763.08
+5687,Dishwash Liquid,Vim,690.47
+8652,Wheat Flour Select,Aashirvaad,763.45
+7694,Toothpaste Gel,Colgate,514.46
+7681,Tea Powder Strong,Tata Tea,894.51
+4335,Sunflower Oil 1L,Fortune,847.25
+3615,Instant Noodles Pack,Maggi,731.65
+9048,Basmati Rice Premium,India Gate,681.4
+3397,Instant Coffee,Bru,800.14
+3738,Instant Coffee,Bru,405.07
+8353,Potato Chips Salted,Lays,153.37
+8295,Digestive Biscuits,Britannia,375.16
+1269,Basmati Rice Premium,India Gate,658.86
+9134,Dishwash Liquid,Vim,845.32
+2561,Shampoo Anti-Dandruff,Head & Shoulders,536.79
+1743,Toothpaste Gel,Colgate,290.15
+6791,Laundry Detergent,Surf Excel,562.37
+6702,Wheat Flour Select,Aashirvaad,746.85
+9328,Potato Chips Salted,Lays,849.57
+1049,Tea Powder Strong,Tata Tea,78.28
+9996,Potato Chips Salted,Lays,300.08
+8656,Digestive Biscuits,Britannia,285.33
+8607,Laundry Detergent,Surf Excel,317.52
+2638,Bath Soap Herbal,Pears,633.35
+9007,Iodized Cooking Salt,Tata Salt,124.1
+8560,Dishwash Liquid,Vim,76.89
+9782,Wheat Flour Select,Aashirvaad,754.88
+5141,Tea Powder Strong,Tata Tea,477.33
+8235,Shampoo Anti-Dandruff,Head & Shoulders,395.79
+2540,Milk Chocolate Bar,Cadbury,563.56
+2078,Refined Sugar,Madhur,664.7
+7722,Sunflower Oil 1L,Fortune,622.92
+3423,Instant Noodles Pack,Maggi,633.41
+5740,Sunflower Oil 1L,Fortune,554.13
+3856,Iodized Cooking Salt,Tata Salt,61.97
+3410,Bath Soap Herbal,Pears,736.62
+4609,Dishwash Liquid,Vim,423.14
+2118,Sunflower Oil 1L,Fortune,610.13
+5476,Bath Soap Herbal,Pears,420.43
+3974,Sunflower Oil 1L,Fortune,485.7
+6855,Iodized Cooking Salt,Tata Salt,748.15
+2302,Milk Chocolate Bar,Cadbury,595.87
+2900,Refined Sugar,Madhur,56.08
+9633,Digestive Biscuits,Britannia,337.46
+4783,Laundry Detergent,Surf Excel,199.57
+5682,Bath Soap Herbal,Pears,470.74
+8989,Toothpaste Gel,Colgate,384.51
+6013,Instant Coffee,Bru,848.41
+8936,Bath Soap Herbal,Pears,749.71
+4213,Instant Noodles Pack,Maggi,307.65
+4310,Instant Noodles Pack,Maggi,729.53
+8734,Laundry Detergent,Surf Excel,626.48
+1383,Digestive Biscuits,Britannia,137.77
+6499,Digestive Biscuits,Britannia,243.94
+7989,Shampoo Anti-Dandruff,Head & Shoulders,534.91
+8047,Potato Chips Salted,Lays,899.99
+5678,Wheat Flour Select,Aashirvaad,825.63
+8269,Refined Sugar,Madhur,559.52
+4367,Digestive Biscuits,Britannia,676.96
+3568,Laundry Detergent,Surf Excel,283.22
+8227,Instant Noodles Pack,Maggi,860.87
+9021,Wheat Flour Select,Aashirvaad,511.96
+8704,Instant Coffee,Bru,694.32
+3879,Toothpaste Gel,Colgate,419.45
+9516,Instant Noodles Pack,Maggi,487.38
+1637,Digestive Biscuits,Britannia,432.37
+8609,Laundry Detergent,Surf Excel,849.76
+7382,Sunflower Oil 1L,Fortune,552.92
+4436,Potato Chips Salted,Lays,160.12
+2769,Sunflower Oil 1L,Fortune,704.96
+7570,Digestive Biscuits,Britannia,567.92
+7689,Digestive Biscuits,Britannia,111.48
+3374,Dishwash Liquid,Vim,237.06
+4522,Basmati Rice Premium,India Gate,871.74
+7067,Tea Powder Strong,Tata Tea,755.09
+3685,Laundry Detergent,Surf Excel,533.15
+3319,Sunflower Oil 1L,Fortune,600.9
+5354,Bath Soap Herbal,Pears,148.24
+2253,Wheat Flour Select,Aashirvaad,747.29
+2998,Basmati Rice Premium,India Gate,422.3
+5259,Sunflower Oil 1L,Fortune,351.48
+3401,Instant Coffee,Bru,833.53
+1860,Toothpaste Gel,Colgate,325.93
+5933,Wheat Flour Select,Aashirvaad,589.84
+1480,Tea Powder Strong,Tata Tea,739.05
+9299,Basmati Rice Premium,India Gate,868.27
+3162,Digestive Biscuits,Britannia,839.85
+4885,Digestive Biscuits,Britannia,687.41
+8715,Instant Noodles Pack,Maggi,50.02
+1175,Basmati Rice Premium,India Gate,369.56
+9503,Dishwash Liquid,Vim,198.11
+6405,Iodized Cooking Salt,Tata Salt,518.6
+5825,Refined Sugar,Madhur,448.33
+6336,Toothpaste Gel,Colgate,675.32
+1517,Refined Sugar,Madhur,223.81
+9455,Instant Noodles Pack,Maggi,66.13
+9407,Milk Chocolate Bar,Cadbury,562.46
+7469,Wheat Flour Select,Aashirvaad,207.12
+6927,Tea Powder Strong,Tata Tea,378.96
+9841,Refined Sugar,Madhur,898.33
+1377,Wheat Flour Select,Aashirvaad,639.24
+4810,Laundry Detergent,Surf Excel,612.58
+4666,Milk Chocolate Bar,Cadbury,126.09
+4377,Toothpaste Gel,Colgate,824.18
+8220,Refined Sugar,Madhur,159.8
+5175,Instant Coffee,Bru,425.58
+5889,Shampoo Anti-Dandruff,Head & Shoulders,636.12
+7199,Iodized Cooking Salt,Tata Salt,883.35
+9380,Sunflower Oil 1L,Fortune,352.76
+4505,Iodized Cooking Salt,Tata Salt,857.42
+5832,Wheat Flour Select,Aashirvaad,743.41
+1703,Iodized Cooking Salt,Tata Salt,127.41
+3565,Iodized Cooking Salt,Tata Salt,445.67
+7808,Tea Powder Strong,Tata Tea,258.78
+6960,Instant Noodles Pack,Maggi,199.06
+1672,Milk Chocolate Bar,Cadbury,543.71
+1362,Laundry Detergent,Surf Excel,217.99
+1628,Shampoo Anti-Dandruff,Head & Shoulders,140.3
+8477,Refined Sugar,Madhur,155.1
+9347,Shampoo Anti-Dandruff,Head & Shoulders,161.44
+3844,Instant Coffee,Bru,653.13
+9008,Shampoo Anti-Dandruff,Head & Shoulders,194.39
+9236,Tea Powder Strong,Tata Tea,557.39
+5237,Basmati Rice Premium,India Gate,820.1
+7872,Instant Noodles Pack,Maggi,53.99
+9819,Digestive Biscuits,Britannia,220.56
+4641,Iodized Cooking Salt,Tata Salt,134.74
+7726,Instant Coffee,Bru,159.61
+8998,Milk Chocolate Bar,Cadbury,773.95
+5359,Refined Sugar,Madhur,517.94
+7057,Refined Sugar,Madhur,706.99
+5365,Toothpaste Gel,Colgate,210.73
+8088,Refined Sugar,Madhur,804.56
+3127,Toothpaste Gel,Colgate,378.6
+5170,Refined Sugar,Madhur,147.62
+2805,Milk Chocolate Bar,Cadbury,449.59
+1895,Digestive Biscuits,Britannia,405.0
+5842,Refined Sugar,Madhur,627.26
+5113,Wheat Flour Select,Aashirvaad,420.26
+2380,Instant Coffee,Bru,706.72
+2311,Laundry Detergent,Surf Excel,577.15
+2567,Potato Chips Salted,Lays,844.41
+9840,Dishwash Liquid,Vim,133.42
+2131,Wheat Flour Select,Aashirvaad,290.1
+6663,Laundry Detergent,Surf Excel,534.24
+9917,Digestive Biscuits,Britannia,82.51
+1068,Potato Chips Salted,Lays,790.31
+4769,Potato Chips Salted,Lays,820.31
+6463,Dishwash Liquid,Vim,306.99
+3665,Potato Chips Salted,Lays,688.24
+2673,Wheat Flour Select,Aashirvaad,614.46
+1623,Laundry Detergent,Surf Excel,148.79
+8608,Laundry Detergent,Surf Excel,274.84
+8741,Shampoo Anti-Dandruff,Head & Shoulders,708.1
+7380,Wheat Flour Select,Aashirvaad,711.23
+4772,Refined Sugar,Madhur,408.26
+7361,Basmati Rice Premium,India Gate,856.37
+5837,Laundry Detergent,Surf Excel,751.24
+9476,Instant Noodles Pack,Maggi,806.19
+1621,Iodized Cooking Salt,Tata Salt,260.56
+2571,Dishwash Liquid,Vim,565.07
+1331,Basmati Rice Premium,India Gate,810.28
+7840,Dishwash Liquid,Vim,528.63
+4878,Dishwash Liquid,Vim,875.56
+2396,Instant Coffee,Bru,870.32
+8379,Instant Noodles Pack,Maggi,250.15
+7562,Digestive Biscuits,Britannia,814.08
+2404,Toothpaste Gel,Colgate,393.33
+9562,Basmati Rice Premium,India Gate,455.77
+1813,Instant Coffee,Bru,324.76
+8007,Laundry Detergent,Surf Excel,715.31
+2464,Instant Coffee,Bru,686.6
+8256,Shampoo Anti-Dandruff,Head & Shoulders,279.38
+7910,Iodized Cooking Salt,Tata Salt,56.07
+4332,Milk Chocolate Bar,Cadbury,61.89
+2577,Refined Sugar,Madhur,62.26
+8253,Instant Coffee,Bru,807.86
+7617,Toothpaste Gel,Colgate,69.62
+1296,Dishwash Liquid,Vim,445.31
+8272,Instant Coffee,Bru,148.42
+7704,Dishwash Liquid,Vim,807.66
+6786,Sunflower Oil 1L,Fortune,652.15
+1006,Digestive Biscuits,Britannia,542.29
+7096,Basmati Rice Premium,India Gate,817.12
+1557,Sunflower Oil 1L,Fortune,825.12
+6912,Digestive Biscuits,Britannia,500.91
+1187,Tea Powder Strong,Tata Tea,423.88
+8797,Refined Sugar,Madhur,380.14
+7274,Laundry Detergent,Surf Excel,459.96
+3708,Shampoo Anti-Dandruff,Head & Shoulders,200.64
+9681,Milk Chocolate Bar,Cadbury,268.78
+9964,Tea Powder Strong,Tata Tea,773.65
+2006,Toothpaste Gel,Colgate,487.03
+8074,Basmati Rice Premium,India Gate,412.26
+7549,Basmati Rice Premium,India Gate,107.87
+3096,Shampoo Anti-Dandruff,Head & Shoulders,207.89
+1778,Sunflower Oil 1L,Fortune,823.61
+3115,Basmati Rice Premium,India Gate,680.54
+3977,Iodized Cooking Salt,Tata Salt,161.83
+8199,Instant Noodles Pack,Maggi,771.99
+2432,Milk Chocolate Bar,Cadbury,592.5
+7649,Iodized Cooking Salt,Tata Salt,840.05
+5360,Basmati Rice Premium,India Gate,779.91
+1272,Tea Powder Strong,Tata Tea,499.55
+9098,Sunflower Oil 1L,Fortune,799.45
+6102,Digestive Biscuits,Britannia,707.17
+2083,Shampoo Anti-Dandruff,Head & Shoulders,625.97
+1771,Milk Chocolate Bar,Cadbury,457.25
+4970,Milk Chocolate Bar,Cadbury,520.24
+9159,Toothpaste Gel,Colgate,694.11
+2278,Laundry Detergent,Surf Excel,85.19
+4439,Iodized Cooking Salt,Tata Salt,271.35
+6693,Basmati Rice Premium,India Gate,692.05
+4780,Tea Powder Strong,Tata Tea,404.23
+8096,Potato Chips Salted,Lays,141.16
+8402,Tea Powder Strong,Tata Tea,596.7
+5743,Laundry Detergent,Surf Excel,725.57
+7269,Shampoo Anti-Dandruff,Head & Shoulders,716.99
+7751,Dishwash Liquid,Vim,609.18
+1549,Sunflower Oil 1L,Fortune,72.91
+5635,Milk Chocolate Bar,Cadbury,202.32
+5574,Instant Noodles Pack,Maggi,668.11
+6192,Bath Soap Herbal,Pears,342.76
+3791,Bath Soap Herbal,Pears,189.7
+1057,Wheat Flour Select,Aashirvaad,523.39
+7298,Toothpaste Gel,Colgate,382.73
+7253,Bath Soap Herbal,Pears,185.59
+7009,Wheat Flour Select,Aashirvaad,222.47
+1763,Laundry Detergent,Surf Excel,667.56
+6312,Sunflower Oil 1L,Fortune,785.37
+7095,Toothpaste Gel,Colgate,106.95
+3276,Sunflower Oil 1L,Fortune,600.94
+3971,Dishwash Liquid,Vim,356.36
+7602,Wheat Flour Select,Aashirvaad,646.19
+3102,Instant Noodles Pack,Maggi,590.88
+6819,Instant Coffee,Bru,173.1
+8489,Laundry Detergent,Surf Excel,294.44
+1439,Instant Noodles Pack,Maggi,79.52
+5185,Sunflower Oil 1L,Fortune,384.71
+1167,Wheat Flour Select,Aashirvaad,149.36
+8136,Digestive Biscuits,Britannia,346.46
+8030,Sunflower Oil 1L,Fortune,635.39
+6475,Digestive Biscuits,Britannia,792.09
+7802,Potato Chips Salted,Lays,166.71
+8953,Shampoo Anti-Dandruff,Head & Shoulders,408.04
+3506,Bath Soap Herbal,Pears,545.41
+3758,Refined Sugar,Madhur,287.25
+9526,Sunflower Oil 1L,Fortune,778.45
+1357,Sunflower Oil 1L,Fortune,585.72
+7571,Sunflower Oil 1L,Fortune,442.38
+4839,Instant Noodles Pack,Maggi,216.89
+1332,Tea Powder Strong,Tata Tea,63.15
+1018,Shampoo Anti-Dandruff,Head & Shoulders,675.58
+8363,Basmati Rice Premium,India Gate,176.98
+3855,Bath Soap Herbal,Pears,227.25
+2712,Shampoo Anti-Dandruff,Head & Shoulders,646.22
+9796,Refined Sugar,Madhur,413.79
+9348,Laundry Detergent,Surf Excel,590.12
+2735,Milk Chocolate Bar,Cadbury,731.26
+4484,Shampoo Anti-Dandruff,Head & Shoulders,221.61
+9150,Wheat Flour Select,Aashirvaad,374.46
+8771,Digestive Biscuits,Britannia,844.47
+7676,Laundry Detergent,Surf Excel,560.07
+8739,Milk Chocolate Bar,Cadbury,671.87
+7188,Laundry Detergent,Surf Excel,688.86
+7697,Digestive Biscuits,Britannia,229.21
+5478,Iodized Cooking Salt,Tata Salt,380.02
+1707,Tea Powder Strong,Tata Tea,300.75
+7950,Milk Chocolate Bar,Cadbury,318.18
+7306,Digestive Biscuits,Britannia,825.86
+1121,Milk Chocolate Bar,Cadbury,770.66
+3486,Wheat Flour Select,Aashirvaad,553.62
+7849,Milk Chocolate Bar,Cadbury,676.18
+5132,Toothpaste Gel,Colgate,77.16
+8664,Dishwash Liquid,Vim,324.03
+1174,Bath Soap Herbal,Pears,155.44
+7424,Digestive Biscuits,Britannia,358.19
+9182,Milk Chocolate Bar,Cadbury,383.53
+5025,Wheat Flour Select,Aashirvaad,526.19
+8446,Shampoo Anti-Dandruff,Head & Shoulders,889.8
+3623,Wheat Flour Select,Aashirvaad,882.89
+5299,Instant Coffee,Bru,392.16
+3943,Toothpaste Gel,Colgate,312.69
+3667,Iodized Cooking Salt,Tata Salt,353.0
+2121,Wheat Flour Select,Aashirvaad,619.82
+2052,Sunflower Oil 1L,Fortune,360.39
+7973,Iodized Cooking Salt,Tata Salt,769.02
+3265,Iodized Cooking Salt,Tata Salt,344.6
+2285,Digestive Biscuits,Britannia,194.33
+9175,Iodized Cooking Salt,Tata Salt,385.81
+6899,Milk Chocolate Bar,Cadbury,682.58
+6138,Instant Coffee,Bru,837.3
+6508,Tea Powder Strong,Tata Tea,265.55
+5088,Sunflower Oil 1L,Fortune,894.86
+8486,Shampoo Anti-Dandruff,Head & Shoulders,440.85
+7534,Potato Chips Salted,Lays,822.34
+1524,Laundry Detergent,Surf Excel,406.58
+7948,Dishwash Liquid,Vim,409.22
+3316,Wheat Flour Select,Aashirvaad,721.48
+8808,Potato Chips Salted,Lays,494.56
+7210,Digestive Biscuits,Britannia,777.41
+3043,Shampoo Anti-Dandruff,Head & Shoulders,761.18
+8252,Wheat Flour Select,Aashirvaad,444.15
+4626,Potato Chips Salted,Lays,279.45
+7183,Wheat Flour Select,Aashirvaad,769.72
+2171,Bath Soap Herbal,Pears,196.37
+5920,Basmati Rice Premium,India Gate,63.18
+6131,Iodized Cooking Salt,Tata Salt,82.7
+8851,Dishwash Liquid,Vim,108.33
+1038,Iodized Cooking Salt,Tata Salt,592.53
+3781,Basmati Rice Premium,India Gate,423.33
+1047,Instant Coffee,Bru,671.35
+3394,Iodized Cooking Salt,Tata Salt,54.79
+4549,Potato Chips Salted,Lays,525.94
+6666,Toothpaste Gel,Colgate,874.33
+5863,Laundry Detergent,Surf Excel,774.75
+1935,Digestive Biscuits,Britannia,550.97
+2753,Sunflower Oil 1L,Fortune,384.96
+1959,Refined Sugar,Madhur,608.16
+8444,Instant Coffee,Bru,748.22
+4678,Iodized Cooking Salt,Tata Salt,855.3
+2155,Tea Powder Strong,Tata Tea,306.08
+6385,Dishwash Liquid,Vim,413.41
+9586,Digestive Biscuits,Britannia,655.88
+5407,Sunflower Oil 1L,Fortune,770.83
+7390,Digestive Biscuits,Britannia,628.9
+8124,Iodized Cooking Salt,Tata Salt,762.45
+1603,Refined Sugar,Madhur,367.55
+7769,Milk Chocolate Bar,Cadbury,257.93
+6506,Dishwash Liquid,Vim,389.81
+8589,Iodized Cooking Salt,Tata Salt,754.12
+9464,Sunflower Oil 1L,Fortune,68.0
+2132,Tea Powder Strong,Tata Tea,858.31
+9943,Tea Powder Strong,Tata Tea,251.24
+1504,Instant Coffee,Bru,304.38
+7325,Refined Sugar,Madhur,135.91
+7801,Basmati Rice Premium,India Gate,525.1
+1043,Instant Noodles Pack,Maggi,292.68
+6660,Digestive Biscuits,Britannia,697.82
+8896,Instant Coffee,Bru,714.02
+4745,Milk Chocolate Bar,Cadbury,50.61
+2911,Bath Soap Herbal,Pears,486.71
+6565,Shampoo Anti-Dandruff,Head & Shoulders,96.74
+5124,Wheat Flour Select,Aashirvaad,895.28
+5567,Iodized Cooking Salt,Tata Salt,846.54
+2705,Bath Soap Herbal,Pears,333.73
+9083,Shampoo Anti-Dandruff,Head & Shoulders,234.28
+8977,Wheat Flour Select,Aashirvaad,372.05
+4336,Dishwash Liquid,Vim,301.39
+3816,,India Gate,761.35
+2180,Refined Sugar,Madhur,186.72
+5289,Shampoo Anti-Dandruff,Head & Shoulders,125.05
+8674,Digestive Biscuits,Britannia,220.52
+8751,Wheat Flour Select,Aashirvaad,621.74
+2830,Potato Chips Salted,Lays,592.46
+3590,Bath Soap Herbal,Pears,831.63
+9204,Instant Coffee,Bru,209.64
+5652,Milk Chocolate Bar,Cadbury,665.57
+1624,Instant Coffee,Bru,626.01
+1271,Sunflower Oil 1L,Fortune,80.22
+4123,Iodized Cooking Salt,Tata Salt,825.33
+3642,Digestive Biscuits,Britannia,819.41
+7598,Digestive Biscuits,Britannia,597.12
+2231,Digestive Biscuits,Britannia,603.51
+5579,Dishwash Liquid,Vim,800.08
+6808,Digestive Biscuits,Britannia,702.06
+2849,Refined Sugar,Madhur,267.41
+8004,Digestive Biscuits,Britannia,576.96
+9440,Bath Soap Herbal,Pears,447.19
+3825,Toothpaste Gel,Colgate,740.11
+7853,Sunflower Oil 1L,Fortune,827.62
+6695,Bath Soap Herbal,Pears,371.28
+7447,Dishwash Liquid,Vim,216.9
+3350,Tea Powder Strong,Tata Tea,750.9
+2296,Refined Sugar,Madhur,786.66
+3251,Instant Coffee,Bru,635.36
+3586,Refined Sugar,Madhur,309.02
+1626,Shampoo Anti-Dandruff,Head & Shoulders,763.04
+3087,Refined Sugar,Madhur,786.42
+9351,Instant Noodles Pack,Maggi,332.19
+2865,Milk Chocolate Bar,Cadbury,144.89
+7408,Laundry Detergent,Surf Excel,127.38
+9224,Instant Noodles Pack,Maggi,253.97
+7217,Sunflower Oil 1L,Fortune,105.88
+2049,Wheat Flour Select,Aashirvaad,610.27
+1689,Sunflower Oil 1L,Fortune,169.71
+4125,Laundry Detergent,Surf Excel,59.22
+8360,Toothpaste Gel,Colgate,632.69
+8838,Instant Coffee,Bru,567.62
+2092,Wheat Flour Select,Aashirvaad,639.19
+9324,Sunflower Oil 1L,Fortune,299.86
+5305,Wheat Flour Select,Aashirvaad,227.93
+1472,Tea Powder Strong,Tata Tea,314.57
+1840,Refined Sugar,Madhur,202.03
+1481,Instant Noodles Pack,Maggi,687.98
+8814,Wheat Flour Select,Aashirvaad,544.2
+4483,Refined Sugar,Madhur,685.68
+4234,Laundry Detergent,Surf Excel,607.18
+4001,Toothpaste Gel,Colgate,136.97
+3365,Dishwash Liquid,Vim,351.05
+6160,Digestive Biscuits,Britannia,562.86
+6108,Wheat Flour Select,Aashirvaad,647.75
+3570,Potato Chips Salted,Lays,636.72
+9827,Toothpaste Gel,Colgate,260.01
+5550,Tea Powder Strong,Tata Tea,771.62
+3241,Laundry Detergent,Surf Excel,306.56
+3226,Potato Chips Salted,Lays,399.4
+7475,Refined Sugar,Madhur,553.56
+2624,Digestive Biscuits,Britannia,373.35
+4850,Bath Soap Herbal,Pears,777.49
+1824,Iodized Cooking Salt,Tata Salt,897.01
+8807,Wheat Flour Select,Aashirvaad,564.0
+1314,Basmati Rice Premium,India Gate,425.0
+6805,Instant Noodles Pack,Maggi,194.44
+7331,Shampoo Anti-Dandruff,Head & Shoulders,422.48
+7468,Instant Coffee,Bru,733.96
+3799,Toothpaste Gel,Colgate,642.12
+6026,Bath Soap Herbal,Pears,722.63
+1855,Instant Coffee,Bru,162.45
+2818,Dishwash Liquid,Vim,325.28
+4620,Basmati Rice Premium,India Gate,720.37
+8388,Basmati Rice Premium,India Gate,497.9
+4199,Digestive Biscuits,Britannia,883.49
+9447,Wheat Flour Select,Aashirvaad,776.35
+8287,Tea Powder Strong,Tata Tea,824.75
+3920,,Fortune,713.99
+9848,Basmati Rice Premium,India Gate,872.62
+6611,Bath Soap Herbal,Pears,294.89
+7913,Milk Chocolate Bar,Cadbury,341.47
+8846,Tea Powder Strong,Tata Tea,255.63
+2513,Toothpaste Gel,Colgate,131.18
+6224,Refined Sugar,Madhur,125.54
+7504,Instant Noodles Pack,Maggi,459.61
+3861,Digestive Biscuits,Britannia,159.32
+3470,Digestive Biscuits,Britannia,54.12
+2299,Refined Sugar,Madhur,611.83
+2252,Digestive Biscuits,Britannia,637.45
+8542,Basmati Rice Premium,India Gate,745.92
+6501,Milk Chocolate Bar,Cadbury,191.23
+8038,Iodized Cooking Salt,Tata Salt,111.58
+1817,Laundry Detergent,Surf Excel,189.7
+9422,Shampoo Anti-Dandruff,Head & Shoulders,513.96
+9859,Wheat Flour Select,Aashirvaad,810.71
+1750,Digestive Biscuits,Britannia,897.38
+1420,Milk Chocolate Bar,Cadbury,819.01
+5526,Iodized Cooking Salt,Tata Salt,697.08
+6832,Dishwash Liquid,Vim,120.87
+4884,Instant Coffee,Bru,453.31
+6173,Wheat Flour Select,Aashirvaad,379.97
+9962,Digestive Biscuits,Britannia,231.72
+3123,Instant Noodles Pack,Maggi,328.24
+2773,Laundry Detergent,Surf Excel,882.62
+1040,Refined Sugar,Madhur,582.3
+3970,Digestive Biscuits,Britannia,558.87
+8860,Bath Soap Herbal,Pears,331.67
+3057,Wheat Flour Select,Aashirvaad,390.94
+1560,Basmati Rice Premium,India Gate,244.08
+7632,Refined Sugar,Madhur,364.49
+7873,Wheat Flour Select,Aashirvaad,762.09
+4330,Toothpaste Gel,Colgate,58.75
+4835,Refined Sugar,Madhur,703.64
+3632,Bath Soap Herbal,Pears,518.12
+2615,Tea Powder Strong,Tata Tea,678.94
+2031,Shampoo Anti-Dandruff,Head & Shoulders,467.79
+8587,Bath Soap Herbal,Pears,739.88
+4131,Basmati Rice Premium,India Gate,373.33
+2193,Milk Chocolate Bar,Cadbury,791.04
+6503,Bath Soap Herbal,Pears,755.92
+7790,Potato Chips Salted,Lays,622.24
+9448,Digestive Biscuits,Britannia,674.0
+4039,Instant Coffee,Bru,127.62
+9939,Potato Chips Salted,Lays,646.87
+8835,Potato Chips Salted,Lays,778.11
+9729,Sunflower Oil 1L,Fortune,150.2
+5371,Wheat Flour Select,Aashirvaad,269.9
+4857,Milk Chocolate Bar,Cadbury,661.42
+7184,Basmati Rice Premium,India Gate,344.88
+8638,Dishwash Liquid,Vim,540.15
+9132,Sunflower Oil 1L,Fortune,379.39
+2635,Sunflower Oil 1L,Fortune,176.37
+9463,Refined Sugar,Madhur,118.53
+9074,Iodized Cooking Salt,Tata Salt,127.46
+8107,Potato Chips Salted,Lays,636.68
+1192,Dishwash Liquid,Vim,754.04
+8478,Potato Chips Salted,Lays,458.88
+8724,Basmati Rice Premium,India Gate,688.71
+7330,Refined Sugar,Madhur,336.97
+2658,Iodized Cooking Salt,Tata Salt,124.24
+3135,Iodized Cooking Salt,Tata Salt,660.6
+4803,Tea Powder Strong,Tata Tea,724.63
+3903,Laundry Detergent,Surf Excel,219.1
+9064,Wheat Flour Select,Aashirvaad,421.58
+3753,Wheat Flour Select,Aashirvaad,789.98
+2991,Digestive Biscuits,Britannia,494.52
+8012,Wheat Flour Select,Aashirvaad,302.4
+9824,Basmati Rice Premium,India Gate,466.28
+8720,Wheat Flour Select,Aashirvaad,644.34
+1838,Milk Chocolate Bar,Cadbury,151.44
+4334,Sunflower Oil 1L,Fortune,441.39
+3432,Iodized Cooking Salt,Tata Salt,511.86
+9896,Shampoo Anti-Dandruff,Head & Shoulders,108.12
+6587,Sunflower Oil 1L,Fortune,241.22
+1351,Wheat Flour Select,Aashirvaad,138.31
+4667,Wheat Flour Select,Aashirvaad,414.19
+4163,Potato Chips Salted,Lays,406.76
+7795,Digestive Biscuits,Britannia,530.57
+5809,Basmati Rice Premium,India Gate,152.41
+1610,Wheat Flour Select,Aashirvaad,723.24
+7874,Digestive Biscuits,Britannia,823.7
+9667,Dishwash Liquid,Vim,687.69
+1330,Potato Chips Salted,Lays,149.57
+1348,Tea Powder Strong,Tata Tea,811.9
+7059,Potato Chips Salted,Lays,664.53
+1467,Toothpaste Gel,Colgate,639.81
+2751,Refined Sugar,Madhur,210.5
+5264,Laundry Detergent,Surf Excel,732.55
+4257,Milk Chocolate Bar,Cadbury,57.95
+6441,Shampoo Anti-Dandruff,Head & Shoulders,265.99
+8620,Shampoo Anti-Dandruff,Head & Shoulders,259.49
+9887,Iodized Cooking Salt,Tata Salt,600.51
+7911,Milk Chocolate Bar,Cadbury,268.61
+2024,Milk Chocolate Bar,Cadbury,740.29
+3656,Milk Chocolate Bar,Cadbury,363.35
+7711,Dishwash Liquid,Vim,99.92
+9658,Sunflower Oil 1L,Fortune,761.74
+9756,Milk Chocolate Bar,Cadbury,71.22
+1281,Wheat Flour Select,Aashirvaad,321.8
+4627,Digestive Biscuits,Britannia,207.97
+9330,Instant Coffee,Bru,810.83
+7098,Dishwash Liquid,Vim,137.14
+5548,Tea Powder Strong,Tata Tea,94.87
+8447,Potato Chips Salted,Lays,436.96
+7747,Digestive Biscuits,Britannia,794.54
+9166,Basmati Rice Premium,India Gate,229.43
+3830,Milk Chocolate Bar,Cadbury,581.73
+6147,Instant Noodles Pack,Maggi,506.12
+6275,Bath Soap Herbal,Pears,415.22
+6923,Dishwash Liquid,Vim,793.8
+2786,Refined Sugar,Madhur,873.28
+3372,Bath Soap Herbal,Pears,814.98
+3117,Milk Chocolate Bar,Cadbury,127.42
+5271,Tea Powder Strong,Tata Tea,162.71
+7654,Toothpaste Gel,Colgate,228.23
+9321,Refined Sugar,Madhur,890.86
+7728,Sunflower Oil 1L,Fortune,652.84
+5704,Sunflower Oil 1L,Fortune,852.6
+5844,Basmati Rice Premium,India Gate,288.52
+8357,Sunflower Oil 1L,Fortune,784.71
+8820,Shampoo Anti-Dandruff,Head & Shoulders,376.97
+5993,Instant Coffee,Bru,333.71
+7146,Bath Soap Herbal,Pears,206.7
+1901,Toothpaste Gel,Colgate,574.52
+9091,Basmati Rice Premium,India Gate,276.43
+2363,Iodized Cooking Salt,Tata Salt,84.52
+5336,Iodized Cooking Salt,Tata Salt,639.37
+8260,Potato Chips Salted,Lays,159.31
+9625,Iodized Cooking Salt,Tata Salt,761.74
+3795,Digestive Biscuits,Britannia,802.86
+2965,Sunflower Oil 1L,Fortune,364.91
+7868,Sunflower Oil 1L,Fortune,691.4
+1668,Potato Chips Salted,Lays,701.49

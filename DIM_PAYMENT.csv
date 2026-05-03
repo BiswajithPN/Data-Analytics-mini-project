@@ -1,0 +1,11 @@
+payment_method,credit_allowed
+Card,True
+UPI,True
+Cash,True
+Card,False
+Cash,False
+UPI,False
+Wallet,True
+Wallet,False
+,False
+,True
