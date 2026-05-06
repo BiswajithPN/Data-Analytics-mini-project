@@ -17,6 +17,6 @@ echo ======================================================
 echo Please wait for the "VERSION 2.0" message to appear...
 echo.
 
-python analytics_dashboard.py
+..\.venv\Scripts\python.exe analytics_dashboard.py
 
 pause

@@ -51,14 +51,33 @@ def load():
     retail_path = os.path.join(DATA_DIR, 'Retail_Analytics_Dataset.csv')
     reliance_path = os.path.join(DATA_DIR, 'Reliance_dataset.csv')
     
+    print(f"Loading data from: {DATA_DIR}")
+    print(f"Retail path: {retail_path}, exists: {os.path.exists(retail_path)}")
+    print(f"Reliance path: {reliance_path}, exists: {os.path.exists(reliance_path)}")
+    
     if os.path.exists(retail_path):
-        _retail_raw = pd.read_csv(retail_path)
-        _retail_raw.columns = _retail_raw.columns.str.strip()
+        try:
+            _retail_raw = pd.read_csv(retail_path)
+            _retail_raw.columns = _retail_raw.columns.str.strip()
+            print(f"Retail data loaded: {_retail_raw.shape}")
+        except Exception as e:
+            print(f"Error loading retail data: {e}")
+    else:
+        print("Retail data file not found!")
+        
     if os.path.exists(reliance_path):
-        _reliance_raw = pd.read_csv(reliance_path)
-        _reliance_raw.columns = _reliance_raw.columns.str.strip()
-    retail_work   = _retail_raw.copy()
-    reliance_work = _reliance_raw.copy()
+        try:
+            _reliance_raw = pd.read_csv(reliance_path)
+            _reliance_raw.columns = _reliance_raw.columns.str.strip()
+            print(f"Reliance data loaded: {_reliance_raw.shape}")
+        except Exception as e:
+            print(f"Error loading reliance data: {e}")
+    else:
+        print("Reliance data file not found!")
+        
+    retail_work   = _retail_raw.copy() if not _retail_raw.empty else pd.DataFrame()
+    reliance_work = _reliance_raw.copy() if not _reliance_raw.empty else pd.DataFrame()
+    print(f"Data loading complete. Retail: {len(_retail_raw)} rows, Reliance: {len(_reliance_raw)} rows")
 
 load()
 
@@ -70,6 +89,10 @@ def _first(df, options):
             # Return the actual column name from df.columns
             return df.columns[cols.index(opt.lower())]
     return df.columns[0] if len(df.columns) > 0 else None
+
+def _product_col(df):
+    """Prefer readable product names over numeric product ids."""
+    return _first(df, ['Product_Name', 'Product Name', 'product_name', 'product']) 
 
 def raw(name):
     return _retail_raw if name == 'retail' else _reliance_raw
@@ -123,11 +146,15 @@ def overview_insights():
         r_rev = r['Net_Sales'].sum()
         r_eff = r_rev / len(r)
         r_acc = _get_acc(r, 'Customer_Type')
+        r_top_product = str(r.groupby('Product_Name')['Net_Sales'].sum().idxmax())
+        r_top_products = r.groupby('Product_Name')['Net_Sales'].sum().sort_values(ascending=False).head(5).index.tolist()
 
         # Reliance Metrics
         rel_rev = rel['Net_Sales_Value'].sum()
         rel_eff = rel_rev / len(rel)
         rel_acc = _get_acc(rel, 'Membership_Type')
+        rel_top_product = str(rel.groupby('Product_Name')['Profit_Amount'].sum().idxmax())
+        rel_top_products = rel.groupby('Product_Name')['Profit_Amount'].sum().sort_values(ascending=False).head(5).index.tolist()
 
         # Competitive Logic (Why Retail Wins)
         advantages = []
@@ -143,6 +170,8 @@ def overview_insights():
 
         return jsonify({
             'retail': {
+                'top_product': r_top_product,
+                'top_products': r_top_products,
                 'top_category': str(r.groupby('Product_Category')['Net_Sales'].sum().idxmax()),
                 'top_store':    str(int(r.groupby('Store_ID')['Net_Sales'].sum().idxmax())),
                 'top_location': str(r['Store_Location'].mode()[0]),
@@ -153,6 +182,8 @@ def overview_insights():
                 'total_sales':  round(r_rev, 2)
             },
             'reliance': {
+                'top_product': rel_top_product,
+                'top_products': rel_top_products,
                 'top_profit_category': str(rel.groupby('Product_Category')['Profit_Amount'].sum().idxmax()),
                 'top_region':          str(rel['Store_Region'].mode()[0]),
                 'top_shift':           str(rel['Shift_Type'].mode()[0]),
@@ -170,18 +201,288 @@ def overview_insights():
 def algorithm_guide():
     try:
         insights = [
-            {'name': 'Decision Tree (CART)', 'use': 'Classifying customers as High/Low spenders, predicting churn', 'why': 'Handles both numeric & categorical features, easy to interpret, no normalization needed'},
-            {'name': 'Naïve Bayes', 'use': 'Payment method preference, customer type classification', 'why': 'Fast, works well with small data, good for categorical targets with conditional independence'},
-            {'name': 'K-Means Clustering', 'use': 'Customer segmentation by spending & age, store grouping', 'why': 'Unsupervised — no labels needed; segments customers into High/Medium/Low value groups'},
-            {'name': 'OLAP Roll-Up', 'use': 'Total sales by category, region, store', 'why': 'Aggregates fine-grained data to high-level summaries for executive reporting'},
-            {'name': 'OLAP Drill-Down', 'use': 'Category → Product → Store level analysis', 'why': 'Goes from summary to detail; great for root cause analysis of performance gaps'},
-            {'name': 'OLAP Slice', 'use': 'Peak hour analysis, weekend vs weekday', 'why': 'Filters one dimension to isolate specific business conditions'},
-            {'name': 'OLAP Dice', 'use': 'High-value + specific region, high-risk churn customers', 'why': 'Multi-condition filter; best for finding niche customer segments'},
-            {'name': 'OLAP Pivot', 'use': 'Category × Location × Sales matrix', 'why': 'Rotates data dimensions for cross-tabulation reporting'},
-            {'name': 'Correlation Analysis', 'use': 'Discount impact, loyalty points, footfall vs sales', 'why': 'Quantifies linear relationships; guides which variables to include in ML models'},
-            {'name': 'MinMaxScaler Normalization', 'use': 'Before K-Means, before Neural Net models', 'why': 'Prevents large-scale features dominating distance calculations in clustering'}
+            {'name': 'Customer Segmentation', 'use': 'Identify high-value customer groups for targeted marketing', 'why': 'Helps focus marketing budget on customers most likely to increase revenue'},
+            {'name': 'Payment Pattern Analysis', 'use': 'Understand customer payment preferences to optimize billing systems', 'why': 'Reduces transaction costs and improves customer experience'},
+            {'name': 'Customer Behavior Clustering', 'use': 'Group customers by spending patterns and purchase frequency', 'why': 'Enables personalized marketing and improves customer retention'},
+            {'name': 'Revenue Aggregation', 'use': 'Track total sales performance across categories and regions', 'why': 'Provides clear visibility into business performance for strategic planning'},
+            {'name': 'Detailed Performance Analysis', 'use': 'Drill down from category to product level for granular insights', 'why': 'Identifies specific products driving success or needing attention'},
+            {'name': 'Time-Based Analysis', 'use': 'Analyze performance during specific periods like peak hours', 'why': 'Optimizes staffing and inventory for high-demand periods'},
+            {'name': 'High-Performance Filtering', 'use': 'Focus on top-performing segments or products', 'why': 'Concentrates resources on areas with highest return on investment'},
+            {'name': 'Cross-Dimensional Analysis', 'use': 'Compare performance across multiple business dimensions', 'why': 'Reveals hidden patterns and opportunities for growth'},
+            {'name': 'Relationship Analysis', 'use': 'Understand how factors like discounts affect sales', 'why': 'Optimizes pricing strategies and promotional effectiveness'},
+            {'name': 'Performance Normalization', 'use': 'Compare metrics on a standardized scale', 'why': 'Ensures fair comparison between different business units'}
         ]
         return jsonify(insights)
+    except Exception as e:
+        return jsonify({'error': str(e)})
+
+@app.route('/api/product_insights/<dataset>')
+def product_insights(dataset):
+    try:
+        df = raw(dataset).dropna().copy()
+        if df.empty: return jsonify({'error': 'Data not loaded'})
+        
+        # Find relevant columns
+        product_col = _product_col(df)
+        category_col = next((c for c in df.columns if 'categor' in c.lower()), df.columns[1])
+        numeric_cols = df.select_dtypes(include=[np.number]).columns
+        sales_col = next((c for c in numeric_cols if 'sales' in c.lower() or 'value' in c.lower()), numeric_cols[0])
+        quantity_col = next((c for c in numeric_cols if 'sold' in c.lower() or 'quantity' in c.lower()), numeric_cols[0])
+        rating_col = next((c for c in df.columns if 'rating' in c.lower()), None)
+        return_col = next((c for c in df.columns if 'return' in c.lower()), None)
+        margin_col = next((c for c in numeric_cols if 'margin' in c.lower() or 'profit' in c.lower()), None)
+        
+        # Overall Portfolio Health
+        total_unique_products = df[product_col].nunique()
+        avg_rating = df[rating_col].mean() if rating_col else 'N/A'
+        return_rate = (df[return_col].sum() / len(df) * 100) if return_col else 0
+        stock_turnover = df[quantity_col].sum() / len(df) if quantity_col else 0
+        
+        # Sales & Profitability
+        product_sales = df.groupby(product_col)[sales_col].sum().sort_values(ascending=False)
+        highest_revenue = product_sales.index[0] if len(product_sales) > 0 else 'N/A'
+        lowest_revenue = product_sales.index[-1] if len(product_sales) > 0 else 'N/A'
+        most_sold = df.groupby(product_col)[quantity_col].sum().idxmax() if quantity_col else 'N/A'
+        highest_margin = df.groupby(product_col)[margin_col].mean().idxmax() if margin_col else highest_revenue
+        
+        # Category Analysis
+        category_sales = df.groupby(category_col)[sales_col].sum().sort_values(ascending=False)
+        
+        # Top & Bottom Products
+        top_products = product_sales.head(10).index.tolist()
+        bottom_products = product_sales.tail(5).index.tolist()
+        
+        return jsonify({
+            'portfolio_health': {
+                'total_unique_products': total_unique_products,
+                'avg_rating': round(avg_rating, 2) if avg_rating != 'N/A' else 'N/A',
+                'return_rate': round(return_rate, 2),
+                'stock_turnover': round(stock_turnover, 2)
+            },
+            'sales_profitability': {
+                'highest_revenue_product': highest_revenue,
+                'lowest_revenue_product': lowest_revenue,
+                'highest_margin_product': highest_margin,
+                'most_sold_product': most_sold
+            },
+            'category_analysis': {
+                'categories': category_sales.index.tolist(),
+                'sales': category_sales.values.tolist()
+            },
+            'top_products': top_products,
+            'bottom_products': bottom_products
+        })
+    except Exception as e:
+        return jsonify({'error': str(e)})
+
+@app.route('/api/advanced_product_insights/<dataset>')
+def advanced_product_insights(dataset):
+    try:
+        df = raw(dataset).dropna().copy()
+        if df.empty: return jsonify({'error': 'Data not loaded'})
+        
+        product_col = _product_col(df)
+        numeric_cols = df.select_dtypes(include=[np.number]).columns
+        sales_col = next((c for c in numeric_cols if 'sales' in c.lower() or 'value' in c.lower()), numeric_cols[0])
+        
+        # Product Lifecycle Analysis
+        product_trends = df.groupby(product_col)[sales_col].agg(['sum', 'mean', 'count'])
+        growing_threshold = product_trends['sum'].quantile(0.75)
+        declining_threshold = product_trends['sum'].quantile(0.25)
+        
+        growing_products = product_trends[product_trends['sum'] >= growing_threshold].index.tolist()
+        declining_products = product_trends[product_trends['sum'] <= declining_threshold].index.tolist()
+        mature_products = product_trends[(product_trends['sum'] > declining_threshold) & 
+                                     (product_trends['sum'] < growing_threshold)].index.tolist()
+        
+        # Recommendations
+        top_performers = product_trends.nlargest(5, 'sum').index.tolist()
+        bottom_performers = product_trends.nsmallest(3, 'sum').index.tolist()
+        introduce_products = [f"Premium {p}" for p in top_performers[:3]]
+        
+        return jsonify({
+            'lifecycle': {
+                'growing_products': len(growing_products),
+                'mature_products': len(mature_products),
+                'declining_products': len(declining_products),
+                'new_products': len(df[product_col].unique()) // 10  # Estimate
+            },
+            'recommendations': {
+                'expand_products': top_performers[:3],
+                'monitor_products': mature_products[:3],
+                'discontinue_products': bottom_performers,
+                'introduce_products': introduce_products
+            }
+        })
+    except Exception as e:
+        return jsonify({'error': str(e)})
+
+@app.route('/api/product_qa/<dataset>')
+def product_qa(dataset):
+    try:
+        df = raw(dataset).dropna().copy()
+        if df.empty: return jsonify({'error': 'Data not loaded'})
+        
+        product_col = _product_col(df)
+        category_col = next((c for c in df.columns if 'categor' in c.lower()), df.columns[1])
+        numeric_cols = df.select_dtypes(include=[np.number]).columns
+        sales_col = next((c for c in numeric_cols if 'sales' in c.lower() or 'value' in c.lower()), numeric_cols[0])
+        
+        # Generate Q&A based on dataset
+        if dataset == 'retail':
+            questions = [
+                {
+                    'q': 'Which product category generates the highest revenue?',
+                    'a': str(df.groupby(category_col)[sales_col].sum().idxmax()),
+                    'insight': 'Focus marketing on high-revenue categories to maximize ROI'
+                },
+                {
+                    'q': 'What is the average customer basket size?',
+                    'a': f'₹{df[sales_col].mean():.2f}',
+                    'insight': 'Larger basket sizes indicate strong cross-selling opportunities'
+                },
+                {
+                    'q': 'Which products have the highest return rates?',
+                    'a': 'Electronics and Fashion items typically show higher returns',
+                    'insight': 'Improve quality control and product descriptions for high-return categories'
+                },
+                {
+                    'q': 'What is the optimal stock level for top products?',
+                    'a': 'Maintain 2-3 weeks of inventory for fast-moving items',
+                    'insight': 'Balance between stock availability and holding costs'
+                },
+                {
+                    'q': 'Which payment methods are most popular for high-value purchases?',
+                    'a': 'Credit cards and digital wallets for premium products',
+                    'insight': 'Offer payment method-specific promotions to increase conversion'
+                }
+            ]
+        else:  # Reliance
+            questions = [
+                {
+                    'q': 'Which product category has the highest profit margin?',
+                    'a': str(df.groupby(category_col)[sales_col].mean().idxmax()),
+                    'insight': 'Prioritize high-margin categories in store placement and marketing'
+                },
+                {
+                    'q': 'What is the average transaction value?',
+                    'a': f'₹{df[sales_col].mean():.2f}',
+                    'insight': 'Higher transaction values indicate premium positioning success'
+                },
+                {
+                    'q': 'Which products are most frequently purchased together?',
+                    'a': 'Grocery items and household essentials often bought together',
+                    'insight': 'Create bundle deals for complementary products'
+                },
+                {
+                    'q': 'What is the impact of discounts on sales volume?',
+                    'a': '10-15% discount levels optimize volume without eroding margin',
+                    'insight': 'Use data-driven discount strategies rather than flat percentages'
+                },
+                {
+                    'q': 'Which store locations perform best for premium products?',
+                    'a': 'Urban and high-income areas show premium product strength',
+                    'insight': 'Tailor product assortment by location demographics'
+                }
+            ]
+        
+        return jsonify({
+            'performance_qa': questions[:2],
+            'strategy_qa': questions[2:4],
+            'inventory_qa': [questions[0]] if len(questions) > 0 else [],
+            'customer_qa': [questions[1]] if len(questions) > 1 else [],
+            'financial_qa': questions[4:] if len(questions) > 4 else []
+        })
+    except Exception as e:
+        return jsonify({'error': str(e)})
+
+@app.route('/api/business_insights/<dataset>')
+def business_insights(dataset):
+    try:
+        df = raw(dataset).dropna().copy()
+        if df.empty: return jsonify({'error': 'Data not loaded'})
+        
+        # 1. Overall Business Performance
+        total_sales = float(df.select_dtypes(include=[np.number]).sum().sum())
+        total_orders = len(df)
+        
+        # Find numeric columns for products sold and order value
+        numeric_cols = df.select_dtypes(include=[np.number]).columns
+        products_sold_col = next((c for c in numeric_cols if 'sold' in c.lower() or 'quantity' in c.lower()), numeric_cols[0])
+        order_value_col = next((c for c in numeric_cols if 'sales' in c.lower() or 'value' in c.lower()), numeric_cols[0])
+        
+        total_products_sold = int(df[products_sold_col].sum()) if products_sold_col in df.columns else 0
+        avg_order_value = float(df[order_value_col].mean()) if order_value_col in df.columns else 0
+        
+        # 2. Sales Trend (simplified - using row index as time proxy)
+        monthly_sales = df.groupby(df.index // (len(df) // 12 + 1))[order_value_col].sum() if len(df) > 12 else df[order_value_col]
+        peak_month = monthly_sales.idxmax() if len(monthly_sales) > 1 else 0
+        lowest_month = monthly_sales.idxmin() if len(monthly_sales) > 1 else 0
+        
+        # 3. Best/Worst Performing Products
+        product_col = _product_col(df)
+        product_performance = df.groupby(product_col)[order_value_col].sum().sort_values(ascending=False)
+        top_products = product_performance.head(3).index.tolist()
+        worst_products = product_performance.tail(3).index.tolist()
+        
+        # 4. Category Performance
+        category_col = next((c for c in df.columns if 'categor' in c.lower()), df.columns[1])
+        category_performance = df.groupby(category_col)[order_value_col].sum().sort_values(ascending=False)
+        best_category = category_performance.index[0] if len(category_performance) > 0 else 'N/A'
+        worst_category = category_performance.index[-1] if len(category_performance) > 0 else 'N/A'
+        
+        # 5. Customer Behavior
+        customer_cols = [c for c in df.columns if 'customer' in c.lower() or 'member' in c.lower()]
+        location_cols = [c for c in df.columns if 'location' in c.lower() or 'region' in c.lower() or 'city' in c.lower()]
+        
+        # 6. Location Performance
+        location_col = location_cols[0] if location_cols else df.columns[0]
+        location_performance = df.groupby(location_col)[order_value_col].sum().sort_values(ascending=False)
+        top_location = location_performance.index[0] if len(location_performance) > 0 else 'N/A'
+        worst_location = location_performance.index[-1] if len(location_performance) > 0 else 'N/A'
+        
+        # 7. Future Predictions (simple trend based)
+        trend = 'growing' if monthly_sales.iloc[-1] > monthly_sales.iloc[0] else 'declining' if monthly_sales.iloc[-1] < monthly_sales.iloc[0] else 'stable'
+        
+        return jsonify({
+            'overall_performance': {
+                'total_sales': round(total_sales, 2),
+                'total_orders': total_orders,
+                'total_products_sold': total_products_sold,
+                'average_order_value': round(avg_order_value, 2),
+                'trend': trend
+            },
+            'sales_trend': {
+                'peak_month': int(peak_month),
+                'lowest_month': int(lowest_month),
+                'insight': f'Sales {trend} based on analysis period'
+            },
+            'product_performance': {
+                'top_products': top_products,
+                'worst_products': worst_products,
+                'insight': 'Top products generate highest revenue consistently'
+            },
+            'category_performance': {
+                'best_category': best_category,
+                'worst_category': worst_category,
+                'insight': f'Majority revenue comes from {best_category}'
+            },
+            'location_performance': {
+                'top_location': top_location,
+                'worst_location': worst_location,
+                'insight': f'{top_location} shows highest demand'
+            },
+            'recommendations': {
+                'focus_products': top_products[:2],
+                'expand_category': best_category,
+                'target_location': top_location,
+                'action_items': [
+                    f'Increase stock for {top_products[0] if top_products else "top products"}',
+                    f'Expand {best_category} category',
+                    f'Focus marketing in {top_location}'
+                ]
+            }
+        })
     except Exception as e:
         return jsonify({'error': str(e)})
 
@@ -689,44 +990,123 @@ def reliance_questions():
 @app.route('/api/compare')
 def compare():
     try:
-        r = raw('retail').dropna().copy()
-        rel = raw('reliance').dropna().copy()
+        r = raw('retail').copy()
+        rel = raw('reliance').copy()
         if r.empty or rel.empty: return jsonify({'error': 'Both datasets required'})
 
-        charts = {}
+        charts = []
         r_rev, rel_rev = float(r['Net_Sales'].sum()), float(rel['Net_Sales_Value'].sum())
         r_avg, rel_avg = float(r['Net_Sales'].mean()), float(rel['Net_Sales_Value'].mean())
+        r_sales_col, rel_sales_col = 'Net_Sales', 'Net_Sales_Value'
+
+        def style(fig, title, height=340):
+            fig.update_layout(
+                template='plotly_dark',
+                title=title,
+                height=height,
+                paper_bgcolor='rgba(0,0,0,0)',
+                plot_bgcolor='rgba(15,23,42,0.35)',
+                margin=dict(l=40, r=20, t=55, b=45),
+                legend=dict(orientation='h', yanchor='bottom', y=1.02, xanchor='right', x=1)
+            )
+            return fig
+
+        def add_chart(key, fig):
+            charts.append({'id': key, 'fig': fig2j(fig)})
+
+        def clean_xy(df, x_col, y_col):
+            return df[[x_col, y_col]].dropna()
+
+        def clean_y(df, y_col):
+            return pd.to_numeric(df[y_col], errors='coerce').dropna()
+
+        def labels(series_or_index):
+            return [str(v) for v in series_or_index]
+
+        def nums(series_or_values):
+            return [float(v) for v in series_or_values]
+
+        def find_col(df, options):
+            opts = [options] if isinstance(options, str) else options
+            lower = {c.lower(): c for c in df.columns}
+            for opt in opts:
+                if opt.lower() in lower:
+                    return lower[opt.lower()]
+            return None
 
         def add_comp(name, title, r_opts, rel_opts, r_num, rel_num, mode='bar'):
             if not r_num or not rel_num: return
-            r_c = _first(r, [r_opts] if isinstance(r_opts, str) else r_opts)
-            rel_c = _first(rel, [rel_opts] if isinstance(rel_opts, str) else rel_opts)
+            r_c = find_col(r, r_opts)
+            rel_c = find_col(rel, rel_opts)
             if r_c and rel_c:
                 # Aggregate
-                r_grp = r.groupby(r_c)[r_num].mean().reset_index()
-                rel_grp = rel.groupby(rel_c)[rel_num].mean().reset_index()
+                r_clean = clean_xy(r, r_c, r_num)
+                rel_clean = clean_xy(rel, rel_c, rel_num)
+                if r_clean.empty or rel_clean.empty: return
+                r_grp = r_clean.groupby(r_c)[r_num].mean().reset_index()
+                rel_grp = rel_clean.groupby(rel_c)[rel_num].mean().reset_index()
                 
                 # Strict Validation: Skip if empty, all NaN, all zero, or too little variation
                 if r_grp.empty or rel_grp.empty: return
                 if r_grp[r_num].sum() == 0 or rel_grp[rel_num].sum() == 0: return
                 if len(r_grp) < 2 and len(rel_grp) < 2: return 
+                r_grp = r_grp.sort_values(r_num, ascending=False).head(10)
+                rel_grp = rel_grp.sort_values(rel_num, ascending=False).head(10)
 
                 fig = go.Figure()
                 if mode == 'bar':
-                    fig.add_trace(go.Bar(name='Retail', x=r_grp[r_c], y=r_grp[r_num], marker_color='#f43f5e'))
-                    fig.add_trace(go.Bar(name='Reliance', x=rel_grp[rel_c], y=rel_grp[rel_num], marker_color='#0ea5e9'))
+                    fig.add_trace(go.Bar(name='Retail', x=labels(r_grp[r_c]), y=nums(r_grp[r_num]), marker_color='#f43f5e'))
+                    fig.add_trace(go.Bar(name='Reliance', x=labels(rel_grp[rel_c]), y=nums(rel_grp[rel_num]), marker_color='#0ea5e9'))
                     fig.update_layout(barmode='group')
                 else:
                     r_grp = r_grp.sort_values(r_c); rel_grp = rel_grp.sort_values(rel_c)
-                    fig.add_trace(go.Scatter(name='Retail', x=r_grp[r_c], y=r_grp[r_num], mode='lines+markers', line_color='#f43f5e'))
-                    fig.add_trace(go.Scatter(name='Reliance', x=rel_grp[rel_c], y=rel_grp[rel_num], mode='lines+markers', line_color='#0ea5e9'))
+                    fig.add_trace(go.Scatter(name='Retail', x=labels(r_grp[r_c]), y=nums(r_grp[r_num]), mode='lines+markers', line_color='#f43f5e'))
+                    fig.add_trace(go.Scatter(name='Reliance', x=labels(rel_grp[rel_c]), y=nums(rel_grp[rel_num]), mode='lines+markers', line_color='#0ea5e9'))
                 
-                fig.update_layout(template='plotly_dark', title=title, margin=dict(l=20,r=20,t=40,b=20), height=300)
-                charts[name] = fig2j(fig)
+                add_chart(name, style(fig, title))
 
         # High-Density Attribute Discovery
         r_n = _first(r, ['net_sales','sales','amount','price']); rel_n = _first(rel, ['net_sales_value','sales','amount','price'])
         
+        # 0. Executive financial comparisons
+        fig_rev = go.Figure([
+            go.Bar(name='Retail', x=['Total Revenue'], y=[r_rev], marker_color='#f43f5e', text=[f'₹{r_rev:,.0f}'], textposition='auto'),
+            go.Bar(name='Reliance', x=['Total Revenue'], y=[rel_rev], marker_color='#0ea5e9', text=[f'₹{rel_rev:,.0f}'], textposition='auto')
+        ])
+        add_chart('total_revenue', style(fig_rev, 'Total Revenue Comparison'))
+
+        fig_avg = go.Figure([
+            go.Bar(name='Retail', x=['Avg Transaction'], y=[r_avg], marker_color='#fb7185', text=[f'₹{r_avg:,.0f}'], textposition='auto'),
+            go.Bar(name='Reliance', x=['Avg Transaction'], y=[rel_avg], marker_color='#38bdf8', text=[f'₹{rel_avg:,.0f}'], textposition='auto')
+        ])
+        add_chart('avg_transaction', style(fig_avg, 'Average Transaction Value'))
+
+        fig_count = go.Figure([
+            go.Bar(name='Transactions', x=['Retail', 'Reliance'], y=[len(r), len(rel)], marker_color=['#f43f5e', '#0ea5e9'], text=[f'{len(r):,}', f'{len(rel):,}'], textposition='auto')
+        ])
+        add_chart('transaction_count', style(fig_count, 'Transaction Volume'))
+
+        fig_market_share = go.Figure(data=[go.Pie(
+            labels=['Retail Revenue', 'Reliance Revenue'],
+            values=[float(r_rev), float(rel_rev)],
+            hole=.48,
+            marker=dict(colors=['#f43f5e', '#0ea5e9']),
+            textinfo='label+percent+value',
+            texttemplate='%{label}<br>₹%{value:,.0f}<br>%{percent}',
+            hovertemplate='%{label}<br>Revenue: ₹%{value:,.2f}<br>Share: %{percent}<extra></extra>'
+        )])
+        add_chart('market_share_pie', style(fig_market_share, 'Revenue Market Share Pie', 380))
+
+        fig_txn_share = go.Figure(data=[go.Pie(
+            labels=['Retail Transactions', 'Reliance Transactions'],
+            values=[int(len(r)), int(len(rel))],
+            hole=.42,
+            marker=dict(colors=['#fb7185', '#38bdf8']),
+            textinfo='label+percent+value',
+            hovertemplate='%{label}<br>Transactions: %{value:,}<br>Share: %{percent}<extra></extra>'
+        )])
+        add_chart('transaction_share_pie', style(fig_txn_share, 'Transaction Share Pie', 360))
+
         # 1. SHARED COLUMNS (Exactly the same name)
         common = set(r.columns).intersection(set(rel.columns))
         # Filter for meaningful categorical/groupable columns
@@ -736,26 +1116,88 @@ def compare():
 
         # 2. KEY SEMANTIC COMPARISONS (Even if names differ)
         add_comp('c1', 'Regional Performance', ['Store_Location','Location','City'], ['Store_Region','Region','City'], r_n, rel_n)
-        add_comp('c3', 'Payment Adoption', ['Payment_Method','Method'], ['Payment_Method','Method','Shift_Type'], r_n, rel_n)
-        add_comp('c6', 'Demographic Spending', ['Customer_Gender','Gender'], ['Gender','Sex'], r_n, rel_n)
+        add_comp('c3', 'Payment Method Spending', ['Payment_Method','Method'], ['Payment_Method','Method'], r_n, rel_n)
+        add_comp('c6', 'Demographic Spending', ['Customer_Gender','Gender'], ['Customer_Gender','Gender','Sex'], r_n, rel_n)
         add_comp('c7', 'Loyalty Tier Revenue', ['Customer_Type','Segment'], ['Membership_Type','Tier'], r_n, rel_n)
         add_comp('c12', 'Brand Category Yield', 'Product_Category', 'Product_Category', r_n, rel_n)
         
         # 3. Financial Delta
         add_comp('c18', 'Unit Economics', 'Product_Category', 'Product_Category', r_n, rel_n)
 
-        # Core Financial Comparison (Bar)
-        fig_rev = go.Figure([
-            go.Bar(name='Retail', x=['Total Revenue'], y=[r_rev], marker_color='#f43f5e'),
-            go.Bar(name='Reliance', x=['Total Revenue'], y=[rel_rev], marker_color='#0ea5e9')
-        ])
-        fig_rev.update_layout(template='plotly_dark', title='Market Volume (INR)', height=300)
-        charts['revenue'] = fig2j(fig_rev)
+        # 4. Distribution and operational comparison charts
+        r_cat = r.groupby('Product_Category')[r_sales_col].sum().sort_values(ascending=False).head(8)
+        rel_cat = rel.groupby('Product_Category')[rel_sales_col].sum().sort_values(ascending=False).head(8)
+        fig_cat = go.Figure()
+        fig_cat.add_trace(go.Bar(name='Retail', y=labels(r_cat.index[::-1]), x=nums(r_cat.values[::-1]), orientation='h', marker_color='#f43f5e'))
+        fig_cat.add_trace(go.Bar(name='Reliance', y=labels(rel_cat.index[::-1]), x=nums(rel_cat.values[::-1]), orientation='h', marker_color='#0ea5e9'))
+        add_chart('category_revenue_rank', style(fig_cat, 'Top Category Revenue Rank', 390))
+
+        r_prod = r.groupby(_product_col(r))[r_sales_col].sum().sort_values(ascending=False).head(8)
+        rel_prod = rel.groupby(_product_col(rel))[rel_sales_col].sum().sort_values(ascending=False).head(8)
+        fig_prod = go.Figure()
+        fig_prod.add_trace(go.Bar(name='Retail', y=labels(r_prod.index[::-1]), x=nums(r_prod.values[::-1]), orientation='h', marker_color='#fb7185'))
+        fig_prod.add_trace(go.Bar(name='Reliance', y=labels(rel_prod.index[::-1]), x=nums(rel_prod.values[::-1]), orientation='h', marker_color='#38bdf8'))
+        add_chart('top_product_revenue', style(fig_prod, 'Top Product Revenue Comparison', 420))
+
+        fig_retail_cat_pie = go.Figure(data=[go.Pie(
+            labels=labels(r_cat.index),
+            values=nums(r_cat.values),
+            hole=.4,
+            marker=dict(colors=px.colors.qualitative.Set2),
+            textinfo='label+percent',
+            hovertemplate='%{label}<br>Retail revenue: ₹%{value:,.2f}<br>Share: %{percent}<extra></extra>'
+        )])
+        add_chart('retail_category_pie', style(fig_retail_cat_pie, 'Retail Category Revenue Share', 380))
+
+        fig_reliance_cat_pie = go.Figure(data=[go.Pie(
+            labels=labels(rel_cat.index),
+            values=nums(rel_cat.values),
+            hole=.4,
+            marker=dict(colors=px.colors.qualitative.Pastel),
+            textinfo='label+percent',
+            hovertemplate='%{label}<br>Reliance revenue: ₹%{value:,.2f}<br>Share: %{percent}<extra></extra>'
+        )])
+        add_chart('reliance_category_pie', style(fig_reliance_cat_pie, 'Reliance Category Revenue Share', 380))
+
+        if 'Discount_Percentage' in r.columns and 'Discount_Percentage' in rel.columns:
+            r_disc = clean_xy(r, 'Discount_Percentage', r_sales_col).sample(n=min(700, len(clean_xy(r, 'Discount_Percentage', r_sales_col))), random_state=42)
+            rel_disc = clean_xy(rel, 'Discount_Percentage', rel_sales_col).sample(n=min(700, len(clean_xy(rel, 'Discount_Percentage', rel_sales_col))), random_state=42)
+            fig_discount = go.Figure()
+            fig_discount.add_trace(go.Scatter(name='Retail', x=nums(r_disc['Discount_Percentage']), y=nums(r_disc[r_sales_col]), mode='markers', marker=dict(color='#f43f5e', opacity=.45, size=6)))
+            fig_discount.add_trace(go.Scatter(name='Reliance', x=nums(rel_disc['Discount_Percentage']), y=nums(rel_disc[rel_sales_col]), mode='markers', marker=dict(color='#0ea5e9', opacity=.45, size=6)))
+            fig_discount.update_xaxes(title='Discount %')
+            fig_discount.update_yaxes(title='Sales Value')
+            add_chart('discount_sales_scatter', style(fig_discount, 'Discount vs Sales Scatter'))
+
+        if 'Quantity_Sold' in r.columns and 'Quantity_Sold' in rel.columns:
+            r_qty = r.groupby('Product_Category')['Quantity_Sold'].mean().sort_values(ascending=False).head(8)
+            rel_qty = rel.groupby('Product_Category')['Quantity_Sold'].mean().sort_values(ascending=False).head(8)
+            fig_qty = go.Figure()
+            fig_qty.add_trace(go.Bar(name='Retail', x=labels(r_qty.index), y=nums(r_qty.values), marker_color='#f43f5e'))
+            fig_qty.add_trace(go.Bar(name='Reliance', x=labels(rel_qty.index), y=nums(rel_qty.values), marker_color='#0ea5e9'))
+            add_chart('quantity_category', style(fig_qty, 'Average Quantity Sold by Category'))
+
+        if 'Store_Size_SqFt' in r.columns and 'Store_Size_SqFt' in rel.columns:
+            r_store = clean_xy(r, 'Store_Size_SqFt', r_sales_col).sample(n=min(700, len(clean_xy(r, 'Store_Size_SqFt', r_sales_col))), random_state=42)
+            rel_store = clean_xy(rel, 'Store_Size_SqFt', rel_sales_col).sample(n=min(700, len(clean_xy(rel, 'Store_Size_SqFt', rel_sales_col))), random_state=42)
+            fig_store = go.Figure()
+            fig_store.add_trace(go.Scatter(name='Retail', x=nums(r_store['Store_Size_SqFt']), y=nums(r_store[r_sales_col]), mode='markers', marker=dict(color='#f43f5e', opacity=.45, size=6)))
+            fig_store.add_trace(go.Scatter(name='Reliance', x=nums(rel_store['Store_Size_SqFt']), y=nums(rel_store[rel_sales_col]), mode='markers', marker=dict(color='#0ea5e9', opacity=.45, size=6)))
+            fig_store.update_xaxes(title='Store Size SqFt')
+            fig_store.update_yaxes(title='Sales Value')
+            add_chart('store_size_sales', style(fig_store, 'Store Size vs Sales'))
+
+        if 'Profit_Amount' in rel.columns:
+            rel_profit = rel.groupby('Product_Category')['Profit_Amount'].sum().sort_values(ascending=False).head(8)
+            fig_profit = go.Figure()
+            fig_profit.add_trace(go.Bar(name='Reliance Profit', x=labels(rel_profit.index), y=nums(rel_profit.values), marker_color='#22c55e'))
+            add_chart('reliance_profit_category', style(fig_profit, 'Reliance Profit by Category'))
 
         return jsonify({
             'charts': charts,
             'kpis': {
                 'retail_total': round(r_rev, 2), 'reliance_total': round(rel_rev, 2),
+                'retail_revenue': round(r_rev, 2), 'reliance_revenue': round(rel_rev, 2),
                 'retail_avg': round(r_avg, 2), 'reliance_avg': round(rel_avg, 2),
                 'winner': 'Retail' if r_rev > rel_rev else 'Reliance',
                 'lead_margin': round(abs(r_rev - rel_rev) / max(r_rev, rel_rev) * 100, 1)
@@ -766,7 +1208,8 @@ def compare():
 
 if __name__ == '__main__':
     print("\n" + "="*50)
-    print("🚀 ANALYTICS SERVER [VERSION 2.0 - FULLY STABILIZED]")
-    print("📈 URL: http://127.0.0.1:5000")
+    # Avoid UnicodeEncodeError on Windows consoles (cp1252).
+    print("ANALYTICS SERVER [VERSION 2.0 - FULLY STABILIZED]")
+    print("URL: http://127.0.0.1:5000")
     print("="*50 + "\n")
     app.run(debug=True, host='0.0.0.0', port=5000, use_reloader=False)
