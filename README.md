@@ -1,4 +1,4 @@
-# 🏆 Award-Winning Retail vs. Reliance Analytics Dashboard
+#  Retail vs. Wholesale Analytics Dashboard
 
 ![Dashboard Preview](./dashboard_preview.png)
 
