@@ -21,7 +21,7 @@ app = Flask(__name__)
 
 def _get_acc(df, target_col):
     try:
-        if target_col not in df.columns: return "N/A"
+        if target_col not in df.columns: return "RICE"
         tmp = df.dropna().copy()
         if len(tmp) < 10: return "N/A"
         for c in tmp.select_dtypes(include=['object']).columns:
@@ -36,24 +36,24 @@ def _get_acc(df, target_col):
 
 # ── Raw originals (NEVER mutated) ─────────────────────────────────
 _retail_raw   = pd.DataFrame()
-_reliance_raw = pd.DataFrame()
+_wholesale_raw = pd.DataFrame()
 
 # ── Working copies (preprocessing applied here only) ──────────────
 retail_work   = pd.DataFrame()
-reliance_work = pd.DataFrame()
+wholesale_work = pd.DataFrame()
 
 # ── Path configuration ─────────────────────────────────────────────
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(BASE_DIR, 'dataset')
 
 def load():
-    global _retail_raw, _reliance_raw, retail_work, reliance_work
+    global _retail_raw, _wholesale_raw, retail_work, wholesale_work
     retail_path = os.path.join(DATA_DIR, 'Retail_Analytics_Dataset.csv')
-    reliance_path = os.path.join(DATA_DIR, 'Reliance_dataset.csv')
+    wholesale_path = os.path.join(DATA_DIR, 'Reliance_dataset.csv')  # Still using original filename
     
     print(f"Loading data from: {DATA_DIR}")
     print(f"Retail path: {retail_path}, exists: {os.path.exists(retail_path)}")
-    print(f"Reliance path: {reliance_path}, exists: {os.path.exists(reliance_path)}")
+    print(f"Wholesale path: {wholesale_path}, exists: {os.path.exists(wholesale_path)}")
     
     if os.path.exists(retail_path):
         try:
@@ -65,19 +65,19 @@ def load():
     else:
         print("Retail data file not found!")
         
-    if os.path.exists(reliance_path):
+    if os.path.exists(wholesale_path):
         try:
-            _reliance_raw = pd.read_csv(reliance_path)
-            _reliance_raw.columns = _reliance_raw.columns.str.strip()
-            print(f"Reliance data loaded: {_reliance_raw.shape}")
+            _wholesale_raw = pd.read_csv(wholesale_path)
+            _wholesale_raw.columns = _wholesale_raw.columns.str.strip()
+            print(f"Wholesale data loaded: {_wholesale_raw.shape}")
         except Exception as e:
-            print(f"Error loading reliance data: {e}")
+            print(f"Error loading wholesale data: {e}")
     else:
-        print("Reliance data file not found!")
+        print("Wholesale data file not found!")
         
     retail_work   = _retail_raw.copy() if not _retail_raw.empty else pd.DataFrame()
-    reliance_work = _reliance_raw.copy() if not _reliance_raw.empty else pd.DataFrame()
-    print(f"Data loading complete. Retail: {len(_retail_raw)} rows, Reliance: {len(_reliance_raw)} rows")
+    wholesale_work = _wholesale_raw.copy() if not _wholesale_raw.empty else pd.DataFrame()
+    print(f"Data loading complete. Retail: {len(_retail_raw)} rows, Wholesale: {len(_wholesale_raw)} rows")
 
 load()
 
@@ -95,25 +95,41 @@ def _product_col(df):
     return _first(df, ['Product_Name', 'Product Name', 'product_name', 'product']) 
 
 def raw(name):
-    return _retail_raw if name == 'retail' else _reliance_raw
+    return _retail_raw if name.lower() == 'retail' else _wholesale_raw
 
 def work(name):
-    return retail_work if name == 'retail' else reliance_work
+    return retail_work if name.lower() == 'retail' else wholesale_work
 
 def fig2j(fig):
     return json.loads(json.dumps(fig, cls=PlotlyJSONEncoder))
 
-# ── Status ─────────────────────────────────────────────────────────
+# ── Main Routes ─────────────────────────────────────────────────────────
 @app.route('/')
 def index():
-    return render_template('dashboard.html')
+    return render_template('dashboard.html', current_page='overview')
+
+@app.route('/executive-dashboard')
+def executive_dashboard():
+    return render_template('dashboard.html', current_page='overview')
+
+@app.route('/future-predictions')
+def future_predictions():
+    return render_template('dashboard.html', current_page='future-prediction')
+
+@app.route('/financial-performance')
+def financial_performance():
+    return render_template('dashboard.html', current_page='financial')
+
+@app.route('/competitive-analysis')
+def competitive_analysis():
+    return render_template('dashboard.html', current_page='compare')
 
 @app.route('/api/status')
 def status():
-    r = _retail_raw; rel = _reliance_raw
-    r_sales   = float(r['Net_Sales'].sum())   if not r.empty else 0
-    rel_sales = float(rel['Net_Sales_Value'].sum()) if not rel.empty else 0
-    winner = 'Retail' if r_sales > rel_sales else 'Reliance'
+    r = _retail_raw; rel = _wholesale_raw
+    r_sales   = float(pd.to_numeric(r['Net_Sales'], errors='coerce').sum())   if not r.empty and 'Net_Sales' in r.columns else 0
+    rel_sales = float(pd.to_numeric(rel['Net_Sales_Value'], errors='coerce').sum()) if not rel.empty and 'Net_Sales_Value' in rel.columns else 0
+    winner = 'Retail' if r_sales > rel_sales else 'Wholesale'
     return jsonify({
         'retail':   {
             'ok': not r.empty, 
@@ -121,17 +137,17 @@ def status():
             'cols': r.columns.tolist(),
             'uniques': r.nunique().to_dict() if not r.empty else {}
         },
-        'reliance': {
+        'wholesale': {
             'ok': not rel.empty, 
             'rows': len(rel), 
             'cols': rel.columns.tolist(),
             'uniques': rel.nunique().to_dict() if not rel.empty else {}
         },
         'kpis': {
-            'retail_revenue':   round(r_sales, 2),
-            'reliance_revenue': round(rel_sales, 2),
-            'retail_avg':       round(float(r['Net_Sales'].mean()), 2)   if not r.empty else 0,
-            'reliance_avg':     round(float(rel['Net_Sales_Value'].mean()), 2) if not rel.empty else 0,
+            'retail_revenue':    round(r_sales, 2),
+            'wholesale_revenue': round(rel_sales, 2),
+            'retail_avg':        round(float(pd.to_numeric(r['Net_Sales'], errors='coerce').mean()), 2)   if not r.empty and 'Net_Sales' in r.columns else 0,
+            'wholesale_avg':     round(float(pd.to_numeric(rel['Net_Sales_Value'], errors='coerce').mean()), 2) if not rel.empty and 'Net_Sales_Value' in rel.columns else 0,
             'winner': winner
         }
     })
@@ -139,62 +155,68 @@ def status():
 @app.route('/api/overview_insights')
 def overview_insights():
     try:
-        r = _retail_raw; rel = _reliance_raw
+        r = _retail_raw; rel = _wholesale_raw
         if r.empty or rel.empty: return jsonify({'error': 'Data not loaded'})
 
-        # Retail Metrics
-        r_rev = r['Net_Sales'].sum()
-        r_eff = r_rev / len(r)
-        r_acc = _get_acc(r, 'Customer_Type')
-        r_top_product = str(r.groupby('Product_Name')['Net_Sales'].sum().idxmax())
-        r_top_products = r.groupby('Product_Name')['Net_Sales'].sum().sort_values(ascending=False).head(5).index.tolist()
+        # ── Retail ──────────────────────────────────────────────────
+        r_clean = r.dropna(subset=['Net_Sales']).copy()
+        r_clean['Net_Sales'] = pd.to_numeric(r_clean['Net_Sales'], errors='coerce')
+        r_clean = r_clean.dropna(subset=['Net_Sales'])
+        r_rev  = float(r_clean['Net_Sales'].sum())
+        r_eff  = r_rev / len(r_clean) if len(r_clean) > 0 else 0
+        r_acc  = _get_acc(r_clean, 'Customer_Type')
+        r_top_product  = str(r_clean.groupby('Product_Name')['Net_Sales'].sum().idxmax())
+        r_top_products = r_clean.groupby('Product_Name')['Net_Sales'].sum().sort_values(ascending=False).head(5).index.tolist()
 
-        # Reliance Metrics
-        rel_rev = rel['Net_Sales_Value'].sum()
-        rel_eff = rel_rev / len(rel)
-        rel_acc = _get_acc(rel, 'Membership_Type')
-        rel_top_product = str(rel.groupby('Product_Name')['Profit_Amount'].sum().idxmax())
-        rel_top_products = rel.groupby('Product_Name')['Profit_Amount'].sum().sort_values(ascending=False).head(5).index.tolist()
+        # ── Wholesale (Reliance) ─────────────────────────────────────
+        rel_clean = rel.dropna(subset=['Net_Sales_Value']).copy()
+        rel_clean['Net_Sales_Value'] = pd.to_numeric(rel_clean['Net_Sales_Value'], errors='coerce')
+        rel_clean['Profit_Amount']   = pd.to_numeric(rel_clean['Profit_Amount'],   errors='coerce').fillna(0)
+        rel_clean = rel_clean.dropna(subset=['Net_Sales_Value'])
+        rel_rev  = float(rel_clean['Net_Sales_Value'].sum())
+        rel_eff  = rel_rev / len(rel_clean) if len(rel_clean) > 0 else 0
+        rel_acc  = _get_acc(rel_clean, 'Membership_Type')
+        rel_top_product  = str(rel_clean.groupby('Product_Name')['Profit_Amount'].sum().idxmax())
+        rel_top_products = rel_clean.groupby('Product_Name')['Net_Sales_Value'].sum().sort_values(ascending=False).head(5).index.tolist()
 
-        # Competitive Logic (Why Retail Wins)
         advantages = []
-        if r_acc != "N/A" and (rel_acc == "N/A" or r_acc > rel_acc):
-            advantages.append({'title': 'Superior Intelligence', 'desc': f"Retail's segmentation model is {r_acc}% accurate, outperforming Reliance in customer targeting."})
+        if r_acc != "N/A" and (rel_acc == "N/A" or (isinstance(r_acc, (int,float)) and isinstance(rel_acc, (int,float)) and r_acc > rel_acc)):
+            advantages.append({'title': 'Better Customer Targeting', 'desc': f"Retail's customer grouping model is {r_acc}% accurate, helping target the right customers better."})
         if r_eff > rel_eff:
-            advantages.append({'title': 'Basket Efficiency', 'desc': f"Retail generates ₹{round(r_eff,0)} per txn vs Reliance's ₹{round(rel_eff,0)} — better cross-selling."})
-        if r['Product_Category'].nunique() > rel['Product_Category'].nunique():
-            advantages.append({'title': 'Market Assortment', 'desc': "Retail offers a broader variety of product categories, capturing more diverse consumer needs."})
-        
+            advantages.append({'title': 'Higher Value per Sale', 'desc': f"Retail earns ₹{round(r_eff,0):,.0f} per transaction vs Wholesale's ₹{round(rel_eff,0):,.0f} — customers buy more per visit."})
+        if r_clean['Product_Category'].nunique() > rel_clean['Product_Category'].nunique():
+            advantages.append({'title': 'More Product Variety', 'desc': "Retail carries more product categories, giving customers more choices and increasing basket size."})
         if not advantages:
-            advantages.append({'title': 'Strategic Position', 'desc': "Retail maintains a lean operational model with high category-specific yield."})
+            advantages.append({'title': 'Strong Market Position', 'desc': "Retail maintains steady sales with high revenue per transaction."})
 
         return jsonify({
             'retail': {
-                'top_product': r_top_product,
-                'top_products': r_top_products,
-                'top_category': str(r.groupby('Product_Category')['Net_Sales'].sum().idxmax()),
-                'top_store':    str(int(r.groupby('Store_ID')['Net_Sales'].sum().idxmax())),
-                'top_location': str(r['Store_Location'].mode()[0]),
-                'top_customer': str(r['Customer_Type'].mode()[0]),
-                'top_payment':  str(r['Payment_Method'].mode()[0]),
-                'model_acc':    r_acc,
-                'avg_sales':    round(r_eff, 2),
-                'total_sales':  round(r_rev, 2)
+                'top_product':    r_top_product,
+                'top_products':   r_top_products,
+                'top_category':   str(r_clean.groupby('Product_Category')['Net_Sales'].sum().idxmax()),
+                'top_store':      str(int(r_clean.groupby('Store_ID')['Net_Sales'].sum().idxmax())) if 'Store_ID' in r_clean.columns else 'N/A',
+                'top_location':   str(r_clean['Store_Location'].mode()[0]) if 'Store_Location' in r_clean.columns else 'N/A',
+                'top_customer':   str(r_clean['Customer_Type'].mode()[0]) if 'Customer_Type' in r_clean.columns else 'N/A',
+                'top_payment':    str(r_clean['Payment_Method'].mode()[0]) if 'Payment_Method' in r_clean.columns else 'N/A',
+                'model_acc':      r_acc,
+                'avg_sales':      round(r_eff, 2),
+                'total_sales':    round(r_rev, 2)
             },
-            'reliance': {
-                'top_product': rel_top_product,
-                'top_products': rel_top_products,
-                'top_profit_category': str(rel.groupby('Product_Category')['Profit_Amount'].sum().idxmax()),
-                'top_region':          str(rel['Store_Region'].mode()[0]),
-                'top_shift':           str(rel['Shift_Type'].mode()[0]),
-                'top_membership':      str(rel['Membership_Type'].mode()[0]),
-                'model_acc':           rel_acc,
-                'avg_sales':           round(rel_eff, 2),
-                'total_sales':         round(rel_rev, 2)
+            'wholesale': {
+                'top_product':          rel_top_product,
+                'top_products':         rel_top_products,
+                'top_profit_category':  str(rel_clean.groupby('Product_Category')['Profit_Amount'].sum().idxmax()),
+                'top_region':           str(rel_clean['Store_Region'].mode()[0]) if 'Store_Region' in rel_clean.columns else 'N/A',
+                'top_shift':            str(rel_clean['Shift_Type'].mode()[0]) if 'Shift_Type' in rel_clean.columns else 'N/A',
+                'top_membership':       str(rel_clean['Membership_Type'].mode()[0]) if 'Membership_Type' in rel_clean.columns else 'N/A',
+                'model_acc':            rel_acc,
+                'avg_sales':            round(rel_eff, 2),
+                'total_sales':          round(rel_rev, 2)
             },
             'advantages': advantages
         })
     except Exception as e:
+        import traceback; traceback.print_exc()
         return jsonify({'error': str(e)})
 
 @app.route('/api/algorithm_guide')
@@ -219,45 +241,73 @@ def algorithm_guide():
 @app.route('/api/product_insights/<dataset>')
 def product_insights(dataset):
     try:
-        df = raw(dataset).dropna().copy()
+        df = raw(dataset).copy()
         if df.empty: return jsonify({'error': 'Data not loaded'})
-        
-        # Find relevant columns
-        product_col = _product_col(df)
-        category_col = next((c for c in df.columns if 'categor' in c.lower()), df.columns[1])
-        numeric_cols = df.select_dtypes(include=[np.number]).columns
-        sales_col = next((c for c in numeric_cols if 'sales' in c.lower() or 'value' in c.lower()), numeric_cols[0])
-        quantity_col = next((c for c in numeric_cols if 'sold' in c.lower() or 'quantity' in c.lower()), numeric_cols[0])
-        rating_col = next((c for c in df.columns if 'rating' in c.lower()), None)
-        return_col = next((c for c in df.columns if 'return' in c.lower()), None)
-        margin_col = next((c for c in numeric_cols if 'margin' in c.lower() or 'profit' in c.lower()), None)
-        
-        # Overall Portfolio Health
+
+        is_wholesale = dataset.lower() != 'retail'
+
+        if is_wholesale:
+            sales_col    = 'Net_Sales_Value'
+            profit_col   = 'Profit_Amount'
+            qty_col      = 'Quantity_Sold'
+            product_col  = 'Product_Name'
+            category_col = 'Product_Category'
+            rating_col   = 'Product_Rating'
+            return_col   = 'Product_Return_Rate'
+            margin_col   = 'Profit_Margin'
+        else:
+            sales_col    = 'Net_Sales'
+            profit_col   = None
+            qty_col      = 'Quantity_Sold' if 'Quantity_Sold' in df.columns else 'Stock_Sold'
+            product_col  = 'Product_Name'
+            category_col = 'Product_Category'
+            rating_col   = 'Store_Rating' if 'Store_Rating' in df.columns else None
+            return_col   = None
+            margin_col   = None
+
+        df = df.dropna(subset=[sales_col]).copy()
+        df[sales_col] = pd.to_numeric(df[sales_col], errors='coerce')
+        df = df.dropna(subset=[sales_col])
+
         total_unique_products = df[product_col].nunique()
-        avg_rating = df[rating_col].mean() if rating_col else 'N/A'
-        return_rate = (df[return_col].sum() / len(df) * 100) if return_col else 0
-        stock_turnover = df[quantity_col].sum() / len(df) if quantity_col else 0
-        
-        # Sales & Profitability
+
+        avg_rating = round(float(df[rating_col].dropna().mean()), 2) if rating_col and rating_col in df.columns else 'N/A'
+        return_rate = round(float(df[return_col].dropna().mean() * 100), 2) if return_col and return_col in df.columns else 0
+
+        if qty_col and qty_col in df.columns:
+            df[qty_col] = pd.to_numeric(df[qty_col], errors='coerce').fillna(0)
+            stock_turnover = round(float(df[qty_col].sum() / len(df)), 2)
+        else:
+            stock_turnover = 0
+
         product_sales = df.groupby(product_col)[sales_col].sum().sort_values(ascending=False)
-        highest_revenue = product_sales.index[0] if len(product_sales) > 0 else 'N/A'
-        lowest_revenue = product_sales.index[-1] if len(product_sales) > 0 else 'N/A'
-        most_sold = df.groupby(product_col)[quantity_col].sum().idxmax() if quantity_col else 'N/A'
-        highest_margin = df.groupby(product_col)[margin_col].mean().idxmax() if margin_col else highest_revenue
-        
-        # Category Analysis
+        highest_revenue = str(product_sales.index[0])  if len(product_sales) > 0 else 'N/A'
+        lowest_revenue  = str(product_sales.index[-1]) if len(product_sales) > 0 else 'N/A'
+
+        if qty_col and qty_col in df.columns:
+            most_sold = str(df.groupby(product_col)[qty_col].sum().idxmax())
+        else:
+            most_sold = highest_revenue
+
+        if margin_col and margin_col in df.columns:
+            df[margin_col] = pd.to_numeric(df[margin_col], errors='coerce')
+            highest_margin = str(df.groupby(product_col)[margin_col].mean().idxmax())
+        elif profit_col and profit_col in df.columns:
+            df[profit_col] = pd.to_numeric(df[profit_col], errors='coerce').fillna(0)
+            highest_margin = str(df.groupby(product_col)[profit_col].sum().idxmax())
+        else:
+            highest_margin = highest_revenue
+
         category_sales = df.groupby(category_col)[sales_col].sum().sort_values(ascending=False)
-        
-        # Top & Bottom Products
-        top_products = product_sales.head(10).index.tolist()
+        top_products    = product_sales.head(10).index.tolist()
         bottom_products = product_sales.tail(5).index.tolist()
-        
+
         return jsonify({
             'portfolio_health': {
                 'total_unique_products': total_unique_products,
-                'avg_rating': round(avg_rating, 2) if avg_rating != 'N/A' else 'N/A',
-                'return_rate': round(return_rate, 2),
-                'stock_turnover': round(stock_turnover, 2)
+                'avg_rating': avg_rating,
+                'return_rate': return_rate,
+                'stock_turnover': stock_turnover
             },
             'sales_profitability': {
                 'highest_revenue_product': highest_revenue,
@@ -267,12 +317,13 @@ def product_insights(dataset):
             },
             'category_analysis': {
                 'categories': category_sales.index.tolist(),
-                'sales': category_sales.values.tolist()
+                'sales': [round(float(v), 2) for v in category_sales.values]
             },
             'top_products': top_products,
             'bottom_products': bottom_products
         })
     except Exception as e:
+        import traceback; traceback.print_exc()
         return jsonify({'error': str(e)})
 
 @app.route('/api/advanced_product_insights/<dataset>')
@@ -357,7 +408,7 @@ def product_qa(dataset):
                     'insight': 'Offer payment method-specific promotions to increase conversion'
                 }
             ]
-        else:  # Reliance
+        else:  # Wholesale
             questions = [
                 {
                     'q': 'Which product category has the highest profit margin?',
@@ -399,79 +450,106 @@ def product_qa(dataset):
 @app.route('/api/business_insights/<dataset>')
 def business_insights(dataset):
     try:
-        df = raw(dataset).dropna().copy()
+        df = raw(dataset).copy()
         if df.empty: return jsonify({'error': 'Data not loaded'})
-        
-        # 1. Overall Business Performance
-        total_sales = float(df.select_dtypes(include=[np.number]).sum().sum())
-        total_orders = len(df)
-        
-        # Find numeric columns for products sold and order value
-        numeric_cols = df.select_dtypes(include=[np.number]).columns
-        products_sold_col = next((c for c in numeric_cols if 'sold' in c.lower() or 'quantity' in c.lower()), numeric_cols[0])
-        order_value_col = next((c for c in numeric_cols if 'sales' in c.lower() or 'value' in c.lower()), numeric_cols[0])
-        
-        total_products_sold = int(df[products_sold_col].sum()) if products_sold_col in df.columns else 0
-        avg_order_value = float(df[order_value_col].mean()) if order_value_col in df.columns else 0
-        
-        # 2. Sales Trend (simplified - using row index as time proxy)
-        monthly_sales = df.groupby(df.index // (len(df) // 12 + 1))[order_value_col].sum() if len(df) > 12 else df[order_value_col]
-        peak_month = monthly_sales.idxmax() if len(monthly_sales) > 1 else 0
-        lowest_month = monthly_sales.idxmin() if len(monthly_sales) > 1 else 0
-        
-        # 3. Best/Worst Performing Products
-        product_col = _product_col(df)
-        product_performance = df.groupby(product_col)[order_value_col].sum().sort_values(ascending=False)
-        top_products = product_performance.head(3).index.tolist()
-        worst_products = product_performance.tail(3).index.tolist()
-        
-        # 4. Category Performance
-        category_col = next((c for c in df.columns if 'categor' in c.lower()), df.columns[1])
-        category_performance = df.groupby(category_col)[order_value_col].sum().sort_values(ascending=False)
-        best_category = category_performance.index[0] if len(category_performance) > 0 else 'N/A'
-        worst_category = category_performance.index[-1] if len(category_performance) > 0 else 'N/A'
-        
-        # 5. Customer Behavior
-        customer_cols = [c for c in df.columns if 'customer' in c.lower() or 'member' in c.lower()]
-        location_cols = [c for c in df.columns if 'location' in c.lower() or 'region' in c.lower() or 'city' in c.lower()]
-        
-        # 6. Location Performance
-        location_col = location_cols[0] if location_cols else df.columns[0]
-        location_performance = df.groupby(location_col)[order_value_col].sum().sort_values(ascending=False)
-        top_location = location_performance.index[0] if len(location_performance) > 0 else 'N/A'
-        worst_location = location_performance.index[-1] if len(location_performance) > 0 else 'N/A'
-        
-        # 7. Future Predictions (simple trend based)
-        trend = 'growing' if monthly_sales.iloc[-1] > monthly_sales.iloc[0] else 'declining' if monthly_sales.iloc[-1] < monthly_sales.iloc[0] else 'stable'
-        
+
+        is_wholesale = dataset.lower() != 'retail'
+
+        # ── Column resolution ──────────────────────────────────────
+        if is_wholesale:
+            sales_col     = 'Net_Sales_Value'
+            profit_col    = 'Profit_Amount'
+            qty_col       = 'Quantity_Sold'
+            product_col   = 'Product_Name'
+            category_col  = 'Product_Category'
+            location_col  = 'Store_City'
+        else:
+            sales_col     = 'Net_Sales'
+            profit_col    = None
+            qty_col       = 'Quantity_Sold' if 'Quantity_Sold' in df.columns else 'Stock_Sold'
+            product_col   = 'Product_Name'
+            category_col  = 'Product_Category'
+            location_col  = 'Store_Location'
+
+        # Drop rows missing the sales column
+        df = df.dropna(subset=[sales_col]).copy()
+        df[sales_col] = pd.to_numeric(df[sales_col], errors='coerce')
+        df = df.dropna(subset=[sales_col])
+
+        total_orders  = len(df)
+        total_sales   = float(df[sales_col].sum())
+        avg_order_val = float(df[sales_col].mean())
+
+        # Quantity sold
+        if qty_col and qty_col in df.columns:
+            df[qty_col] = pd.to_numeric(df[qty_col], errors='coerce').fillna(0)
+            total_products_sold = int(df[qty_col].sum())
+        else:
+            total_products_sold = total_orders
+
+        # Trend (split into halves)
+        half = len(df) // 2
+        first_half  = float(df[sales_col].iloc[:half].mean()) if half > 0 else 0
+        second_half = float(df[sales_col].iloc[half:].mean()) if half > 0 else 0
+        trend = 'growing' if second_half > first_half * 1.02 else ('declining' if second_half < first_half * 0.98 else 'stable')
+
+        # Product performance
+        prod_grp = df.groupby(product_col)[sales_col].sum().sort_values(ascending=False)
+        top_products   = prod_grp.head(3).index.tolist()
+        worst_products = prod_grp.tail(3).index.tolist()
+
+        # Category performance
+        cat_grp = df.groupby(category_col)[sales_col].sum().sort_values(ascending=False)
+        best_category  = str(cat_grp.index[0])  if len(cat_grp) > 0 else 'N/A'
+        worst_category = str(cat_grp.index[-1]) if len(cat_grp) > 0 else 'N/A'
+
+        # Location performance
+        loc_grp = df.groupby(location_col)[sales_col].sum().sort_values(ascending=False)
+        top_location   = str(loc_grp.index[0])  if len(loc_grp) > 0 else 'N/A'
+        worst_location = str(loc_grp.index[-1]) if len(loc_grp) > 0 else 'N/A'
+
+        # Profit (wholesale only)
+        profit_info = {}
+        if is_wholesale and profit_col and profit_col in df.columns:
+            df[profit_col] = pd.to_numeric(df[profit_col], errors='coerce').fillna(0)
+            total_profit = float(df[profit_col].sum())
+            avg_margin   = round(total_profit / total_sales * 100, 2) if total_sales else 0
+            top_profit_product = str(df.groupby(product_col)[profit_col].sum().idxmax())
+            profit_info = {
+                'total_profit': round(total_profit, 2),
+                'avg_margin_pct': avg_margin,
+                'top_profit_product': top_profit_product
+            }
+
         return jsonify({
             'overall_performance': {
                 'total_sales': round(total_sales, 2),
                 'total_orders': total_orders,
                 'total_products_sold': total_products_sold,
-                'average_order_value': round(avg_order_value, 2),
+                'average_order_value': round(avg_order_val, 2),
                 'trend': trend
             },
             'sales_trend': {
-                'peak_month': int(peak_month),
-                'lowest_month': int(lowest_month),
-                'insight': f'Sales {trend} based on analysis period'
+                'peak_month': 0,
+                'lowest_month': 0,
+                'insight': f'Sales are {trend} based on transaction history'
             },
             'product_performance': {
                 'top_products': top_products,
                 'worst_products': worst_products,
-                'insight': 'Top products generate highest revenue consistently'
+                'insight': f'Top product: {top_products[0] if top_products else "N/A"}'
             },
             'category_performance': {
                 'best_category': best_category,
                 'worst_category': worst_category,
-                'insight': f'Majority revenue comes from {best_category}'
+                'insight': f'Most revenue comes from {best_category}'
             },
             'location_performance': {
                 'top_location': top_location,
                 'worst_location': worst_location,
-                'insight': f'{top_location} shows highest demand'
+                'insight': f'{top_location} has the highest sales'
             },
+            'profit': profit_info,
             'recommendations': {
                 'focus_products': top_products[:2],
                 'expand_category': best_category,
@@ -484,12 +562,13 @@ def business_insights(dataset):
             }
         })
     except Exception as e:
+        import traceback; traceback.print_exc()
         return jsonify({'error': str(e)})
 
 # ── 1. PREPROCESSING (works on copy only) ─────────────────────────
 @app.route('/api/preprocess', methods=['POST'])
 def preprocess():
-    global retail_work, reliance_work
+    global retail_work, wholesale_work
     d  = request.json
     nm = d['dataset']; op = d['op']
     df = work(nm).copy()
@@ -523,7 +602,7 @@ def preprocess():
         msg = "Unknown op."
 
     if nm == 'retail':   retail_work   = df
-    else:                reliance_work = df
+    else:                wholesale_work = df
 
     return jsonify({'msg': msg, 'head': df.head(6).fillna('').to_dict(orient='records')})
 
@@ -887,10 +966,10 @@ def retail_questions():
 
     return jsonify(results)
 
-# ── RELIANCE QUESTIONS ────────────────────────────────────────────
-@app.route('/api/reliance_questions')
-def reliance_questions():
-    df = raw('reliance').dropna().copy()
+# ── WHOLESALE QUESTIONS ────────────────────────────────────────────
+@app.route('/api/wholesale_questions')
+def wholesale_questions():
+    df = raw('wholesale').dropna().copy()
     if df.empty: return jsonify({'error': 'Data not loaded'})
     results = []
 
@@ -942,7 +1021,7 @@ def reliance_questions():
 
     safe(lambda: ' | '.join([f"{'Festival' if k else 'Normal'}: ₹{v:,.2f}" for k,v in df.groupby('Festival_Flag')['Net_Sales_Value'].mean().items()]),
          'Does Festival_Flag significantly boost revenue?', 'OLAP Slice + T-Test',
-         'Festival periods (Diwali, Eid, Christmas) historically spike retail sales by 30-300%. Slicing by Festival_Flag quantifies the exact boost for Reliance stores. This informs inventory pre-loading decisions — how many extra units to stock 2 weeks before a festival.')
+         'Festival periods (Diwali, Eid, Christmas) historically spike retail sales by 30-300%. Slicing by Festival_Flag quantifies the exact boost for Wholesale stores. This informs inventory pre-loading decisions — how many extra units to stock 2 weeks before a festival.')
 
     safe(lambda: df.groupby('Shift_Type')['Net_Sales_Value'].sum().idxmax(),
          'Which employee Shift_Type drives the most total sales?', 'OLAP Roll-Up',
@@ -991,8 +1070,19 @@ def reliance_questions():
 def compare():
     try:
         r = raw('retail').copy()
-        rel = raw('reliance').copy()
-        if r.empty or rel.empty: return jsonify({'error': 'Both datasets required'})
+        rel = raw('wholesale').copy()
+        
+        # Debug logging
+        print(f"Compare endpoint - Retail empty: {r.empty}, Wholesale empty: {rel.empty}")
+        if not r.empty:
+            print(f"Retail columns: {r.columns.tolist()}")
+        if not rel.empty:
+            print(f"Wholesale columns: {rel.columns.tolist()}")
+        
+        if r.empty or rel.empty: 
+            error_msg = f"Both datasets required. Retail: {len(r)} rows, Wholesale: {len(rel)} rows"
+            print(f"ERROR: {error_msg}")
+            return jsonify({'error': error_msg})
 
         charts = []
         r_rev, rel_rev = float(r['Net_Sales'].sum()), float(rel['Net_Sales_Value'].sum())
@@ -1056,12 +1146,12 @@ def compare():
                 fig = go.Figure()
                 if mode == 'bar':
                     fig.add_trace(go.Bar(name='Retail', x=labels(r_grp[r_c]), y=nums(r_grp[r_num]), marker_color='#f43f5e'))
-                    fig.add_trace(go.Bar(name='Reliance', x=labels(rel_grp[rel_c]), y=nums(rel_grp[rel_num]), marker_color='#0ea5e9'))
+                    fig.add_trace(go.Bar(name='Wholesale', x=labels(rel_grp[rel_c]), y=nums(rel_grp[rel_num]), marker_color='#0ea5e9'))
                     fig.update_layout(barmode='group')
                 else:
                     r_grp = r_grp.sort_values(r_c); rel_grp = rel_grp.sort_values(rel_c)
                     fig.add_trace(go.Scatter(name='Retail', x=labels(r_grp[r_c]), y=nums(r_grp[r_num]), mode='lines+markers', line_color='#f43f5e'))
-                    fig.add_trace(go.Scatter(name='Reliance', x=labels(rel_grp[rel_c]), y=nums(rel_grp[rel_num]), mode='lines+markers', line_color='#0ea5e9'))
+                    fig.add_trace(go.Scatter(name='Wholesale', x=labels(rel_grp[rel_c]), y=nums(rel_grp[rel_num]), mode='lines+markers', line_color='#0ea5e9'))
                 
                 add_chart(name, style(fig, title))
 
@@ -1071,23 +1161,23 @@ def compare():
         # 0. Executive financial comparisons
         fig_rev = go.Figure([
             go.Bar(name='Retail', x=['Total Revenue'], y=[r_rev], marker_color='#f43f5e', text=[f'₹{r_rev:,.0f}'], textposition='auto'),
-            go.Bar(name='Reliance', x=['Total Revenue'], y=[rel_rev], marker_color='#0ea5e9', text=[f'₹{rel_rev:,.0f}'], textposition='auto')
+            go.Bar(name='Wholesale', x=['Total Revenue'], y=[rel_rev], marker_color='#0ea5e9', text=[f'₹{rel_rev:,.0f}'], textposition='auto')
         ])
         add_chart('total_revenue', style(fig_rev, 'Total Revenue Comparison'))
 
         fig_avg = go.Figure([
             go.Bar(name='Retail', x=['Avg Transaction'], y=[r_avg], marker_color='#fb7185', text=[f'₹{r_avg:,.0f}'], textposition='auto'),
-            go.Bar(name='Reliance', x=['Avg Transaction'], y=[rel_avg], marker_color='#38bdf8', text=[f'₹{rel_avg:,.0f}'], textposition='auto')
+            go.Bar(name='Wholesale', x=['Avg Transaction'], y=[rel_avg], marker_color='#38bdf8', text=[f'₹{rel_avg:,.0f}'], textposition='auto')
         ])
         add_chart('avg_transaction', style(fig_avg, 'Average Transaction Value'))
 
         fig_count = go.Figure([
-            go.Bar(name='Transactions', x=['Retail', 'Reliance'], y=[len(r), len(rel)], marker_color=['#f43f5e', '#0ea5e9'], text=[f'{len(r):,}', f'{len(rel):,}'], textposition='auto')
+            go.Bar(name='Transactions', x=['Retail', 'Wholesale'], y=[len(r), len(rel)], marker_color=['#f43f5e', '#0ea5e9'], text=[f'{len(r):,}', f'{len(rel):,}'], textposition='auto')
         ])
         add_chart('transaction_count', style(fig_count, 'Transaction Volume'))
 
         fig_market_share = go.Figure(data=[go.Pie(
-            labels=['Retail Revenue', 'Reliance Revenue'],
+            labels=['Retail Revenue', 'Wholesale Revenue'],
             values=[float(r_rev), float(rel_rev)],
             hole=.48,
             marker=dict(colors=['#f43f5e', '#0ea5e9']),
@@ -1098,7 +1188,7 @@ def compare():
         add_chart('market_share_pie', style(fig_market_share, 'Revenue Market Share Pie', 380))
 
         fig_txn_share = go.Figure(data=[go.Pie(
-            labels=['Retail Transactions', 'Reliance Transactions'],
+            labels=['Retail Transactions', 'Wholesale Transactions'],
             values=[int(len(r)), int(len(rel))],
             hole=.42,
             marker=dict(colors=['#fb7185', '#38bdf8']),
@@ -1129,14 +1219,14 @@ def compare():
         rel_cat = rel.groupby('Product_Category')[rel_sales_col].sum().sort_values(ascending=False).head(8)
         fig_cat = go.Figure()
         fig_cat.add_trace(go.Bar(name='Retail', y=labels(r_cat.index[::-1]), x=nums(r_cat.values[::-1]), orientation='h', marker_color='#f43f5e'))
-        fig_cat.add_trace(go.Bar(name='Reliance', y=labels(rel_cat.index[::-1]), x=nums(rel_cat.values[::-1]), orientation='h', marker_color='#0ea5e9'))
+        fig_cat.add_trace(go.Bar(name='Wholesale', y=labels(rel_cat.index[::-1]), x=nums(rel_cat.values[::-1]), orientation='h', marker_color='#0ea5e9'))
         add_chart('category_revenue_rank', style(fig_cat, 'Top Category Revenue Rank', 390))
 
         r_prod = r.groupby(_product_col(r))[r_sales_col].sum().sort_values(ascending=False).head(8)
         rel_prod = rel.groupby(_product_col(rel))[rel_sales_col].sum().sort_values(ascending=False).head(8)
         fig_prod = go.Figure()
         fig_prod.add_trace(go.Bar(name='Retail', y=labels(r_prod.index[::-1]), x=nums(r_prod.values[::-1]), orientation='h', marker_color='#fb7185'))
-        fig_prod.add_trace(go.Bar(name='Reliance', y=labels(rel_prod.index[::-1]), x=nums(rel_prod.values[::-1]), orientation='h', marker_color='#38bdf8'))
+        fig_prod.add_trace(go.Bar(name='Wholesale', y=labels(rel_prod.index[::-1]), x=nums(rel_prod.values[::-1]), orientation='h', marker_color='#38bdf8'))
         add_chart('top_product_revenue', style(fig_prod, 'Top Product Revenue Comparison', 420))
 
         fig_retail_cat_pie = go.Figure(data=[go.Pie(
@@ -1149,22 +1239,22 @@ def compare():
         )])
         add_chart('retail_category_pie', style(fig_retail_cat_pie, 'Retail Category Revenue Share', 380))
 
-        fig_reliance_cat_pie = go.Figure(data=[go.Pie(
+        fig_wholesale_cat_pie = go.Figure(data=[go.Pie(
             labels=labels(rel_cat.index),
             values=nums(rel_cat.values),
             hole=.4,
             marker=dict(colors=px.colors.qualitative.Pastel),
             textinfo='label+percent',
-            hovertemplate='%{label}<br>Reliance revenue: ₹%{value:,.2f}<br>Share: %{percent}<extra></extra>'
+            hovertemplate='%{label}<br>Wholesale revenue: ₹%{value:,.2f}<br>Share: %{percent}<extra></extra>'
         )])
-        add_chart('reliance_category_pie', style(fig_reliance_cat_pie, 'Reliance Category Revenue Share', 380))
+        add_chart('wholesale_category_pie', style(fig_wholesale_cat_pie, 'Wholesale Category Revenue Share', 380))
 
         if 'Discount_Percentage' in r.columns and 'Discount_Percentage' in rel.columns:
             r_disc = clean_xy(r, 'Discount_Percentage', r_sales_col).sample(n=min(700, len(clean_xy(r, 'Discount_Percentage', r_sales_col))), random_state=42)
             rel_disc = clean_xy(rel, 'Discount_Percentage', rel_sales_col).sample(n=min(700, len(clean_xy(rel, 'Discount_Percentage', rel_sales_col))), random_state=42)
             fig_discount = go.Figure()
             fig_discount.add_trace(go.Scatter(name='Retail', x=nums(r_disc['Discount_Percentage']), y=nums(r_disc[r_sales_col]), mode='markers', marker=dict(color='#f43f5e', opacity=.45, size=6)))
-            fig_discount.add_trace(go.Scatter(name='Reliance', x=nums(rel_disc['Discount_Percentage']), y=nums(rel_disc[rel_sales_col]), mode='markers', marker=dict(color='#0ea5e9', opacity=.45, size=6)))
+            fig_discount.add_trace(go.Scatter(name='Wholesale', x=nums(rel_disc['Discount_Percentage']), y=nums(rel_disc[rel_sales_col]), mode='markers', marker=dict(color='#0ea5e9', opacity=.45, size=6)))
             fig_discount.update_xaxes(title='Discount %')
             fig_discount.update_yaxes(title='Sales Value')
             add_chart('discount_sales_scatter', style(fig_discount, 'Discount vs Sales Scatter'))
@@ -1174,7 +1264,7 @@ def compare():
             rel_qty = rel.groupby('Product_Category')['Quantity_Sold'].mean().sort_values(ascending=False).head(8)
             fig_qty = go.Figure()
             fig_qty.add_trace(go.Bar(name='Retail', x=labels(r_qty.index), y=nums(r_qty.values), marker_color='#f43f5e'))
-            fig_qty.add_trace(go.Bar(name='Reliance', x=labels(rel_qty.index), y=nums(rel_qty.values), marker_color='#0ea5e9'))
+            fig_qty.add_trace(go.Bar(name='Wholesale', x=labels(rel_qty.index), y=nums(rel_qty.values), marker_color='#0ea5e9'))
             add_chart('quantity_category', style(fig_qty, 'Average Quantity Sold by Category'))
 
         if 'Store_Size_SqFt' in r.columns and 'Store_Size_SqFt' in rel.columns:
@@ -1182,7 +1272,7 @@ def compare():
             rel_store = clean_xy(rel, 'Store_Size_SqFt', rel_sales_col).sample(n=min(700, len(clean_xy(rel, 'Store_Size_SqFt', rel_sales_col))), random_state=42)
             fig_store = go.Figure()
             fig_store.add_trace(go.Scatter(name='Retail', x=nums(r_store['Store_Size_SqFt']), y=nums(r_store[r_sales_col]), mode='markers', marker=dict(color='#f43f5e', opacity=.45, size=6)))
-            fig_store.add_trace(go.Scatter(name='Reliance', x=nums(rel_store['Store_Size_SqFt']), y=nums(rel_store[rel_sales_col]), mode='markers', marker=dict(color='#0ea5e9', opacity=.45, size=6)))
+            fig_store.add_trace(go.Scatter(name='Wholesale', x=nums(rel_store['Store_Size_SqFt']), y=nums(rel_store[rel_sales_col]), mode='markers', marker=dict(color='#0ea5e9', opacity=.45, size=6)))
             fig_store.update_xaxes(title='Store Size SqFt')
             fig_store.update_yaxes(title='Sales Value')
             add_chart('store_size_sales', style(fig_store, 'Store Size vs Sales'))
@@ -1190,16 +1280,16 @@ def compare():
         if 'Profit_Amount' in rel.columns:
             rel_profit = rel.groupby('Product_Category')['Profit_Amount'].sum().sort_values(ascending=False).head(8)
             fig_profit = go.Figure()
-            fig_profit.add_trace(go.Bar(name='Reliance Profit', x=labels(rel_profit.index), y=nums(rel_profit.values), marker_color='#22c55e'))
-            add_chart('reliance_profit_category', style(fig_profit, 'Reliance Profit by Category'))
+            fig_profit.add_trace(go.Bar(name='Wholesale Profit', x=labels(rel_profit.index), y=nums(rel_profit.values), marker_color='#22c55e'))
+            add_chart('wholesale_profit_category', style(fig_profit, 'Wholesale Profit by Category'))
 
         return jsonify({
             'charts': charts,
             'kpis': {
-                'retail_total': round(r_rev, 2), 'reliance_total': round(rel_rev, 2),
-                'retail_revenue': round(r_rev, 2), 'reliance_revenue': round(rel_rev, 2),
-                'retail_avg': round(r_avg, 2), 'reliance_avg': round(rel_avg, 2),
-                'winner': 'Retail' if r_rev > rel_rev else 'Reliance',
+                'retail_total': round(r_rev, 2), 'wholesale_total': round(rel_rev, 2),
+                'retail_revenue': round(r_rev, 2), 'wholesale_revenue': round(rel_rev, 2),
+                'retail_avg': round(r_avg, 2), 'wholesale_avg': round(rel_avg, 2),
+                'winner': 'Retail' if r_rev > rel_rev else 'Wholesale',
                 'lead_margin': round(abs(r_rev - rel_rev) / max(r_rev, rel_rev) * 100, 1)
             }
         })
@@ -1208,8 +1298,20 @@ def compare():
 
 if __name__ == '__main__':
     print("\n" + "="*50)
-    # Avoid UnicodeEncodeError on Windows consoles (cp1252).
-    print("ANALYTICS SERVER [VERSION 2.0 - FULLY STABILIZED]")
-    print("URL: http://127.0.0.1:5000")
+    print("🚀 RETAIL VS WHOLESALE ANALYTICS DASHBOARD")
+    print("="*50)
+    
+    # Verify data loaded
+    print(f"\n📊 Data Status:")
+    print(f"   Retail: {len(_retail_raw)} rows, {len(_retail_raw.columns) if not _retail_raw.empty else 0} columns")
+    print(f"   Wholesale: {len(_wholesale_raw)} rows, {len(_wholesale_raw.columns) if not _wholesale_raw.empty else 0} columns")
+    
+    if _retail_raw.empty or _wholesale_raw.empty:
+        print("\n⚠️  WARNING: One or both datasets failed to load!")
+        print("   Please check the dataset files in the 'dataset' folder")
+    else:
+        print("\n✅ Both datasets loaded successfully!")
+    
+    print(f"\n🌐 Server URL: http://127.0.0.1:5000")
     print("="*50 + "\n")
     app.run(debug=True, host='0.0.0.0', port=5000, use_reloader=False)
